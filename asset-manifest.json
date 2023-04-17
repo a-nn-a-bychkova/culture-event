@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/culture-event/static/css/main.073c9b0a.css",
+    "main.js": "/culture-event/static/js/main.56a11f6e.js",
+    "static/js/787.8b4a4178.chunk.js": "/culture-event/static/js/787.8b4a4178.chunk.js",
+    "static/media/logo.svg": "/culture-event/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/culture-event/index.html",
+    "main.073c9b0a.css.map": "/culture-event/static/css/main.073c9b0a.css.map",
+    "main.56a11f6e.js.map": "/culture-event/static/js/main.56a11f6e.js.map",
+    "787.8b4a4178.chunk.js.map": "/culture-event/static/js/787.8b4a4178.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.56a11f6e.js"
+  ]
+}
