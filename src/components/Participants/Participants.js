@@ -13,7 +13,7 @@ const Participants = () => {
   return (
     <div className={s.Container}>
       <ul className={s.ParticipantsList}>
-        <span className={s.BoldText}>Participants:</span>
+        <span className={s.BoldText}>Participants</span>
         {participantsList.map(participant => (
           <li key={participant}>{participant}</li>
         ))}

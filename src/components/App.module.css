@@ -1,8 +1,32 @@
 .NavContainer {
   display: none;
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 768px) {
   .NavContainer {
     display: flex;
+    padding-left: 40px;
+    padding-bottom: 10px;
+    color: rgb(22, 22, 111);
+  }
+  .NavButton {
+    padding-right: 20px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .NavContainer {
+    padding-left: 100px;
+    padding-bottom: 15px;
+  }
+  .NavButton {
+    padding-right: 40px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .NavContainer {
+    padding-left: 200px;
+  }
+  .NavButton {
+    font-size: 26px;
   }
 }

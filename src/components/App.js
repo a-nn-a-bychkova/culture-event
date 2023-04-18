@@ -23,15 +23,19 @@ function App() {
 
   return (
     <Container>
-      <div className={s.NavContainer}>
-        <div onClick={() => handleClick(participantsRef)}>participants</div>
-        <div onClick={() => handleClick(aimRef)}>Aim</div>
-        <div onClick={() => handleClick(programmRef)}>Programm</div>
-        <div onClick={() => handleClick(contactsRef)}>contacts</div>
-      </div>
       <Event />
+      <div className={s.NavContainer}>
+        <div
+          onClick={() => handleClick(participantsRef)}
+          className={s.NavButton}
+        >
+          Participants
+        </div>
+        <div onClick={() => handleClick(programmRef)} className={s.NavButton}>
+          Programm
+        </div>
+      </div>
       <Hero />
-
       <About />
 
       <div ref={participantsRef}>

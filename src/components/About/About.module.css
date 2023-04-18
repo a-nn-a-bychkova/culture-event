@@ -1,5 +1,25 @@
 .Container {
-  padding: 10px;
+  padding: 40px 20px;
   background-color: rgba(251, 242, 109, 0.5);
   color: rgb(22, 22, 111);
+  line-height: 1.5;
+}
+@media screen and (min-width: 768px) {
+  .Container {
+    font-size: 26px;
+    line-height: 1.5;
+    padding: 60px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .Container {
+    padding: 60px 100px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .Container {
+    font-size: 30px;
+
+    padding: 60px 200px;
+  }
 }

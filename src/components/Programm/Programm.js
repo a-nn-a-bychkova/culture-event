@@ -19,17 +19,12 @@ const musicalPieces = [
     title: 'Oh am Hain an der Donau',
     performer: 'Snezhana Podorovska',
   },
-  {
-    id: '3',
-    author: 'J. S. Bach',
-    title: 'Prelude in C',
-    performer: 'Snezhana Podorovska',
-  },
+
   {
     id: '4',
-    author: 'V.Drobjazgina, lyrics T.Shevchenko',
+    author: 'V.Drobjazgina',
     title: 'All goes away',
-    additionalInfo: 'from cycle Rainbow',
+    additionalInfo: 'cycle on Shechenko texts "Rainbow"',
     performer: 'Anna Bychkova, Olena Vasylenko',
   },
   {
@@ -95,16 +90,16 @@ const musicalPieces = [
   },
   {
     id: '14',
-    author: 'R.Turovsky',
-    title: 'Five ukrainian folk songs',
-    performer: 'Oleg Czuchlieb',
+    author: 'J. S. Bach',
+    title: 'Prelude in C',
+    performer: 'Snezhana Podorovska',
   },
 ];
 
 const Programm = () => {
   return (
     <div className={s.Container}>
-      <span className={s.BoldText}>Programm</span>
+      <div className={s.BoldText}>Programm</div>
       <ul className={s.ProgrammList}>
         {musicalPieces.map(piece => (
           <li key={piece.id} className={s.ProgramItem}>

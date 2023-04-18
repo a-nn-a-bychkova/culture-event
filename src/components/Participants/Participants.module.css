@@ -8,15 +8,35 @@
   padding-top: 20px;
   padding-bottom: 20px;
 }
+
 .ParticipantsList {
   margin: 0;
   list-style: none;
   line-height: 2;
   padding: 10px;
+  font-size: 18px;
   /* color: rgb(28, 28, 120); */
   color: white;
 }
+
 .BoldText {
   font-weight: 700;
   padding-bottom: 15px;
+  font-size: 20px;
+}
+@media screen and (min-width: 768px) {
+  .BoldText {
+    font-size: 26px;
+  }
+  .ParticipantsList {
+    font-size: 26px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .ParticipantsList {
+    font-size: 30px;
+  }
+  .BoldText {
+    font-size: 30px;
+  }
 }
