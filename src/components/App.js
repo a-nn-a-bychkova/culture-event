@@ -7,9 +7,10 @@ import Event from '../components/Event';
 import About from '../components/About';
 import Programm from '../components/Programm';
 import Participants from '../components/Participants';
-import Aim from '../components/Aim';
+import Flags from './Flags';
 import Contacts from '../components/Contacts';
 import { useRef, useState } from 'react';
+import Context from '../contexts/context';
 
 function App() {
   const programmRef = useRef();
@@ -24,17 +25,23 @@ function App() {
   return (
     <Container>
       <Event />
-      <div className={s.NavContainer}>
-        <div
-          onClick={() => handleClick(participantsRef)}
-          className={s.NavButton}
-        >
-          Participants
+      <div className={s.MenuContainer}>
+        <div className={s.NavContainer}>
+          <div
+            onClick={() => handleClick(participantsRef)}
+            className={s.NavButton}
+          >
+            Participants
+          </div>
+          <div onClick={() => handleClick(programmRef)} className={s.NavButton}>
+            Programm
+          </div>
         </div>
-        <div onClick={() => handleClick(programmRef)} className={s.NavButton}>
-          Programm
+        <div className={s.FlagsContainer}>
+          <Flags />
         </div>
       </div>
+
       <Hero />
       <About />
 

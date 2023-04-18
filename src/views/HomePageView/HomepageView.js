@@ -3,7 +3,7 @@ import Hero from '../../components/Hero';
 import Event from '../../components/Event';
 import Programm from '../../components/Programm';
 import Participants from '../../components/Participants';
-import Aim from '../../components/Aim';
+import Aim from '../../components/Flags';
 import Contacts from '../../components/Contacts';
 
 export default function HomepageView() {
