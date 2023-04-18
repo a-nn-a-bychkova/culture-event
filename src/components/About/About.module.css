@@ -1,25 +1,31 @@
 .Container {
   padding: 40px 20px;
-  background-color: rgba(251, 242, 109, 0.5);
+  background: linear-gradient(
+    90deg,
+    rgba(249, 249, 249, 0.5) 0%,
+    rgba(251, 242, 109, 0.5) 100%
+  );
+  /* background-color: rgba(251, 242, 109, 0.5); */
   color: rgb(22, 22, 111);
   line-height: 1.5;
 }
 @media screen and (min-width: 768px) {
   .Container {
-    font-size: 26px;
+    font-size: 20px;
     line-height: 1.5;
-    padding: 60px;
+    padding: 60px 100px;
   }
 }
 @media screen and (min-width: 1024px) {
   .Container {
-    padding: 60px 100px;
+    margin: 0px 100px;
+    /* padding: 60px 100px; */
   }
 }
 @media screen and (min-width: 1440px) {
   .Container {
+    margin: 0px 200px;
     font-size: 30px;
-
     padding: 60px 200px;
   }
 }
