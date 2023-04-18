@@ -1,0 +1,22 @@
+.Container {
+  /* background: linear-gradient(
+    180deg,
+    rgba(251, 242, 109, 0.5) 10%,
+    rgb(28, 28, 120, 0.5) 100%
+  ); */
+  background: rgb(28, 28, 120, 0.3);
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.ParticipantsList {
+  margin: 0;
+  list-style: none;
+  line-height: 2;
+  padding: 10px;
+  /* color: rgb(28, 28, 120); */
+  color: white;
+}
+.BoldText {
+  font-weight: 700;
+  padding-bottom: 15px;
+}
