@@ -1,15 +1,13 @@
 .MenuContainer {
   display: flex;
+  text-align: space-between;
   padding: 5px 20px;
 }
+
 .NavContainer {
   display: none;
 }
-.FlagsContainer {
-  display: flex;
-  width: 60px;
-  margin-left: auto;
-}
+
 @media screen and (min-width: 768px) {
   .MenuContainer {
     padding: 0px 40px;

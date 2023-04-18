@@ -1,5 +1,7 @@
 .FlagsContainer {
   display: flex;
+  width: 40px;
+  justify-content: space-between;
   margin-left: auto;
 }
 
@@ -7,8 +9,8 @@
   display: block;
   width: 15px;
   height: 12px;
-  margin-left: 6px;
 }
+
 .Blue {
   height: 6px;
   background-color: blue;
@@ -29,4 +31,55 @@
 .YellowD {
   height: 4px;
   background-color: yellow;
+}
+@media screen and (min-width: 768px) {
+  .FlagsContainer {
+    width: 60px;
+  }
+  .FlagSize {
+    display: block;
+    width: 25px;
+    height: 18px;
+  }
+  .Blue {
+    height: 9px;
+  }
+  .Yellow {
+    height: 9px;
+  }
+  .Black {
+    height: 6px;
+  }
+  .Red {
+    height: 6px;
+  }
+
+  .YellowD {
+    height: 6px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .FlagsContainer {
+    width: 80px;
+  }
+  .FlagSize {
+    width: 30px;
+    height: 24px;
+  }
+  .Blue {
+    height: 12px;
+  }
+  .Yellow {
+    height: 12px;
+  }
+  .Black {
+    height: 8px;
+  }
+  .Red {
+    height: 8px;
+  }
+
+  .YellowD {
+    height: 8px;
+  }
 }

@@ -9,6 +9,13 @@
 .BoldText {
   font-weight: 700;
 }
+@media screen and (min-width: 768px) {
+  .Container {
+    padding: 40px 40px;
+    font-size: 26px;
+    line-height: 1.5;
+  }
+}
 @media screen and (min-width: 1024px) {
   .Container {
     padding: 40px 100px;

@@ -11,12 +11,12 @@ import Flags from './Flags';
 import Contacts from '../components/Contacts';
 import { useRef, useState } from 'react';
 import Context from '../contexts/context';
+import { useContext } from 'react';
 
 function App() {
+  const { language } = useContext(Context);
   const programmRef = useRef();
   const participantsRef = useRef();
-  const aimRef = useRef();
-  const contactsRef = useRef();
 
   const handleClick = ref => {
     window.scrollTo(0, ref.current.offsetTop);
@@ -31,15 +31,13 @@ function App() {
             onClick={() => handleClick(participantsRef)}
             className={s.NavButton}
           >
-            Participants
+            {language === 'de' ? 'Teilnehmer' : 'Учасники'}
           </div>
           <div onClick={() => handleClick(programmRef)} className={s.NavButton}>
-            Programm
+            {language === 'de' ? 'Program' : 'Програма'}
           </div>
         </div>
-        <div className={s.FlagsContainer}>
-          <Flags />
-        </div>
+        <Flags />
       </div>
 
       <Hero />

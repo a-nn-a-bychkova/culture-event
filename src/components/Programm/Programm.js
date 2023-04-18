@@ -200,7 +200,10 @@ const Programm = () => {
   const { language } = useContext(Context);
   return (
     <div className={s.Container}>
-      <div className={s.BoldText}>Programm</div>
+      <div className={s.BoldText}>
+        {' '}
+        {language === 'de' ? 'Programm' : 'Програма'}
+      </div>
       <ul className={s.ProgrammList}>
         {language === 'de'
           ? musicalPiecesDe.map(piece => (
