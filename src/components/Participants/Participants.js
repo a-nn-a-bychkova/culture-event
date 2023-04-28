@@ -31,7 +31,7 @@ const Participants = () => {
     <div className={s.Container}>
       <ul className={s.ParticipantsList}>
         {language === 'de' ? (
-          <span className={s.BoldText}>Tailnehmer*innen</span>
+          <span className={s.BoldText}>Teilnehmer*innen</span>
         ) : (
           <span className={s.BoldText}>Учасники</span>
         )}
