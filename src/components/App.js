@@ -31,7 +31,7 @@ function App() {
             onClick={() => handleClick(participantsRef)}
             className={s.NavButton}
           >
-            {language === 'de' ? 'Tailnehmer*innen' : 'Учасники'}
+            {language === 'de' ? 'Teilnehmer*innen' : 'Учасники'}
           </div>
           <div onClick={() => handleClick(programmRef)} className={s.NavButton}>
             {language === 'de' ? 'Programm' : 'Програма'}
