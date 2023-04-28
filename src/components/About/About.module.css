@@ -12,7 +12,7 @@
 }
 @media screen and (min-width: 768px) {
   .Container {
-    font-size: 20px;
+    font-size: 22px;
     line-height: 1.5;
     padding: 60px 100px;
   }
@@ -26,7 +26,6 @@
 @media screen and (min-width: 1440px) {
   .Container {
     margin: 0px 200px;
-    font-size: 30px;
     padding: 60px 200px;
   }
 }

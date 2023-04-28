@@ -12,20 +12,20 @@ const Flags = () => {
   };
   return (
     <div className={s.FlagsContainer}>
-      <div className={s.Flag} onClick={handleSetUkr} id="ukr">
+        <div className={s.Flag} onClick={handleSetDe} id="de">
+        <div className={s.FlagSize}>
+          <div className={s.Black}></div>
+          <div className={s.Red}></div>
+          <div className={s.YellowD}></div>
+        </div>
+      </div><div className={s.Flag} onClick={handleSetUkr} id="ukr">
         <div className={s.FlagSize}>
           <div className={s.Blue}></div>
           <div className={s.Yellow}></div>
         </div>
       </div>
 
-      <div className={s.Flag} onClick={handleSetDe} id="de">
-        <div className={s.FlagSize}>
-          <div className={s.Black}></div>
-          <div className={s.Red}></div>
-          <div className={s.YellowD}></div>
-        </div>
-      </div>
+    
     </div>
   );
 };
