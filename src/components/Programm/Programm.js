@@ -5,7 +5,7 @@ import { useContext } from 'react';
 const musicalPiecesDe = [
   {
     id: '1',
-    author: 'Bearbeitung von R.Turovsky',
+    author: 'Bearbeitung von R. Turovsky',
     title: '5 ukrainische Volkslieder',
     additionalInfo:
       '“Ich lasse das Pferd gehen”, “Schneesturm”, “Hretschanyky”, “Kosakchen”, “Tetyana”',
@@ -13,13 +13,13 @@ const musicalPiecesDe = [
   },
   {
     id: '2',
-    author: 'Bearbeitung von L.Yazhinsky ',
+    author: 'Bearbeitung von L. Yazhinsky ',
     title: 'Ukrainisches Volkslied “Oh am Hain an der Donau”',
     performer: 'Snezhana Podorovska',
   },
   {
     id: '3',
-    author: 'J. H. Kabsbarger',
+    author: 'J. H. Kabsberger',
     title: 'Canarios',
     performer: 'Oleg Czuchlieb',
   },

@@ -4,7 +4,7 @@ import { useContext } from 'react';
 
 const participantsListDe = [
   'Maryna Kitashkina, Barockgitarre ',
-  'Oleg Czuchlieb, renaissanse Laute',
+  'Oleg Czuchlieb, renaissance Laute, Teorbe',
   'Svetlana Kitashkina, Klavier',
   'Olena Vasylenko, Klavier',
   'Anastasiia, Klavier',
@@ -15,7 +15,7 @@ const participantsListDe = [
 ];
 const participantsListUkr = [
   'Марина Кіташкіна, барочна гітара ',
-  'Олег Чухліб, ренесансна лютня',
+  'Олег Чухліб, ренесансна лютня, теорба',
   'Світлана Кіташкіна, фортепіано',
   'Олена Василенко, фортепіано',
   'Ананстасія, фортепіано',
