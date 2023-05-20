@@ -349,7 +349,6 @@ const Programm = () => {
             paddingTop: '16px',
             color: '#16729E',
             fontWeight: 'bold',
-            // width: { lg: '1200px' },
           }}
         >
           {language === 'de' ? 'Programm' : 'Програма'}
@@ -357,7 +356,7 @@ const Programm = () => {
       </ThemeProvider>{' '}
       <List sx={{ fontSize: '24px', color: '#16729E' }}>
         {language === 'de' ? (
-          <Grid container spacing={8}>
+          <Grid container spacing={12}>
             <Grid item container md={6}>
               {musicalPiecesDe.slice(0, 11).map(piece => (
                 <ListItem
@@ -501,74 +500,149 @@ const Programm = () => {
             </Grid>
           </Grid>
         ) : (
-          musicalPiecesUkr.map(piece => (
-            <ListItem
-              key={piece.id}
-              sx={{
-                display: 'flex',
-                flexDirection: 'column',
-                padding: '8px 0px',
-              }}
-            >
-              <Typography
-                sx={{
-                  display: 'block',
-                  fontFamily: 'Times New Roman',
-                  fontSize: { sm: '24px', lg: '28px' },
-                  lineHeight: { sm: '32px', lg: '42px' },
-                  marginRight: 'auto',
-                  fontStyle: 'italic',
-                  fontWeight: 'bold',
-                }}
-              >
-                {piece.author} {piece.title}
-              </Typography>
-              {piece.additionalInfo && (
-                <Typography
+          <Grid container spacing={12}>
+            <Grid item container md={6}>
+              {musicalPiecesUkr.slice(0, 11).map(piece => (
+                <ListItem
+                  key={piece.id}
                   sx={{
-                    fontFamily: 'Times New Roman',
-                    fontSize: { sm: '24px', lg: '28px' },
-                    lineHeight: { sm: '32px', lg: '42px' },
-                    fontStyle: 'normal',
+                    display: 'flex',
+                    flexDirection: 'column',
+                    padding: '8px 0px',
                   }}
                 >
-                  {piece.additionalInfo}
-                </Typography>
-              )}
-              <Typography
-                sx={{
-                  display: 'flex',
-                  fontFamily: 'Times New Roman',
-                  fontStyle: 'italic',
-                  fontSize: { sm: '24px', lg: '28px' },
-                  lineHeight: { sm: '32px', lg: '42px' },
-                  marginLeft: 'auto',
-                  letterSpacing: 4,
-                }}
-              >
-                {piece.performer.length === 1 ? (
-                  piece.performer
-                ) : (
-                  <List>
-                    {piece.performer.map(artist => {
-                      return (
-                        <ListItem
-                          key={artist.id}
-                          sx={{
-                            display: 'flex',
-                            padding: '0px',
-                            justifyContent: 'right',
-                          }}
-                        >
-                          {artist}
-                        </ListItem>
-                      );
-                    })}
-                  </List>
-                )}
-              </Typography>
-            </ListItem>
-          ))
+                  <Typography
+                    sx={{
+                      display: 'block',
+                      fontFamily: 'Times New Roman',
+                      fontSize: { sm: '24px' },
+                      lineHeight: { sm: '32px' },
+                      marginRight: 'auto',
+                      fontStyle: 'italic',
+                      fontWeight: 'bold',
+                    }}
+                  >
+                    {piece.author} {piece.title}
+                  </Typography>
+                  {piece.additionalInfo && (
+                    <Typography
+                      sx={{
+                        fontFamily: 'Times New Roman',
+                        fontSize: { sm: '24px' },
+                        lineHeight: { sm: '32px' },
+                        fontStyle: 'normal',
+                      }}
+                    >
+                      {piece.additionalInfo}
+                    </Typography>
+                  )}
+                  <Typography
+                    sx={{
+                      display: 'flex',
+                      fontFamily: 'Times New Roman',
+                      fontStyle: 'italic',
+                      fontSize: { sm: '24px', lg: '28px' },
+                      lineHeight: { sm: '32px', lg: '42px' },
+                      marginLeft: 'auto',
+                      letterSpacing: 4,
+                    }}
+                  >
+                    {piece.performer.length === 1 ? (
+                      piece.performer
+                    ) : (
+                      <List>
+                        {piece.performer.map(artist => {
+                          return (
+                            <ListItem
+                              key={artist.id}
+                              sx={{
+                                display: 'flex',
+                                padding: '0px',
+                                justifyContent: 'right',
+                              }}
+                            >
+                              {artist}
+                            </ListItem>
+                          );
+                        })}
+                      </List>
+                    )}
+                  </Typography>
+                </ListItem>
+              ))}
+            </Grid>
+
+            <Grid item container md={6}>
+              {musicalPiecesUkr.slice(11).map(piece => (
+                <ListItem
+                  key={piece.id}
+                  sx={{
+                    display: 'flex',
+                    flexDirection: 'column',
+                    padding: '8px 0px',
+                  }}
+                >
+                  <Typography
+                    sx={{
+                      display: 'block',
+                      fontFamily: 'Times New Roman',
+                      fontSize: { sm: '24px' },
+                      lineHeight: { sm: '32px' },
+                      marginRight: 'auto',
+                      fontStyle: 'italic',
+                      fontWeight: 'bold',
+                    }}
+                  >
+                    {piece.author} {piece.title}
+                  </Typography>
+                  {piece.additionalInfo && (
+                    <Typography
+                      sx={{
+                        fontFamily: 'Times New Roman',
+                        fontSize: { sm: '24px' },
+                        lineHeight: { sm: '32px' },
+                        fontStyle: 'normal',
+                      }}
+                    >
+                      {piece.additionalInfo}
+                    </Typography>
+                  )}
+                  <Typography
+                    sx={{
+                      display: 'flex',
+                      fontFamily: 'Times New Roman',
+                      fontStyle: 'italic',
+                      fontSize: { sm: '24px', lg: '28px' },
+                      lineHeight: { sm: '32px', lg: '42px' },
+                      marginLeft: 'auto',
+                      letterSpacing: 4,
+                    }}
+                  >
+                    {piece.performer.length === 1 ? (
+                      piece.performer
+                    ) : (
+                      <List>
+                        {piece.performer.map(artist => {
+                          return (
+                            <ListItem
+                              key={artist.id}
+                              sx={{
+                                display: 'flex',
+                                padding: '0px',
+                                justifyContent: 'right',
+                              }}
+                            >
+                              {artist}
+                            </ListItem>
+                          );
+                        })}
+                      </List>
+                    )}
+                  </Typography>
+                </ListItem>
+              ))}
+            </Grid>
+          </Grid>
         )}
       </List>
     </Box>
