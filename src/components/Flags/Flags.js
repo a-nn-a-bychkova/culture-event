@@ -1,5 +1,4 @@
 import { useContext } from 'react';
-import s from './Flags.module.css';
 import Context from '../../contexts/context';
 import { Box } from '@mui/material';
 

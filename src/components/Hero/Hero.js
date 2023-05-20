@@ -1,7 +1,7 @@
 import hero from '../../images/hero.JPG';
 import Context from '../../contexts/context';
-import { useContext, useEffect } from 'react';
-import { Box, Paper, Typography, colors } from '@mui/material';
+import { useContext } from 'react';
+import { Box, Typography } from '@mui/material';
 
 const Hero = () => {
   const { language } = useContext(Context);
@@ -35,41 +35,12 @@ const Hero = () => {
             alignItems: 'center',
             lineHeight: '170px',
             textShadow: 'grey 0 2px',
-            // width: '',
           }}
           gutterBottom
         >
           <div>Benefizkonzert</div> <div>für die</div> <div>Ukraine</div>
         </Typography>
       ) : (
-        // <Box
-        //   sx={{
-        //     display: 'flex',
-        //     width: 'auto',
-        //     position: 'absolute',
-        //     top: { xs: '32%', sm: '35%', lg: '40%' },
-        //     left: '7%',
-        //     alignItems: 'center',
-        //     justifyContent: 'center',
-        //     zIndex: '1',
-        //   }}
-        // >
-        //   <Typography
-        //     sx={{
-        //       typography: { xs: 'h4', sm: 'h2', md: 'h1' },
-
-        //       fontWeight: 'bold',
-        //       color: 'white',
-        //       textAlign: 'center',
-        //       alignItems: 'center',
-        //       lineHeight: '170px',
-        //       textShadow: 'grey 0 2px',
-        //     }}
-        //     gutterBottom
-        //   >
-        //     <div>Benefizkonzert</div> <div>für die</div> <div>Ukraine</div>
-        //   </Typography>
-        // </Box>
         <Typography
           sx={{
             typography: { xs: 'h4', sm: 'h2', md: 'h1' },

@@ -1,4 +1,3 @@
-import s from './Participants.module.css';
 import Context from '../../contexts/context';
 import { useContext } from 'react';
 import { Box, List, ListItem, Typography } from '@mui/material';
@@ -7,7 +6,6 @@ import {
   responsiveFontSizes,
   ThemeProvider,
 } from '@mui/material/styles';
-// import Typography from '@mui/material/Typography';
 
 const participantsListDe = [
   { id: '1', name: 'Maryna Kitashkina', instrument: 'Barockgitarre' },
@@ -44,32 +42,17 @@ const Participants = () => {
         flexDirection: 'column',
         fontFamily: 'Times New Roman',
         color: '#16729E',
-        justifyContent: 'center',
-        // backgroundColor: 'rgb(239, 239, 252)',
       }}
     >
       {language === 'de' ? (
-        // <Typography
-        //   sx={{
-        //     fontWeight: 'bold',
-        //     fontFamily: 'Times New Roman',
-        //     fontSize: { sm: '12px', lg: '32px' },
-        //     // lineHeight: '42px',
-        //     // paddingBottom: '20px',
-        //     textAlign: 'center',
-        //   }}
-        // >
-        //   Teilnehmer*innen
-        // </Typography>
-
         <ThemeProvider theme={theme}>
           <Typography
-            variant="h3"
+            variant="h4"
             sx={{
               fontFamily: 'Times New Roman',
-              // fontWeight: 'bold',
-              textAlign: 'center',
-              paddingTop: '30px',
+              textAlign: { md: 'right' },
+              paddingTop: { xs: '30px', md: '0px' },
+              fontWeight: 'bold',
             }}
           >
             Teilnehmer*innen
@@ -78,11 +61,12 @@ const Participants = () => {
       ) : (
         <ThemeProvider theme={theme}>
           <Typography
-            variant="h3"
+            variant="h4"
             sx={{
               fontFamily: 'Times New Roman',
-              textAlign: 'center',
-              paddingTop: '30px',
+              textAlign: { md: 'right' },
+              paddingTop: { xs: '30px', md: '0px' },
+              fontWeight: 'bold',
             }}
           >
             Учасники
@@ -98,9 +82,10 @@ const Participants = () => {
                   display: 'flex',
                   flexDirection: { xs: 'column', sm: 'row' },
                   fontFamily: 'Times New Roman',
-                  fontSize: { sm: '24px', lg: '28px' },
-                  lineHeight: { sm: '32px', lg: '42px' },
-                  justifyContent: 'center',
+                  fontSize: { sm: '24px' },
+                  lineHeight: { sm: '32px' },
+                  justifyContent: { md: 'right' },
+                  padding: '8px 0px',
                 }}
               >
                 <Box
@@ -120,12 +105,12 @@ const Participants = () => {
                 key={id}
                 sx={{
                   display: 'flex',
-                  flexDirection: 'column',
-
+                  flexDirection: { xs: 'column', sm: 'row' },
                   fontFamily: 'Times New Roman',
-                  fontSize: { sm: '24px', lg: '28px' },
-                  lineHeight: { sm: '32px', lg: '42px' },
-                  justifyContent: 'center',
+                  fontSize: { sm: '24px' },
+                  lineHeight: { sm: '32px' },
+                  justifyContent: { md: 'right' },
+                  padding: '8px 0px',
                 }}
               >
                 <Box
@@ -135,7 +120,9 @@ const Participants = () => {
                 >
                   {name}
                 </Box>
-                <Box>{instrument}</Box>
+                <Box sx={{ marginLeft: '20px', fontFamily: 'Times New Roman' }}>
+                  {instrument}
+                </Box>
               </ListItem>
             ))}
       </List>

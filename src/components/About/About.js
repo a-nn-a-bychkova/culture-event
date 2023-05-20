@@ -19,12 +19,11 @@ const About = () => {
     >
       {language === 'de' ? (
         <Box
-          // variant="body1"
           sx={{
             fontFamily: 'Times New Roman',
             textAlign: 'justify',
-            fontSize: { xs: '16px', sm: '24px', lg: '32px' },
-            lineHeight: { sm: '32px', lg: '42px' },
+            fontSize: { xs: '16px', sm: '24px' },
+            lineHeight: { sm: '32px' },
           }}
         >
           Im Kammersaal der Hochschule für die Musik in Nürnberg wird am diesen

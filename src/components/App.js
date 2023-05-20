@@ -9,13 +9,7 @@ import Flags from './Flags';
 import { useRef } from 'react';
 import Context from '../contexts/context';
 import { useContext } from 'react';
-import {
-  BottomNavigation,
-  Box,
-  Divider,
-  ListItem,
-  Typography,
-} from '@mui/material';
+import { Box, Divider, Grid, Typography } from '@mui/material';
 import { Link } from 'react-router-dom';
 
 function App() {
@@ -75,20 +69,48 @@ function App() {
             xs: '30px 16px 10px 16px',
             sm: '10px 40px',
             md: '30px 40px',
-            lg: '30px 20px 10px 0px',
+            lg: '30px 0px 0px 0px',
           },
           width: { lg: '1200px' },
         }}
       >
-        <About />
-
-        <div ref={participantsRef}>
-          <Participants />
-        </div>
-
-        <div ref={programmRef}>
-          <Programm />
-        </div>
+        <Grid container sx={{ spacing: { md: 2 } }}>
+          <Grid item container md={6}>
+            <About />
+          </Grid>
+          <Grid
+            item
+            container
+            md={6}
+            ref={participantsRef}
+            sx={{
+              display: 'flex',
+              justifyContent: { xs: 'center', md: 'right' },
+            }}
+          >
+            <Participants />
+          </Grid>
+        </Grid>
+      </Container>
+      <Box
+        sx={{
+          padding: {
+            xs: '30px 16px 10px 16px',
+            sm: '10px 40px',
+            md: '30px 40px',
+            lg: '30px 120px 10px 120px',
+          },
+          bgcolor: '#f9fafa',
+        }}
+        ref={programmRef}
+      >
+        <Programm />
+      </Box>
+      <Container
+        sx={{
+          width: { lg: '1200px' },
+        }}
+      >
         <Typography
           sx={{
             color: '#16729E',

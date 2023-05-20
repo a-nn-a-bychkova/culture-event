@@ -330,24 +330,23 @@ const Programm = () => {
   const { language } = useContext(Context);
   return (
     <Box
-      sx={{
-        paddingTop: '28px',
-      }}
+      sx={{ width: { lg: '1200px', marginLeft: 'auto', marginRight: 'auto' } }}
     >
       <ThemeProvider theme={theme}>
         <Typography
-          variant="h3"
+          variant="h4"
           sx={{
             fontFamily: 'Times New Roman',
             paddingTop: '16px',
             color: '#16729E',
+            fontWeight: 'bold',
+            // width: { lg: '1200px' },
           }}
         >
           {language === 'de' ? 'Programm' : 'Програма'}
         </Typography>
       </ThemeProvider>
-
-      <List sx={{ fontSize: '32px', color: '#16729E' }}>
+      <List sx={{ fontSize: '24px', color: '#16729E' }}>
         {language === 'de'
           ? musicalPiecesDe.map(piece => (
               <ListItem
@@ -362,8 +361,8 @@ const Programm = () => {
                   sx={{
                     display: 'block',
                     fontFamily: 'Times New Roman',
-                    fontSize: { sm: '24px', lg: '28px' },
-                    lineHeight: { sm: '32px', lg: '42px' },
+                    fontSize: { sm: '24px' },
+                    lineHeight: { sm: '32px' },
                     marginRight: 'auto',
                     fontStyle: 'italic',
                     fontWeight: 'bold',
@@ -375,8 +374,8 @@ const Programm = () => {
                   <Typography
                     sx={{
                       fontFamily: 'Times New Roman',
-                      fontSize: { sm: '24px', lg: '28px' },
-                      lineHeight: { sm: '32px', lg: '42px' },
+                      fontSize: { sm: '24px' },
+                      lineHeight: { sm: '32px' },
                       fontStyle: 'normal',
                     }}
                   >
