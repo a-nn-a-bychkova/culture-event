@@ -11,9 +11,11 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  color: #eeeaea;
 }
 
 .HeroText {
+  margin-left: auto;
   color: white;
   font-size: 30px;
   font-weight: 900;

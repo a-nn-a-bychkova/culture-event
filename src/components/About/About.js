@@ -1,13 +1,32 @@
-import s from './About.module.css';
 import Context from '../../contexts/context';
 import { useContext, useEffect } from 'react';
+import { Box, Typography } from '@mui/material';
+import {
+  createTheme,
+  responsiveFontSizes,
+  ThemeProvider,
+} from '@mui/material/styles';
 
 const About = () => {
+  let theme = createTheme();
+  theme = responsiveFontSizes(theme);
   const { language } = useContext(Context);
   return (
-    <div className={s.Container}>
+    <Box
+      sx={{
+        color: '#16729E',
+      }}
+    >
       {language === 'de' ? (
-        <div>
+        <Box
+          // variant="body1"
+          sx={{
+            fontFamily: 'Times New Roman',
+            textAlign: 'justify',
+            fontSize: { xs: '16px', sm: '24px', lg: '32px' },
+            lineHeight: { sm: '32px', lg: '42px' },
+          }}
+        >
           Im Kammersaal der Hochschule für die Musik in Nürnberg wird am diesen
           Abend viel ukrainische Musik zu hören sein. Wir wollen, dass sie auf
           der ganzen Welt gehört wird und der Zuhörer die Möglichkeit hat, sie
@@ -15,15 +34,21 @@ const About = () => {
           <br />
           Im Konzert wird die Bandura (ein einzigartiges traditionelles
           ukrainisches Instrument) sowie die Barockgitarre, die Renaissancelaute
-          und die Theorbe klingen . Vokalwerke werden von Solisten aus der
-          Nürnberger Oper, begleitet von einem Klavier, aufgeführt.
-          <br />
-          Während des Konzerts wird die Spenden für die Reparatur der Nationalen
+          und die Theorbe klingen. Vokalwerke werden von Solisten aus der
+          Nürnberger Oper aufgeführt, begleitet von einem Klavier. Während des
+          Konzerts werden die Spenden für die Reparatur der Nationalen
           Universität der Künste Charkiw I. P. Kotljarewskyj gesammellt, die
           aufgrund des Kriegs schwer beschädigt wurde.
-        </div>
+        </Box>
       ) : (
-        <>
+        <Typography
+          sx={{
+            fontFamily: 'Times New Roman',
+            textAlign: 'justify',
+            fontSize: { xs: '16px', sm: '24px', lg: '32px' },
+            lineHeight: { sm: '32px', lg: '42px' },
+          }}
+        >
           У малій залі Нюрнбергської консерваторії в цей чудовий вечір звучатиме
           багато прекрасної української музики, бо ми хочемо, щоб вона лунала по
           всьому світу. Ми хочемо, щоб ви мали змогу почути українську музику
@@ -40,9 +65,9 @@ const About = () => {
           <br />
           Ви маєте можливіть більш детально ознайомитись з учасниками та
           програмою нижче.
-        </>
+        </Typography>
       )}
-    </div>
+    </Box>
   );
 };
 

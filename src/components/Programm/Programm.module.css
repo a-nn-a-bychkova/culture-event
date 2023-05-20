@@ -1,3 +1,17 @@
+.Performer {
+  font-family: 'Times New Roman';
+  font-style: 'italic';
+  /* fontSize: { sm: '24px', lg: '28px' };
+  lineHeight: { sm: '32px', lg: '42px' }; */
+  text-align: 'right';
+  background: linear-gradient(
+    180deg,
+    rgba(251, 242, 109, 0.5) 0%,
+    rgb(28, 28, 120, 0.5) 60%,
+    rgba(251, 242, 109, 0.5) 100%
+  );
+}
+
 .Container {
   background: linear-gradient(
     180deg,
@@ -14,6 +28,7 @@
   font-weight: 700;
   color: rgb(28, 28, 120);
   font-size: 22px;
+  background: #f7f1f1;
 }
 .ProgrammList {
   display: flex;

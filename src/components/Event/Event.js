@@ -1,17 +1,28 @@
-import s from './Event.module.css';
+import Box from '@mui/material/Box';
+
 const Event = () => {
   return (
-    <div className={s.Container}>
-      <div className={s.BoldText}>June 13, 2023 19:30</div>
-      <div>
+    <Box
+      sx={{
+        display: 'flex',
+        flexDirection: 'column',
+        textAlign: 'right',
+        color: '#16729E',
+        fontSize: { xs: '18px', md: '22px', lg: '24px' },
+        lineHeight: '30px',
+        padding: '0px 0px 20px',
+      }}
+    >
+      <Box>June 13, 2023 19:30</Box>
+      <Box>
         Kammersaal
         <br />
         Hochschule für die Musik
         <br />
         Veilhofstraße 34
         <br /> Nürnberg
-      </div>
-    </div>
+      </Box>
+    </Box>
   );
 };
 
