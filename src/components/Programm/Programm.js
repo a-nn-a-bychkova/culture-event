@@ -6,7 +6,6 @@ import {
   ThemeProvider,
 } from '@mui/material/styles';
 import { Box, Grid, List, ListItem, Typography } from '@mui/material';
-import { useEffect } from 'react';
 
 const musicalPiecesDe = [
   {
@@ -171,7 +170,7 @@ const musicalPiecesUkr = [
   {
     id: '1',
     author: 'Обробка Р. Турковського',
-    title: '5 українських пісень',
+    title: "П'ять українських пісень",
     additionalInfo: 'Пущу коня, Метелиця, Гречаники, Козачок, Тетяна',
     performer: ['Олег Чухліб'],
   },
@@ -329,17 +328,12 @@ const Programm = () => {
   let theme = createTheme();
   theme = responsiveFontSizes(theme);
   const { language } = useContext(Context);
-  useEffect(() => {
-    {
-      console.log('musicalPiecesDe all', musicalPiecesDe);
-      console.log('musicalPiecesDe.slice(0, 10)', musicalPiecesDe.slice(0, 11));
-      console.log('musicalPiecesDe.slice(10)', musicalPiecesDe.slice(11));
-    }
-  }, []);
 
   return (
     <Box
-      sx={{ width: { lg: '1200px', marginLeft: 'auto', marginRight: 'auto' } }}
+      sx={{
+        maxWidth: { lg: '1200px', marginLeft: 'auto', marginRight: 'auto' },
+      }}
     >
       <ThemeProvider theme={theme}>
         <Typography

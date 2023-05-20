@@ -29,7 +29,7 @@ function App() {
             xs: '10px 16px 10px 16px',
             sm: '10px 40px',
             md: '30px 40px',
-            lg: '30px 20px 10px 0px',
+            lg: '30px 10px 10px 10px',
           },
           width: { lg: '1200px' },
         }}
@@ -69,7 +69,7 @@ function App() {
             xs: '30px 16px 10px 16px',
             sm: '10px 40px',
             md: '30px 40px',
-            lg: '30px 0px 0px 0px',
+            lg: '30px 10px 0px 10px',
           },
           width: { lg: '1200px' },
         }}
@@ -98,7 +98,7 @@ function App() {
             xs: '30px 16px 10px 16px',
             sm: '10px 40px',
             md: '30px 40px',
-            lg: '30px 120px 10px 120px',
+            lg: '30px 130px 10px 130px',
           },
           bgcolor: '#f9fafa',
         }}

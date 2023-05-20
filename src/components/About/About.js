@@ -22,7 +22,7 @@ const About = () => {
           sx={{
             fontFamily: 'Times New Roman',
             textAlign: 'justify',
-            fontSize: { xs: '16px', sm: '24px' },
+            fontSize: { xs: '16px', sm: '22px' },
             lineHeight: { sm: '32px' },
           }}
         >
@@ -44,7 +44,7 @@ const About = () => {
           sx={{
             fontFamily: 'Times New Roman',
             textAlign: 'justify',
-            fontSize: { xs: '16px', sm: '24px', lg: '32px' },
+            fontSize: { xs: '16px', sm: '22px' },
             lineHeight: { sm: '32px', lg: '42px' },
           }}
         >

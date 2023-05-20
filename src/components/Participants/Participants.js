@@ -66,6 +66,7 @@ const Participants = () => {
               fontFamily: 'Times New Roman',
               textAlign: { md: 'right' },
               paddingTop: { xs: '30px', md: '0px' },
+              textAlign: { xs: 'center', md: 'right' },
               fontWeight: 'bold',
             }}
           >
@@ -82,7 +83,7 @@ const Participants = () => {
                   display: 'flex',
                   flexDirection: { xs: 'column', sm: 'row' },
                   fontFamily: 'Times New Roman',
-                  fontSize: { sm: '24px' },
+                  fontSize: { sm: '24px', md: '22px' },
                   lineHeight: { sm: '32px' },
                   justifyContent: { md: 'right' },
                   padding: '8px 0px',
