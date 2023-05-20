@@ -1,6 +1,6 @@
 import Box from '@mui/material/Box';
 
-const Event = () => {
+const Header = () => {
   return (
     <Box
       sx={{
@@ -8,8 +8,8 @@ const Event = () => {
         flexDirection: 'column',
         textAlign: 'right',
         color: '#16729E',
-        fontSize: { xs: '18px', md: '22px', lg: '24px' },
-        lineHeight: '30px',
+        fontSize: { xs: '16px', md: '18px' },
+        lineHeight: '24px',
         padding: '0px 0px 20px',
       }}
     >
@@ -26,4 +26,4 @@ const Event = () => {
   );
 };
 
-export default Event;
+export default Header;

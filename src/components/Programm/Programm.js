@@ -337,7 +337,7 @@ const Programm = () => {
     >
       <ThemeProvider theme={theme}>
         <Typography
-          variant="h4"
+          variant="h5"
           sx={{
             fontFamily: 'Times New Roman',
             paddingTop: '16px',
@@ -348,7 +348,7 @@ const Programm = () => {
           {language === 'de' ? 'Programm' : 'Програма'}
         </Typography>
       </ThemeProvider>{' '}
-      <List sx={{ fontSize: '24px', color: '#16729E' }}>
+      <List sx={{ color: '#16729E' }}>
         {language === 'de' ? (
           <Grid container spacing={12}>
             <Grid item container md={6}>
@@ -365,8 +365,8 @@ const Programm = () => {
                     sx={{
                       display: 'block',
                       fontFamily: 'Times New Roman',
-                      fontSize: { sm: '24px' },
-                      lineHeight: { sm: '32px' },
+                      fontSize: { sm: '16px', md: '18px' },
+                      lineHeight: { sm: '24px' },
                       marginRight: 'auto',
                       fontStyle: 'italic',
                       fontWeight: 'bold',
@@ -378,8 +378,8 @@ const Programm = () => {
                     <Typography
                       sx={{
                         fontFamily: 'Times New Roman',
-                        fontSize: { sm: '24px' },
-                        lineHeight: { sm: '32px' },
+                        fontSize: { sm: '16px', md: '18px' },
+                        lineHeight: { sm: '24px' },
                         fontStyle: 'normal',
                       }}
                     >
@@ -391,8 +391,8 @@ const Programm = () => {
                       display: 'flex',
                       fontFamily: 'Times New Roman',
                       fontStyle: 'italic',
-                      fontSize: { sm: '24px', lg: '28px' },
-                      lineHeight: { sm: '32px', lg: '42px' },
+                      fontSize: { sm: '16px', md: '18px' },
+                      lineHeight: { sm: '24px' },
                       marginLeft: 'auto',
                       letterSpacing: 4,
                     }}
@@ -436,8 +436,8 @@ const Programm = () => {
                     sx={{
                       display: 'block',
                       fontFamily: 'Times New Roman',
-                      fontSize: { sm: '24px' },
-                      lineHeight: { sm: '32px' },
+                      fontSize: { sm: '16px', md: '18px' },
+                      lineHeight: { sm: '24px' },
                       marginRight: 'auto',
                       fontStyle: 'italic',
                       fontWeight: 'bold',
@@ -449,8 +449,8 @@ const Programm = () => {
                     <Typography
                       sx={{
                         fontFamily: 'Times New Roman',
-                        fontSize: { sm: '24px' },
-                        lineHeight: { sm: '32px' },
+                        fontSize: { sm: '16px', md: '18px' },
+                        lineHeight: { sm: '24px' },
                         fontStyle: 'normal',
                       }}
                     >
@@ -462,8 +462,8 @@ const Programm = () => {
                       display: 'flex',
                       fontFamily: 'Times New Roman',
                       fontStyle: 'italic',
-                      fontSize: { sm: '24px', lg: '28px' },
-                      lineHeight: { sm: '32px', lg: '42px' },
+                      fontSize: { sm: '16px', md: '18px' },
+                      lineHeight: { sm: '24px' },
                       marginLeft: 'auto',
                       letterSpacing: 4,
                     }}
@@ -509,8 +509,8 @@ const Programm = () => {
                     sx={{
                       display: 'block',
                       fontFamily: 'Times New Roman',
-                      fontSize: { sm: '24px' },
-                      lineHeight: { sm: '32px' },
+                      fontSize: { sm: '16px', md: '18px' },
+                      lineHeight: { sm: '24px' },
                       marginRight: 'auto',
                       fontStyle: 'italic',
                       fontWeight: 'bold',
@@ -522,8 +522,8 @@ const Programm = () => {
                     <Typography
                       sx={{
                         fontFamily: 'Times New Roman',
-                        fontSize: { sm: '24px' },
-                        lineHeight: { sm: '32px' },
+                        fontSize: { sm: '16px', md: '18px' },
+                        lineHeight: { sm: '24px' },
                         fontStyle: 'normal',
                       }}
                     >
@@ -535,8 +535,8 @@ const Programm = () => {
                       display: 'flex',
                       fontFamily: 'Times New Roman',
                       fontStyle: 'italic',
-                      fontSize: { sm: '24px', lg: '28px' },
-                      lineHeight: { sm: '32px', lg: '42px' },
+                      fontSize: { sm: '16px', md: '18px' },
+                      lineHeight: { sm: '24px' },
                       marginLeft: 'auto',
                       letterSpacing: 4,
                     }}
@@ -580,8 +580,8 @@ const Programm = () => {
                     sx={{
                       display: 'block',
                       fontFamily: 'Times New Roman',
-                      fontSize: { sm: '24px' },
-                      lineHeight: { sm: '32px' },
+                      fontSize: { sm: '16px', md: '18px' },
+                      lineHeight: { sm: '24px' },
                       marginRight: 'auto',
                       fontStyle: 'italic',
                       fontWeight: 'bold',
@@ -593,8 +593,8 @@ const Programm = () => {
                     <Typography
                       sx={{
                         fontFamily: 'Times New Roman',
-                        fontSize: { sm: '24px' },
-                        lineHeight: { sm: '32px' },
+                        fontSize: { sm: '16px', md: '18px' },
+                        lineHeight: { sm: '24px' },
                         fontStyle: 'normal',
                       }}
                     >
@@ -606,8 +606,8 @@ const Programm = () => {
                       display: 'flex',
                       fontFamily: 'Times New Roman',
                       fontStyle: 'italic',
-                      fontSize: { sm: '24px', lg: '28px' },
-                      lineHeight: { sm: '32px', lg: '42px' },
+                      fontSize: { sm: '16px', md: '18px' },
+                      lineHeight: { sm: '24px' },
                       marginLeft: 'auto',
                       letterSpacing: 4,
                     }}

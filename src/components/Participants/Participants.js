@@ -40,6 +40,7 @@ const Participants = () => {
       sx={{
         display: 'flex',
         flexDirection: 'column',
+
         fontFamily: 'Times New Roman',
         color: '#16729E',
       }}
@@ -47,11 +48,13 @@ const Participants = () => {
       {language === 'de' ? (
         <ThemeProvider theme={theme}>
           <Typography
-            variant="h4"
+            variant="h5"
             sx={{
               fontFamily: 'Times New Roman',
               textAlign: { md: 'right' },
               paddingTop: { xs: '30px', md: '0px' },
+              paddingBottom: '8px',
+              textAlign: { xs: 'center', md: 'right' },
               fontWeight: 'bold',
             }}
           >
@@ -61,11 +64,12 @@ const Participants = () => {
       ) : (
         <ThemeProvider theme={theme}>
           <Typography
-            variant="h4"
+            variant="h5"
             sx={{
               fontFamily: 'Times New Roman',
               textAlign: { md: 'right' },
               paddingTop: { xs: '30px', md: '0px' },
+              paddingBottom: '8px',
               textAlign: { xs: 'center', md: 'right' },
               fontWeight: 'bold',
             }}
@@ -74,7 +78,7 @@ const Participants = () => {
           </Typography>
         </ThemeProvider>
       )}
-      <List>
+      <List sx={{ padding: { md: '0px' } }}>
         {language === 'de'
           ? participantsListDe.map(({ id, name, instrument }) => (
               <ListItem
@@ -83,10 +87,10 @@ const Participants = () => {
                   display: 'flex',
                   flexDirection: { xs: 'column', sm: 'row' },
                   fontFamily: 'Times New Roman',
-                  fontSize: { sm: '24px', md: '22px' },
-                  lineHeight: { sm: '32px' },
-                  justifyContent: { md: 'right' },
-                  padding: '8px 0px',
+                  fontSize: { sm: '16px', md: '20px' },
+                  lineHeight: { sm: '20px', md: '26px' },
+                  justifyContent: { xs: 'center', md: 'right' },
+                  padding: { xs: '8px 0px', md: '0px 0px 8px' },
                 }}
               >
                 <Box
@@ -108,10 +112,10 @@ const Participants = () => {
                   display: 'flex',
                   flexDirection: { xs: 'column', sm: 'row' },
                   fontFamily: 'Times New Roman',
-                  fontSize: { sm: '24px' },
-                  lineHeight: { sm: '32px' },
-                  justifyContent: { md: 'right' },
-                  padding: '8px 0px',
+                  fontSize: { sm: '16px', md: '20px' },
+                  lineHeight: { sm: '20px', md: '26px' },
+                  justifyContent: { xs: 'center', md: 'right' },
+                  padding: { xs: '8px 0px', md: '0px 0px 8px' },
                 }}
               >
                 <Box

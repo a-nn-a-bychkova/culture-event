@@ -22,8 +22,8 @@ const About = () => {
           sx={{
             fontFamily: 'Times New Roman',
             textAlign: 'justify',
-            fontSize: { xs: '16px', sm: '22px' },
-            lineHeight: { sm: '32px' },
+            fontSize: { xs: '16px', md: '20px' },
+            lineHeight: { xs: '24px', md: '30px' },
           }}
         >
           Im Kammersaal der Hochschule für die Musik in Nürnberg wird am diesen
@@ -44,14 +44,14 @@ const About = () => {
           sx={{
             fontFamily: 'Times New Roman',
             textAlign: 'justify',
-            fontSize: { xs: '16px', sm: '22px' },
-            lineHeight: { sm: '32px', lg: '42px' },
+            fontSize: { xs: '16px', md: '20px' },
+            lineHeight: { xs: '24px', md: '30px' },
           }}
         >
           У малій залі Нюрнбергської консерваторії в цей чудовий вечір звучатиме
           багато прекрасної української музики, бо ми хочемо, щоб вона лунала по
-          всьому світу. Ми хочемо, щоб ви мали змогу почути українську музику
-          наживо, саме тому ми створили наш проєкт.
+          всьому світу. Ми створили наш проєкт, щоб ви мали змогу почути
+          українську музику наживо .
           <br />У концерті Ви почуєте українську бандуру, а також такі
           старовинні інструменти, як барокова гітара, ренесансна лютня та
           теорба. Вокальна музика охопить твори, написані харківськими та іншими

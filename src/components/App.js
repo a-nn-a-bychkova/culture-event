@@ -1,7 +1,7 @@
 import Container from '@mui/material/Container';
 import EmailIcon from '@mui/icons-material/Email';
 import Hero from '../components/Hero';
-import Event from '../components/Event';
+import Header from './Header';
 import About from '../components/About';
 import Programm from '../components/Programm';
 import Participants from '../components/Participants';
@@ -28,13 +28,13 @@ function App() {
           padding: {
             xs: '10px 16px 10px 16px',
             sm: '10px 40px',
-            md: '30px 40px',
+            md: '30px 40px 10px',
             lg: '30px 10px 10px 10px',
           },
           width: { lg: '1200px' },
         }}
       >
-        <Event />
+        <Header />
         <Box
           sx={{
             display: 'flex',
@@ -45,8 +45,8 @@ function App() {
               display: 'flex',
               justifyContent: 'space-between',
               color: '#16729E',
-              fontSize: { xs: '16px', sm: '20px', md: '24px' },
-              lineHeight: '30px',
+              fontSize: { xs: '16px', md: '18px' },
+              // lineHeight: '24px',
             }}
           >
             <Box onClick={() => handleClick(participantsRef)}>
@@ -98,7 +98,7 @@ function App() {
             xs: '30px 16px 10px 16px',
             sm: '10px 40px',
             md: '30px 40px',
-            lg: '30px 130px 10px 130px',
+            lg: '30px 10px 10px 10px',
           },
           bgcolor: '#f9fafa',
         }}
