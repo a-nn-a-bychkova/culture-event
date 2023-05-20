@@ -1,5 +1,4 @@
-import s from './Hero.module.css';
-import hero from '../../images/hero.jpg';
+import hero from '../../images/hero.JPG';
 import Context from '../../contexts/context';
 import { useContext, useEffect } from 'react';
 import { Box, Paper, Typography, colors } from '@mui/material';
