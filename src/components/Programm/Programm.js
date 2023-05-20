@@ -5,7 +5,8 @@ import {
   responsiveFontSizes,
   ThemeProvider,
 } from '@mui/material/styles';
-import { Box, List, ListItem, Typography } from '@mui/material';
+import { Box, Grid, List, ListItem, Typography } from '@mui/material';
+import { useEffect } from 'react';
 
 const musicalPiecesDe = [
   {
@@ -181,52 +182,52 @@ const musicalPiecesUkr = [
     performer: ['Сніжана Подоровська'],
   },
   {
-    id: '4',
+    id: '3',
     author: 'В. Калінін',
     title: '“Стара лютня”',
     performer: ['Сніжана Подоровська'],
   },
 
   {
-    id: '9',
+    id: '4',
     author: 'Г. Персел',
     title: '“Солодше за рози”',
     additionalInfo: 'з семіопери “Паузаніас, зрадник своєї країни”',
     performer: ['Ширін Худайбергенова', 'Олег Чухліб'],
   },
   {
-    id: '10',
+    id: '5',
     author: 'Г. Персел',
     title: '“Не всі мої страждання”',
     performer: ['Ширін Худайбергенова', 'Олег Чухліб'],
   },
   {
-    id: '8',
+    id: '6',
     author: 'Й. С. Бах',
     title: 'Прелюдія в До мажор',
     performer: ['Сніжана Подоровська'],
   },
   {
-    id: '6',
+    id: '7',
     author: 'Ф. Корбетта',
     title: '“Прелюдія”',
     performer: ['Марина Кіташкіна'],
   },
   {
-    id: '5',
+    id: '8',
     author: 'Р. де Візе',
     title: '“Сарабанда”',
     performer: ['Марина Кіташкіна'],
   },
   {
-    id: '7',
+    id: '9',
     author: 'Ф. ле Кок',
     title: '“Чакона”',
     performer: ['Марина Кіташкіна', 'Олег Чухліб'],
   },
 
   {
-    id: '11',
+    id: '10',
     author: 'С. Кіташкіна',
     title:
       'Імпровізація на теми колискової “Ой ходить сон” та Колискової Клари “Summer Time” з опери “Поргі і Бес” Дж. Гершвіна',
@@ -234,61 +235,61 @@ const musicalPiecesUkr = [
   },
 
   {
-    id: '12',
+    id: '11',
     author: 'Г. Алчевський',
     title: '“Душа се конвалія ніжна”',
     additionalInfo: 'сл. Х. Алчевської',
     performer: ['Тарас Коношенко', 'Олена Василенко'],
   },
   {
-    id: '13',
+    id: '12',
     author: 'Г. Алчевський',
     title: '“Чого мені тяжко”',
     additionalInfo: 'сл. Т. Шевченка',
     performer: ['Тарас Коношенко', 'Олена Василенко'],
   },
   {
-    id: '14',
+    id: '13',
     author: 'В. Дробязгина',
     title: '“Все йде, все минає”',
     performer: ['Анна Бичкова', 'Олена Василенко'],
   },
   {
-    id: '15',
+    id: '14',
     author: 'К. Данькевич',
     title: 'Арія Варвари',
     additionalInfo: 'з опери “Богдан Хмельницький”',
     performer: ['Анна Бичкова', 'Олена Василенко'],
   },
   {
-    id: '16',
+    id: '15',
     author: 'М. Стецюн',
     title: '“Вишиванка”',
     additionalInfo: 'сл. А. Драгомирецький',
     performer: ['Ширін Худайбергенова', 'Олена Василенко'],
   },
   {
-    id: '17',
+    id: '16',
     author: 'А. Штогаренко',
     title: '“Шумлять бори”',
     additionalInfo: 'сл. Т. Одудька',
     performer: ['Анна Бичкова', 'Олена Василенко'],
   },
   {
-    id: '18',
+    id: '17',
     author: 'М. Лисенко',
     title: 'Пісня Тараса',
     additionalInfo: 'з опери “Тарас Бульба”',
     performer: ['Тарас Коношенко', 'Олена Василенко'],
   },
   {
-    id: '19',
+    id: '18',
     author: 'у.н.п. в обр. Ф. Надененка',
     title: '“Місяць на небі”',
     performer: ['Анна Бичкова', 'Ширін Худайбергенова', 'Олена Василенко'],
   },
   {
-    id: '20',
+    id: '19',
     author: 'Р. Штраус',
     title: '"Погана погода"',
     additionalInfo: 'оп.69',
@@ -302,7 +303,7 @@ const musicalPiecesUkr = [
   // },
 
   {
-    id: '22',
+    id: '20',
     author: 'Р. Штраус',
     title: 'Арія Октавіана',
     additionalInfo: 'з опери “Кавалер роз”',
@@ -310,14 +311,14 @@ const musicalPiecesUkr = [
   },
 
   {
-    id: '23',
+    id: '21',
     author: 'Р. Штраус',
     title: 'Дует Софі і Октавіана',
     additionalInfo: 'з опери “Кавалер роз”',
     performer: ['Анна Бичкова', 'Олена Василенко'],
   },
   {
-    id: '24',
+    id: '21',
     author: 'М. Скорик',
     title: '“Мелодія”',
     performer: ['Анастасія Краснікова', 'Ксенія Кузьменко'],
@@ -328,6 +329,14 @@ const Programm = () => {
   let theme = createTheme();
   theme = responsiveFontSizes(theme);
   const { language } = useContext(Context);
+  useEffect(() => {
+    {
+      console.log('musicalPiecesDe all', musicalPiecesDe);
+      console.log('musicalPiecesDe.slice(0, 10)', musicalPiecesDe.slice(0, 11));
+      console.log('musicalPiecesDe.slice(10)', musicalPiecesDe.slice(11));
+    }
+  }, []);
+
   return (
     <Box
       sx={{ width: { lg: '1200px', marginLeft: 'auto', marginRight: 'auto' } }}
@@ -345,145 +354,222 @@ const Programm = () => {
         >
           {language === 'de' ? 'Programm' : 'Програма'}
         </Typography>
-      </ThemeProvider>
+      </ThemeProvider>{' '}
       <List sx={{ fontSize: '24px', color: '#16729E' }}>
-        {language === 'de'
-          ? musicalPiecesDe.map(piece => (
-              <ListItem
-                key={piece.id}
-                sx={{
-                  display: 'flex',
-                  flexDirection: 'column',
-                  padding: '8px 0px',
-                }}
-              >
-                <Typography
+        {language === 'de' ? (
+          <Grid container spacing={8}>
+            <Grid item container md={6}>
+              {musicalPiecesDe.slice(0, 11).map(piece => (
+                <ListItem
+                  key={piece.id}
                   sx={{
-                    display: 'block',
-                    fontFamily: 'Times New Roman',
-                    fontSize: { sm: '24px' },
-                    lineHeight: { sm: '32px' },
-                    marginRight: 'auto',
-                    fontStyle: 'italic',
-                    fontWeight: 'bold',
+                    display: 'flex',
+                    flexDirection: 'column',
+                    padding: '8px 0px',
                   }}
                 >
-                  {piece.author} {piece.title}
-                </Typography>
-                {piece.additionalInfo && (
                   <Typography
                     sx={{
+                      display: 'block',
                       fontFamily: 'Times New Roman',
                       fontSize: { sm: '24px' },
                       lineHeight: { sm: '32px' },
-                      fontStyle: 'normal',
+                      marginRight: 'auto',
+                      fontStyle: 'italic',
+                      fontWeight: 'bold',
                     }}
                   >
-                    {piece.additionalInfo}
+                    {piece.author} {piece.title}
                   </Typography>
-                )}
-                <Typography
-                  sx={{
-                    display: 'flex',
-                    fontFamily: 'Times New Roman',
-                    fontStyle: 'italic',
-                    fontSize: { sm: '24px', lg: '28px' },
-                    lineHeight: { sm: '32px', lg: '42px' },
-                    marginLeft: 'auto',
-                    letterSpacing: 4,
-                  }}
-                >
-                  {piece.performer.length === 1 ? (
-                    piece.performer
-                  ) : (
-                    <List>
-                      {piece.performer.map(artist => {
-                        return (
-                          <ListItem
-                            key={artist.id}
-                            sx={{
-                              display: 'flex',
-                              padding: '0px',
-                              justifyContent: 'right',
-                            }}
-                          >
-                            {artist}
-                          </ListItem>
-                        );
-                      })}
-                    </List>
+                  {piece.additionalInfo && (
+                    <Typography
+                      sx={{
+                        fontFamily: 'Times New Roman',
+                        fontSize: { sm: '24px' },
+                        lineHeight: { sm: '32px' },
+                        fontStyle: 'normal',
+                      }}
+                    >
+                      {piece.additionalInfo}
+                    </Typography>
                   )}
-                </Typography>
-              </ListItem>
-            ))
-          : musicalPiecesUkr.map(piece => (
-              <ListItem
-                key={piece.id}
-                sx={{
-                  display: 'flex',
-                  flexDirection: 'column',
-                  padding: '8px 0px',
-                }}
-              >
-                <Typography
-                  sx={{
-                    display: 'block',
-                    fontFamily: 'Times New Roman',
-                    fontSize: { sm: '24px', lg: '28px' },
-                    lineHeight: { sm: '32px', lg: '42px' },
-                    marginRight: 'auto',
-                    fontStyle: 'italic',
-                    fontWeight: 'bold',
-                  }}
-                >
-                  {piece.author} {piece.title}
-                </Typography>
-                {piece.additionalInfo && (
                   <Typography
                     sx={{
+                      display: 'flex',
                       fontFamily: 'Times New Roman',
+                      fontStyle: 'italic',
                       fontSize: { sm: '24px', lg: '28px' },
                       lineHeight: { sm: '32px', lg: '42px' },
-                      fontStyle: 'normal',
+                      marginLeft: 'auto',
+                      letterSpacing: 4,
                     }}
                   >
-                    {piece.additionalInfo}
+                    {piece.performer.length === 1 ? (
+                      piece.performer
+                    ) : (
+                      <List>
+                        {piece.performer.map(artist => {
+                          return (
+                            <ListItem
+                              key={artist.id}
+                              sx={{
+                                display: 'flex',
+                                padding: '0px',
+                                justifyContent: 'right',
+                              }}
+                            >
+                              {artist}
+                            </ListItem>
+                          );
+                        })}
+                      </List>
+                    )}
                   </Typography>
-                )}
-                <Typography
+                </ListItem>
+              ))}
+            </Grid>
+
+            <Grid item container md={6}>
+              {musicalPiecesDe.slice(11).map(piece => (
+                <ListItem
+                  key={piece.id}
                   sx={{
                     display: 'flex',
-                    fontFamily: 'Times New Roman',
-                    fontStyle: 'italic',
-                    fontSize: { sm: '24px', lg: '28px' },
-                    lineHeight: { sm: '32px', lg: '42px' },
-                    marginLeft: 'auto',
-                    letterSpacing: 4,
+                    flexDirection: 'column',
+                    padding: '8px 0px',
                   }}
                 >
-                  {piece.performer.length === 1 ? (
-                    piece.performer
-                  ) : (
-                    <List>
-                      {piece.performer.map(artist => {
-                        return (
-                          <ListItem
-                            key={artist.id}
-                            sx={{
-                              display: 'flex',
-                              padding: '0px',
-                              justifyContent: 'right',
-                            }}
-                          >
-                            {artist}
-                          </ListItem>
-                        );
-                      })}
-                    </List>
+                  <Typography
+                    sx={{
+                      display: 'block',
+                      fontFamily: 'Times New Roman',
+                      fontSize: { sm: '24px' },
+                      lineHeight: { sm: '32px' },
+                      marginRight: 'auto',
+                      fontStyle: 'italic',
+                      fontWeight: 'bold',
+                    }}
+                  >
+                    {piece.author} {piece.title}
+                  </Typography>
+                  {piece.additionalInfo && (
+                    <Typography
+                      sx={{
+                        fontFamily: 'Times New Roman',
+                        fontSize: { sm: '24px' },
+                        lineHeight: { sm: '32px' },
+                        fontStyle: 'normal',
+                      }}
+                    >
+                      {piece.additionalInfo}
+                    </Typography>
                   )}
+                  <Typography
+                    sx={{
+                      display: 'flex',
+                      fontFamily: 'Times New Roman',
+                      fontStyle: 'italic',
+                      fontSize: { sm: '24px', lg: '28px' },
+                      lineHeight: { sm: '32px', lg: '42px' },
+                      marginLeft: 'auto',
+                      letterSpacing: 4,
+                    }}
+                  >
+                    {piece.performer.length === 1 ? (
+                      piece.performer
+                    ) : (
+                      <List>
+                        {piece.performer.map(artist => {
+                          return (
+                            <ListItem
+                              key={artist.id}
+                              sx={{
+                                display: 'flex',
+                                padding: '0px',
+                                justifyContent: 'right',
+                              }}
+                            >
+                              {artist}
+                            </ListItem>
+                          );
+                        })}
+                      </List>
+                    )}
+                  </Typography>
+                </ListItem>
+              ))}
+            </Grid>
+          </Grid>
+        ) : (
+          musicalPiecesUkr.map(piece => (
+            <ListItem
+              key={piece.id}
+              sx={{
+                display: 'flex',
+                flexDirection: 'column',
+                padding: '8px 0px',
+              }}
+            >
+              <Typography
+                sx={{
+                  display: 'block',
+                  fontFamily: 'Times New Roman',
+                  fontSize: { sm: '24px', lg: '28px' },
+                  lineHeight: { sm: '32px', lg: '42px' },
+                  marginRight: 'auto',
+                  fontStyle: 'italic',
+                  fontWeight: 'bold',
+                }}
+              >
+                {piece.author} {piece.title}
+              </Typography>
+              {piece.additionalInfo && (
+                <Typography
+                  sx={{
+                    fontFamily: 'Times New Roman',
+                    fontSize: { sm: '24px', lg: '28px' },
+                    lineHeight: { sm: '32px', lg: '42px' },
+                    fontStyle: 'normal',
+                  }}
+                >
+                  {piece.additionalInfo}
                 </Typography>
-              </ListItem>
-            ))}
+              )}
+              <Typography
+                sx={{
+                  display: 'flex',
+                  fontFamily: 'Times New Roman',
+                  fontStyle: 'italic',
+                  fontSize: { sm: '24px', lg: '28px' },
+                  lineHeight: { sm: '32px', lg: '42px' },
+                  marginLeft: 'auto',
+                  letterSpacing: 4,
+                }}
+              >
+                {piece.performer.length === 1 ? (
+                  piece.performer
+                ) : (
+                  <List>
+                    {piece.performer.map(artist => {
+                      return (
+                        <ListItem
+                          key={artist.id}
+                          sx={{
+                            display: 'flex',
+                            padding: '0px',
+                            justifyContent: 'right',
+                          }}
+                        >
+                          {artist}
+                        </ListItem>
+                      );
+                    })}
+                  </List>
+                )}
+              </Typography>
+            </ListItem>
+          ))
+        )}
       </List>
     </Box>
   );
