@@ -15,7 +15,7 @@ const Header = () => {
     >
       <Box>June 13, 2023 19:30</Box>
       <Box>
-        Kammersaal
+        Kammermusiksaal
         <br />
         Hochschule für die Musik
         <br />

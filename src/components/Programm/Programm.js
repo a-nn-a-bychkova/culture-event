@@ -30,15 +30,15 @@ const musicalPiecesDe = [
   },
   {
     id: '9',
-    author: 'H. Purcell',
-    title: '“Sweeter than roses”',
-    additionalInfo: 'aus der Semioper “Pausanius, the Betrayer of his Country”',
+    author: ' H. Purcell',
+    title: '“Not all my torments”',
     performer: ['Schirin Hudajbergenova', 'Oleg Czuchlieb'],
   },
   {
     id: '10',
-    author: ' H. Purcell',
-    title: '“Not all my torments”',
+    author: 'H. Purcell',
+    title: '“Sweeter than roses”',
+    additionalInfo: 'aus der Semioper “Pausanius, the Betrayer of his Country”',
     performer: ['Schirin Hudajbergenova', 'Oleg Czuchlieb'],
   },
 
@@ -186,7 +186,12 @@ const musicalPiecesUkr = [
     title: '“Стара лютня”',
     performer: ['Сніжана Подоровська'],
   },
-
+  {
+    id: '5',
+    author: 'Г. Персел',
+    title: '“Не всі мої страждання”',
+    performer: ['Ширін Худайбергенова', 'Олег Чухліб'],
+  },
   {
     id: '4',
     author: 'Г. Персел',
@@ -194,12 +199,7 @@ const musicalPiecesUkr = [
     additionalInfo: 'з семіопери “Паузаніас, зрадник своєї країни”',
     performer: ['Ширін Худайбергенова', 'Олег Чухліб'],
   },
-  {
-    id: '5',
-    author: 'Г. Персел',
-    title: '“Не всі мої страждання”',
-    performer: ['Ширін Худайбергенова', 'Олег Чухліб'],
-  },
+
   {
     id: '6',
     author: 'Й. С. Бах',
