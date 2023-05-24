@@ -26,18 +26,27 @@ const About = () => {
             lineHeight: { xs: '24px', md: '30px' },
           }}
         >
-          Im Kammersaal der Hochschule für die Musik in Nürnberg wird am diesen
-          Abend viel ukrainische Musik zu hören sein. Wir wollen, dass sie auf
-          der ganzen Welt gehört wird und der Zuhörer die Möglichkeit hat, sie
-          live zu erfahren, deshalb haben wir unser Projekt ins Leben gerufen.
+          Was wissen die Menschen momentan über die Ukraine? Krieg, Leid,
+          zerstörte Städte, Geflüchtete? Ja, aber es ist nicht nur so, wir
+          würden gerne eine andere Seite vorstellen. Die Ukraine ist zuerst das
+          Volk, das selbständig und unabhängig sein will und eine reiche und
+          große Seele hat, die sich voll und ganz in der vielfältigen
+          musikalischen Kulturerbe äußert. Das ist die Quelle von der
+          unzerbrechlichen Lebensmut, Würde und dem Glauben der Ukraine.
           <br />
-          Im Konzert wird die Bandura (ein einzigartiges traditionelles
-          ukrainisches Instrument) sowie die Barockgitarre, die Renaissancelaute
-          und die Theorbe klingen. Vokalwerke werden von Solisten aus der
-          Nürnberger Oper aufgeführt, begleitet von einem Klavier. Während des
-          Konzerts werden die Spenden für die Reparatur der Nationalen
-          Universität der Künste Charkiw I. P. Kotljarewskyj gesammellt, die
-          aufgrund des Kriegs schwer beschädigt wurde.
+          Unser Projekt wurde ins Leben gerufen, damit die Ukrainische Musik aus
+          den Schatten tritt und die Zuhörer eine Gelegenheit haben, sie Live zu
+          erfahren. Die Solist*innen aus dem Staatstheater Nürnberg, Studierende
+          der Hochschule für Musik und andere Musiker aus der Ukraine freuen
+          sich sowohl ukrainische als auch westeuropäische Musikwerke zu
+          präsentieren. Das Konzert findet am 13 Juni 2023 im Kammermusiksaal
+          der Hochschule für Musik Nürnberg statt. Ihre Spenden werden für die
+          Restaurierung der Nationalen Universität der Künste Charkiw I.P.
+          Kotljarewskyjgesammelt, die aufgrund des Kriegs schwer beschädigt
+          wurde.
+          <br />
+          Wir laden Sie zu einer kurzen Reise in die friedliche und wunderschöne
+          Heimat von uns ein.
         </Box>
       ) : (
         <Typography
