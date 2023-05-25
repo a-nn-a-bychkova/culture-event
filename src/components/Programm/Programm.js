@@ -20,7 +20,7 @@ const musicalPiecesDe = [
     id: '2',
     author: 'Bearbeitung von L. Yazhinsky ',
     title: 'Ukrainisches Volkslied “Oh am Hain an der Donau”',
-    performer: ['Snezhana Podorovska'],
+    performer: ['Snizhana Podorovska'],
   },
   {
     id: '4',
@@ -341,14 +341,14 @@ const Programm = () => {
           sx={{
             fontFamily: 'Times New Roman',
             paddingTop: '16px',
-            color: '#16729E',
+            color: '#0a5b81',
             fontWeight: 'bold',
           }}
         >
           {language === 'de' ? 'Programm' : 'Програма'}
         </Typography>
       </ThemeProvider>{' '}
-      <List sx={{ color: '#16729E' }}>
+      <List sx={{ color: '#0a5b81' }}>
         {language === 'de' ? (
           <Grid container spacing={12}>
             <Grid item container md={6}>

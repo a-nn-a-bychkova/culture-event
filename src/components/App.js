@@ -45,9 +45,8 @@ function App() {
             sx={{
               display: 'flex',
               justifyContent: 'space-between',
-              color: '#16729E',
+              color: '#0a5b81',
               fontSize: { xs: '16px', md: '18px' },
-              // lineHeight: '24px',
             }}
           >
             <Box onClick={() => handleClick(participantsRef)}>
@@ -115,7 +114,7 @@ function App() {
       >
         <Typography
           sx={{
-            color: '#16729E',
+            color: '#0a5b81',
             textAlign: 'center',
             fontWeight: 'bold',
             fontFamily: 'Times New Roman',
@@ -130,7 +129,7 @@ function App() {
         </Typography>
         <Typography
           sx={{
-            color: '#16729E',
+            color: '#0a5b81',
             textAlign: 'center',
             fontFamily: 'Times New Roman',
             fontSize: { xs: '18px' },
@@ -143,7 +142,7 @@ function App() {
             : 'Вхід вільний.  Будемо вдячні за донати.'}
         </Typography>
       </Container>
-      <Divider sx={{ background: '#16729E' }} />
+      <Divider sx={{ background: '#0a5b81' }} />
       <Container
         sx={{
           padding: {
@@ -157,12 +156,12 @@ function App() {
       >
         <Box sx={{ display: 'flex', justifyContent: 'center' }}>
           <EmailIcon
-            sx={{ color: '#16729E', marginRight: '10px', width: '16px' }}
+            sx={{ color: '#0a5b81', marginRight: '10px', width: '16px' }}
           />{' '}
           <Link
             to="mailto:ukrainischer.lebensmut@gmail.com"
             style={{
-              color: '#16729E',
+              color: '#0a5b81',
               textDecoration: 'none',
               fontFamily: 'Times New Roman',
               fontSize: { xs: '12px', lg: '24px' },

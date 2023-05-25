@@ -7,7 +7,7 @@ const Header = () => {
         display: 'flex',
         flexDirection: 'column',
         textAlign: 'right',
-        color: '#16729E',
+        color: '#0a5b81',
         fontSize: { xs: '16px', md: '18px' },
         lineHeight: '24px',
         padding: '0px 0px 20px',
