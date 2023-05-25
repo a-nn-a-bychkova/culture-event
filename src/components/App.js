@@ -32,6 +32,7 @@ function App() {
             lg: '30px 10px 10px 10px',
           },
           width: { lg: '1200px' },
+          fontFamily: 'Times New Roman',
         }}
       >
         <Header />

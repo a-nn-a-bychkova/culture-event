@@ -1,13 +1,3 @@
-.MenuContainer {
-  display: flex;
-  text-align: space-between;
-  padding: 5px 20px;
-}
-
-.NavContainer {
-  display: none;
-}
-
 @media screen and (min-width: 768px) {
   .MenuContainer {
     padding: 0px 40px;
@@ -15,29 +5,9 @@
   .NavContainer {
     display: flex;
     padding-bottom: 10px;
-    color: rgb(22, 22, 111);
+    color: #0a5b81;
   }
   .NavButton {
     padding-right: 20px;
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  .MenuContainer {
-    padding: 0px 100px;
-  }
-  .NavContainer {
-    padding-bottom: 15px;
-  }
-  .NavButton {
-    padding-right: 40px;
-  }
-}
-@media screen and (min-width: 1440px) {
-  .MenuContainer {
-    padding: 0px 200px;
-  }
-  .NavButton {
-    font-size: 26px;
   }
 }

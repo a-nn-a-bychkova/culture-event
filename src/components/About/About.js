@@ -14,15 +14,16 @@ const About = () => {
   return (
     <Box
       sx={{
-        color: '#16729E',
+        color: '#0a5b81',
       }}
     >
       {language === 'de' ? (
         <Box
           sx={{
-            fontFamily: 'Times New Roman',
+            fontFamily: 'Droid Sans',
             textAlign: 'justify',
-            lineHeight: { xs: '24px' },
+            fontSize: { xs: '16px', md: '18px' },
+            lineHeight: { xs: '24px', md: '28px' },
           }}
         >
           Was wissen die Menschen momentan über die Ukraine? Krieg, Leid,
@@ -42,20 +43,19 @@ const About = () => {
           präsentieren. <br />
           Das Konzert findet am 13 Juni 2023 im Kammermusiksaal der Hochschule
           für Musik Nürnberg statt. Ihre Spenden werden für die Restaurierung
-          der Nationalen Universität der Künste Charkiw I.P.
-          Kotljarewskyjgesammelt, die aufgrund des Kriegs schwer beschädigt
-          wurde.
+          der Nationalen Universität der Künste Charkiw I.P. Kotljarewskyj
+          gesammelt, die aufgrund des Kriegs schwer beschädigt wurde.
           <br />
           Wir laden Sie zu einer kurzen Reise in die friedliche und wunderschöne
           Heimat von uns ein.
         </Box>
       ) : (
-        <Typography
+        <Box
           sx={{
-            fontFamily: 'Times New Roman',
+            fontFamily: 'Droid Sans',
             textAlign: 'justify',
-            fontSize: { xs: '16px', md: '20px' },
-            lineHeight: { xs: '24px', md: '30px' },
+            fontSize: { xs: '16px', md: '18px' },
+            lineHeight: { xs: '24px', md: '28px' },
           }}
         >
           Що зараз асоціюється у людей з Україною? Війна, страждання, зруйновані
@@ -82,7 +82,7 @@ const About = () => {
           <br />
           Запрошуємо Вас у невеличку подорож нашою мирною та прекрасною
           Батьківщиною!
-        </Typography>
+        </Box>
       )}
     </Box>
   );

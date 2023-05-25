@@ -34,7 +34,7 @@ const Hero = () => {
             textAlign: 'center',
             alignItems: 'center',
             lineHeight: '170px',
-            textShadow: 'grey 0 2px',
+            textShadow: '#0a5b81 0 2px',
           }}
           gutterBottom
         >
@@ -54,7 +54,7 @@ const Hero = () => {
             textAlign: 'center',
             alignItems: 'center',
             lineHeight: '170px',
-            textShadow: 'grey 0 2px',
+            textShadow: '#0a5b81 0 2px',
             width: { xs: '200px', sm: '352px', md: '560px' },
           }}
           gutterBottom
