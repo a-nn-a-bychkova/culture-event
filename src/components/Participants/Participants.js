@@ -40,7 +40,6 @@ const Participants = () => {
       sx={{
         display: 'flex',
         flexDirection: 'column',
-
         fontFamily: 'Times New Roman',
         color: '#16729E',
       }}
@@ -53,7 +52,7 @@ const Participants = () => {
               fontFamily: 'Times New Roman',
               textAlign: { md: 'right' },
               paddingTop: { xs: '30px', md: '0px' },
-              paddingBottom: '8px',
+              paddingBottom: { xs: '8px' },
               textAlign: { xs: 'center', md: 'right' },
               fontWeight: 'bold',
             }}
@@ -69,7 +68,7 @@ const Participants = () => {
               fontFamily: 'Times New Roman',
               textAlign: { md: 'right' },
               paddingTop: { xs: '30px', md: '0px' },
-              paddingBottom: '8px',
+              paddingBottom: { xs: '8px' },
               textAlign: { xs: 'center', md: 'right' },
               fontWeight: 'bold',
             }}
@@ -87,8 +86,8 @@ const Participants = () => {
                   display: 'flex',
                   flexDirection: { xs: 'column', sm: 'row' },
                   fontFamily: 'Times New Roman',
-                  fontSize: { sm: '16px', md: '20px' },
-                  lineHeight: { sm: '20px', md: '26px' },
+                  fontSize: { sm: '16px', md: '18px' },
+                  lineHeight: { sm: '20px', md: '24px' },
                   justifyContent: { xs: 'center', md: 'right' },
                   padding: { xs: '8px 0px', md: '0px 0px 8px' },
                 }}
@@ -100,7 +99,13 @@ const Participants = () => {
                 >
                   {name}
                 </Box>
-                <Box sx={{ marginLeft: '20px', fontFamily: 'Times New Roman' }}>
+                <Box
+                  sx={{
+                    marginLeft: '16px',
+                    fontFamily: 'Times New Roman',
+                    // fontSize: { sm: '16px' },
+                  }}
+                >
                   {instrument}
                 </Box>
               </ListItem>
@@ -112,8 +117,8 @@ const Participants = () => {
                   display: 'flex',
                   flexDirection: { xs: 'column', sm: 'row' },
                   fontFamily: 'Times New Roman',
-                  fontSize: { sm: '16px', md: '20px' },
-                  lineHeight: { sm: '20px', md: '26px' },
+                  fontSize: { sm: '16px', md: '18px' },
+                  lineHeight: { sm: '20px', md: '24px' },
                   justifyContent: { xs: 'center', md: 'right' },
                   padding: { xs: '8px 0px', md: '0px 0px 8px' },
                 }}
@@ -125,7 +130,13 @@ const Participants = () => {
                 >
                   {name}
                 </Box>
-                <Box sx={{ marginLeft: '20px', fontFamily: 'Times New Roman' }}>
+                <Box
+                  sx={{
+                    marginLeft: '16px',
+                    fontFamily: 'Times New Roman',
+                    // fontSize: { sm: '16px' },
+                  }}
+                >
                   {instrument}
                 </Box>
               </ListItem>

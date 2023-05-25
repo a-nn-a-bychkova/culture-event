@@ -11,7 +11,7 @@ const musicalPiecesDe = [
   {
     id: '1',
     author: 'Bearbeitung von R. Turovsky',
-    title: '5 ukrainische Volkslieder',
+    title: 'Fünf ukrainische Volkslieder',
     additionalInfo:
       '“Ich lasse das Pferd gehen”, “Schneesturm”, “Hretschanyky”, “Kosakchen”, “Tetyana”',
     performer: ['Oleg Czuchlieb'],

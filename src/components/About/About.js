@@ -22,26 +22,27 @@ const About = () => {
           sx={{
             fontFamily: 'Times New Roman',
             textAlign: 'justify',
-            fontSize: { xs: '16px', md: '20px' },
-            lineHeight: { xs: '24px', md: '30px' },
+            lineHeight: { xs: '24px' },
           }}
         >
           Was wissen die Menschen momentan über die Ukraine? Krieg, Leid,
           zerstörte Städte, Geflüchtete? Ja, aber es ist nicht nur so, wir
-          würden gerne eine andere Seite vorstellen. Die Ukraine ist zuerst das
-          Volk, das selbständig und unabhängig sein will und eine reiche und
-          große Seele hat, die sich voll und ganz in der vielfältigen
-          musikalischen Kulturerbe äußert. Das ist die Quelle von der
-          unzerbrechlichen Lebensmut, Würde und dem Glauben der Ukraine.
+          würden gerne eine andere Seite vorstellen.
+          <br />
+          Die Ukraine ist zuerst das Volk, das selbständig und unabhängig sein
+          will und eine reiche und große Seele hat, die sich voll und ganz in
+          der vielfältigen musikalischen Kulturerbe äußert. Das ist die Quelle
+          von der unzerbrechlichen Lebensmut, Würde und dem Glauben der Ukraine.
           <br />
           Unser Projekt wurde ins Leben gerufen, damit die Ukrainische Musik aus
           den Schatten tritt und die Zuhörer eine Gelegenheit haben, sie Live zu
           erfahren. Die Solist*innen aus dem Staatstheater Nürnberg, Studierende
           der Hochschule für Musik und andere Musiker aus der Ukraine freuen
           sich sowohl ukrainische als auch westeuropäische Musikwerke zu
-          präsentieren. Das Konzert findet am 13 Juni 2023 im Kammermusiksaal
-          der Hochschule für Musik Nürnberg statt. Ihre Spenden werden für die
-          Restaurierung der Nationalen Universität der Künste Charkiw I.P.
+          präsentieren. <br />
+          Das Konzert findet am 13 Juni 2023 im Kammermusiksaal der Hochschule
+          für Musik Nürnberg statt. Ihre Spenden werden für die Restaurierung
+          der Nationalen Universität der Künste Charkiw I.P.
           Kotljarewskyjgesammelt, die aufgrund des Kriegs schwer beschädigt
           wurde.
           <br />
@@ -57,22 +58,30 @@ const About = () => {
             lineHeight: { xs: '24px', md: '30px' },
           }}
         >
-          У малій залі Нюрнбергської консерваторії в цей чудовий вечір звучатиме
-          багато прекрасної української музики, бо ми хочемо, щоб вона лунала по
-          всьому світу. Ми створили наш проєкт, щоб ви мали змогу почути
-          українську музику наживо .
-          <br />У концерті Ви почуєте українську бандуру, а також такі
-          старовинні інструменти, як барокова гітара, ренесансна лютня та
-          теорба. Вокальна музика охопить твори, написані харківськими та іншими
-          українськими, та західно-європейськими композиторами, вони звучатимуть
-          у виконанні співаків з Нюрнбергської опери у супроводі фортепіано.{' '}
+          Що зараз асоціюється у людей з Україною? Війна, страждання, зруйновані
+          міста, біженці? Так, на жаль, це наша реальність. Але сьогодні ми
+          хотіли б поділитися з вами тим, що насправді робить нашу країну
+          неповторною. <br />
+          Україна – це перш за все народ, який прагне бути самодостатнім і
+          незалежним, з багатою та великою душею, що повною мірою виражається в
+          різноманітості нашої музичної спадщини. Вона є одним з джерел
+          незламності, гідності українців, їхньої віри та мужності протистояти
+          випробуванням життя.
           <br />
-          Під час концерту буде проводитись благодійний збір на ремонт
-          Харківського університету мистецтв ім. І.П.Котляревського, який сильно
-          постраждав під час війни.
+          Наш проєкт створено для того, аби надати можливість слухачам наживо
+          почути та відчути, а може навіть і відкрити для себе українську
+          музику, яка так довго залишалася в тіні для великої аудиторії.
+          <br />В камерній залі Hochschule für Musik Nürnberg в цей вечір
+          лунатимуть українські та західноєвропейські музичні твори у виконанні
+          солістів Staatstheater Nürnberg, студентів Hochschule für Musik та
+          інших музикантів з України.
           <br />
-          Ви маєте можливіть більш детально ознайомитись з учасниками та
-          програмою нижче.
+          Ваші пожертви будуть надіслані на реставрацію Харківського
+          національного університету мистецтв імені І.П. Котляревського, що
+          сильно постраждав під час війни.
+          <br />
+          Запрошуємо Вас у невеличку подорож нашою мирною та прекрасною
+          Батьківщиною!
         </Typography>
       )}
     </Box>

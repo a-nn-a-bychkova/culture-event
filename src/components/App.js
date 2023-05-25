@@ -69,19 +69,19 @@ function App() {
             xs: '30px 16px 10px 16px',
             sm: '10px 40px',
             md: '30px 40px',
-            lg: '30px 10px 0px 10px',
+            lg: '30px 10px 10px 10px',
           },
           width: { lg: '1200px' },
         }}
       >
         <Grid container sx={{ spacing: { md: 2 } }}>
-          <Grid item container md={6}>
+          <Grid item container md={7}>
             <About />
           </Grid>
           <Grid
             item
             container
-            md={6}
+            md={5}
             ref={participantsRef}
             sx={{
               display: 'flex',
@@ -109,6 +109,7 @@ function App() {
       <Container
         sx={{
           width: { lg: '1200px' },
+          padding: { xs: '10px', sm: '20px', lg: '60px' },
         }}
       >
         <Typography
@@ -119,13 +120,26 @@ function App() {
             fontFamily: 'Times New Roman',
             fontSize: { xs: '24px', sm: '28px', md: '32px' },
             lineHeight: { md: '52px' },
-            padding: { xs: '10px', sm: '20px', lg: '60px' },
           }}
         >
           {' '}
           {language === 'de'
             ? 'Herzlich Willkommen zu unserem Konzert!'
             : 'Ласкаво просимо відвідати наш концерт!'}
+        </Typography>
+        <Typography
+          sx={{
+            color: '#16729E',
+            textAlign: 'center',
+            fontFamily: 'Times New Roman',
+            fontSize: { xs: '18px' },
+            paddingTop: '10px',
+          }}
+        >
+          {' '}
+          {language === 'de'
+            ? 'Eintritt frei. Für Spenden sind wir dankbar.'
+            : 'Вхід вільний.  Будемо вдячні за донати.'}
         </Typography>
       </Container>
       <Divider sx={{ background: '#16729E' }} />
