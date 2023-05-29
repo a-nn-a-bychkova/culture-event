@@ -17,18 +17,6 @@ const musicalPiecesDe = [
     performer: ['Oleg Czuchlieb'],
   },
   {
-    id: '2',
-    author: 'Bearbeitung von L. Yazhinsky ',
-    title: 'Ukrainisches Volkslied “Oh am Hain an der Donau”',
-    performer: ['Snizhana Podorovska'],
-  },
-  {
-    id: '4',
-    author: 'V. Kalinin',
-    title: '“Alte Laute”',
-    performer: ['Snizhana Podorovska'],
-  },
-  {
     id: '9',
     author: ' H. Purcell',
     title: '“Not all my torments”',
@@ -41,14 +29,6 @@ const musicalPiecesDe = [
     additionalInfo: 'aus der Semioper “Pausanius, the Betrayer of his Country”',
     performer: ['Schirin Hudajbergenova', 'Oleg Czuchlieb'],
   },
-
-  {
-    id: '8',
-    author: 'J. S. Bach',
-    title: 'Prelude in C Major',
-    performer: ['Snizhana Podorovska'],
-  },
-
   {
     id: '6',
     author: 'F. Corbetta',
@@ -175,18 +155,6 @@ const musicalPiecesUkr = [
     performer: ['Олег Чухліб'],
   },
   {
-    id: '2',
-    author: 'Обробка Л. Яжинського',
-    title: '“Ой, у гаю при Дунаю”',
-    performer: ['Сніжана Подоровська'],
-  },
-  {
-    id: '3',
-    author: 'В. Калінін',
-    title: '“Стара лютня”',
-    performer: ['Сніжана Подоровська'],
-  },
-  {
     id: '5',
     author: 'Г. Персел',
     title: '“Не всі мої страждання”',
@@ -198,13 +166,6 @@ const musicalPiecesUkr = [
     title: '“Солодше за рози”',
     additionalInfo: 'з семіопери “Паузаніас, зрадник своєї країни”',
     performer: ['Ширін Худайбергенова', 'Олег Чухліб'],
-  },
-
-  {
-    id: '6',
-    author: 'Й. С. Бах',
-    title: 'Прелюдія в До мажор',
-    performer: ['Сніжана Подоровська'],
   },
   {
     id: '7',
