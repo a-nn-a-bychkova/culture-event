@@ -17,31 +17,18 @@ const musicalPiecesDe = [
     performer: ['Oleg Czuchlieb'],
   },
 
-  {
-    id: '2',
-    author: 'F. Corbetta',
-    title: '“Prelude”',
-    performer: ['Maryna Kitashkina'],
-  },
-  {
-    id: '3',
-    author: 'F. Le Cocq',
-    title: 'Chaconne',
-    performer: ['Maryna Kitashkina', 'Oleg Czuchlieb'],
-  },
-  {
-    id: '4',
-    author: 'H. Purcell',
-    title: '“Not all my torments”',
-    performer: ['Schirin Hudajbergenova', 'Oleg Czuchlieb'],
-  },
-  {
-    id: '5',
-    author: 'H. Purcell',
-    title: '“Sweeter than roses”',
-    additionalInfo: 'aus der Semioper “Pausanius, the Betrayer of his Country”',
-    performer: ['Schirin Hudajbergenova', 'Oleg Czuchlieb'],
-  },
+  // {
+  //   id: '2',
+  //   author: 'F. Corbetta',
+  //   title: '“Prelude”',
+  //   performer: ['Maryna Kitashkina'],
+  // },
+  // {
+  //   id: '3',
+  //   author: 'F. Le Cocq',
+  //   title: 'Chaconne',
+  //   performer: ['Maryna Kitashkina'],
+  // },
   {
     id: '6',
     author: 'S. Kitashkina',
@@ -71,6 +58,13 @@ const musicalPiecesDe = [
     additionalInfo:
       ' aus dem Liederzyklus “Das Farbband” nach dem Text von T. Schewtschenko',
     performer: ['Anna Bychkova', 'Olena Vasylenko'],
+  },
+  {
+    id: '22',
+    author: 'L.Dychko',
+    title: '“Na tschovni” (“Auf dem Boot”)',
+    additionalInfo: 'nach dem Text L. Ukrajinka',
+    performer: ['Schirin Hudajbergenova', 'Olga Dörr'],
   },
   {
     id: '10',
@@ -107,19 +101,19 @@ const musicalPiecesDe = [
     performer: ['Schirin Hudajbergenova', 'Anna Bychkova', 'Olena Vasylenko'],
   },
   {
+    id: '21',
+    author: 'M. Skoryk',
+    title: '“Die Melodie”',
+    performer: ['Anna Bychkova', 'Olena Vasylenko'],
+  },
+  {
     id: '15',
     author: 'M. Lysenko',
     title: ' “Hey, lita orel” (“Hej, der Adler fliegt”)',
     additionalInfo: 'aus der Oper „Taras Bulba“',
     performer: ['Taras Konoschenko', 'Olena Vasylenko'],
   },
-  {
-    id: '16',
-    author: 'R.Strauss',
-    title: '"Schlechtes Wetter"',
-    additionalInfo: 'op. 69',
-    performer: ['Schirin Hudajbergenova', 'Olena Vasylenko'],
-  },
+
   {
     id: '17',
     author: 'J. Brahms',
@@ -142,10 +136,37 @@ const musicalPiecesDe = [
     performer: ['Schirin Hudajbergenova', 'Anna Bychkova', 'Olena Vasylenko'],
   },
   {
-    id: '21',
-    author: 'M. Skoryk',
-    title: '“Die Melodie”',
-    performer: ['Anastasiia Krasnikova', 'Kseniia Kuzmenko'],
+    id: '23',
+    author: 'G. Rossini',
+    title: '“Una voce poco fa”',
+    additionalInfo: 'aus der Oper “Il Barbiere di Siviglia”',
+    performer: ['Schirin Hudajbergenova', 'Olga Dörr'],
+  },
+  {
+    id: '25',
+    author: 'M. Ravel',
+    title: '"Alborada del gracioso"',
+    performer: ['Anastasiia Krasnikova'],
+  },
+  {
+    id: '26',
+    author: 'A. Messager',
+    title: '“J’ai deaux amants”',
+    additionalInfo: 'aus der Oper “L’amour masqué”',
+    performer: ['Anna Bychkova', 'Olena Vasylenko'],
+  },
+  {
+    id: '27',
+    author: 'C. Debussi',
+    title: '"Apparition"',
+    performer: ['Schirin Hudajbergenova', 'Olga Dörr'],
+  },
+  {
+    id: '28',
+    author: 'L. Delibes',
+    title: 'Duet',
+    additionalInfo: 'aus der Oper “Lakme”',
+    performer: ['Schirin Hudajbergenova', 'Anna Bychkova', 'Olga Dörr'],
   },
 ];
 
@@ -157,31 +178,18 @@ const musicalPiecesUkr = [
     additionalInfo: 'Пущу коня, Метелиця, Гречаники, Козачок, Тетяна',
     performer: ['Олег Чухліб'],
   },
-  {
-    id: '2',
-    author: 'Ф. Корбетта',
-    title: '“Прелюдія”',
-    performer: ['Марина Кіташкіна'],
-  },
-  {
-    id: '3',
-    author: 'Ф. ле Кок',
-    title: '“Чакона”',
-    performer: ['Марина Кіташкіна', 'Олег Чухліб'],
-  },
-  {
-    id: '4',
-    author: 'Г. Персел',
-    title: '“Не всі мої страждання”',
-    performer: ['Ширін Худайбергенова', 'Олег Чухліб'],
-  },
-  {
-    id: '5',
-    author: 'Г. Персел',
-    title: '“Солодше за рози”',
-    additionalInfo: 'з семіопери “Паузаніас, зрадник своєї країни”',
-    performer: ['Ширін Худайбергенова', 'Олег Чухліб'],
-  },
+  // {
+  //   id: '2',
+  //   author: 'Ф. Корбетта',
+  //   title: '“Прелюдія”',
+  //   performer: ['Марина Кіташкіна'],
+  // },
+  // {
+  //   id: '3',
+  //   author: 'Ф. ле Кок',
+  //   title: '“Чакона”',
+  //   performer: ['Марина Кіташкіна', 'Олег Чухліб'],
+  // },
 
   {
     id: '6',
@@ -211,6 +219,13 @@ const musicalPiecesUkr = [
     title: '“Все йде, все минає”',
     additionalInfo: 'з вокального циклу “Кольорова стрічка” на сл. Т. Шевченка',
     performer: ['Анна Бичкова', 'Олена Василенко'],
+  },
+  {
+    id: '24',
+    author: 'Л. Дичко',
+    title: '“На човні”',
+    additionalInfo: 'на сл. Л. Українки',
+    performer: ['Ширін Худайбергенова', 'Ольга Доерр'],
   },
   {
     id: '10',
@@ -247,18 +262,17 @@ const musicalPiecesUkr = [
     performer: ['Анна Бичкова', 'Ширін Худайбергенова', 'Олена Василенко'],
   },
   {
+    id: '21',
+    author: 'М. Скорик',
+    title: '“Мелодія”',
+    performer: ['Анна Бичкова', 'Олена Василенко'],
+  },
+  {
     id: '15',
     author: 'М. Лисенко',
     title: 'Пісня Тараса',
     additionalInfo: 'з опери “Тарас Бульба”',
     performer: ['Тарас Коношенко', 'Олена Василенко'],
-  },
-  {
-    id: '16',
-    author: 'Р. Штраус',
-    title: '"Погана погода"',
-    additionalInfo: 'оп.69',
-    performer: ['Ширін Худайбергенова', 'Олена Василенко'],
   },
   {
     id: '17-18',
@@ -281,13 +295,40 @@ const musicalPiecesUkr = [
     author: 'Р. Штраус',
     title: 'Дует Софі і Октавіана',
     additionalInfo: 'з опери “Кавалер роз”',
+    performer: ['Анна Бичкова', 'Ширін Худайбергенова', 'Олена Василенко'],
+  },
+  {
+    id: '24',
+    author: 'Дж. Россіні',
+    title: 'арія Розіни',
+    additionalInfo: 'з опери “Сивільський цирюльник”',
+    performer: ['Ширін Худайбергенова', 'Ольга Доерр'],
+  },
+  {
+    id: '25',
+    author: 'М. Равель',
+    title: '"Alborada del gracioso"',
+    performer: ['Анастасія Краснікова'],
+  },
+  {
+    id: '26',
+    author: 'А. Месажер',
+    title: '“У мене є два коханця”',
+    additionalInfo: 'з опери “Приховане кохання”(“L’amour masqué”)',
     performer: ['Анна Бичкова', 'Олена Василенко'],
   },
   {
-    id: '21',
-    author: 'М. Скорик',
-    title: '“Мелодія”',
-    performer: ['Анастасія Краснікова', 'Ксенія Кузьменко'],
+    id: '27',
+    author: 'К. Дебюсі',
+    title: '"Apparition"',
+    performer: ['Ширін Худайбергенова', 'Ольга Доерр'],
+  },
+  {
+    id: '28',
+    author: 'Л. Деліб',
+    title: 'Квітковий дует',
+    additionalInfo: 'з опери “Лакме”',
+    performer: ['Ширін Худайбергенова', 'Анна Бичкова', 'Ольга Доерр'],
   },
 ];
 

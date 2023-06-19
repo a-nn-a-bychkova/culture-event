@@ -35,17 +35,17 @@ const About = () => {
           der vielfältigen musikalischen Kulturerbe äußert. Das ist die Quelle
           von der unzerbrechlichen Lebensmut, Würde und dem Glauben der Ukraine.
           <br />
-          Unser Projekt wurde ins Leben gerufen, damit die Ukrainische Musik aus
+          Unser Projekt wurde ins Leben gerufen, damit die ukrainische Musik aus
           den Schatten tritt und die Zuhörer eine Gelegenheit haben, sie Live zu
           erfahren. Die Solist*innen aus dem Staatstheater Nürnberg, Studierende
-          der Hochschule für Musik und andere Musiker aus der Ukraine freuen
-          sich sowohl ukrainische als auch westeuropäische Musikwerke zu
+          der Hochschule für Musik Nürnberg und andere Musiker aus der Ukraine
+          freuen sich sowohl ukrainische als auch westeuropäische Musikwerke zu
           präsentieren. <br />
-          Das Konzert findet am 13 Juni 2023 im Kammermusiksaal der Hochschule
+          {/* Das Konzert findet am 13 Juni 2023 im Kammermusiksaal der Hochschule
           für Musik Nürnberg statt. Ihre Spenden werden für die Restaurierung
           der Nationalen Universität der Künste Charkiw I.P. Kotljarewskyj
           gesammelt, die aufgrund des Kriegs schwer beschädigt wurde.
-          <br />
+          <br /> */}
           Wir laden Sie zu einer kurzen Reise in die friedliche und wunderschöne
           Heimat von uns ein.
         </Box>
@@ -71,14 +71,14 @@ const About = () => {
           Наш проєкт створено для того, аби надати можливість слухачам наживо
           почути та відчути, а може навіть і відкрити для себе українську
           музику, яка так довго залишалася в тіні для великої аудиторії.
-          <br />В камерній залі Hochschule für Musik Nürnberg в цей вечір
+          {/* <br />В камерній залі Hochschule für Musik Nürnberg в цей вечір
           лунатимуть українські та західноєвропейські музичні твори у виконанні
           солістів Staatstheater Nürnberg, студентів Hochschule für Musik та
           інших музикантів з України.
           <br />
           Ваші пожертви будуть надіслані на реставрацію Харківського
           національного університету мистецтв імені І.П. Котляревського, що
-          сильно постраждав під час війни.
+          сильно постраждав під час війни. */}
           <br />
           Запрошуємо Вас у невеличку подорож нашою мирною та прекрасною
           Батьківщиною!

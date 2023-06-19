@@ -16,6 +16,7 @@ function App() {
   const { language } = useContext(Context);
   const programmRef = useRef();
   const participantsRef = useRef();
+  const aboutRef = useRef();
 
   const handleClick = ref => {
     window.scrollTo(0, ref.current.offsetTop);
@@ -44,16 +45,21 @@ function App() {
           <Box
             sx={{
               display: 'flex',
-              justifyContent: 'space-between',
               color: '#0a5b81',
-              fontSize: { xs: '16px', md: '18px' },
+              fontSize: { xs: '12px', sm: '18px' },
             }}
           >
-            <Box onClick={() => handleClick(participantsRef)}>
+            <Box onClick={() => handleClick(aboutRef)}>
+              {language === 'de' ? 'Über uns' : 'Про нас'}
+            </Box>
+            <Box
+              sx={{ marginLeft: { xs: '10px', sm: '22px', md: '28px' } }}
+              onClick={() => handleClick(participantsRef)}
+            >
               {language === 'de' ? 'Teilnehmer*innen' : 'Учасники'}
             </Box>
             <Box
-              sx={{ marginLeft: '28px' }}
+              sx={{ marginLeft: { xs: '10px', sm: '22px', md: '28px' } }}
               onClick={() => handleClick(programmRef)}
             >
               {language === 'de' ? 'Programm' : 'Програма'}
@@ -75,7 +81,7 @@ function App() {
         }}
       >
         <Grid container sx={{ spacing: { md: 2 } }}>
-          <Grid item container md={7}>
+          <Grid ref={aboutRef} item container md={7}>
             <About />
           </Grid>
           <Grid
@@ -125,7 +131,7 @@ function App() {
           {' '}
           {language === 'de'
             ? 'Herzlich Willkommen zu unserem Konzert!'
-            : 'Ласкаво просимо відвідати наш концерт!'}
+            : 'Ласкаво просимо відвідати наш наступний концерт!'}
         </Typography>
         <Typography
           sx={{

@@ -13,13 +13,13 @@ const Header = () => {
         padding: '0px 0px 20px',
       }}
     >
-      <Box>June 13, 2023 19:30</Box>
+      <Box>Juli 10, 2023 19:30</Box>
       <Box>
-        Kammermusiksaal
+        Großersaal
         <br />
-        Hochschule für die Musik
+        Caritas-Pirckheimer-Haus
         <br />
-        Veilhofstraße 34
+        Königstraße 64
         <br /> Nürnberg
       </Box>
     </Box>

@@ -10,25 +10,31 @@ import {
 const participantsListDe = [
   { id: '1', name: 'Maryna Kitashkina', instrument: 'Barockgitarre' },
   { id: '2', name: 'Oleg Czuchlieb', instrument: 'Renaissance Laute, Teorbe' },
+  { id: '7', name: 'Nataliia Hrabarska', instrument: 'Bandura' },
   { id: '3', name: 'Svetlana Kitashkina', instrument: 'Klavier' },
   { id: '4', name: 'Olena Vasylenko', instrument: 'Klavier' },
   { id: '5', name: 'Anastasiia Krasnikova', instrument: 'Klavier' },
-  { id: '6', name: 'Kseniia Kuzmenko', instrument: 'Geige' },
-  { id: '7', name: 'Schirin Hudajbergenova', instrument: 'Sopran' },
-  { id: '8', name: 'Anna Bychkova', instrument: 'Mezzosopran' },
-  { id: '9', name: 'Taras Konoshenko', instrument: 'Bass' },
+  { id: '6', name: 'Olga Dörr', instrument: 'Klavier' },
+
+  // { id: '6', name: 'Kseniia Kuzmenko', instrument: 'Geige' },
+  { id: '8', name: 'Schirin Hudajbergenova', instrument: 'Sopran' },
+  { id: '9', name: 'Anna Bychkova', instrument: 'Mezzosopran' },
+  { id: '10', name: 'Taras Konoshenko', instrument: 'Bass' },
 ];
 
 const participantsListUkr = [
   { id: '1', name: 'Марина Кіташкіна', instrument: 'барокова гітара' },
   { id: '2', name: 'Олег Чухліб', instrument: 'ренесансна лютня, теорба' },
+  { id: '8', name: 'Наталія Грабарська', instrument: 'бандура' },
   { id: '3', name: 'Світлана Кіташкіна', instrument: 'фортепіано' },
   { id: '4', name: 'Олена Василенко', instrument: 'фортепіано' },
   { id: '5', name: 'Анастасія Краснікова', instrument: 'фортепіано' },
-  { id: '6', name: 'Ксенія Кузьменко', instrument: 'скрипка' },
-  { id: '7', name: 'Ширін Хадайбергенова', instrument: 'сопрано' },
-  { id: '8', name: 'Анна Бичкова', instrument: 'мецо-сопрано' },
-  { id: '9', name: 'Тарас Коношенко', instrument: 'бас' },
+  { id: '6', name: 'Ольга Дьорр', instrument: 'фортепіано' },
+  // { id: '6', name: 'Ксенія Кузьменко', instrument: 'скрипка' },
+
+  { id: '9', name: 'Ширін Худайбергенова', instrument: 'сопрано' },
+  { id: '10', name: 'Анна Бичкова', instrument: 'мецо-сопрано' },
+  { id: '11', name: 'Тарас Коношенко', instrument: 'бас' },
 ];
 
 const Participants = () => {
