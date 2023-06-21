@@ -151,7 +151,7 @@ const musicalPiecesDe = [
   {
     id: '26',
     author: 'A. Messager',
-    title: '“J’ai deaux amants”',
+    title: '“J’ai deux amants”',
     additionalInfo: 'aus der Oper “L’amour masqué”',
     performer: ['Anna Bychkova', 'Olena Vasylenko'],
   },
