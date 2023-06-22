@@ -37,20 +37,20 @@ const musicalPiecesDe = [
     performer: ['Anna Bychkova', 'Svetlana Kitashkina'],
   },
 
-  {
-    id: '7',
-    author: 'G. Altschewskyj ',
-    title: '“Duscha tse kovaliya nizhna” (“Die Seele ist zartes Maiglöckchen”)',
-    additionalInfo: 'nach dem Text von A. Altschewska',
-    performer: ['Taras Konoschenko', 'Olena Vasylenko'],
-  },
-  {
-    id: '8',
-    author: 'G. Altschewskyj ',
-    title: '“Tschoho meni tyazhko” (“Warum fällt es mir schwer”)',
-    additionalInfo: 'nach dem Text von T. Schewtschenko',
-    performer: ['Taras Konoschenko', 'Olena Vasylenko'],
-  },
+  // {
+  //   id: '7',
+  //   author: 'G. Altschewskyj ',
+  //   title: '“Duscha tse kovaliya nizhna” (“Die Seele ist zartes Maiglöckchen”)',
+  //   additionalInfo: 'nach dem Text von A. Altschewska',
+  //   performer: ['Taras Konoschenko', 'Olena Vasylenko'],
+  // },
+  // {
+  //   id: '8',
+  //   author: 'G. Altschewskyj ',
+  //   title: '“Tschoho meni tyazhko” (“Warum fällt es mir schwer”)',
+  //   additionalInfo: 'nach dem Text von T. Schewtschenko',
+  //   performer: ['Taras Konoschenko', 'Olena Vasylenko'],
+  // },
   {
     id: '9',
     author: 'V. Drobjazgina',
@@ -87,13 +87,13 @@ const musicalPiecesDe = [
     additionalInfo: 'auf Text von T. Odudko',
     performer: ['Anna Bychkova', 'Olena Vasylenko'],
   },
-  {
-    id: '13',
-    author: 'Bearbeitung von L. Revutskii',
-    title: 'Ukrainisches Volkslied “Tschujesch, brate mij” („Hör mein Bruder“)',
-    additionalInfo: 'nach dem Text von B. Lepki',
-    performer: ['Taras Konoschenko', 'Olena Vasylenko'],
-  },
+  // {
+  //   id: '13',
+  //   author: 'Bearbeitung von L. Revutskii',
+  //   title: 'Ukrainisches Volkslied “Tschujesch, brate mij” („Hör mein Bruder“)',
+  //   additionalInfo: 'nach dem Text von B. Lepki',
+  //   performer: ['Taras Konoschenko', 'Olena Vasylenko'],
+  // },
   {
     id: '14',
     author: 'Bearbeitung von F. Nadenenko',
@@ -106,21 +106,21 @@ const musicalPiecesDe = [
     title: '“Die Melodie”',
     performer: ['Anna Bychkova', 'Olena Vasylenko'],
   },
-  {
-    id: '15',
-    author: 'M. Lysenko',
-    title: ' “Hey, lita orel” (“Hej, der Adler fliegt”)',
-    additionalInfo: 'aus der Oper „Taras Bulba“',
-    performer: ['Taras Konoschenko', 'Olena Vasylenko'],
-  },
+  // {
+  //   id: '15',
+  //   author: 'M. Lysenko',
+  //   title: ' “Hey, lita orel” (“Hej, der Adler fliegt”)',
+  //   additionalInfo: 'aus der Oper „Taras Bulba“',
+  //   performer: ['Taras Konoschenko', 'Olena Vasylenko'],
+  // },
 
-  {
-    id: '17',
-    author: 'J. Brahms',
-    title: '“Sapphische Ode”, “Kein Haus, keine Heimat”',
-    additionalInfo: 'aus dem Liederzyklus “Fünf Lieder”, op.94',
-    performer: ['Taras Konoschenko, Olena Vasylenko'],
-  },
+  // {
+  //   id: '17',
+  //   author: 'J. Brahms',
+  //   title: '“Sapphische Ode”, “Kein Haus, keine Heimat”',
+  //   additionalInfo: 'aus dem Liederzyklus “Fünf Lieder”, op.94',
+  //   performer: ['Taras Konoschenko, Olena Vasylenko'],
+  // },
   {
     id: '19',
     author: 'R. Strauss',
@@ -199,20 +199,20 @@ const musicalPiecesUkr = [
     performer: ['Анна Бичкова', 'Світлана Кіташкіна'],
   },
 
-  {
-    id: '7',
-    author: 'Г. Алчевський',
-    title: '“Душа се конвалія ніжна”',
-    additionalInfo: 'сл. Х. Алчевської',
-    performer: ['Тарас Коношенко', 'Олена Василенко'],
-  },
-  {
-    id: '8',
-    author: 'Г. Алчевський',
-    title: '“Чого мені тяжко”',
-    additionalInfo: 'сл. Т. Шевченка',
-    performer: ['Тарас Коношенко', 'Олена Василенко'],
-  },
+  // {
+  //   id: '7',
+  //   author: 'Г. Алчевський',
+  //   title: '“Душа се конвалія ніжна”',
+  //   additionalInfo: 'сл. Х. Алчевської',
+  //   performer: ['Тарас Коношенко', 'Олена Василенко'],
+  // },
+  // {
+  //   id: '8',
+  //   author: 'Г. Алчевський',
+  //   title: '“Чого мені тяжко”',
+  //   additionalInfo: 'сл. Т. Шевченка',
+  //   performer: ['Тарас Коношенко', 'Олена Василенко'],
+  // },
   {
     id: '9',
     author: 'В. Дробязгина',
@@ -248,13 +248,13 @@ const musicalPiecesUkr = [
     additionalInfo: 'сл. Т. Одудька',
     performer: ['Анна Бичкова', 'Олена Василенко'],
   },
-  {
-    id: '13',
-    author: 'у.н.п. в обр. Л. Ревуцького',
-    title: '“Чуєш брате мій”',
-    additionalInfo: 'сл. Б. Лепкого',
-    performer: ['Тарас Коношенко', 'Олена Василенко'],
-  },
+  // {
+  //   id: '13',
+  //   author: 'у.н.п. в обр. Л. Ревуцького',
+  //   title: '“Чуєш брате мій”',
+  //   additionalInfo: 'сл. Б. Лепкого',
+  //   performer: ['Тарас Коношенко', 'Олена Василенко'],
+  // },
   {
     id: '14',
     author: 'у.н.п. в обр. Ф. Надененка',
@@ -267,20 +267,20 @@ const musicalPiecesUkr = [
     title: '“Мелодія”',
     performer: ['Анна Бичкова', 'Олена Василенко'],
   },
-  {
-    id: '15',
-    author: 'М. Лисенко',
-    title: 'Пісня Тараса',
-    additionalInfo: 'з опери “Тарас Бульба”',
-    performer: ['Тарас Коношенко', 'Олена Василенко'],
-  },
-  {
-    id: '17-18',
-    author: 'Й. Брамс',
-    title: '"Сапфічна ода», «Немає дому, немає Батьківщини"',
-    additionalInfo: 'з вокального циклу “П’ять пісень”, оп.94',
-    performer: ['Тарас Коношенко', 'Олена Василенко'],
-  },
+  // {
+  //   id: '15',
+  //   author: 'М. Лисенко',
+  //   title: 'Пісня Тараса',
+  //   additionalInfo: 'з опери “Тарас Бульба”',
+  //   performer: ['Тарас Коношенко', 'Олена Василенко'],
+  // },
+  // {
+  //   id: '17-18',
+  //   author: 'Й. Брамс',
+  //   title: '"Сапфічна ода», «Немає дому, немає Батьківщини"',
+  //   additionalInfo: 'з вокального циклу “П’ять пісень”, оп.94',
+  //   performer: ['Тарас Коношенко', 'Олена Василенко'],
+  // },
 
   {
     id: '19',
