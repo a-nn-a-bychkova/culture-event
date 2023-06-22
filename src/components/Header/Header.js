@@ -13,7 +13,7 @@ const Header = () => {
         padding: '0px 0px 20px',
       }}
     >
-      <Box>Juli 10, 2023 19:30</Box>
+      <Box>Juli 10, 2023 19:00</Box>
       <Box>
         Großersaal
         <br />

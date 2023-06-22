@@ -163,9 +163,9 @@ const musicalPiecesDe = [
   },
   {
     id: '28',
-    author: 'L. Delibes',
-    title: 'Duet',
-    additionalInfo: 'aus der Oper “Lakme”',
+    author: 'J. Offenbach',
+    title: 'Barcarolle',
+    additionalInfo: 'aus der Oper "Les Contes d\'Hoffmann"',
     performer: ['Schirin Hudajbergenova', 'Anna Bychkova', 'Olga Dörr'],
   },
 ];
@@ -325,9 +325,9 @@ const musicalPiecesUkr = [
   },
   {
     id: '28',
-    author: 'Л. Деліб',
-    title: 'Квітковий дует',
-    additionalInfo: 'з опери “Лакме”',
+    author: 'Ж. Оффенбах',
+    title: 'Баркарола',
+    additionalInfo: 'з опери “Казки Гофмана”',
     performer: ['Ширін Худайбергенова', 'Анна Бичкова', 'Ольга Доерр'],
   },
 ];
