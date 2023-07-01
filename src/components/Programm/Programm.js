@@ -407,7 +407,7 @@ const Programm = () => {
         {language === 'de' ? (
           <Grid container spacing={12}>
             <Grid item container md={6}>
-              {musicalPiecesDe.slice(0, 11).map(piece => (
+              {musicalPiecesDe.slice(0, 10).map(piece => (
                 <ListItem
                   key={piece.id}
                   sx={{
@@ -478,7 +478,7 @@ const Programm = () => {
             </Grid>
 
             <Grid item container md={6}>
-              {musicalPiecesDe.slice(11).map(piece => (
+              {musicalPiecesDe.slice(10).map(piece => (
                 <ListItem
                   key={piece.id}
                   sx={{
@@ -551,7 +551,7 @@ const Programm = () => {
         ) : (
           <Grid container spacing={12}>
             <Grid item container md={6}>
-              {musicalPiecesUkr.slice(0, 11).map(piece => (
+              {musicalPiecesUkr.slice(0, 10).map(piece => (
                 <ListItem
                   key={piece.id}
                   sx={{
@@ -622,7 +622,7 @@ const Programm = () => {
             </Grid>
 
             <Grid item container md={6}>
-              {musicalPiecesUkr.slice(11).map(piece => (
+              {musicalPiecesUkr.slice(10).map(piece => (
                 <ListItem
                   key={piece.id}
                   sx={{
