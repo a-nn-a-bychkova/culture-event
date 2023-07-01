@@ -6,35 +6,40 @@ import {
   responsiveFontSizes,
   ThemeProvider,
 } from '@mui/material/styles';
+import { v4 as uuidv4 } from 'uuid';
 
 const participantsListDe = [
-  { id: '1', name: 'Maryna Kitashkina', instrument: 'Barockgitarre' },
-  { id: '2', name: 'Oleg Czuchlieb', instrument: 'Renaissance Laute, Teorbe' },
-  { id: '7', name: 'Nataliia Hrabarska', instrument: 'Bandura' },
-  { id: '3', name: 'Svetlana Kitashkina', instrument: 'Klavier' },
-  { id: '4', name: 'Olena Vasylenko', instrument: 'Klavier' },
-  { id: '5', name: 'Anastasiia Krasnikova', instrument: 'Klavier' },
-  { id: '6', name: 'Olga Dörr', instrument: 'Klavier' },
-
-  // { id: '6', name: 'Kseniia Kuzmenko', instrument: 'Geige' },
-  { id: '8', name: 'Schirin Hudajbergenova', instrument: 'Sopran' },
-  { id: '9', name: 'Anna Bychkova', instrument: 'Mezzosopran' },
-  { id: '10', name: 'Taras Konoshenko', instrument: 'Bass' },
+  {
+    id: uuidv4(),
+    name: 'Oleg Czuchlieb',
+    instrument: 'Renaissance Laute, Teorbe',
+  },
+  { id: uuidv4(), name: 'Nataliia Hrabarska', instrument: 'Bandura' },
+  { id: uuidv4(), name: 'Svetlana Kitashkina', instrument: 'Klavier' },
+  { id: uuidv4(), name: 'Olena Vasylenko', instrument: 'Klavier' },
+  { id: uuidv4(), name: 'Anastasiia Krasnikova', instrument: 'Klavier' },
+  { id: uuidv4(), name: 'Olga Dörr', instrument: 'Klavier' },
+  { id: uuidv4(), name: 'Schirin Hudajbergenova', instrument: 'Sopran' },
+  { id: uuidv4(), name: 'Anna Bychkova', instrument: 'Mezzosopran' },
+  { id: uuidv4(), name: 'Ruslan Zinevych', instrument: 'Tenor' },
+  { id: uuidv4(), name: 'Olexandr Forkushak', instrument: 'Bariton' },
+  // { id: uuidv4(), name: 'Taras Konoshenko', instrument: 'Bass' },
+  { id: uuidv4(), name: 'Olga Komarova', instrument: 'Moderatorin' },
 ];
 
 const participantsListUkr = [
-  { id: '1', name: 'Марина Кіташкіна', instrument: 'барокова гітара' },
-  { id: '2', name: 'Олег Чухліб', instrument: 'ренесансна лютня, теорба' },
-  { id: '8', name: 'Наталія Грабарська', instrument: 'бандура' },
-  { id: '3', name: 'Світлана Кіташкіна', instrument: 'фортепіано' },
-  { id: '4', name: 'Олена Василенко', instrument: 'фортепіано' },
-  { id: '5', name: 'Анастасія Краснікова', instrument: 'фортепіано' },
-  { id: '6', name: 'Ольга Дьорр', instrument: 'фортепіано' },
-  // { id: '6', name: 'Ксенія Кузьменко', instrument: 'скрипка' },
-
-  { id: '9', name: 'Ширін Худайбергенова', instrument: 'сопрано' },
-  { id: '10', name: 'Анна Бичкова', instrument: 'мецо-сопрано' },
-  { id: '11', name: 'Тарас Коношенко', instrument: 'бас' },
+  { id: uuidv4(), name: 'Олег Чухліб', instrument: 'ренесансна лютня, теорба' },
+  { id: uuidv4(), name: 'Наталія Грабарська', instrument: 'бандура' },
+  { id: uuidv4(), name: 'Світлана Кіташкіна', instrument: 'фортепіано' },
+  { id: uuidv4(), name: 'Олена Василенко', instrument: 'фортепіано' },
+  { id: uuidv4(), name: 'Анастасія Краснікова', instrument: 'фортепіано' },
+  { id: uuidv4(), name: 'Ольга Доерр', instrument: 'фортепіано' },
+  { id: uuidv4(), name: 'Ширін Худайбергенова', instrument: 'сопрано' },
+  { id: uuidv4(), name: 'Анна Бичкова', instrument: 'мецо-сопрано' },
+  { id: uuidv4(), name: 'Руслан Зіневич', instrument: 'тенор' },
+  { id: uuidv4(), name: 'Олександр Форкушак', instrument: 'баритон' },
+  // { id: uuidv4(), name: 'Тарас Коношенко', instrument: 'бас' },
+  { id: uuidv4(), name: 'Ольга Комарова', instrument: 'ведуча' },
 ];
 
 const Participants = () => {
