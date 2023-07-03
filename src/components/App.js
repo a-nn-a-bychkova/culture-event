@@ -131,7 +131,7 @@ function App() {
           {' '}
           {language === 'de'
             ? 'Herzlich Willkommen zu unserem Konzert!'
-            : 'Ласкаво просимо відвідати наш наступний концерт!'}
+            : 'Ласкаво просимо відвідати наш концерт!'}
         </Typography>
         <Typography
           sx={{

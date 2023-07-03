@@ -15,30 +15,31 @@ const participantsListDe = [
     instrument: 'Renaissance Laute, Teorbe',
   },
   { id: uuidv4(), name: 'Nataliia Hrabarska', instrument: 'Bandura' },
-  { id: uuidv4(), name: 'Svetlana Kitashkina', instrument: 'Klavier' },
-  { id: uuidv4(), name: 'Olena Vasylenko', instrument: 'Klavier' },
-  { id: uuidv4(), name: 'Anastasiia Krasnikova', instrument: 'Klavier' },
-  { id: uuidv4(), name: 'Olga Dörr', instrument: 'Klavier' },
+  // { id: uuidv4(), name: 'Svetlana Kitashkina', instrument: 'Klavier' },
+  // { id: uuidv4(), name: 'Olena Vasylenko', instrument: 'Klavier' },
+  // { id: uuidv4(), name: 'Anastasiia Krasnikova', instrument: 'Klavier' },
+  // { id: uuidv4(), name: 'Olga Dörr', instrument: 'Klavier' },
+  // { id: uuidv4(), name: 'Olha Filatova', instrument: 'Klavier' },
   { id: uuidv4(), name: 'Schirin Hudajbergenova', instrument: 'Sopran' },
   { id: uuidv4(), name: 'Anna Bychkova', instrument: 'Mezzosopran' },
   { id: uuidv4(), name: 'Ruslan Zinevych', instrument: 'Tenor' },
   { id: uuidv4(), name: 'Olexandr Forkushak', instrument: 'Bariton' },
-  // { id: uuidv4(), name: 'Taras Konoshenko', instrument: 'Bass' },
-  { id: uuidv4(), name: 'Olga Komarova', instrument: 'Moderatorin' },
+  { id: uuidv4(), name: 'Taras Konoshenko', instrument: 'Bass' },
 ];
 
 const participantsListUkr = [
   { id: uuidv4(), name: 'Олег Чухліб', instrument: 'ренесансна лютня, теорба' },
   { id: uuidv4(), name: 'Наталія Грабарська', instrument: 'бандура' },
-  { id: uuidv4(), name: 'Світлана Кіташкіна', instrument: 'фортепіано' },
-  { id: uuidv4(), name: 'Олена Василенко', instrument: 'фортепіано' },
-  { id: uuidv4(), name: 'Анастасія Краснікова', instrument: 'фортепіано' },
-  { id: uuidv4(), name: 'Ольга Доерр', instrument: 'фортепіано' },
+  // { id: uuidv4(), name: 'Світлана Кіташкіна', instrument: 'фортепіано' },
+  // { id: uuidv4(), name: 'Олена Василенко', instrument: 'фортепіано' },
+  // { id: uuidv4(), name: 'Анастасія Краснікова', instrument: 'фортепіано' },
+  // { id: uuidv4(), name: 'Ольга Доерр', instrument: 'фортепіано' },
+  // { id: uuidv4(), name: 'Ольга Філатова', instrument: 'фортепіано' },
   { id: uuidv4(), name: 'Ширін Худайбергенова', instrument: 'сопрано' },
   { id: uuidv4(), name: 'Анна Бичкова', instrument: 'мецо-сопрано' },
   { id: uuidv4(), name: 'Руслан Зіневич', instrument: 'тенор' },
   { id: uuidv4(), name: 'Олександр Форкушак', instrument: 'баритон' },
-  // { id: uuidv4(), name: 'Тарас Коношенко', instrument: 'бас' },
+  { id: uuidv4(), name: 'Тарас Коношенко', instrument: 'бас' },
   { id: uuidv4(), name: 'Ольга Комарова', instrument: 'ведуча' },
 ];
 
@@ -114,7 +115,6 @@ const Participants = () => {
                   sx={{
                     marginLeft: '16px',
                     fontFamily: 'Times New Roman',
-                    // fontSize: { sm: '16px' },
                   }}
                 >
                   {instrument}
@@ -143,7 +143,7 @@ const Participants = () => {
                 </Box>
                 <Box
                   sx={{
-                    marginLeft: '16px',
+                    marginLeft: '10px',
                     fontFamily: 'Times New Roman',
                     // fontSize: { sm: '16px' },
                   }}
@@ -152,6 +152,113 @@ const Participants = () => {
                 </Box>
               </ListItem>
             ))}
+        {language === 'de' ? (
+          <>
+            <Box
+              sx={{
+                fontFamily: 'Times New Roman',
+                fontSize: { sm: '16px', md: '18px' },
+                lineHeight: { sm: '20px', md: '24px' },
+                padding: { xs: '8px 0px', md: '0px 0px 8px' },
+              }}
+            >
+              <Box
+                sx={{
+                  maxWidth: '320px',
+                  textAlign: { xs: 'center', md: 'right' },
+                  fontWeight: 'bold',
+                }}
+              >
+                Anastasiia Krasnikova, Olga Dörr, Olena Vasylenko, Olha
+                Filatova, Svetlana Kitashkina
+                <span
+                  style={{
+                    marginLeft: '16px',
+                    fontFamily: 'Times New Roman',
+                    marginTop: 'auto',
+                    fontWeight: 'normal',
+                  }}
+                >
+                  Klavier
+                </span>
+              </Box>
+            </Box>
+            <Box
+              sx={{
+                fontFamily: 'Times New Roman',
+                fontSize: { sm: '16px', md: '18px' },
+                lineHeight: { sm: '20px', md: '24px' },
+                textAlign: { xs: 'center', md: 'right' },
+                fontWeight: 'bold',
+              }}
+            >
+              Olga Komarova
+              <span
+                style={{
+                  marginLeft: '16px',
+                  fontFamily: 'Times New Roman',
+                  marginTop: 'auto',
+                  fontWeight: 'normal',
+                }}
+              >
+                Moderatorin
+              </span>
+            </Box>
+          </>
+        ) : (
+          <>
+            <Box
+              sx={{
+                fontFamily: 'Times New Roman',
+                fontSize: { sm: '16px', md: '18px' },
+                lineHeight: { xs: '28px' },
+                padding: { xs: '8px 0px', md: '0px 0px 8px' },
+              }}
+            >
+              <Box
+                sx={{
+                  maxWidth: '320px',
+                  textAlign: { xs: 'center', md: 'right' },
+                  fontWeight: 'bold',
+                }}
+              >
+                Анастасія Краснікова, Ольга Доерр, Олена Василенко, Ольга
+                Філатова, Світлана Кіташкіна
+                <span
+                  style={{
+                    marginLeft: '16px',
+                    fontFamily: 'Times New Roman',
+                    marginTop: 'auto',
+                    fontWeight: 'normal',
+                  }}
+                >
+                  фортепіано
+                </span>
+              </Box>
+            </Box>
+            <Box
+              sx={{
+                fontFamily: 'Times New Roman',
+                fontSize: { sm: '16px', md: '18px' },
+                lineHeight: { sm: '20px', md: '24px' },
+                textAlign: { xs: 'center', md: 'right' },
+                fontWeight: 'bold',
+              }}
+            >
+              Ольга Комарова
+              <span
+                style={{
+                  marginLeft: '16px',
+                  fontFamily: 'Times New Roman',
+                  marginTop: 'auto',
+                  fontWeight: 'normal',
+                }}
+              >
+                ведуча
+              </span>
+            </Box>
+          </>
+        )}{' '}
       </List>
     </Box>
   );

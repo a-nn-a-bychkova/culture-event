@@ -19,6 +19,13 @@ const musicalPiecesDe = [
   },
   {
     id: uuidv4(),
+    author: 'Bearbeitung von F. Nadenenko',
+    title:
+      '"Tschornii brovy, karii otschi" ("Schwarze Augenbrauen, braune Auge")',
+    performer: ['Ruslan Zinevych', 'Olha Filatova'],
+  },
+  {
+    id: uuidv4(),
     author: 'S. Kitashkina',
     title:
       'Improvisation auf die Themen von ukrainischen Wiegenlied "Oi khodyt son“ und Klaras Wiegenlied „Summer Time“ aus der Oper “Porgy and Bess” - G. Gershwin',
@@ -26,16 +33,17 @@ const musicalPiecesDe = [
   },
   {
     id: uuidv4(),
-    author: 'J. Lapynskyj',
-    title: 'Das Bandurakonzert',
-    performer: ['Nataliia Hrabarska', 'Olena Vasylenko'],
+    author: 'M. Lysenko',
+    title: ' “Hey, lita orel” (“Hej, der Adler fliegt”)',
+    additionalInfo: 'aus der Oper „Taras Bulba“',
+    performer: ['Taras Konoschenko', 'Olena Vasylenko'],
   },
   {
     id: uuidv4(),
-    author: 'Bearbeitung von F. Nadenenko',
-    title:
-      '"Tschornii brovy, karii otschi" ("Schwarze Augenbrauen, braune Auge")',
-    performer: ['Ruslan Zinevych'],
+    author: 'M. Lysenko',
+    title: '“Hto vbyw joho”(“Wer hat ihn getötet?”) ',
+    additionalInfo: 'aus der Oper „Taras Bulba“',
+    performer: ['Olexandr Forkushak', 'Olha Filatova'],
   },
   {
     id: uuidv4(),
@@ -47,90 +55,46 @@ const musicalPiecesDe = [
   },
   {
     id: uuidv4(),
-    author: 'V. Kosenko',
-    title: 'Das Nocturne',
-    additionalInfo: 'fis-moll op.9. №3',
-    performer: ['Olena Vasylenko'],
+    author: 'G. Altschewskyj ',
+    title:
+      '“Duscha tse kovaliya nizhna” (“Die Seele ist zartes Maiglöckchen”) und “Tschoho meni tyazhko” (“Warum fällt es mir schwer”)',
+    additionalInfo: 'nach dem Text von A. Altschewska und T. Schewtschenko',
+    performer: ['Taras Konoschenko', 'Olena Vasylenko'],
   },
-  {
-    id: uuidv4(),
-    author: 'M. Lysenko',
-    title: 'Ostaps Aria',
-    additionalInfo: 'aus der Oper „Taras Bulba“',
-    performer: ['Olexandr Forkushak'],
-  },
-
-  // {
-  //   id: uuidv4(),,
-  //   author: 'G. Altschewskyj ',
-  //   title: '“Duscha tse kovaliya nizhna” (“Die Seele ist zartes Maiglöckchen”)',
-  //   additionalInfo: 'nach dem Text von A. Altschewska',
-  //   performer: ['Taras Konoschenko', 'Olena Vasylenko'],
-  // },
-  // {
-  // id: uuidv4(),
-  //   author: 'G. Altschewskyj ',
-  //   title: '“Tschoho meni tyazhko” (“Warum fällt es mir schwer”)',
-  //   additionalInfo: 'nach dem Text von T. Schewtschenko',
-  //   performer: ['Taras Konoschenko', 'Olena Vasylenko'],
-  // },
-
-  // {
-  //   id: uuidv4(),
-  //   author: 'K. Dankewitsch',
-  //   title: '“Zasnuv tvij druh” (“Dein Freund ist eingeschlafen”) ',
-  //   additionalInfo: 'aus der Oper “Bohdan Chmelnyzkyj”',
-  //   performer: ['Anna Bychkova', 'Olena Vasylenko'],
-  // },
   {
     id: uuidv4(),
     author: 'M. Stetsiun',
-    title: '“Vyschywanka” (“Besticktes Trachtenhemd”)',
+    title: '“Vyschywanka” (“Besticktes hemd”)',
     additionalInfo: 'auf Text von A. Drahomyretskyi',
     performer: ['Schirin Hudajbergenova', 'Olena Vasylenko'],
   },
-
-  // {
-  //   id: uuidv4(),
-  //   author: 'Bearbeitung von L. Revutskii',
-  //   title: 'Ukrainisches Volkslied “Tschujesch, brate mij” („Hör mein Bruder“)',
-  //   additionalInfo: 'nach dem Text von B. Lepki',
-  //   performer: ['Taras Konoschenko', 'Olena Vasylenko'],
-  // },
+  {
+    id: uuidv4(),
+    author: 'J. Lapynskyj',
+    title: 'Das Bandurakonzert',
+    performer: ['Nataliia Hrabarska', 'Olena Vasylenko'],
+  },
   {
     id: uuidv4(),
     author: 'Bearbeitung von F. Nadenenko',
-    title: 'Ukrainisches Volkslied “Misyats na nebi” (“Der Mond am Himmel”)',
+    title: "Ukrainisches Volkslied “Misyats' na nebi” (“Der Mond am Himmel”)",
     performer: ['Schirin Hudajbergenova', 'Anna Bychkova', 'Olena Vasylenko'],
   },
-  {
-    id: uuidv4(),
-    author: 'M. Skoryk',
-    title: '“Die Melodie”',
-    performer: ['Anna Bychkova', 'Olena Vasylenko'],
-  },
-  // {
-  //   id: uuidv4(),
-  //   author: 'M. Lysenko',
-  //   title: ' “Hey, lita orel” (“Hej, der Adler fliegt”)',
-  //   additionalInfo: 'aus der Oper „Taras Bulba“',
-  //   performer: ['Taras Konoschenko', 'Olena Vasylenko'],
-  // },
 
   {
     id: uuidv4(),
-    author: 'A.Berg',
-    title: ' "Schilflied", “Die Nachtigal”',
-    additionalInfo: 'aus dem Liederzyklus “Sieben frühe Lieder”',
+    author: 'G. Puccini',
+    title: 'Duett von Rodolfo und Marcello',
+    additionalInfo: 'aus der Oper "La Bohème"',
+    performer: ['Ruslan Zinevych', 'Olexandr Forkushak', 'Olha Filatova'],
+  },
+  {
+    id: uuidv4(),
+    author: 'G. Rossini',
+    title: '“Una voce poco fa”',
+    additionalInfo: 'aus der Oper “Il Barbiere di Siviglia”',
     performer: ['Schirin Hudajbergenova', 'Olga Dörr'],
   },
-  // {
-  //   id: uuidv4(),
-  //   author: 'J. Brahms',
-  //   title: '“Sapphische Ode”, “Kein Haus, keine Heimat”',
-  //   additionalInfo: 'aus dem Liederzyklus “Fünf Lieder”, op.94',
-  //   performer: ['Taras Konoschenko, Olena Vasylenko'],
-  // },
   {
     id: uuidv4(),
     author: 'R. Strauss',
@@ -148,16 +112,30 @@ const musicalPiecesDe = [
   {
     id: uuidv4(),
     author: 'G.Verdi',
-    title: 'Rigolettos Aria',
+    title: '"Cortigiani, vil razza dannata"',
     additionalInfo: 'aus der Oper „Rigoletto“',
-    performer: ['Olexandr Forkushak'],
+    performer: ['Olexandr Forkushak', 'Olha Filatova'],
   },
   {
     id: uuidv4(),
-    author: 'G. Rossini',
-    title: '“Una voce poco fa”',
-    additionalInfo: 'aus der Oper “Il Barbiere di Siviglia”',
+    author: 'J. Brahms',
+    title: '“Sapphische Ode”, “Kein Haus, keine Heimat”',
+    additionalInfo: 'aus dem Liederzyklus “Fünf Lieder”, op.94',
+    performer: ['Taras Konoschenko, Olena Vasylenko'],
+  },
+  {
+    id: uuidv4(),
+    author: 'A.Berg',
+    title: '"Schilflied", “Die Nachtigal”',
+    additionalInfo: 'aus dem Liederzyklus “Sieben frühe Lieder”',
     performer: ['Schirin Hudajbergenova', 'Olga Dörr'],
+  },
+  {
+    id: uuidv4(),
+    author: 'A. Messager',
+    title: '“J’ai deux amants”',
+    additionalInfo: 'aus der Oper “L’amour masqué”',
+    performer: ['Anna Bychkova', 'Olena Vasylenko'],
   },
   {
     id: uuidv4(),
@@ -169,16 +147,9 @@ const musicalPiecesDe = [
     id: uuidv4(),
     author: 'R. Falvo',
     title: '“Dicitencello vuje”',
-    performer: ['Ruslan Zinevych'],
+    performer: ['Ruslan Zinevych', 'Olha Filatova'],
   },
 
-  {
-    id: uuidv4(),
-    author: 'A. Messager',
-    title: '“J’ai deux amants”',
-    additionalInfo: 'aus der Oper “L’amour masqué”',
-    performer: ['Anna Bychkova', 'Olena Vasylenko'],
-  },
   {
     id: uuidv4(),
     author: 'J. Massenet',
@@ -205,6 +176,12 @@ const musicalPiecesUkr = [
   },
   {
     id: uuidv4(),
+    author: 'Обробка Ф. Надененка',
+    title: '"Чорнії брови, карії очі"',
+    performer: ['Руслан Зіневич', 'Ольга Філатова'],
+  },
+  {
+    id: uuidv4(),
     author: 'С. Кіташкіна',
     title:
       'Імпровізація на теми колискової “Ой ходить сон” та Колискової Клари “Summer Time” з опери “Поргі і Бес” Дж. Гершвіна',
@@ -212,15 +189,17 @@ const musicalPiecesUkr = [
   },
   {
     id: uuidv4(),
-    author: 'Я. Лапинський',
-    title: 'Концерт для бандури з фортепіно',
-    performer: ['Наталія Грабарська', 'Олена Василенко'],
+    author: 'М. Лисенко',
+    title: 'Пісня Тараса',
+    additionalInfo: 'з опери “Тарас Бульба”',
+    performer: ['Тарас Коношенко', 'Олена Василенко'],
   },
   {
     id: uuidv4(),
-    author: 'Обробка Ф. Надененка',
-    title: '"Чорнії брови, карії очі"',
-    performer: ['Руслан Зіневич'],
+    author: 'М. Лисенко',
+    title: 'Арія Остапа',
+    additionalInfo: 'з опери "Тарас Бульба"',
+    performer: ['Олександр Форкушак', 'Ольга Філатова'],
   },
   {
     id: uuidv4(),
@@ -231,40 +210,11 @@ const musicalPiecesUkr = [
   },
   {
     id: uuidv4(),
-    author: 'В. Косенко',
-    title: 'Ноктюрн',
-    additionalInfo: 'фа-дієз мінор oп.9. №3',
-    performer: ['Олена Василенко'],
+    author: 'Г. Алчевський',
+    title: '“Душа се конвалія ніжна”, “Чого мені тяжко”',
+    additionalInfo: 'сл. Х. Алчевської та Т. Шевченка',
+    performer: ['Тарас Коношенко', 'Олена Василенко'],
   },
-  {
-    id: uuidv4(),
-    author: 'М. Лисенко',
-    title: 'Арія Остапа',
-    additionalInfo: 'з опери "Тарас Бульба"',
-    performer: ['Олександр Форкушак'],
-  },
-  // {
-  //  id: uuidv4(),
-  //   author: 'Г. Алчевський',
-  //   title: '“Душа се конвалія ніжна”',
-  //   additionalInfo: 'сл. Х. Алчевської',
-  //   performer: ['Тарас Коношенко', 'Олена Василенко'],
-  // },
-  // {
-  //   id: uuidv4(),
-  //   author: 'Г. Алчевський',
-  //   title: '“Чого мені тяжко”',
-  //   additionalInfo: 'сл. Т. Шевченка',
-  //   performer: ['Тарас Коношенко', 'Олена Василенко'],
-  // },
-
-  // {
-  //   id: uuidv4(),
-  //   author: 'К. Данькевич',
-  //   title: 'Арія Варвари',
-  //   additionalInfo: 'з опери “Богдан Хмельницький”',
-  //   performer: ['Анна Бичкова', 'Олена Василенко'],
-  // },
   {
     id: uuidv4(),
     author: 'М. Стецюн',
@@ -272,14 +222,12 @@ const musicalPiecesUkr = [
     additionalInfo: 'сл. А. Драгомирецький',
     performer: ['Ширін Худайбергенова', 'Олена Василенко'],
   },
-
-  // {
-  //   id: uuidv4(),
-  //   author: 'у.н.п. в обр. Л. Ревуцького',
-  //   title: '“Чуєш брате мій”',
-  //   additionalInfo: 'сл. Б. Лепкого',
-  //   performer: ['Тарас Коношенко', 'Олена Василенко'],
-  // },
+  {
+    id: uuidv4(),
+    author: 'Я. Лапинський',
+    title: 'Концерт для бандури з фортепіно',
+    performer: ['Наталія Грабарська', 'Олена Василенко'],
+  },
   {
     id: uuidv4(),
     author: 'у.н.п. в обр. Ф. Надененка',
@@ -288,31 +236,18 @@ const musicalPiecesUkr = [
   },
   {
     id: uuidv4(),
-    author: 'М. Скорик',
-    title: '“Мелодія”',
-    performer: ['Анна Бичкова', 'Олена Василенко'],
+    author: 'Дж. Пуччіні',
+    title: 'Дует Рудольфа та Марчелло',
+    additionalInfo: 'з опери “Богема”',
+    performer: ['Олександр Форкушак', 'Ольга Філатова'],
   },
-  // {
-  //  id: uuidv4(),
-  //   author: 'М. Лисенко',
-  //   title: 'Пісня Тараса',
-  //   additionalInfo: 'з опери “Тарас Бульба”',
-  //   performer: ['Тарас Коношенко', 'Олена Василенко'],
-  // },
   {
     id: uuidv4(),
-    author: 'А. Берг',
-    title: ' "Schilflied", “Die Nachtigal”',
-    additionalInfo: 'з вокального циклу “Сім ранніх пісень”',
+    author: 'Дж. Россіні',
+    title: 'арія Розіни',
+    additionalInfo: 'з опери “Сивільський цирюльник”',
     performer: ['Ширін Худайбергенова', 'Ольга Доерр'],
   },
-  // {
-  //  id: uuidv4(),
-  //   author: 'Й. Брамс',
-  //   title: '"Сапфічна ода», «Немає дому, немає Батьківщини"',
-  //   additionalInfo: 'з вокального циклу “П’ять пісень”, оп.94',
-  //   performer: ['Тарас Коношенко', 'Олена Василенко'],
-  // },
 
   {
     id: uuidv4(),
@@ -334,27 +269,21 @@ const musicalPiecesUkr = [
     author: 'Дж. Верді',
     title: 'Арія Ріголетто',
     additionalInfo: 'з опери "Ріголетто"',
-    performer: ['Олександр Форкушак'],
+    performer: ['Олександр Форкушак', 'Ольга Філатова'],
   },
   {
     id: uuidv4(),
-    author: 'Дж. Россіні',
-    title: 'арія Розіни',
-    additionalInfo: 'з опери “Сивільський цирюльник”',
+    author: 'Й. Брамс',
+    title: '"Сапфічна ода», «Немає дому, немає Батьківщини"',
+    additionalInfo: 'з вокального циклу “П’ять пісень”, оп.94',
+    performer: ['Тарас Коношенко', 'Олена Василенко'],
+  },
+  {
+    id: uuidv4(),
+    author: 'А. Берг',
+    title: '"Schilflied" («Очеретяна пісня»),  “Die Nachtigal” («Соловей»)',
+    additionalInfo: 'з вокального циклу “Сім ранніх пісень”',
     performer: ['Ширін Худайбергенова', 'Ольга Доерр'],
-  },
-
-  {
-    id: uuidv4(),
-    author: 'М. Равель',
-    title: '"Alborada del gracioso"',
-    performer: ['Анастасія Краснікова'],
-  },
-  {
-    id: uuidv4(),
-    author: 'Р. Фальво',
-    title: '“Dicitencello vuje”',
-    performer: ['Руслан Зіневич'],
   },
   {
     id: uuidv4(),
@@ -363,6 +292,20 @@ const musicalPiecesUkr = [
     additionalInfo: 'з опери “Приховане кохання”(“L’amour masqué”)',
     performer: ['Анна Бичкова', 'Олена Василенко'],
   },
+  {
+    id: uuidv4(),
+    author: 'М. Равель',
+    title: '“Alborada del gracioso” (“Ранкова серенада шута”)',
+    additionalInfo: 'з циклу “Miroirs” (“Відображення”)',
+    performer: ['Анастасія Краснікова'],
+  },
+  {
+    id: uuidv4(),
+    author: 'Р. Фальво',
+    title: '“Dicitencello vuje”',
+    performer: ['Руслан Зіневич', 'Ольга Філатова'],
+  },
+
   {
     id: uuidv4(),
     author: 'Ж. Массне',
