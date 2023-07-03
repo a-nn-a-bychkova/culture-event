@@ -140,7 +140,8 @@ const musicalPiecesDe = [
   {
     id: uuidv4(),
     author: 'M. Ravel',
-    title: '"Alborada del gracioso"',
+    title: 'Alborada del gracioso (Morgenlied des Narren)',
+    additionalInfo: 'aus dem Zyklus “Miroirs” („Spiegelbilder“)',
     performer: ['Anastasiia Krasnikova'],
   },
   {
