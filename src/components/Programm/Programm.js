@@ -31,13 +31,7 @@ const musicalPiecesDe = [
       'Improvisation auf die Themen von ukrainischen Wiegenlied "Oi khodyt son“ und Klaras Wiegenlied „Summer Time“ aus der Oper “Porgy and Bess” - G. Gershwin',
     performer: ['Anna Bychkova', 'Svetlana Kitashkina'],
   },
-  {
-    id: uuidv4(),
-    author: 'M. Lysenko',
-    title: ' “Hey, lita orel” (“Hej, der Adler fliegt”)',
-    additionalInfo: 'aus der Oper „Taras Bulba“',
-    performer: ['Taras Konoschenko', 'Olena Vasylenko'],
-  },
+
   {
     id: uuidv4(),
     author: 'M. Lysenko',
@@ -56,10 +50,16 @@ const musicalPiecesDe = [
   {
     id: uuidv4(),
     author: 'G. Altschewskyj ',
-    title:
-      '“Duscha tse kovaliya nizhna” (“Die Seele ist zartes Maiglöckchen”) und “Tschoho meni tyazhko” (“Warum fällt es mir schwer”)',
+    title: '“Duscha tse kovaliya nizhna” (“Die Seele ist zartes Maiglöckchen”)',
     additionalInfo: 'nach dem Text von A. Altschewska und T. Schewtschenko',
-    performer: ['Taras Konoschenko', 'Olena Vasylenko'],
+    performer: ['Anna Bychkova', 'Olena Vasylenko'],
+  },
+  {
+    id: uuidv4(),
+    author: 'Bearbeitung von A.Kos-Anatolskyi',
+    title:
+      'Ukrainisches Volkslied “Tschotyry voly pasu ja” (“Ich weide vier Ochsen”)',
+    performer: ['Nataliia Hrabarska'],
   },
   {
     id: uuidv4(),
@@ -115,13 +115,6 @@ const musicalPiecesDe = [
     title: 'Duett von Rodolfo und Marcello',
     additionalInfo: 'aus der Oper "La Bohème"',
     performer: ['Ruslan Zinevych', 'Olexandr Forkushak', 'Olha Filatova'],
-  },
-  {
-    id: uuidv4(),
-    author: 'J. Brahms',
-    title: '“Sapphische Ode”, “Kein Haus, keine Heimat”',
-    additionalInfo: 'aus dem Liederzyklus “Fünf Lieder”, op.94',
-    performer: ['Taras Konoschenko, Olena Vasylenko'],
   },
   {
     id: uuidv4(),
@@ -188,13 +181,7 @@ const musicalPiecesUkr = [
       'Імпровізація на теми колискової “Ой ходить сон” та Колискової Клари “Summer Time” з опери “Поргі і Бес” Дж. Гершвіна',
     performer: ['Анна Бичкова', 'Світлана Кіташкіна'],
   },
-  {
-    id: uuidv4(),
-    author: 'М. Лисенко',
-    title: 'Пісня Тараса',
-    additionalInfo: 'з опери “Тарас Бульба”',
-    performer: ['Тарас Коношенко', 'Олена Василенко'],
-  },
+
   {
     id: uuidv4(),
     author: 'М. Лисенко',
@@ -212,10 +199,17 @@ const musicalPiecesUkr = [
   {
     id: uuidv4(),
     author: 'Г. Алчевський',
-    title: '“Душа се конвалія ніжна”, “Чого мені тяжко”',
+    title: '“Душа се конвалія ніжна”',
     additionalInfo: 'сл. Х. Алчевської та Т. Шевченка',
-    performer: ['Тарас Коношенко', 'Олена Василенко'],
+    performer: ['Анна Бичкова', 'Олена Василенко'],
   },
+  {
+    id: uuidv4(),
+    author: 'у.н.п. в обр. А. Кос-Анатольського',
+    title: '“Чотири воли пасу я”',
+    performer: ['Наталія Грабарська'],
+  },
+
   {
     id: uuidv4(),
     author: 'М. Стецюн',
@@ -273,13 +267,7 @@ const musicalPiecesUkr = [
     additionalInfo: 'з опери “Богема”',
     performer: ['Олександр Форкушак', 'Ольга Філатова'],
   },
-  {
-    id: uuidv4(),
-    author: 'Й. Брамс',
-    title: '"Сапфічна ода», «Немає дому, немає Батьківщини"',
-    additionalInfo: 'з вокального циклу “П’ять пісень”, оп.94',
-    performer: ['Тарас Коношенко', 'Олена Василенко'],
-  },
+
   {
     id: uuidv4(),
     author: 'А. Берг',

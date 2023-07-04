@@ -24,7 +24,7 @@ const participantsListDe = [
   { id: uuidv4(), name: 'Anna Bychkova', instrument: 'Mezzosopran' },
   { id: uuidv4(), name: 'Ruslan Zinevych', instrument: 'Tenor' },
   { id: uuidv4(), name: 'Olexandr Forkushak', instrument: 'Bariton' },
-  { id: uuidv4(), name: 'Taras Konoshenko', instrument: 'Bass' },
+  // { id: uuidv4(), name: 'Taras Konoshenko', instrument: 'Bass' },
 ];
 
 const participantsListUkr = [
@@ -39,7 +39,7 @@ const participantsListUkr = [
   { id: uuidv4(), name: 'Анна Бичкова', instrument: 'мецо-сопрано' },
   { id: uuidv4(), name: 'Руслан Зіневич', instrument: 'тенор' },
   { id: uuidv4(), name: 'Олександр Форкушак', instrument: 'баритон' },
-  { id: uuidv4(), name: 'Тарас Коношенко', instrument: 'бас' },
+  // { id: uuidv4(), name: 'Тарас Коношенко', instrument: 'бас' },
   { id: uuidv4(), name: 'Ольга Комарова', instrument: 'ведуча' },
 ];
 
