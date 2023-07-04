@@ -32,7 +32,7 @@ const About = () => {
           <br />
           Die Ukraine ist zuerst das Volk, das selbständig und unabhängig sein
           will und eine reiche und große Seele hat, die sich voll und ganz in
-          der vielfältigen musikalischen Kulturerbe äußert. Das ist die Quelle
+          dem vielfältigen musikalischen Kulturerbe äußert. Das ist die Quelle
           von der unzerbrechlichen Lebensmut, Würde und dem Glauben der Ukraine.
           <br />
           Unser Projekt wurde ins Leben gerufen, damit die ukrainische Musik aus
