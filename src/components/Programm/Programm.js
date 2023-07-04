@@ -83,10 +83,10 @@ const musicalPiecesDe = [
 
   {
     id: uuidv4(),
-    author: 'G. Puccini',
-    title: 'Duett von Rodolfo und Marcello',
-    additionalInfo: 'aus der Oper "La Bohème"',
-    performer: ['Ruslan Zinevych', 'Olexandr Forkushak', 'Olha Filatova'],
+    author: 'G.Verdi',
+    title: '"Cortigiani, vil razza dannata"',
+    additionalInfo: 'aus der Oper „Rigoletto“',
+    performer: ['Olexandr Forkushak', 'Olha Filatova'],
   },
   {
     id: uuidv4(),
@@ -111,10 +111,10 @@ const musicalPiecesDe = [
   },
   {
     id: uuidv4(),
-    author: 'G.Verdi',
-    title: '"Cortigiani, vil razza dannata"',
-    additionalInfo: 'aus der Oper „Rigoletto“',
-    performer: ['Olexandr Forkushak', 'Olha Filatova'],
+    author: 'G. Puccini',
+    title: 'Duett von Rodolfo und Marcello',
+    additionalInfo: 'aus der Oper "La Bohème"',
+    performer: ['Ruslan Zinevych', 'Olexandr Forkushak', 'Olha Filatova'],
   },
   {
     id: uuidv4(),
@@ -237,9 +237,9 @@ const musicalPiecesUkr = [
   },
   {
     id: uuidv4(),
-    author: 'Дж. Пуччіні',
-    title: 'Дует Рудольфа та Марчелло',
-    additionalInfo: 'з опери “Богема”',
+    author: 'Дж. Верді',
+    title: 'Арія Ріголетто',
+    additionalInfo: 'з опери "Ріголетто"',
     performer: ['Олександр Форкушак', 'Ольга Філатова'],
   },
   {
@@ -265,11 +265,12 @@ const musicalPiecesUkr = [
     additionalInfo: 'з опери “Кавалер роз”',
     performer: ['Анна Бичкова', 'Ширін Худайбергенова', 'Олена Василенко'],
   },
+
   {
     id: uuidv4(),
-    author: 'Дж. Верді',
-    title: 'Арія Ріголетто',
-    additionalInfo: 'з опери "Ріголетто"',
+    author: 'Дж. Пуччіні',
+    title: 'Дует Рудольфа та Марчелло',
+    additionalInfo: 'з опери “Богема”',
     performer: ['Олександр Форкушак', 'Ольга Філатова'],
   },
   {
