@@ -70,15 +70,15 @@ const musicalPiecesDe = [
   },
   {
     id: uuidv4(),
-    author: 'J. Lapynskyj',
-    title: 'Das Bandurakonzert',
-    performer: ['Nataliia Hrabarska', 'Olena Vasylenko'],
-  },
-  {
-    id: uuidv4(),
     author: 'Bearbeitung von F. Nadenenko',
     title: "Ukrainisches Volkslied “Misyats' na nebi” (“Der Mond am Himmel”)",
     performer: ['Schirin Hudajbergenova', 'Anna Bychkova', 'Olena Vasylenko'],
+  },
+  {
+    id: uuidv4(),
+    author: 'J. Lapynskyj',
+    title: 'Das Bandurakonzert',
+    performer: ['Nataliia Hrabarska', 'Olena Vasylenko'],
   },
 
   {
@@ -219,16 +219,17 @@ const musicalPiecesUkr = [
   },
   {
     id: uuidv4(),
-    author: 'Я. Лапинський',
-    title: 'Концерт для бандури з фортепіно',
-    performer: ['Наталія Грабарська', 'Олена Василенко'],
-  },
-  {
-    id: uuidv4(),
     author: 'у.н.п. в обр. Ф. Надененка',
     title: '“Місяць на небі”',
     performer: ['Анна Бичкова', 'Ширін Худайбергенова', 'Олена Василенко'],
   },
+  {
+    id: uuidv4(),
+    author: 'Я. Лапинський',
+    title: 'Концерт для бандури з фортепіно',
+    performer: ['Наталія Грабарська', 'Олена Василенко'],
+  },
+
   {
     id: uuidv4(),
     author: 'Дж. Верді',
