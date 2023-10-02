@@ -1,4 +1,5 @@
 import hero from '../../images/hochschule-common-foto.JPG';
+import nextPosterDe from '../../images/29-10-2023-de.png';
 import Context from '../../contexts/context';
 import { useContext } from 'react';
 import { Box, Typography } from '@mui/material';
@@ -20,7 +21,7 @@ const Hero = () => {
     >
       <img alt="image" src={hero} width="100%" />
 
-      {language === 'de' ? (
+      {/* {language === 'de' ? (
         <Typography
           sx={{
             typography: { xs: 'h4', sm: 'h2', md: 'h1' },
@@ -61,7 +62,7 @@ const Hero = () => {
         >
           <div>Благодійний концерт</div>
         </Typography>
-      )}
+      )} */}
     </Box>
   );
 };

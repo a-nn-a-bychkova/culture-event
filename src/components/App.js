@@ -5,6 +5,7 @@ import Header from './Header';
 import About from '../components/About';
 import Programm from '../components/Programm';
 import Participants from '../components/Participants';
+import Concerts from '../components/Concerts';
 import Flags from './Flags';
 import { useRef } from 'react';
 import Context from '../contexts/context';
@@ -17,6 +18,7 @@ function App() {
   const programmRef = useRef();
   const participantsRef = useRef();
   const aboutRef = useRef();
+  const concertsRef = useRef();
 
   const handleClick = ref => {
     window.scrollTo(0, ref.current.offsetTop);
@@ -50,11 +52,14 @@ function App() {
               fontSize: { xs: '12px', sm: '18px' },
             }}
           >
-            <Box onClick={() => handleClick(aboutRef)}>
+            <Box
+              onClick={() => handleClick(aboutRef)}
+              sx={{ display: { xs: 'none', sm: 'container' } }}
+            >
               {language === 'de' ? 'Über uns' : 'Про нас'}
             </Box>
             <Box
-              sx={{ marginLeft: { xs: '10px', sm: '22px', md: '28px' } }}
+              sx={{ marginLeft: { xs: '0px', sm: '22px', md: '28px' } }}
               onClick={() => handleClick(participantsRef)}
             >
               {language === 'de' ? 'Teilnehmer*innen' : 'Учасники'}
@@ -65,12 +70,12 @@ function App() {
             >
               {language === 'de' ? 'Programm' : 'Програма'}
             </Box>
-            {/* <Box
+            <Box
               sx={{ marginLeft: { xs: '10px', sm: '22px', md: '28px' } }}
-              onClick={() => handleClick(programmRef)}
+              onClick={() => handleClick(concertsRef)}
             >
-              {language === 'de' ? 'Konzerten' : 'Концерти'}
-            </Box> */}
+              {language === 'de' ? 'Konzerte' : 'Концерти'}
+            </Box>
             {/* <Box
               sx={{ marginLeft: { xs: '10px', sm: '22px', md: '28px' } }}
               onClick={() => handleClick(programmRef)}
@@ -130,45 +135,32 @@ function App() {
           width: { lg: '1200px' },
           padding: { xs: '10px', sm: '20px', lg: '60px' },
         }}
-      >
-        <Typography
-          sx={{
-            color: '#0a5b81',
-            textAlign: 'center',
-            fontWeight: 'bold',
-            fontFamily: 'Times New Roman',
-            fontSize: { xs: '24px', sm: '28px', md: '32px' },
-            lineHeight: { md: '52px' },
-          }}
-        >
-          {' '}
-          {language === 'de'
-            ? 'Herzlich Willkommen zu unserem Konzert!'
-            : 'Ласкаво просимо відвідати наш концерт!'}
-        </Typography>
-        <Typography
-          sx={{
-            color: '#0a5b81',
-            textAlign: 'center',
-            fontFamily: 'Times New Roman',
-            fontSize: { xs: '18px' },
-            paddingTop: '10px',
-          }}
-        >
-          {' '}
-          {language === 'de'
-            ? 'Eintritt 5 Euro. Für Spenden sind wir dankbar.'
-            : 'Вхід 5 євро.  Будемо вдячні за донати.'}
-        </Typography>
+      ></Container>
+      <Container ref={concertsRef}>
+        <Concerts />
       </Container>
+      <Typography
+        sx={{
+          color: '#0a5b81',
+          textAlign: 'center',
+          fontWeight: 'bold',
+          fontFamily: 'Times New Roman',
+          fontSize: { xs: '24px', sm: '28px', md: '32px' },
+          padding: '20px',
+          lineHeight: { md: '52px' },
+        }}
+      >
+        {' '}
+        {language === 'de' ? 'Herzlich Willkommen!' : 'Ласкаво просимо!'}
+      </Typography>
       <Divider sx={{ background: '#0a5b81' }} />
       <Container
         sx={{
           padding: {
-            xs: '10px 16px 10px 16px',
-            sm: '10px 40px',
-            md: '30px 40px',
-            lg: '30px 20px 40px 0px',
+            xs: '20px',
+            sm: '20px',
+            md: '30px',
+            lg: '30px 0px 40px',
           },
           width: { lg: '1200px' },
         }}
