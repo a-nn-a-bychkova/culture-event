@@ -155,13 +155,6 @@ const musicalPiecesUkr = [
     title: '“Місяць на небі”',
     performer: ['Анна Бичкова', 'Ширін Худайбергенова', 'Олена Василенко'],
   },
-  {
-    id: uuidv4(),
-    author: 'В. Дробязгина',
-    title: '“Все йде, все минає”',
-    additionalInfo: '',
-    performer: ['Анна Бичкова', 'Олена Василенко'],
-  },
 
   {
     id: uuidv4(),
