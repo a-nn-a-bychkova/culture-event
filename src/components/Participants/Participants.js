@@ -9,38 +9,48 @@ import {
 import { v4 as uuidv4 } from 'uuid';
 
 const participantsListDe = [
+  // {
+  //   id: uuidv4(),
+  //   name: 'Oleg Czuchlieb',
+  //   instrument: 'Renaissance Laute, Teorbe',
+  // },
+  { id: uuidv4(), name: 'Schirin Hudajbergenova', instrument: 'Sopran' },
+  { id: uuidv4(), name: 'Anna Bychkova', instrument: 'Mezzosopran' },
   {
     id: uuidv4(),
-    name: 'Oleg Czuchlieb',
-    instrument: 'Renaissance Laute, Teorbe',
+    name: 'Nataliia Hrabarska',
+    instrument: 'Bandura, Mezzosopran',
   },
-  { id: uuidv4(), name: 'Nataliia Hrabarska', instrument: 'Bandura' },
+  { id: uuidv4(), name: 'Yevhen Petronelli', instrument: 'Bariton' },
   // { id: uuidv4(), name: 'Svetlana Kitashkina', instrument: 'Klavier' },
-  // { id: uuidv4(), name: 'Olena Vasylenko', instrument: 'Klavier' },
+  { id: uuidv4(), name: 'Olena Vasylenko', instrument: 'Klavier' },
   // { id: uuidv4(), name: 'Anastasiia Krasnikova', instrument: 'Klavier' },
   // { id: uuidv4(), name: 'Olga Dörr', instrument: 'Klavier' },
   // { id: uuidv4(), name: 'Olha Filatova', instrument: 'Klavier' },
-  { id: uuidv4(), name: 'Schirin Hudajbergenova', instrument: 'Sopran' },
-  { id: uuidv4(), name: 'Anna Bychkova', instrument: 'Mezzosopran' },
-  { id: uuidv4(), name: 'Ruslan Zinevych', instrument: 'Tenor' },
-  { id: uuidv4(), name: 'Olexandr Forkushak', instrument: 'Bariton' },
+  // { id: uuidv4(), name: 'Ruslan Zinevych', instrument: 'Tenor' },
+  // { id: uuidv4(), name: 'Olexandr Forkushak', instrument: 'Bariton' },
   // { id: uuidv4(), name: 'Taras Konoshenko', instrument: 'Bass' },
 ];
 
 const participantsListUkr = [
-  { id: uuidv4(), name: 'Олег Чухліб', instrument: 'ренесансна лютня, теорба' },
-  { id: uuidv4(), name: 'Наталія Грабарська', instrument: 'бандура' },
-  // { id: uuidv4(), name: 'Світлана Кіташкіна', instrument: 'фортепіано' },
-  // { id: uuidv4(), name: 'Олена Василенко', instrument: 'фортепіано' },
-  // { id: uuidv4(), name: 'Анастасія Краснікова', instrument: 'фортепіано' },
-  // { id: uuidv4(), name: 'Ольга Доерр', instrument: 'фортепіано' },
-  // { id: uuidv4(), name: 'Ольга Філатова', instrument: 'фортепіано' },
+  // { id: uuidv4(), name: 'Олег Чухліб', instrument: 'ренесансна лютня, теорба' },
   { id: uuidv4(), name: 'Ширін Худайбергенова', instrument: 'сопрано' },
   { id: uuidv4(), name: 'Анна Бичкова', instrument: 'мецо-сопрано' },
-  { id: uuidv4(), name: 'Руслан Зіневич', instrument: 'тенор' },
-  { id: uuidv4(), name: 'Олександр Форкушак', instrument: 'баритон' },
+  {
+    id: uuidv4(),
+    name: 'Наталія Грабарська',
+    instrument: 'бандура, мецо-сопарно',
+  },
+  { id: uuidv4(), name: 'Євген Петронеллі', instrument: 'баритон' },
+  // { id: uuidv4(), name: 'Світлана Кіташкіна', instrument: 'фортепіано' },
+  { id: uuidv4(), name: 'Олена Василенко', instrument: 'фортепіано' },
+  // { id: uuidv4(), name: 'Анастасія Краснікова', instrument: 'фортепіано' },
+  // { id: uuidv4(), name: 'Ольга Філатова', instrument: 'фортепіано' },
+
+  // { id: uuidv4(), name: 'Руслан Зіневич', instrument: 'тенор' },
+  // { id: uuidv4(), name: 'Олександр Форкушак', instrument: 'баритон' },
   // { id: uuidv4(), name: 'Тарас Коношенко', instrument: 'бас' },
-  { id: uuidv4(), name: 'Ольга Комарова', instrument: 'ведуча' },
+  // { id: uuidv4(), name: 'Ольга Комарова', instrument: 'ведуча' },
 ];
 
 const Participants = () => {
@@ -162,7 +172,7 @@ const Participants = () => {
                 padding: { xs: '8px 0px', md: '0px 0px 8px' },
               }}
             >
-              <Box
+              {/* <Box
                 sx={{
                   maxWidth: '320px',
                   textAlign: { xs: 'center', md: 'right' },
@@ -181,9 +191,9 @@ const Participants = () => {
                 >
                   Klavier
                 </span>
-              </Box>
+              </Box> */}
             </Box>
-            <Box
+            {/* <Box
               sx={{
                 fontFamily: 'Times New Roman',
                 fontSize: { sm: '16px', md: '18px' },
@@ -203,7 +213,7 @@ const Participants = () => {
               >
                 Moderatorin
               </span>
-            </Box>
+            </Box> */}
           </>
         ) : (
           <>
@@ -215,7 +225,7 @@ const Participants = () => {
                 padding: { xs: '8px 0px', md: '0px 0px 8px' },
               }}
             >
-              <Box
+              {/* <Box
                 sx={{
                   maxWidth: '320px',
                   textAlign: { xs: 'center', md: 'right' },
@@ -234,9 +244,9 @@ const Participants = () => {
                 >
                   фортепіано
                 </span>
-              </Box>
+              </Box> */}
             </Box>
-            <Box
+            {/* <Box
               sx={{
                 fontFamily: 'Times New Roman',
                 fontSize: { sm: '16px', md: '18px' },
@@ -256,7 +266,7 @@ const Participants = () => {
               >
                 ведуча
               </span>
-            </Box>
+            </Box> */}
           </>
         )}{' '}
       </List>

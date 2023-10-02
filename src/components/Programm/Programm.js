@@ -11,305 +11,210 @@ import { v4 as uuidv4 } from 'uuid';
 const musicalPiecesDe = [
   {
     id: uuidv4(),
-    author: 'Bearbeitung von R. Turovsky',
-    title: 'Fünf ukrainische Volkslieder',
-    additionalInfo:
-      '“Ich lasse das Pferd gehen”, “Schneesturm”, “Hretschanyky”, “Kosakchen”, “Tetyana”',
-    performer: ['Oleg Czuchlieb'],
-  },
-  {
-    id: uuidv4(),
-    author: 'Bearbeitung von F. Nadenenko',
-    title:
-      '"Tschornii brovy, karii otschi" ("Schwarze Augenbrauen, braune Auge")',
-    performer: ['Ruslan Zinevych', 'Olha Filatova'],
-  },
-  {
-    id: uuidv4(),
-    author: 'S. Kitashkina',
-    title:
-      'Improvisation auf die Themen von ukrainischen Wiegenlied "Oi khodyt son“ und Klaras Wiegenlied „Summer Time“ aus der Oper “Porgy and Bess” - G. Gershwin',
-    performer: ['Anna Bychkova', 'Svetlana Kitashkina'],
-  },
-
-  {
-    id: uuidv4(),
-    author: 'M. Lysenko',
-    title: '“Hto vbyw joho”(“Wer hat ihn getötet?”) ',
-    additionalInfo: 'aus der Oper „Taras Bulba“',
-    performer: ['Olexandr Forkushak', 'Olha Filatova'],
-  },
-  {
-    id: uuidv4(),
-    author: 'V. Drobjazgina',
-    title: '“Vse jde, vse mynaje” (“Alles geht vorbei”)',
-    additionalInfo:
-      ' aus dem Liederzyklus “Das Farbband” nach dem Text von T. Schewtschenko',
-    performer: ['Anna Bychkova', 'Olena Vasylenko'],
-  },
-  {
-    id: uuidv4(),
-    author: 'G. Altschewskyj ',
-    title: '“Duscha tse kovaliya nizhna” (“Die Seele ist zartes Maiglöckchen”)',
-    additionalInfo: 'nach dem Text von A. Altschewska und T. Schewtschenko',
-    performer: ['Anna Bychkova', 'Olena Vasylenko'],
-  },
-  {
-    id: uuidv4(),
-    author: 'Bearbeitung von A.Kos-Anatolskyi',
-    title:
-      'Ukrainisches Volkslied “Tschotyry voly pasu ja” (“Ich weide vier Ochsen”)',
+    author: 'M. Skoryk (1938-2020)',
+    title: '"Die Melodie"',
     performer: ['Nataliia Hrabarska'],
   },
   {
     id: uuidv4(),
-    author: 'M. Stetsiun',
-    title: '“Vyschywanka” (“Besticktes hemd”)',
-    additionalInfo: 'auf Text von A. Drahomyretskyi',
+    author: 'I. Kyrylina (1953-2017)',
+    title: '"Leletscha dolia" ("Storches Schicksal")',
+    additionalInfo: 'auf dem Text von V. Tsiliy (1939)',
+    performer: ['Nataliia Hrabarska'],
+  },
+  {
+    id: uuidv4(),
+    author: 'R. Schumann (1810-1856)',
+    title: '"Widmung"',
+    additionalInfo:
+      'auf dem Text von F. Rückert (1788-1866) aus dem Liederzyklus "Myrten" op.25 (1840)',
+    performer: ['Nataliia Hrabarska'],
+  },
+
+  {
+    id: uuidv4(),
+    author: 'M. Stetsiun (1942)',
+    title: '“Vyschywanka” (“Besticktes Hemd”)',
+    additionalInfo: 'auf dem Text von A. Drahomyretskyi (1941-2011)',
     performer: ['Schirin Hudajbergenova', 'Olena Vasylenko'],
   },
   {
     id: uuidv4(),
-    author: 'Bearbeitung von F. Nadenenko',
+    author: 'L. Dytschko (L. Dychko - eng.) (1939)',
+    title: '"Na tchovni" ("Auf dem Boot")',
+    additionalInfo: 'auf dem Text von L. Ukrainka (1871-1913)',
+    performer: ['Schirin Hudajbergenova', 'Olena Vasylenko'],
+  },
+  {
+    id: uuidv4(),
+    author: 'Bearbeitung von F. Nadenenko (1902-1963)',
     title: "Ukrainisches Volkslied “Misyats' na nebi” (“Der Mond am Himmel”)",
     performer: ['Schirin Hudajbergenova', 'Anna Bychkova', 'Olena Vasylenko'],
   },
-  {
-    id: uuidv4(),
-    author: 'J. Lapynskyj',
-    title: 'Das Bandurakonzert',
-    performer: ['Nataliia Hrabarska', 'Olena Vasylenko'],
-  },
 
   {
     id: uuidv4(),
-    author: 'G.Verdi',
-    title: '"Cortigiani, vil razza dannata"',
-    additionalInfo: 'aus der Oper „Rigoletto“',
-    performer: ['Olexandr Forkushak', 'Olha Filatova'],
-  },
-  {
-    id: uuidv4(),
-    author: 'G. Rossini',
-    title: '“Una voce poco fa”',
-    additionalInfo: 'aus der Oper “Il Barbiere di Siviglia”',
-    performer: ['Schirin Hudajbergenova', 'Olga Dörr'],
-  },
-  {
-    id: uuidv4(),
-    author: 'R. Strauss',
-    title: '“Wie du warst”',
-    additionalInfo: 'aus der Oper “Der Rosenkavalier”',
+    author: 'V. Drobiazgina (1947-2017)',
+    title: '“Tschom, tschom, zemle moja” ("Warum meine Erde")',
+    additionalInfo:
+      'nach dem Text von K. Malytska (1872-1947) aus dem Liederzyklus “Das Farbband”(1980)',
     performer: ['Anna Bychkova', 'Olena Vasylenko'],
   },
   {
     id: uuidv4(),
-    author: 'R. Strauss',
-    title: '“Mir ist die Ehre wiederfahren”',
-    additionalInfo: 'aus der Oper “Der Rosenkavalier”',
-    performer: ['Schirin Hudajbergenova', 'Anna Bychkova', 'Olena Vasylenko'],
-  },
-  {
-    id: uuidv4(),
-    author: 'G. Puccini',
-    title: 'Duett von Rodolfo und Marcello',
-    additionalInfo: 'aus der Oper "La Bohème"',
-    performer: ['Ruslan Zinevych', 'Olexandr Forkushak', 'Olha Filatova'],
-  },
-  {
-    id: uuidv4(),
-    author: 'A.Berg',
-    title: '"Schilflied", “Die Nachtigal”',
-    additionalInfo: 'aus dem Liederzyklus “Sieben frühe Lieder”',
-    performer: ['Schirin Hudajbergenova', 'Olga Dörr'],
-  },
-  {
-    id: uuidv4(),
-    author: 'A. Messager',
-    title: '“J’ai deux amants”',
-    additionalInfo: 'aus der Oper “L’amour masqué”',
+    author: 'V. Ivasiuk (1949-1979)',
+    title: '"Pisnia bude pomizh nas"("Das Lied wird zwischen uns sein")',
     performer: ['Anna Bychkova', 'Olena Vasylenko'],
   },
   {
     id: uuidv4(),
-    author: 'M. Ravel',
-    title: 'Alborada del gracioso (Morgenlied des Narren)',
-    additionalInfo: 'aus dem Zyklus “Miroirs” („Spiegelbilder“)',
-    performer: ['Anastasiia Krasnikova'],
+    author: 'G. Bizet (1838-1875)',
+    title: 'Habanera',
+    additionalInfo: 'aus der Oper "Carmen"',
+    performer: ['Anna Bychkova', 'Olena Vasylenko'],
   },
   {
     id: uuidv4(),
-    author: 'R. Falvo',
-    title: '“Dicitencello vuje”',
-    performer: ['Ruslan Zinevych', 'Olha Filatova'],
-  },
-
-  {
-    id: uuidv4(),
-    author: 'J. Massenet',
-    title: 'Gavotte',
-    additionalInfo: 'aus der Oper “Manon”',
-    performer: ['Schirin Hudajbergenova', 'Olga Dörr'],
+    author: 'A. Kos-Anatolsky (1909-1983)',
+    title: '"Oj ty divtschyno"',
+    additionalInfo: 'auf dem Text von I. Franko (1856-1916)',
+    performer: ['Yevhen Petronelli', 'Olena Vasylenko'],
   },
   {
     id: uuidv4(),
-    author: 'J. Offenbach',
-    title: 'Barcarolle',
-    additionalInfo: 'aus der Oper "Les Contes d\'Hoffmann"',
-    performer: ['Schirin Hudajbergenova', 'Anna Bychkova', 'Olga Dörr'],
+    author: 'E. W. Korngold (1897-1957)',
+    title: '"Mein Sehnen, mein Wähnen"',
+    additionalInfo: 'aus der Oper "Die tote Stadt"',
+    performer: ['Yevhen Petronelli', 'Olena Vasylenko'],
+  },
+  {
+    id: uuidv4(),
+    author: 'F. Lehár (1870-1948)',
+    title: '"Lippen schweigen"',
+    additionalInfo: 'aus der Operette "Die lustige Witwe"',
+    performer: [
+      'Schirin Hudajbergenova',
+      'Yevhen Petronelli',
+      'Olena Vasylenko',
+    ],
+  },
+  {
+    id: uuidv4(),
+    author: 'L. Delibes (1836-1891)',
+    title: 'Duet von Malika und Lakmé',
+    additionalInfo: 'aus der Oper "Lakmé"',
+    performer: [
+      'Schirin Hudajbergenova',
+      'Nataliia Hrabarska',
+      'Olena Vasylenko',
+    ],
   },
 ];
 
 const musicalPiecesUkr = [
   {
     id: uuidv4(),
-    author: 'Обробка Р. Турковського',
-    title: "П'ять українських пісень",
-    additionalInfo: 'Пущу коня, Метелиця, Гречаники, Козачок, Тетяна',
-    performer: ['Олег Чухліб'],
-  },
-  {
-    id: uuidv4(),
-    author: 'Обробка Ф. Надененка',
-    title: '"Чорнії брови, карії очі"',
-    performer: ['Руслан Зіневич', 'Ольга Філатова'],
-  },
-  {
-    id: uuidv4(),
-    author: 'С. Кіташкіна',
-    title:
-      'Імпровізація на теми колискової “Ой ходить сон” та Колискової Клари “Summer Time” з опери “Поргі і Бес” Дж. Гершвіна',
-    performer: ['Анна Бичкова', 'Світлана Кіташкіна'],
-  },
-
-  {
-    id: uuidv4(),
-    author: 'М. Лисенко',
-    title: 'Арія Остапа',
-    additionalInfo: 'з опери "Тарас Бульба"',
-    performer: ['Олександр Форкушак', 'Ольга Філатова'],
-  },
-  {
-    id: uuidv4(),
-    author: 'В. Дробязгина',
-    title: '“Все йде, все минає”',
-    additionalInfo: 'з вокального циклу “Кольорова стрічка” на сл. Т. Шевченка',
-    performer: ['Анна Бичкова', 'Олена Василенко'],
-  },
-  {
-    id: uuidv4(),
-    author: 'Г. Алчевський',
-    title: '“Душа се конвалія ніжна”',
-    additionalInfo: 'сл. Х. Алчевської та Т. Шевченка',
-    performer: ['Анна Бичкова', 'Олена Василенко'],
-  },
-  {
-    id: uuidv4(),
-    author: 'у.н.п. в обр. А. Кос-Анатольського',
-    title: '“Чотири воли пасу я”',
+    author: 'М. Скорик (1938-2020)',
+    title: 'Мелодія',
     performer: ['Наталія Грабарська'],
   },
-
   {
     id: uuidv4(),
-    author: 'М. Стецюн',
-    title: '“Вишиванка”',
-    additionalInfo: 'сл. А. Драгомирецький',
-    performer: ['Ширін Худайбергенова', 'Олена Василенко'],
+    author: 'І. Кириліна (1953-2017)',
+    title: '"Лелеча доля"',
+    additionalInfo: 'на сл. В. Цілого (1939)',
+    performer: ['Наталія Грабарська'],
   },
   {
     id: uuidv4(),
-    author: 'у.н.п. в обр. Ф. Надененка',
+    author: 'Р. Шуман (1810-1856)',
+    title: '"Присвята"',
+    additionalInfo:
+      'на сл. Ф. Рюкерта (1788-1866) з вокального циклу "Мирти" oп.25 (1840)',
+    performer: ['Наталія Грабарська', 'Олена Василенко'],
+  },
+  {
+    id: uuidv4(),
+    author: 'М. Стецюн (1942)',
+    title: '“Вишиванка”',
+    additionalInfo: 'на сл. А. Драгомирецького (1941-2011)',
+    performer: ['Ширін Худайбергенова', 'Олена Василенко'],
+  },
+
+  {
+    id: uuidv4(),
+    author: 'Л. Дичко (1939)',
+    title: '"На човні"',
+    additionalInfo: 'на сл. Л. Українки (1871-1913)',
+    performer: ['Ширін Худайбергенова', 'Олена Василенко'],
+  },
+
+  {
+    id: uuidv4(),
+    author: 'у.н.п. в обр. Ф. Надененка (1902-1963)',
     title: '“Місяць на небі”',
     performer: ['Анна Бичкова', 'Ширін Худайбергенова', 'Олена Василенко'],
   },
   {
     id: uuidv4(),
-    author: 'Я. Лапинський',
-    title: 'Концерт для бандури з фортепіно',
-    performer: ['Наталія Грабарська', 'Олена Василенко'],
-  },
-
-  {
-    id: uuidv4(),
-    author: 'Дж. Верді',
-    title: 'Арія Ріголетто',
-    additionalInfo: 'з опери "Ріголетто"',
-    performer: ['Олександр Форкушак', 'Ольга Філатова'],
-  },
-  {
-    id: uuidv4(),
-    author: 'Дж. Россіні',
-    title: 'арія Розіни',
-    additionalInfo: 'з опери “Сивільський цирюльник”',
-    performer: ['Ширін Худайбергенова', 'Ольга Доерр'],
-  },
-
-  {
-    id: uuidv4(),
-    author: 'Р. Штраус',
-    title: 'Арія Октавіана',
-    additionalInfo: 'з опери “Кавалер роз”',
+    author: 'В. Дробязгина',
+    title: '“Все йде, все минає”',
+    additionalInfo: '',
     performer: ['Анна Бичкова', 'Олена Василенко'],
   },
 
   {
     id: uuidv4(),
-    author: 'Р. Штраус',
-    title: 'Дует Софі і Октавіана',
-    additionalInfo: 'з опери “Кавалер роз”',
-    performer: ['Анна Бичкова', 'Ширін Худайбергенова', 'Олена Василенко'],
-  },
-
-  {
-    id: uuidv4(),
-    author: 'Дж. Пуччіні',
-    title: 'Дует Рудольфа та Марчелло',
-    additionalInfo: 'з опери “Богема”',
-    performer: ['Олександр Форкушак', 'Ольга Філатова'],
-  },
-
-  {
-    id: uuidv4(),
-    author: 'А. Берг',
-    title: '"Schilflied" («Очеретяна пісня»),  “Die Nachtigal” («Соловей»)',
-    additionalInfo: 'з вокального циклу “Сім ранніх пісень”',
-    performer: ['Ширін Худайбергенова', 'Ольга Доерр'],
-  },
-  {
-    id: uuidv4(),
-    author: 'А. Месажер',
-    title: '“У мене є два коханця”',
-    additionalInfo: 'з опери “Приховане кохання”(“L’amour masqué”)',
+    author: 'В. Дробязгіна (1947-2017)',
+    title: '"Чом, чом, земле моя"',
+    additionalInfo:
+      'на сл. К. Малицької (1872-1947) з вокального циклу “Кольорова стрічка”(1980)',
     performer: ['Анна Бичкова', 'Олена Василенко'],
   },
   {
     id: uuidv4(),
-    author: 'М. Равель',
-    title: '“Alborada del gracioso” (“Ранкова серенада шута”)',
-    additionalInfo: 'з циклу “Miroirs” (“Відображення”)',
-    performer: ['Анастасія Краснікова'],
+    author: 'В. Iвасюк (1949-1979)',
+    title: '"Пісня буде поміж нас"',
+    performer: ['Анна Бичкова', 'Олена Василенко'],
   },
   {
     id: uuidv4(),
-    author: 'Р. Фальво',
-    title: '“Dicitencello vuje”',
-    performer: ['Руслан Зіневич', 'Ольга Філатова'],
-  },
-
-  {
-    id: uuidv4(),
-    author: 'Ж. Массне',
-    title: 'Гавот',
-    additionalInfo: 'з опери "Манон"',
-    performer: ['Ширін Худайбергенова', 'Ольга Доерр'],
+    author: 'Ж. Бізе (1838-1875)',
+    title: 'Хабанера',
+    additionalInfo: 'з опери "Кармен"',
+    performer: ['Анна Бичкова', 'Олена Василенко'],
   },
   {
     id: uuidv4(),
-    author: 'Ж. Оффенбах',
-    title: 'Баркарола',
-    additionalInfo: 'з опери “Казки Гофмана”',
-    performer: ['Ширін Худайбергенова', 'Анна Бичкова', 'Ольга Доерр'],
+    author: 'A. Кос-Анатольський (1909-1983)',
+    title: '"Ой ти, дівчино, з горіха зерня"',
+    additionalInfo: 'на сл. І. Франка (1856-1916)',
+    performer: ['Євген Петронеллі', 'Олена Василенко'],
+  },
+  {
+    id: uuidv4(),
+    author: 'Е. В. Корнгольд (1897-1957)',
+    title: '"Mein Sehnen, mein Wähnen"',
+    additionalInfo: 'з опери "Завмерле місто"',
+    performer: ['Євген Петронеллі', 'Олена Василенко'],
+  },
+  {
+    id: uuidv4(),
+    author: 'Ф. Легар (1870-1948)',
+    title: '"Lippen schweigen"',
+    additionalInfo: 'з оперетти "Весела вдова"',
+    performer: ['Ширін Худайбергенова', 'Євген Петронеллі', 'Олена Василенко'],
+  },
+  {
+    id: uuidv4(),
+    author: 'Л. Деліб (1836-1891)',
+    title: 'Дует Маліки і Лакме',
+    additionalInfo: 'з опери "Лакме"',
+    performer: [
+      'Ширін Худайбергенова',
+      'Наталія Грабарська',
+      'Олена Василенко',
+    ],
   },
 ];
 
@@ -341,7 +246,7 @@ const Programm = () => {
         {language === 'de' ? (
           <Grid container spacing={12}>
             <Grid item container md={6}>
-              {musicalPiecesDe.slice(0, 10).map(piece => (
+              {musicalPiecesDe.slice(0, 7).map(piece => (
                 <ListItem
                   key={piece.id}
                   sx={{
@@ -412,7 +317,7 @@ const Programm = () => {
             </Grid>
 
             <Grid item container md={6}>
-              {musicalPiecesDe.slice(10).map(piece => (
+              {musicalPiecesDe.slice(7).map(piece => (
                 <ListItem
                   key={piece.id}
                   sx={{
@@ -485,7 +390,7 @@ const Programm = () => {
         ) : (
           <Grid container spacing={12}>
             <Grid item container md={6}>
-              {musicalPiecesUkr.slice(0, 10).map(piece => (
+              {musicalPiecesUkr.slice(0, 7).map(piece => (
                 <ListItem
                   key={piece.id}
                   sx={{
@@ -556,7 +461,7 @@ const Programm = () => {
             </Grid>
 
             <Grid item container md={6}>
-              {musicalPiecesUkr.slice(10).map(piece => (
+              {musicalPiecesUkr.slice(7).map(piece => (
                 <ListItem
                   key={piece.id}
                   sx={{

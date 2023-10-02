@@ -37,6 +37,7 @@ function App() {
         }}
       >
         <Header />
+        ­­
         <Box
           sx={{
             display: 'flex',
@@ -64,6 +65,18 @@ function App() {
             >
               {language === 'de' ? 'Programm' : 'Програма'}
             </Box>
+            {/* <Box
+              sx={{ marginLeft: { xs: '10px', sm: '22px', md: '28px' } }}
+              onClick={() => handleClick(programmRef)}
+            >
+              {language === 'de' ? 'Konzerten' : 'Концерти'}
+            </Box> */}
+            {/* <Box
+              sx={{ marginLeft: { xs: '10px', sm: '22px', md: '28px' } }}
+              onClick={() => handleClick(programmRef)}
+            >
+              {language === 'de' ? 'Galerie' : 'Галерея'}
+            </Box> */}
           </Box>
           <Flags />
         </Box>
@@ -144,8 +157,8 @@ function App() {
         >
           {' '}
           {language === 'de'
-            ? 'Eintritt frei. Für Spenden sind wir dankbar.'
-            : 'Вхід вільний.  Будемо вдячні за донати.'}
+            ? 'Eintritt 5 Euro. Für Spenden sind wir dankbar.'
+            : 'Вхід 5 євро.  Будемо вдячні за донати.'}
         </Typography>
       </Container>
       <Divider sx={{ background: '#0a5b81' }} />

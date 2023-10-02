@@ -13,13 +13,12 @@ const Header = () => {
         padding: '0px 0px 20px',
       }}
     >
-      <Box>Juli 10, 2023 19:00</Box>
+      {/* <Box sx={{ fontWeight: 'bold' }}> Kommendes Konzert</Box> */}
+      <Box>Oktober 29, 2023 15:00</Box>
       <Box>
-        Großersaal
+        Kulturladen Zeltnerschloss
         <br />
-        Caritas-Pirckheimer-Haus
-        <br />
-        Königstraße 64
+        Gleißhammerstr. 6
         <br /> Nürnberg
       </Box>
     </Box>
