@@ -1,27 +1,70 @@
+import { Button, Container } from '@mui/material';
 import Box from '@mui/material/Box';
+import Flags from '../Flags/Flags';
+import context from '../../contexts/context';
+import { useContext } from 'react';
+import { NavLink } from 'react-router-dom';
 
 const Header = () => {
+  const { language } = useContext(context);
   return (
-    <Box
+    <Container
       sx={{
-        display: 'flex',
-        flexDirection: 'column',
-        textAlign: 'right',
-        color: '#0a5b81',
-        fontSize: { xs: '16px', md: '18px' },
-        lineHeight: '24px',
-        padding: '0px 0px 20px',
+        padding: {
+          xs: '10px 16px 10px 16px',
+          sm: '10px 40px',
+          md: '30px 40px 10px',
+          lg: '30px 10px 10px 10px',
+        },
+        width: { lg: '1200px' },
+        fontFamily: 'Times New Roman',
       }}
     >
-      {/* <Box sx={{ fontWeight: 'bold' }}> Kommendes Konzert</Box> */}
-      <Box>Oktober 29, 2023 15:00</Box>
-      <Box>
-        Kulturladen Zeltnerschloss
-        <br />
-        Gleißhammerstr. 6
-        <br /> Nürnberg
-      </Box>
-    </Box>
+      ­­
+      <Box
+        sx={{
+          display: 'flex',
+        }}
+      >
+        <Box
+          sx={{
+            display: 'flex',
+            color: '#0a5b81',
+            fontSize: { xs: '12px', sm: '18px' },
+          }}
+        >
+          <NavLink
+            to="/"
+            exact
+            style={({ isActive }) => ({
+              textDecoration: 'none',
+              color: isActive ? 'rgb(40, 40, 49)' : '#0a5b81',
+              marginRight: '10px',
+            })}
+          >
+            {language === 'de' ? 'Home' : 'На головну'}
+          </NavLink>
+
+          <NavLink
+            to="/concerts"
+            style={({ isActive }) => ({
+              textDecoration: 'none',
+              color: isActive ? 'rgb(40, 40, 49)' : '#0a5b81',
+            })}
+          >
+            {language === 'de' ? 'Konzerte' : 'Концерти'}
+          </NavLink>
+
+          {/* <NavLink
+            to="/galerie"
+            sx={{ color: 'inherit', fontFamily: 'inherit' }}
+          >
+            {language === 'de' ? 'Galerie' : 'Галерея'}
+          </NavLink> */}
+        </Box>
+        <Flags />
+      </Box>{' '}
+    </Container>
   );
 };
 

@@ -23,7 +23,7 @@ const About = () => {
             fontFamily: 'Droid Sans',
             textAlign: 'justify',
             fontSize: { xs: '16px', md: '18px' },
-            lineHeight: { xs: '24px', md: '28px' },
+            lineHeight: { xs: '24px', md: '32px' },
           }}
         >
           Was wissen die Menschen momentan über die Ukraine? Krieg, Leid,
@@ -55,7 +55,7 @@ const About = () => {
             fontFamily: 'Droid Sans',
             textAlign: 'justify',
             fontSize: { xs: '16px', md: '18px' },
-            lineHeight: { xs: '24px', md: '28px' },
+            lineHeight: { xs: '24px', md: '32px' },
           }}
         >
           Що зараз асоціюється у людей з Україною? Війна, страждання, зруйновані

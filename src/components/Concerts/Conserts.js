@@ -5,7 +5,15 @@ import {
   responsiveFontSizes,
   ThemeProvider,
 } from '@mui/material/styles';
-import { Box, Grid, List, ListItem, Typography } from '@mui/material';
+import {
+  Box,
+  IconButton,
+  Grid,
+  List,
+  ListItem,
+  Typography,
+} from '@mui/material';
+import AlarmIcon from '@mui/icons-material/Alarm';
 import { v4 as uuidv4 } from 'uuid';
 
 const ConcertsListDe = [
@@ -75,7 +83,7 @@ const Concerts = () => {
   return (
     <Box
       sx={{
-        maxWidth: { lg: '1200px', marginLeft: 'auto', marginRight: 'auto' },
+        maxWidth: { lg: '1200px' },
       }}
     >
       <ThemeProvider theme={theme}>
@@ -83,7 +91,7 @@ const Concerts = () => {
           variant="h5"
           sx={{
             fontFamily: 'Times New Roman',
-            paddingTop: '16px',
+            paddingTop: { xs: '16px', sm: '16px', md: '0px' },
             color: '#0a5b81',
             fontWeight: 'bold',
           }}
@@ -93,6 +101,7 @@ const Concerts = () => {
       </ThemeProvider>{' '}
       <List
         sx={{
+          padding: '0px',
           color: '#0a5b81',
         }}
       >
@@ -100,8 +109,8 @@ const Concerts = () => {
           <Box
             sx={{
               display: 'flex',
-              flexDirection: { xs: 'column', sm: 'row' },
-              justifyContent: 'space-between',
+              flexDirection: { xs: 'column', sm: 'row', md: 'column' },
+              justifyContent: 'end',
             }}
           >
             {ConcertsListDe.map(concert => (
@@ -110,8 +119,9 @@ const Concerts = () => {
                 sx={{
                   display: 'flex',
                   flexDirection: 'column',
-                  // marginRight: 'auto',
-                  padding: '8px 0px',
+                  paddingTop: '20px',
+                  paddingLeft: '0px',
+                  paddingBottom: '0px',
                 }}
               >
                 <Typography
@@ -124,7 +134,8 @@ const Concerts = () => {
                     fontWeight: 'bold',
                   }}
                 >
-                  {concert.date} {concert.time}
+                  {concert.date} <AlarmIcon sx={{ height: '14px' }} />
+                  {concert.time}
                 </Typography>
                 <Typography
                   sx={{
@@ -178,8 +189,8 @@ const Concerts = () => {
           <Box
             sx={{
               display: 'flex',
-              flexDirection: { xs: 'column', sm: 'row' },
-              justifyContent: 'space-between',
+              flexDirection: { xs: 'column', sm: 'row', md: 'column' },
+              justifyContent: 'end',
             }}
           >
             {ConcertsListUkr.map(concert => (
@@ -188,8 +199,9 @@ const Concerts = () => {
                 sx={{
                   display: 'flex',
                   flexDirection: 'column',
-                  // marginRight: 'auto',
-                  padding: '8px 0px',
+                  paddingTop: '20px',
+                  paddingLeft: '0px',
+                  paddingBottom: '0px',
                 }}
               >
                 <Typography
@@ -202,7 +214,8 @@ const Concerts = () => {
                     fontWeight: 'bold',
                   }}
                 >
-                  {concert.date} {concert.time}
+                  {concert.date} <AlarmIcon sx={{ height: '14px' }} />
+                  {concert.time}
                 </Typography>
                 <Typography
                   sx={{

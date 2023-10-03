@@ -32,19 +32,19 @@ const Flags = () => {
         <Box
           sx={{
             height: { xs: '6px', md: '8px' },
-            backgroundColor: 'black',
+            backgroundColor: '#1b1818',
           }}
         ></Box>
         <Box
           sx={{
             height: { xs: '6px', md: '8px' },
-            backgroundColor: 'red',
+            backgroundColor: '#e64848',
           }}
         ></Box>
         <Box
           sx={{
             height: { xs: '6px', md: '8px' },
-            backgroundColor: 'yellow',
+            backgroundColor: '#f4f446',
           }}
         ></Box>
       </Box>
@@ -60,13 +60,13 @@ const Flags = () => {
         <Box
           sx={{
             height: { xs: '9px', md: '12px' },
-            backgroundColor: 'blue',
+            backgroundColor: '#0a5b81',
           }}
         ></Box>
         <Box
           sx={{
             height: { xs: '9px', md: '12px' },
-            backgroundColor: 'yellow',
+            backgroundColor: '#f4f446',
           }}
         ></Box>
       </Box>

@@ -1,17 +1,26 @@
 import Container from '@mui/material/Container';
 import EmailIcon from '@mui/icons-material/Email';
 import Hero from '../components/Hero';
-import Header from './Header';
+import Header from '../components/Header/Header';
 import About from '../components/About';
 import Programm from '../components/Programm';
 import Participants from '../components/Participants';
 import Concerts from '../components/Concerts';
 import Flags from './Flags';
-import { useRef } from 'react';
+import { useContext, Suspense, useRef } from 'react';
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Link,
+  NavLink,
+} from 'react-router-dom';
 import Context from '../contexts/context';
-import { useContext } from 'react';
-import { Box, Divider, Grid, Typography } from '@mui/material';
-import { Link } from 'react-router-dom';
+
+import s from './App.module.css';
+import { Box, Button, Divider, Grid, Tooltip, Typography } from '@mui/material';
+import HomeView from '../views/HomeView/HomeView';
+import ConcertsView from '../views/ConcertsView';
 
 function App() {
   const { language } = useContext(Context);
@@ -26,97 +35,14 @@ function App() {
 
   return (
     <Box>
-      <Container
-        sx={{
-          padding: {
-            xs: '10px 16px 10px 16px',
-            sm: '10px 40px',
-            md: '30px 40px 10px',
-            lg: '30px 10px 10px 10px',
-          },
-          width: { lg: '1200px' },
-          fontFamily: 'Times New Roman',
-        }}
-      >
-        <Header />
-        ­­
-        <Box
-          sx={{
-            display: 'flex',
-          }}
-        >
-          <Box
-            sx={{
-              display: 'flex',
-              color: '#0a5b81',
-              fontSize: { xs: '12px', sm: '18px' },
-            }}
-          >
-            <Box
-              onClick={() => handleClick(aboutRef)}
-              sx={{ display: { xs: 'none', sm: 'container' } }}
-            >
-              {language === 'de' ? 'Über uns' : 'Про нас'}
-            </Box>
-            <Box
-              sx={{ marginLeft: { xs: '0px', sm: '22px', md: '28px' } }}
-              onClick={() => handleClick(participantsRef)}
-            >
-              {language === 'de' ? 'Teilnehmer*innen' : 'Учасники'}
-            </Box>
-            <Box
-              sx={{ marginLeft: { xs: '10px', sm: '22px', md: '28px' } }}
-              onClick={() => handleClick(programmRef)}
-            >
-              {language === 'de' ? 'Programm' : 'Програма'}
-            </Box>
-            <Box
-              sx={{ marginLeft: { xs: '10px', sm: '22px', md: '28px' } }}
-              onClick={() => handleClick(concertsRef)}
-            >
-              {language === 'de' ? 'Konzerte' : 'Концерти'}
-            </Box>
-            {/* <Box
-              sx={{ marginLeft: { xs: '10px', sm: '22px', md: '28px' } }}
-              onClick={() => handleClick(programmRef)}
-            >
-              {language === 'de' ? 'Galerie' : 'Галерея'}
-            </Box> */}
-          </Box>
-          <Flags />
-        </Box>
-      </Container>
-      <Hero />
-      <Container
-        sx={{
-          padding: {
-            xs: '30px 16px 10px 16px',
-            sm: '10px 40px',
-            md: '30px 40px',
-            lg: '30px 10px 10px 10px',
-          },
-          width: { lg: '1200px' },
-        }}
-      >
-        <Grid container sx={{ spacing: { md: 2 } }}>
-          <Grid ref={aboutRef} item container md={7}>
-            <About />
-          </Grid>
-          <Grid
-            item
-            container
-            md={5}
-            ref={participantsRef}
-            sx={{
-              display: 'flex',
-              justifyContent: { xs: 'center', md: 'right' },
-            }}
-          >
-            <Participants />
-          </Grid>
-        </Grid>
-      </Container>
-      <Box
+      <Header />
+
+      <Routes>
+        <Route path="/" element={<HomeView />} />
+        <Route path="/concerts" element={<ConcertsView />} />
+      </Routes>
+
+      {/* <Box
         sx={{
           padding: {
             xs: '30px 16px 10px 16px',
@@ -129,16 +55,16 @@ function App() {
         ref={programmRef}
       >
         <Programm />
-      </Box>
-      <Container
+      </Box> */}
+      {/* <Container
         sx={{
           width: { lg: '1200px' },
-          padding: { xs: '10px', sm: '20px', lg: '60px' },
+          padding: { xs: '10px', sm: '50px', lg: '60px' },
         }}
-      ></Container>
-      <Container ref={concertsRef}>
+      ></Container> */}
+      {/* <Container ref={concertsRef}>
         <Concerts />
-      </Container>
+      </Container> */}
       <Typography
         sx={{
           color: '#0a5b81',

@@ -1,4 +1,13 @@
 @media screen and (min-width: 768px) {
+  .Link {
+    text-decoration: none;
+    color: lil;
+  }
+  .ActiveLink {
+    text-decoration: none;
+    color: green;
+    background-color: rgb(40, 40, 49);
+  }
   .MenuContainer {
     padding: 0px 40px;
   }

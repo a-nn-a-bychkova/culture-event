@@ -1,6 +1,7 @@
 import hero from '../../images/hochschule-common-foto.JPG';
-import nextPosterDe from '../../images/29-10-2023-de.png';
+import Poster from '../../images/hero-half.png';
 import Context from '../../contexts/context';
+import Address from '../Address';
 import { useContext } from 'react';
 import { Box, Typography } from '@mui/material';
 
@@ -8,20 +9,21 @@ const Hero = () => {
   const { language } = useContext(Context);
 
   return (
-    <Box
-      sx={{
-        zIndex: '-1',
-        position: 'relative',
-        alignItems: 'center',
-        justifyContent: 'center',
-        maxWidth: '1200px',
-        marginLeft: 'auto',
-        marginRight: 'auto',
-      }}
-    >
-      <img alt="image" src={hero} width="100%" />
+    <Box xs={{ maxWidth: '1200px' }}>
+      <Box
+        sx={{
+          zIndex: '1',
+          position: 'relative',
+          alignItems: 'center',
+          justifyContent: 'center',
+          maxWidth: '1200px',
+          marginLeft: 'auto',
+          marginRight: 'auto',
+        }}
+      >
+        <img alt="image" src={Poster} width="100%" />
 
-      {/* {language === 'de' ? (
+        {/* {language === 'de' ? (
         <Typography
           sx={{
             typography: { xs: 'h4', sm: 'h2', md: 'h1' },
@@ -63,6 +65,17 @@ const Hero = () => {
           <div>Благодійний концерт</div>
         </Typography>
       )} */}
+      </Box>
+      <Box
+        sx={{
+          zIndex: '2',
+          position: 'absolute',
+          right: { xs: '5%', lg: '12%', xl: '28%' },
+          top: { xs: '10%', md: '14%', lg: '12%', xl: '7%' },
+        }}
+      >
+        <Address />
+      </Box>
     </Box>
   );
 };
