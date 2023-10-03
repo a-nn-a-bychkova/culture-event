@@ -71,7 +71,7 @@ const Hero = () => {
           zIndex: '2',
           position: 'absolute',
           right: { xs: '5%', lg: '12%', xl: '28%' },
-          top: { xs: '10%', md: '14%', lg: '12%', xl: '7%' },
+          top: { xs: '12%', md: '14%', lg: '12%', xl: '7%' },
         }}
       >
         <Address />
