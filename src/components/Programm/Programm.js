@@ -17,41 +17,11 @@ const musicalPiecesDe = [
   },
   {
     id: uuidv4(),
-    author: 'I. Kyrylina (1953-2017)',
-    title: '"Leletscha dolia" ("Storches Schicksal")',
-    additionalInfo: 'nach dem Text von V. Tsiliy (1939)',
-    performer: ['Nataliia Hrabarska'],
-  },
-  {
-    id: uuidv4(),
-    author: 'R. Schumann (1810-1856)',
-    title: '"Widmung"',
-    additionalInfo:
-      'nach dem Text von F. Rückert (1788-1866) aus dem Liederzyklus "Myrten" op.25 (1840)',
-    performer: ['Nataliia Hrabarska'],
-  },
-
-  {
-    id: uuidv4(),
     author: 'M. Stetsiun (1942)',
     title: '“Vyschywanka” (“Besticktes Hemd”)',
     additionalInfo: 'nach dem Text von A. Drahomyretskyi (1941-2011)',
     performer: ['Schirin Hudajbergenova', 'Olena Vasylenko'],
   },
-  {
-    id: uuidv4(),
-    author: 'L. Dytschko (L. Dychko - eng.) (1939)',
-    title: '"Na tchovni" ("Auf dem Boot")',
-    additionalInfo: 'auf dem Text von L. Ukrainka (1871-1913)',
-    performer: ['Schirin Hudajbergenova', 'Olena Vasylenko'],
-  },
-  {
-    id: uuidv4(),
-    author: 'Bearbeitung von F. Nadenenko (1902-1963)',
-    title: "Ukrainisches Volkslied “Misyats' na nebi” (“Der Mond am Himmel”)",
-    performer: ['Schirin Hudajbergenova', 'Anna Bychkova', 'Olena Vasylenko'],
-  },
-
   {
     id: uuidv4(),
     author: 'V. Drobiazgina (1947-2017)',
@@ -62,10 +32,51 @@ const musicalPiecesDe = [
   },
   {
     id: uuidv4(),
+    author: 'A. Kos-Anatolsky (1909-1983)',
+    title: '"Oj ty divtschyno"',
+    additionalInfo: 'nach dem Text von I. Franko (1856-1916)',
+    performer: ['Yevhen Petronelli', 'Olena Vasylenko'],
+  },
+  {
+    id: uuidv4(),
+    author: 'L. Dytschko (L. Dychko - eng.) (1939)',
+    title: '"Na tchovni" ("Auf dem Boot")',
+    additionalInfo: 'auf dem Text von L. Ukrainka (1871-1913)',
+    performer: ['Schirin Hudajbergenova', 'Olena Vasylenko'],
+  },
+  {
+    id: uuidv4(),
     author: 'V. Ivasiuk (1949-1979)',
     title: '"Ballada pro Malvy"',
     additionalInfo: 'nach dem Text von B. Gura (1914-2018)',
     performer: ['Anna Bychkova', 'Olena Vasylenko'],
+  },
+  {
+    id: uuidv4(),
+    author: 'Ukrainisches Volkslied',
+    title: '"Oj u vyshnevomu sadu" ("Oh, im kirschgarten")',
+    performer: ['Schirin Hudajbergenova', 'Olena Vasylenko'],
+  },
+  {
+    id: uuidv4(),
+    author: 'I. Kyrylina (1953-2017)',
+    title: '"Leletscha dolia" ("Storches Schicksal")',
+    additionalInfo: 'nach dem Text von V. Tsiliy (1939)',
+    performer: ['Nataliia Hrabarska'],
+  },
+  {
+    id: uuidv4(),
+    author: 'Bearbeitung von F. Nadenenko (1902-1963)',
+    title: "Ukrainisches Volkslied “Misyats' na nebi” (“Der Mond am Himmel”)",
+    performer: ['Schirin Hudajbergenova', 'Anna Bychkova', 'Olena Vasylenko'],
+  },
+  {
+    id: uuidv4(),
+    author: 'R. Schumann (1810-1856)',
+    title: '"Widmung"',
+    additionalInfo:
+      'nach dem Text von F. Rückert (1788-1866) aus dem Liederzyklus "Myrten" op.25 (1840)',
+    performer: ['Nataliia Hrabarska'],
   },
   {
     id: uuidv4(),
@@ -76,10 +87,14 @@ const musicalPiecesDe = [
   },
   {
     id: uuidv4(),
-    author: 'A. Kos-Anatolsky (1909-1983)',
-    title: '"Oj ty divtschyno"',
-    additionalInfo: 'nach dem Text von I. Franko (1856-1916)',
-    performer: ['Yevhen Petronelli', 'Olena Vasylenko'],
+    author: 'L. Delibes (1836-1891)',
+    title: 'Duet von Malika und Lakmé',
+    additionalInfo: 'aus der Oper "Lakmé"',
+    performer: [
+      'Schirin Hudajbergenova',
+      'Nataliia Hrabarska',
+      'Olena Vasylenko',
+    ],
   },
   {
     id: uuidv4(),
@@ -99,17 +114,6 @@ const musicalPiecesDe = [
       'Olena Vasylenko',
     ],
   },
-  {
-    id: uuidv4(),
-    author: 'L. Delibes (1836-1891)',
-    title: 'Duet von Malika und Lakmé',
-    additionalInfo: 'aus der Oper "Lakmé"',
-    performer: [
-      'Schirin Hudajbergenova',
-      'Nataliia Hrabarska',
-      'Olena Vasylenko',
-    ],
-  },
 ];
 
 const musicalPiecesUkr = [
@@ -121,10 +125,57 @@ const musicalPiecesUkr = [
   },
   {
     id: uuidv4(),
+    author: 'М. Стецюн (1942)',
+    title: '“Вишиванка”',
+    additionalInfo: 'на сл. А. Драгомирецького (1941-2011)',
+    performer: ['Ширін Худайбергенова', 'Олена Василенко'],
+  },
+  {
+    id: uuidv4(),
+    author: 'В. Дробязгіна (1947-2017)',
+    title: '"Чом, чом, земле моя"',
+    additionalInfo:
+      'на сл. К. Малицької (1872-1947) з вокального циклу “Кольорова стрічка”(1980)',
+    performer: ['Анна Бичкова', 'Олена Василенко'],
+  },
+  {
+    id: uuidv4(),
+    author: 'A. Кос-Анатольський (1909-1983)',
+    title: '"Ой ти, дівчино, з горіха зерня"',
+    additionalInfo: 'на сл. І. Франка (1856-1916)',
+    performer: ['Євген Петронеллі', 'Олена Василенко'],
+  },
+  {
+    id: uuidv4(),
+    author: 'Л. Дичко (1939)',
+    title: '"На човні"',
+    additionalInfo: 'на сл. Л. Українки (1871-1913)',
+    performer: ['Ширін Худайбергенова', 'Олена Василенко'],
+  },
+  {
+    id: uuidv4(),
+    author: 'В. Iвасюк (1949-1979)',
+    title: '"Пісня буде поміж нас"',
+    performer: ['Анна Бичкова', 'Олена Василенко'],
+  },
+  {
+    id: uuidv4(),
+    author: 'українська народна пісня',
+    title: '“Ой, у вишневому саду”',
+    performer: ['Ширін Худайбергенова', 'Олена Василенко'],
+  },
+  {
+    id: uuidv4(),
     author: 'І. Кириліна (1953-2017)',
     title: '"Лелеча доля"',
     additionalInfo: 'на сл. В. Цілого (1939)',
     performer: ['Наталія Грабарська'],
+  },
+  {
+    id: uuidv4(),
+    author: 'у.н.п. в обр. Ф. Надененка (1902-1963)',
+    title: '“Місяць на небі”',
+    performer: ['Анна Бичкова', 'Ширін Худайбергенова', 'Олена Василенко'],
   },
   {
     id: uuidv4(),
@@ -136,43 +187,6 @@ const musicalPiecesUkr = [
   },
   {
     id: uuidv4(),
-    author: 'М. Стецюн (1942)',
-    title: '“Вишиванка”',
-    additionalInfo: 'на сл. А. Драгомирецького (1941-2011)',
-    performer: ['Ширін Худайбергенова', 'Олена Василенко'],
-  },
-
-  {
-    id: uuidv4(),
-    author: 'Л. Дичко (1939)',
-    title: '"На човні"',
-    additionalInfo: 'на сл. Л. Українки (1871-1913)',
-    performer: ['Ширін Худайбергенова', 'Олена Василенко'],
-  },
-
-  {
-    id: uuidv4(),
-    author: 'у.н.п. в обр. Ф. Надененка (1902-1963)',
-    title: '“Місяць на небі”',
-    performer: ['Анна Бичкова', 'Ширін Худайбергенова', 'Олена Василенко'],
-  },
-
-  {
-    id: uuidv4(),
-    author: 'В. Дробязгіна (1947-2017)',
-    title: '"Чом, чом, земле моя"',
-    additionalInfo:
-      'на сл. К. Малицької (1872-1947) з вокального циклу “Кольорова стрічка”(1980)',
-    performer: ['Анна Бичкова', 'Олена Василенко'],
-  },
-  {
-    id: uuidv4(),
-    author: 'В. Iвасюк (1949-1979)',
-    title: '"Пісня буде поміж нас"',
-    performer: ['Анна Бичкова', 'Олена Василенко'],
-  },
-  {
-    id: uuidv4(),
     author: 'Ж. Бізе (1838-1875)',
     title: 'Хабанера',
     additionalInfo: 'з опери "Кармен"',
@@ -180,10 +194,14 @@ const musicalPiecesUkr = [
   },
   {
     id: uuidv4(),
-    author: 'A. Кос-Анатольський (1909-1983)',
-    title: '"Ой ти, дівчино, з горіха зерня"',
-    additionalInfo: 'на сл. І. Франка (1856-1916)',
-    performer: ['Євген Петронеллі', 'Олена Василенко'],
+    author: 'Л. Деліб (1836-1891)',
+    title: 'Дует Маліки і Лакме',
+    additionalInfo: 'з опери "Лакме"',
+    performer: [
+      'Ширін Худайбергенова',
+      'Наталія Грабарська',
+      'Олена Василенко',
+    ],
   },
   {
     id: uuidv4(),
@@ -198,17 +216,6 @@ const musicalPiecesUkr = [
     title: '"Lippen schweigen"',
     additionalInfo: 'з оперетти "Весела вдова"',
     performer: ['Ширін Худайбергенова', 'Євген Петронеллі', 'Олена Василенко'],
-  },
-  {
-    id: uuidv4(),
-    author: 'Л. Деліб (1836-1891)',
-    title: 'Дует Маліки і Лакме',
-    additionalInfo: 'з опери "Лакме"',
-    performer: [
-      'Ширін Худайбергенова',
-      'Наталія Грабарська',
-      'Олена Василенко',
-    ],
   },
 ];
 

@@ -36,6 +36,8 @@ const ConcertsListDe = [
     participants:
       'Schirin Hudajbergenova (Sopran), Anna Bychkova (Mezzosopran), Nataliia Hrabarska (Bandura, Mezzosopran), Yevhen Petronelli (Bariton), Olena Vasylenko (Klavier), Sofia Smirnov (Moderatorin)',
     fbevent: 'https://fb.me/e/1q9uYtk4l',
+    details:
+      'Musickstücke von M. Skoryk, I. Kyrylina, M. Stetsiun, V. Drobiazgina, V. Ivasiuk, Ukrainisches Volkslieder, A. Kos-Anatolsky, L. Dytschko, R. Schumann, G. Bizet, E. W. Korngold, F. Lehár, L. Delibes',
   },
   {
     id: uuidv4(),
@@ -48,9 +50,11 @@ const ConcertsListDe = [
     ticket: 'Eintritt frei',
     dauer: 'ca. 2 St. mit der Pause',
     participants:
-      'Nataliia Hrabarska (Bandura, Mezzosopran), Maryna Kitashkina (Barockgitarre), Oleg Czuchlieb (Renaissance Laute, Theorbe), Svitlana Kitashkina, Anastasiia Krasnikova, Maryna Pavlenko, Olena Vasylenko (Klavier)',
+      'Nataliia Hrabarska (Bandura, Mezzosopran), Maryna Kitashkina (Barockgitarre), Oleg Czuchlieb (Renaissance Laute, Theorbe), Svitlana Kitashkina, Anastasiia Krasnikova, Maryna Pavlenko (Klavier)',
 
     fbevent: 'https://fb.me/e/14o0pWrY3',
+    details:
+      'Bearbeitungen der Volksmusik, Improvisationen auf Volksthemen, Kompositionen von ukrainischen Komponisten, westeuropäische Musik verschiedener Epochen: vom Barock bis zur Moderne',
   },
   {
     id: uuidv4(),
@@ -63,7 +67,7 @@ const ConcertsListDe = [
     ticket: 'Eintritt frei',
     dauer: 'ca. 2 St. mit der Pause',
     participants:
-      'Maryna Chernoshtan (Soprano), Anna Bychkova (Mezzosopran), Nataliia Hrabarska (Bandura, Mezzosopran), Anastasiia Gavaza (Mezzosopran), Olexandr Forkushak (Bariton), Olena Vasylenko (Klavier)',
+      'Maryna Chernoshtan (Soprano), Anna Bychkova (Mezzosopran), Nataliia Hrabarska (Bandura, Mezzosopran), Anastasiia Gavaza (Mezzosopran), Olexandr Forkushak (Bariton), Olha Filatova (Klavier), Olena Vasylenko (Klavier)',
   },
 ];
 const ConcertsListUkr = [
@@ -78,6 +82,10 @@ const ConcertsListUkr = [
     ticket: 'Вхід - 5 євро',
     dauer: '1 год. 15 хв.',
     fbevent: 'https://fb.me/e/1q9uYtk4l',
+    participants:
+      'Ширін Худайбергенова (сопрано), Анна Бичкова (мецо-сопрано), Наталія Грабарська (бандура, мецо-сопрано), Євген Петронелі (баритон), Олена Василенко (фортепіано), Софія Смірнов (ведуча)',
+    details:
+      'Українські народні пісні, композиції М. Скорика, І. Кириліної, М. Стецюн, В. Дробязгіної, В. Івасюка, А. Кос-Анатольського, Л. Дичко, Р. Шумана, Ж. Бізе, Л. Деліба, Е. В. Корнгольда, Ф. Легара',
   },
   {
     id: uuidv4(),
@@ -90,6 +98,10 @@ const ConcertsListUkr = [
     ticket: 'Вхід вільний (донати)',
     dauer: '2 год. з перервою',
     fbevent: 'https://fb.me/e/14o0pWrY3',
+    participants:
+      'Наталія Грабарська (бандура, мецо-сопрано), Марина Кіташкіна (барокова гітара), Олег Чухліб (ренесансна флейта, теорба), Світлана Кіташкіна, Анастасія Краснікова, Марина Павленко (фортепіано)',
+    details:
+      'Українська музика, у вигляді обробок народної музики, імпровізацій на народні теми, п’єс та композицій українських митців, західноєвропейська музику різних епох: від бароко до сучасності',
   },
   {
     id: uuidv4(),
@@ -101,6 +113,8 @@ const ConcertsListUkr = [
       'https://www.google.com/maps/place/Killermannstra%C3%9Fe+26,+93049+Regensburg/@49.0182726,12.0445809,17z/data=!3m1!4b1!4m6!3m5!1s0x479fc08a2202f841:0xcbe51c612123b922!8m2!3d49.0182691!4d12.0471558!16s%2Fg%2F11c4djbjl5?entry=ttu',
     ticket: 'Вхід вільний (донати)',
     dauer: '2 год. з перервою',
+    participants:
+      'Марина Черноштан (сопрано), Анна Бичкова (мецо-сопрано), Наталія Грабарська (бандура, мецо-сопрано), Анастасія Гаваза (мецо-сопрано), Олександр Форкушак (баритон), Ольга Філатова (фортепіано), Олена Василенко (фортепіано)',
   },
 ];
 export default function HomeView(props) {
@@ -238,6 +252,7 @@ export default function HomeView(props) {
                       {concert.addressText}
                     </Typography>
                   </Link>
+
                   <Typography
                     sx={{
                       fontFamily: 'Times New Roman',
@@ -250,6 +265,7 @@ export default function HomeView(props) {
                   >
                     Teilnehmer:innen
                   </Typography>
+
                   <Typography
                     sx={{
                       fontFamily: 'Times New Roman',
@@ -261,6 +277,31 @@ export default function HomeView(props) {
                   >
                     {concert.participants}
                   </Typography>
+                  {concert.details && (
+                    <Typography
+                      sx={{
+                        fontFamily: 'Times New Roman',
+                        fontSize: { sm: '16px', md: '18px' },
+                        lineHeight: { sm: '24px' },
+                        marginRight: 'auto',
+                        fontStyle: 'normal',
+                      }}
+                    >
+                      <Typography
+                        sx={{
+                          fontFamily: 'Times New Roman',
+                          paddingTop: '10px',
+                          fontSize: { sm: '16px', md: '18px' },
+                          lineHeight: { sm: '24px' },
+                          fontWeight: 'bold',
+                          marginRight: 'auto',
+                        }}
+                      >
+                        Programm
+                      </Typography>{' '}
+                      {concert.details}
+                    </Typography>
+                  )}
                   <Typography
                     sx={{
                       display: 'flex',
@@ -308,7 +349,7 @@ export default function HomeView(props) {
                 justifyContent: 'end',
               }}
             >
-              {ConcertsListDe.map(concert => (
+              {ConcertsListUkr.map(concert => (
                 <ListItem
                   key={concert.id}
                   sx={{
@@ -399,7 +440,7 @@ export default function HomeView(props) {
                       marginRight: 'auto',
                     }}
                   >
-                    Teilnehmer:innen
+                    Учасники
                   </Typography>
                   <Typography
                     sx={{
@@ -412,6 +453,31 @@ export default function HomeView(props) {
                   >
                     {concert.participants}
                   </Typography>
+                  {concert.details && (
+                    <Typography
+                      sx={{
+                        fontFamily: 'Times New Roman',
+                        fontSize: { sm: '16px', md: '18px' },
+                        lineHeight: { sm: '24px' },
+                        marginRight: 'auto',
+                        fontStyle: 'normal',
+                      }}
+                    >
+                      <Typography
+                        sx={{
+                          fontFamily: 'Times New Roman',
+                          paddingTop: '10px',
+                          fontSize: { sm: '16px', md: '18px' },
+                          lineHeight: { sm: '24px' },
+                          fontWeight: 'bold',
+                          marginRight: 'auto',
+                        }}
+                      >
+                        Програма
+                      </Typography>{' '}
+                      {concert.details}
+                    </Typography>
+                  )}
                   <Typography
                     sx={{
                       display: 'flex',
