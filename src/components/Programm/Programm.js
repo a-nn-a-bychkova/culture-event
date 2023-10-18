@@ -19,7 +19,7 @@ const musicalPiecesDe = [
     id: uuidv4(),
     author: 'I. Kyrylina (1953-2017)',
     title: '"Leletscha dolia" ("Storches Schicksal")',
-    additionalInfo: 'auf dem Text von V. Tsiliy (1939)',
+    additionalInfo: 'nach dem Text von V. Tsiliy (1939)',
     performer: ['Nataliia Hrabarska'],
   },
   {
@@ -27,7 +27,7 @@ const musicalPiecesDe = [
     author: 'R. Schumann (1810-1856)',
     title: '"Widmung"',
     additionalInfo:
-      'auf dem Text von F. Rückert (1788-1866) aus dem Liederzyklus "Myrten" op.25 (1840)',
+      'nach dem Text von F. Rückert (1788-1866) aus dem Liederzyklus "Myrten" op.25 (1840)',
     performer: ['Nataliia Hrabarska'],
   },
 
@@ -35,7 +35,7 @@ const musicalPiecesDe = [
     id: uuidv4(),
     author: 'M. Stetsiun (1942)',
     title: '“Vyschywanka” (“Besticktes Hemd”)',
-    additionalInfo: 'auf dem Text von A. Drahomyretskyi (1941-2011)',
+    additionalInfo: 'nach dem Text von A. Drahomyretskyi (1941-2011)',
     performer: ['Schirin Hudajbergenova', 'Olena Vasylenko'],
   },
   {
@@ -63,7 +63,8 @@ const musicalPiecesDe = [
   {
     id: uuidv4(),
     author: 'V. Ivasiuk (1949-1979)',
-    title: '"Pisnia bude pomizh nas"("Das Lied wird zwischen uns sein")',
+    title: '"Ballada pro Malvy"',
+    additionalInfo: 'nach dem Text von B. Gura (1914-2018)',
     performer: ['Anna Bychkova', 'Olena Vasylenko'],
   },
   {
@@ -77,7 +78,7 @@ const musicalPiecesDe = [
     id: uuidv4(),
     author: 'A. Kos-Anatolsky (1909-1983)',
     title: '"Oj ty divtschyno"',
-    additionalInfo: 'auf dem Text von I. Franko (1856-1916)',
+    additionalInfo: 'nach dem Text von I. Franko (1856-1916)',
     performer: ['Yevhen Petronelli', 'Olena Vasylenko'],
   },
   {

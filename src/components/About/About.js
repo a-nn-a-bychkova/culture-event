@@ -15,6 +15,9 @@ const About = () => {
     <Box
       sx={{
         color: '#0a5b81',
+        maxWidth: { lg: '600px' },
+        marginLeft: 'auto',
+        marginRight: 'auto',
       }}
     >
       {language === 'de' ? (

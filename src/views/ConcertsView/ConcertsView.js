@@ -6,6 +6,7 @@ import {
 } from '@mui/material/styles';
 import Context from '../../contexts/context';
 import { generatePath } from 'react-router-dom';
+import Link from '@mui/material/Link';
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 import {
   Box,
@@ -27,31 +28,38 @@ const ConcertsListDe = [
     date: 'So, 29.10.2023',
     time: '15:00',
     title: 'Kulturladen Zeltnerschloss',
-    address: 'Gleißhammerstr. 6, Nürnberg',
+    addressText: 'Gleißhammerstraße 6, Nürnberg',
+    address:
+      'https://www.google.com/maps/place/Glei%C3%9Fhammerstra%C3%9Fe+6,+90480+N%C3%BCrnberg/@49.4474204,11.1069402,17z/data=!3m1!4b1!4m6!3m5!1s0x479f57815b22a9a5:0xead090a74dca17fc!8m2!3d49.4474169!4d11.1095151!16s%2Fg%2F11bw43b2j_?entry=ttu',
     ticket: 'Eintritt 5 Euro',
     dauer: 'ca. 1 St. 15 Min.',
     participants:
-      'Schirin Hudajbergenova (Sopran), Anna Bychkova (Mezzosopran), Nataliia Hrabarska (Bandura, Mezzosopran), Yevhen Petronelli (Bariton), Olena Vasylenko (Klavier)',
-    info: '',
+      'Schirin Hudajbergenova (Sopran), Anna Bychkova (Mezzosopran), Nataliia Hrabarska (Bandura, Mezzosopran), Yevhen Petronelli (Bariton), Olena Vasylenko (Klavier), Sofia Smirnov (Moderatorin)',
+    fbevent: 'https://fb.me/e/1q9uYtk4l',
   },
   {
     id: uuidv4(),
     date: 'Sa, 11.11.2023',
     time: '17:00',
     title: 'Gemeinschaftshaus Langwasser',
-    address: 'Glogauer Str. 50, Nürnberg',
+    addressText: 'Glogauer Str. 50, Nürnberg',
+    address:
+      'https://www.google.com/maps/place/Glogauer+Str.+50,+90473+N%C3%BCrnberg/@49.4017105,11.1327548,17z/data=!3m1!4b1!4m6!3m5!1s0x479f598856d89a4f:0x21666b204af31f6d!8m2!3d49.401707!4d11.1353297!16s%2Fg%2F11c4qqh0gz?entry=ttu',
     ticket: 'Eintritt frei',
     dauer: 'ca. 2 St. mit der Pause',
     participants:
       'Nataliia Hrabarska (Bandura, Mezzosopran), Maryna Kitashkina (Barockgitarre), Oleg Czuchlieb (Renaissance Laute, Theorbe), Svitlana Kitashkina, Anastasiia Krasnikova, Maryna Pavlenko, Olena Vasylenko (Klavier)',
-    info: '',
+
+    fbevent: 'https://fb.me/e/14o0pWrY3',
   },
   {
     id: uuidv4(),
     date: 'So, 12.11.2023',
     time: '16:00',
     title: 'Katolische Pfarrei St. Bonifaz - St. Georg',
-    address: 'Killermannstr. 26, Regensburg',
+    addressText: 'Killermannstraße 26, Regensburg',
+    address:
+      'https://www.google.com/maps/place/Killermannstra%C3%9Fe+26,+93049+Regensburg/@49.0182726,12.0445809,17z/data=!3m1!4b1!4m6!3m5!1s0x479fc08a2202f841:0xcbe51c612123b922!8m2!3d49.0182691!4d12.0471558!16s%2Fg%2F11c4djbjl5?entry=ttu',
     ticket: 'Eintritt frei',
     dauer: 'ca. 2 St. mit der Pause',
     participants:
@@ -64,25 +72,33 @@ const ConcertsListUkr = [
     date: 'Нд, 29 жовтня 2023',
     time: '15:00',
     title: 'Kulturladen Zeltnerschloss',
-    address: 'Gleißhammerstr. 6, Nürnberg',
+    addressText: 'Glogauer Str. 50, Nürnberg',
+    address:
+      'https://www.google.com/maps/place/Glei%C3%9Fhammerstra%C3%9Fe+6,+90480+N%C3%BCrnberg/@49.4474204,11.1069402,17z/data=!3m1!4b1!4m6!3m5!1s0x479f57815b22a9a5:0xead090a74dca17fc!8m2!3d49.4474169!4d11.1095151!16s%2Fg%2F11bw43b2j_?entry=ttu',
     ticket: 'Вхід - 5 євро',
     dauer: '1 год. 15 хв.',
+    fbevent: 'https://fb.me/e/1q9uYtk4l',
   },
   {
     id: uuidv4(),
     date: 'Сб, 11 листопада 2023',
     time: '17:00',
     title: 'Gemeinschaftshaus Langwasser',
-    address: 'Glogauer Str. 50, Nürnberg',
+    addressText: 'Killermannstraße 26, Regensburg',
+    address:
+      'https://www.google.com/maps/place/Killermannstra%C3%9Fe+26,+93049+Regensburg/@49.0182726,12.0445809,17z/data=!3m1!4b1!4m6!3m5!1s0x479fc08a2202f841:0xcbe51c612123b922!8m2!3d49.0182691!4d12.0471558!16s%2Fg%2F11c4djbjl5?entry=ttu',
     ticket: 'Вхід вільний (донати)',
     dauer: '2 год. з перервою',
+    fbevent: 'https://fb.me/e/14o0pWrY3',
   },
   {
     id: uuidv4(),
     date: 'Нд, 12 листопада 2023',
     time: '16:00',
     title: 'Katolische Pfarrei St. Bonifaz - St. Georg',
-    address: 'Killermannstr. 26, Regensburg',
+    addressText: 'Killermannstraße 26, Regensburg',
+    address:
+      'https://www.google.com/maps/place/Killermannstra%C3%9Fe+26,+93049+Regensburg/@49.0182726,12.0445809,17z/data=!3m1!4b1!4m6!3m5!1s0x479fc08a2202f841:0xcbe51c612123b922!8m2!3d49.0182691!4d12.0471558!16s%2Fg%2F11c4djbjl5?entry=ttu',
     ticket: 'Вхід вільний (донати)',
     dauer: '2 год. з перервою',
   },
@@ -108,13 +124,6 @@ export default function HomeView(props) {
         marginRight: 'auto',
       }}
     >
-      <Box
-        sx={{
-          backgroundColor: '#0a5b81',
-          width: '100%',
-          height: '1px',
-        }}
-      ></Box>
       <Box
         sx={{
           maxWidth: { lg: '1200px' },
@@ -166,37 +175,69 @@ export default function HomeView(props) {
                       fontSize: '22px',
                       lineHeight: { sm: '24px' },
                       marginRight: 'auto',
+
                       fontWeight: 'bold',
                     }}
                   >
                     {concert.date}{' '}
-                    <Box>
+                    <Box sx={{ paddingTop: '6px', paddingBottom: '6px' }}>
                       <AlarmIcon sx={{ height: '14px' }} />
                       {concert.time}
                     </Box>
                   </Typography>
-                  <Typography
-                    sx={{
-                      fontFamily: 'Times New Roman',
-                      fontSize: { sm: '16px', md: '18px' },
-                      lineHeight: { sm: '24px' },
+                  {concert.fbevent ? (
+                    <Link
+                      href={concert.fbevent}
+                      style={{
+                        marginRight: 'auto',
+                        color: 'inherit',
+                      }}
+                    >
+                      <Typography
+                        sx={{
+                          fontFamily: 'Times New Roman',
+                          fontSize: { sm: '16px', md: '18px' },
+                          lineHeight: { sm: '24px' },
+                          marginRight: 'auto',
+                          fontStyle: 'normal',
+                        }}
+                      >
+                        {concert.title}
+                      </Typography>
+                    </Link>
+                  ) : (
+                    <Typography
+                      sx={{
+                        fontFamily: 'Times New Roman',
+                        fontSize: { sm: '16px', md: '18px' },
+                        lineHeight: { sm: '24px' },
+                        marginRight: 'auto',
+                        fontStyle: 'normal',
+                      }}
+                    >
+                      {concert.title}
+                    </Typography>
+                  )}
+
+                  <Link
+                    href={concert.address}
+                    style={{
                       marginRight: 'auto',
-                      fontStyle: 'normal',
+                      color: 'inherit',
                     }}
                   >
-                    {concert.title}
-                  </Typography>
-                  <Typography
-                    sx={{
-                      fontFamily: 'Times New Roman',
-                      fontSize: { sm: '16px', md: '18px' },
-                      lineHeight: { sm: '24px' },
-                      fontStyle: 'normal',
-                      marginRight: 'auto',
-                    }}
-                  >
-                    {concert.address}
-                  </Typography>
+                    <Typography
+                      sx={{
+                        display: 'flex',
+                        fontFamily: 'Times New Roman',
+                        fontStyle: 'italic',
+                        fontSize: { sm: '16px', md: '18px' },
+                        lineHeight: { sm: '24px' },
+                      }}
+                    >
+                      {concert.addressText}
+                    </Typography>
+                  </Link>
                   <Typography
                     sx={{
                       fontFamily: 'Times New Roman',
@@ -233,7 +274,6 @@ export default function HomeView(props) {
                   >
                     {concert.ticket}
                   </Typography>
-
                   <Typography
                     sx={{
                       fontFamily: 'Times New Roman',
@@ -246,7 +286,6 @@ export default function HomeView(props) {
                   >
                     {concert.dauer}
                   </Typography>
-
                   {/* <Button onClick={handleClick}>
                     Details <ArrowDropDownIcon />
                   </Button> */}
@@ -265,17 +304,17 @@ export default function HomeView(props) {
             <Box
               sx={{
                 display: 'flex',
-                flexDirection: { xs: 'column', sm: 'row', md: 'column' },
+                flexDirection: { xs: 'column', md: 'row' },
                 justifyContent: 'end',
               }}
             >
-              {ConcertsListUkr.map(concert => (
+              {ConcertsListDe.map(concert => (
                 <ListItem
                   key={concert.id}
                   sx={{
                     display: 'flex',
                     flexDirection: 'column',
-                    paddingTop: '20px',
+                    paddingTop: '34px',
                     paddingLeft: '0px',
                     paddingBottom: '0px',
                   }}
@@ -284,36 +323,94 @@ export default function HomeView(props) {
                     sx={{
                       display: 'block',
                       fontFamily: 'Times New Roman',
-                      fontSize: { sm: '16px', md: '18px' },
+                      fontSize: '22px',
                       lineHeight: { sm: '24px' },
                       marginRight: 'auto',
+
                       fontWeight: 'bold',
                     }}
                   >
-                    {concert.date} <AlarmIcon sx={{ height: '14px' }} />
-                    {concert.time}
+                    {concert.date}{' '}
+                    <Box sx={{ paddingTop: '6px', paddingBottom: '6px' }}>
+                      <AlarmIcon sx={{ height: '14px' }} />
+                      {concert.time}
+                    </Box>
+                  </Typography>
+                  {concert.fbevent ? (
+                    <Link
+                      href={concert.fbevent}
+                      style={{
+                        marginRight: 'auto',
+                        color: 'inherit',
+                      }}
+                    >
+                      <Typography
+                        sx={{
+                          fontFamily: 'Times New Roman',
+                          fontSize: { sm: '16px', md: '18px' },
+                          lineHeight: { sm: '24px' },
+                          marginRight: 'auto',
+                          fontStyle: 'normal',
+                        }}
+                      >
+                        {concert.title}
+                      </Typography>
+                    </Link>
+                  ) : (
+                    <Typography
+                      sx={{
+                        fontFamily: 'Times New Roman',
+                        fontSize: { sm: '16px', md: '18px' },
+                        lineHeight: { sm: '24px' },
+                        marginRight: 'auto',
+                        fontStyle: 'normal',
+                      }}
+                    >
+                      {concert.title}
+                    </Typography>
+                  )}
+
+                  <Link
+                    href={concert.address}
+                    style={{
+                      marginRight: 'auto',
+                      color: 'inherit',
+                    }}
+                  >
+                    <Typography
+                      sx={{
+                        display: 'flex',
+                        fontFamily: 'Times New Roman',
+                        fontStyle: 'italic',
+                        fontSize: { sm: '16px', md: '18px' },
+                        lineHeight: { sm: '24px' },
+                      }}
+                    >
+                      {concert.addressText}
+                    </Typography>
+                  </Link>
+                  <Typography
+                    sx={{
+                      fontFamily: 'Times New Roman',
+                      paddingTop: '10px',
+                      fontSize: { sm: '16px', md: '18px' },
+                      lineHeight: { sm: '24px' },
+                      fontWeight: 'bold',
+                      marginRight: 'auto',
+                    }}
+                  >
+                    Teilnehmer:innen
                   </Typography>
                   <Typography
                     sx={{
                       fontFamily: 'Times New Roman',
                       fontSize: { sm: '16px', md: '18px' },
                       lineHeight: { sm: '24px' },
-                      marginRight: 'auto',
-                      fontStyle: 'normal',
-                    }}
-                  >
-                    {concert.title}
-                  </Typography>
-                  <Typography
-                    sx={{
-                      fontFamily: 'Times New Roman',
-                      fontSize: { sm: '16px', md: '18px' },
-                      lineHeight: { sm: '24px' },
                       fontStyle: 'normal',
                       marginRight: 'auto',
                     }}
                   >
-                    {concert.address}
+                    {concert.participants}
                   </Typography>
                   <Typography
                     sx={{
@@ -323,6 +420,7 @@ export default function HomeView(props) {
                       lineHeight: { sm: '24px' },
                       letterSpacing: 4,
                       marginRight: 'auto',
+                      paddingTop: '16px',
                     }}
                   >
                     {concert.ticket}
@@ -334,10 +432,22 @@ export default function HomeView(props) {
                       lineHeight: { sm: '24px' },
                       fontStyle: 'normal',
                       marginRight: 'auto',
+                      paddingBottom: '10px',
                     }}
                   >
                     {concert.dauer}
                   </Typography>
+                  {/* <Button onClick={handleClick}>
+                  Details <ArrowDropDownIcon />
+                </Button> */}
+                  <Box
+                    sx={{
+                      display: { md: 'none' },
+                      backgroundColor: '#0a5b81',
+                      width: '100%',
+                      height: '1px',
+                    }}
+                  ></Box>
                 </ListItem>
               ))}
             </Box>
