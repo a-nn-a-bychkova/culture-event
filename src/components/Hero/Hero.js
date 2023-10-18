@@ -1,5 +1,6 @@
 import hero from '../../images/hochschule-common-foto.JPG';
-import Poster from '../../images/hero-half.png';
+import PosterDe from '../../images/29-10-23-de.png';
+import PosterUkr from '../../images/29-10-23-ukr.png';
 import Context from '../../contexts/context';
 import Address from '../Address';
 import { useContext } from 'react';
@@ -21,7 +22,11 @@ const Hero = () => {
           marginRight: 'auto',
         }}
       >
-        <img alt="image" src={Poster} width="100%" />
+        {language === 'de' ? (
+          <img alt="image" src={PosterDe} width="100%" />
+        ) : (
+          <img alt="image" src={PosterUkr} width="100%" />
+        )}
 
         {/* {language === 'de' ? (
         <Typography
@@ -66,7 +71,7 @@ const Hero = () => {
         </Typography>
       )} */}
       </Box>
-      <Box
+      {/* <Box
         sx={{
           zIndex: '2',
           position: 'absolute',
@@ -75,7 +80,7 @@ const Hero = () => {
         }}
       >
         <Address />
-      </Box>
+      </Box> */}
     </Box>
   );
 };
