@@ -25,22 +25,6 @@ import Programm from '../../components/Programm/Programm';
 const ConcertsListDe = [
   {
     id: uuidv4(),
-    date: 'So, 29.10.2023',
-    time: '15:00',
-    title: 'Kulturladen Zeltnerschloss',
-    addressText: 'Gleißhammerstraße 6, Nürnberg',
-    address:
-      'https://www.google.com/maps/place/Glei%C3%9Fhammerstra%C3%9Fe+6,+90480+N%C3%BCrnberg/@49.4474204,11.1069402,17z/data=!3m1!4b1!4m6!3m5!1s0x479f57815b22a9a5:0xead090a74dca17fc!8m2!3d49.4474169!4d11.1095151!16s%2Fg%2F11bw43b2j_?entry=ttu',
-    ticket: 'Eintritt 5 Euro',
-    dauer: 'ca. 1 St. 15 Min.',
-    participants:
-      'Schirin Hudajbergenova (Sopran), Anna Bychkova (Mezzosopran), Nataliia Hrabarska (Bandura, Mezzosopran), Yevhen Petronelli (Bariton), Olena Vasylenko (Klavier), Sofia Smirnov (Moderatorin)',
-    fbevent: 'https://fb.me/e/1q9uYtk4l',
-    details:
-      'Musickstücke von M. Skoryk, I. Kyrylina, M. Stetsiun, V. Drobiazgina, V. Ivasiuk, Ukrainisches Volkslieder, A. Kos-Anatolsky, L. Dytschko, R. Schumann, G. Bizet, E. W. Korngold, F. Lehár, L. Delibes',
-  },
-  {
-    id: uuidv4(),
     date: 'Sa, 11.11.2023',
     time: '17:00',
     title: 'Gemeinschaftshaus Langwasser',
@@ -67,26 +51,10 @@ const ConcertsListDe = [
     ticket: 'Eintritt frei',
     dauer: 'ca. 2 St. mit der Pause',
     participants:
-      'Maryna Chernoshtan (Soprano), Anna Bychkova (Mezzosopran), Nataliia Hrabarska (Bandura, Mezzosopran), Anastasiia Gavaza (Mezzosopran), Olexandr Forkushak (Bariton), Olha Filatova (Klavier), Olena Vasylenko (Klavier)',
+      'Maryna Chernoshtan (Soprano), Anna Bychkova (Mezzosopran), Nataliia Hrabarska (Bandura, Mezzosopran), Anastasiia Gavaza (Mezzosopran), Olexandr Forkushak (Bariton), Yevhen Petronelli (Bariton), Olha Filatova (Klavier), Olena Vasylenko (Klavier)',
   },
 ];
 const ConcertsListUkr = [
-  {
-    id: uuidv4(),
-    date: 'Нд, 29 жовтня 2023',
-    time: '15:00',
-    title: 'Kulturladen Zeltnerschloss',
-    addressText: 'Glogauer Str. 50, Nürnberg',
-    address:
-      'https://www.google.com/maps/place/Glei%C3%9Fhammerstra%C3%9Fe+6,+90480+N%C3%BCrnberg/@49.4474204,11.1069402,17z/data=!3m1!4b1!4m6!3m5!1s0x479f57815b22a9a5:0xead090a74dca17fc!8m2!3d49.4474169!4d11.1095151!16s%2Fg%2F11bw43b2j_?entry=ttu',
-    ticket: 'Вхід - 5 євро',
-    dauer: '1 год. 15 хв.',
-    fbevent: 'https://fb.me/e/1q9uYtk4l',
-    participants:
-      'Ширін Худайбергенова (сопрано), Анна Бичкова (мецо-сопрано), Наталія Грабарська (бандура, мецо-сопрано), Євген Петронелі (баритон), Олена Василенко (фортепіано), Софія Смірнов (ведуча)',
-    details:
-      'Українські народні пісні, композиції М. Скорика, І. Кириліної, М. Стецюн, В. Дробязгіної, В. Івасюка, А. Кос-Анатольського, Л. Дичко, Р. Шумана, Ж. Бізе, Л. Деліба, Е. В. Корнгольда, Ф. Легара',
-  },
   {
     id: uuidv4(),
     date: 'Сб, 11 листопада 2023',
@@ -114,7 +82,7 @@ const ConcertsListUkr = [
     ticket: 'Вхід вільний (донати)',
     dauer: '2 год. з перервою',
     participants:
-      'Марина Черноштан (сопрано), Анна Бичкова (мецо-сопрано), Наталія Грабарська (бандура, мецо-сопрано), Анастасія Гаваза (мецо-сопрано), Олександр Форкушак (баритон), Ольга Філатова (фортепіано), Олена Василенко (фортепіано)',
+      'Марина Черноштан (сопрано), Анна Бичкова (мецо-сопрано), Наталія Грабарська (бандура, мецо-сопрано), Анастасія Гаваза (мецо-сопрано), Олександр Форкушак (баритон), Євген Петронеллі (баритон), Ольга Філатова (фортепіано), Олена Василенко (фортепіано)',
   },
 ];
 export default function HomeView(props) {

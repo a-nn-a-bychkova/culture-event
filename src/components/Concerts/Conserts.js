@@ -19,15 +19,6 @@ import { v4 as uuidv4 } from 'uuid';
 const ConcertsListDe = [
   {
     id: uuidv4(),
-    date: 'So, 29. Oktober 2023',
-    time: '15:00',
-    title: 'Kulturladen Zeltnerschloss',
-    address: 'Gleißhammerstr. 6, Nürnberg',
-    ticket: 'Eintritt 5 Euro',
-    dauer: 'ca. 1 St. 15 Min.',
-  },
-  {
-    id: uuidv4(),
     date: 'Sa, 11. November 2023',
     time: '17:00',
     title: 'Gemeinschaftshaus Langwasser',
@@ -46,15 +37,6 @@ const ConcertsListDe = [
   },
 ];
 const ConcertsListUkr = [
-  {
-    id: uuidv4(),
-    date: 'Нд, 29 жовтня 2023',
-    time: '15:00',
-    title: 'Kulturladen Zeltnerschloss',
-    address: 'Gleißhammerstr. 6, Nürnberg',
-    ticket: 'Вхід - 5 євро',
-    dauer: '1 год. 15 хв.',
-  },
   {
     id: uuidv4(),
     date: 'Сб, 11 листопада 2023',

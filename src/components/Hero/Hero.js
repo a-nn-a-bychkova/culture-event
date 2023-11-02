@@ -1,6 +1,6 @@
 import hero from '../../images/hochschule-common-foto.JPG';
-import PosterDe from '../../images/29-10-23-de.png';
-import PosterUkr from '../../images/29-10-23-ukr.png';
+import PosterDe from '../../images/pankova-de.png';
+import PosterUkr from '../../images/pankova-ua.png';
 import Context from '../../contexts/context';
 import Address from '../Address';
 import { useContext } from 'react';
