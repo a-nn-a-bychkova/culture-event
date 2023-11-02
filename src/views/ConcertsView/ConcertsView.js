@@ -51,7 +51,7 @@ const ConcertsListDe = [
     ticket: 'Eintritt frei',
     dauer: 'ca. 2 St. mit der Pause',
     participants:
-      'Maryna Chernoshtan (Soprano), Anna Bychkova (Mezzosopran), Nataliia Hrabarska (Bandura, Mezzosopran), Anastasiia Gavaza (Mezzosopran), Olexandr Forkushak (Bariton), Yevhen Petronelli (Bariton), Olha Filatova (Klavier), Olena Vasylenko (Klavier)',
+      'Maryna Chernoshtan (Soprano), Anna Bychkova (Mezzosopran), Nataliia Hrabarska (Bandura, Mezzosopran), Anastasiia Havaza (Mezzosopran), Olexandr Forkushak (Bariton), Yevhen Petronelli (Bariton), Olha Filatova (Klavier), Olena Vasylenko (Klavier)',
   },
 ];
 const ConcertsListUkr = [
