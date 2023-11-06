@@ -29,7 +29,7 @@ const ConcertsListDe = [
   {
     id: uuidv4(),
     date: 'So, 12. November 2023',
-    time: '16:00',
+    time: '15:00',
     title: 'Katolische Pfarrei St. Bonifaz - St. Georg',
     address: 'Killermannstr. 26, Regensburg',
     ticket: 'Eintritt frei',
@@ -49,7 +49,7 @@ const ConcertsListUkr = [
   {
     id: uuidv4(),
     date: 'Нд, 12 листопада 2023',
-    time: '16:00',
+    time: '15:00',
     title: 'Katolische Pfarrei St. Bonifaz - St. Georg',
     address: 'Killermannstr. 26, Regensburg',
     ticket: 'Вхід вільний (донати)',
