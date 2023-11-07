@@ -24,7 +24,7 @@ const ConcertsListDe = [
     title: 'Gemeinschaftshaus Langwasser',
     address: 'Glogauer Str. 50, Nürnberg',
     ticket: 'Eintritt frei',
-    dauer: 'ca. 2 St. mit der Pause',
+    dauer: 'ca. 3 St.',
   },
   {
     id: uuidv4(),
@@ -44,7 +44,7 @@ const ConcertsListUkr = [
     title: 'Gemeinschaftshaus Langwasser',
     address: 'Glogauer Str. 50, Nürnberg',
     ticket: 'Вхід вільний (донати)',
-    dauer: '2 год. з перервою',
+    dauer: '3 год.',
   },
   {
     id: uuidv4(),
