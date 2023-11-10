@@ -1,7 +1,7 @@
 import PosterDe from '../../images/pankova-de.png';
-import PosterUkr from '../../images/pankova-ua.png';
-import Poster2De from '../../images/29-10-23-de.png';
-import Poster2Ukr from '../../images/29-10-23-ukr.png';
+
+import Poster2De from '../../images/12-11-23-Regensburg-fb.png';
+
 import Context from '../../contexts/context';
 import Address from '../Address';
 import { useState, useEffect, useContext } from 'react';
@@ -12,7 +12,6 @@ import { AiOutlineArrowLeft, AiOutlineArrowRight } from 'react-icons/ai';
 const HeroSlider = () => {
   const { language } = useContext(Context);
   const SliderImagesDE = [PosterDe, Poster2De];
-  const SliderImagesUKR = [PosterDe, Poster2De];
 
   const [currentSlide, setCurrentSlide] = useState(0);
   const slideLength = SliderImagesDE.length;
