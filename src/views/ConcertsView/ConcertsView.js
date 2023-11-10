@@ -52,6 +52,8 @@ const ConcertsListDe = [
     dauer: 'ca. 2 St. mit der Pause',
     participants:
       'Maryna Chernoshtan (Soprano), Anna Bychkova (Mezzosopran), Nataliia Hrabarska (Bandura, Mezzosopran), Anastasiia Havaza (Mezzosopran), Anna Filatova (Mezzosopran), Olexandr Forkushak (Bariton), Yevhen Petronelli (Bariton), Olha Filatova (Klavier), Olena Vasylenko (Klavier)',
+    details:
+      'Eine wunderbare Möglichkeit, die ukrainische Kultur und ukrainische Musik kennenzulernen.Was Sie erwartet:Konzert von ukrainischen professionellen Opersängern, begleitet amKlavier und Bandura, Möglichkeit für den Austausch mit Ukrainern,Verkauf von Speisen und Getränken,Verkauf ukrainischer Souvenirs,Glücksrad und andere Geschenkverlosungen, Kinderschminken, Tattoo und Kinderbetreuung während des Konzerts.Euch erwartet eine schöne ukrainische und europäische klassische Musik im großen hellen Konzertsaal mit über 100 Sitzplätzen.Spenden sind willkommen und werden ausschließlich für die Ukrainehilfe verwendet.',
   },
 ];
 const ConcertsListUkr = [
@@ -83,6 +85,8 @@ const ConcertsListUkr = [
     dauer: '2 год. з перервою',
     participants:
       'Марина Черноштан (сопрано), Анна Бичкова (мецо-сопрано), Наталія Грабарська (бандура, мецо-сопрано), Анастасія Гаваза (мецо-сопрано), Анна Філатова (мецо-сопрано), Олександр Форкушак (баритон), Євген Петронеллі (баритон), Ольга Філатова (фортепіано), Олена Василенко (фортепіано)',
+    details:
+      'У вас буде гарна нагода поспілкуватись, відпочити душею та зробити добре діло для України, так як всі зібрані кошти підуть на актуальні потреби наших котиків.Отже, що Вас очікує:концерт класичної вокальної музики у супроводі фортепіано та бандури від надзвичайно талановитих, молодих та запальних артистів;тепленький та смачненький глінтвейн і інші напої;можливість поспілкуватись з земляками;продаж страв та українських солодких смаколиків;розіграш подарунку;продаж сувенірів;колесо фортуни. Діткам можна буде зробити патріотичні тату в ігровій кімнаті. Також буде дитячий аквагрим і колесо фортуни.Концерт проводиться у великому просторому залі з сидячими місцями.Гарний настрій гарантуємо.Донати вітаються! ',
   },
 ];
 export default function HomeView(props) {
