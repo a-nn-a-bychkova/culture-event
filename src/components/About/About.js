@@ -36,7 +36,7 @@ const About = () => {
           Die Ukraine ist zuerst das Volk, das selbständig und unabhängig sein
           will und eine reiche und große Seele hat, die sich voll und ganz in
           dem vielfältigen musikalischen Kulturerbe äußert. Das ist die Quelle
-          von der unzerbrechlichen Lebensmut, Würde und dem Glauben der Ukraine.
+          von dem unzerbrechlichen Lebensmut, Würde und dem Glauben der Ukraine.
           <br />
           Unser Projekt wurde ins Leben gerufen, damit die ukrainische Musik aus
           den Schatten tritt und die Zuhörer eine Gelegenheit haben, sie Live zu
