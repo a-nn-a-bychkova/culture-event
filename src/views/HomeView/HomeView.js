@@ -6,13 +6,14 @@ import { Container, Grid } from '@mui/material';
 import About from '../../components/About/About';
 import Concerts from '../../components/Concerts/Conserts';
 import Hero from '../../components/Hero/Hero';
+import HeroSlider from '../../components/HeroSlider/HeroSlider';
 
 export default function HomeView(props) {
   const { language } = useContext(Context);
 
   return (
     <>
-      <Hero />{' '}
+      <HeroSlider />
       <Container
         sx={{
           padding: {
