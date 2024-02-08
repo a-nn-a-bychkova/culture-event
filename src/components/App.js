@@ -21,6 +21,7 @@ import s from './App.module.css';
 import { Box, Button, Divider, Grid, Tooltip, Typography } from '@mui/material';
 import HomeView from '../views/HomeView/HomeView';
 import ConcertsView from '../views/ConcertsView';
+import GalerieView from '../views/GalerieView';
 
 function App() {
   const { language } = useContext(Context);
@@ -40,6 +41,7 @@ function App() {
       <Routes>
         <Route path="/" element={<HomeView />} />
         <Route path="/concerts" element={<ConcertsView />} />
+        {/* <Route path="/galerie" element={<GalerieView />} /> */}
       </Routes>
 
       {/* <Box

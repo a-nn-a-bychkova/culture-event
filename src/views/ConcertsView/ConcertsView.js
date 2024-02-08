@@ -25,69 +25,97 @@ import Programm from '../../components/Programm/Programm';
 const ConcertsListDe = [
   {
     id: uuidv4(),
-    date: 'Sa, 11.11.2023',
-    time: '17:00',
-    title: 'Gemeinschaftshaus Langwasser',
-    addressText: 'Glogauer Str. 50, Nürnberg',
-    address:
-      'https://www.google.com/maps/place/Glogauer+Str.+50,+90473+N%C3%BCrnberg/@49.4017105,11.1327548,17z/data=!3m1!4b1!4m6!3m5!1s0x479f598856d89a4f:0x21666b204af31f6d!8m2!3d49.401707!4d11.1353297!16s%2Fg%2F11c4qqh0gz?entry=ttu',
+    date: 'Sa, 24 Februar 2024',
+    time: '21:00',
+    title: 'Schauspielhaus, 3. Etage Foyer',
+    addressText: 'Nürnberg, Richard-Wagner-Platz, 2',
+    address: 'https://maps.app.goo.gl/EbN6SKyRFnqvZcvB9',
     ticket: 'Eintritt frei',
-    dauer: 'ca. 3 St.',
+    dauer: '2 St.',
+    link: 'https://www.staatstheater-nuernberg.de/spielplan-23-24/galerie-ukraine/24-02-2024/2100',
     participants:
-      'Nataliia Hrabarska (Bandura, Mezzosopran), Maryna Kitashkina (Barockgitarre), Oleg Czuchlieb (Renaissance Laute, Theorbe), Svitlana Kitashkina, Anastasiia Krasnikova, Maryna Pavlenko (Klavier)',
+      'Svitlana Mykhailenko, Maximilian Franke, Anna Bychkova (Mezzosopran), Natalia Hrabarska (Mezzosopran, Bandura), Yevhen Petronelli (Bariton), Olena Vasylenko (Klavier), Nazar Totovytskyi (Violine)',
+    details:
+      'Es wird moderiert von Ute Möller. Zentral wird die Frage sein, wie geht es ukrainischen Jugendlichen nach ein oder zwei Jahren in Deutschland. Wie sind ihre Perspektiven? Was bedeutet ihnen die künstlerische Auseinandersetzung mit ihren Themen? Wie ist das Projekt „Galerie Ukraine“ entstanden und wie viele Menschen hat diese Projekt in den letzten beiden Jahren bereits miteinander verbunden? Im Anschluss hören sie (ukrainische) Poesie und Musik mit „Lebensmut“. „Lebensmut“ ist ein Projekt von ukrainischen Musiker*innen, von denen einige am Staatstheater Nürnberg engagiert sind.',
+  },
+  // {
+  //   id: uuidv4(),
+  //   date: 'Sa, 11.11.2023',
+  //   time: '17:00',
+  //   title: 'Gemeinschaftshaus Langwasser',
+  //   addressText: 'Glogauer Str. 50, Nürnberg',
+  //   address:
+  //     'https://www.google.com/maps/place/Glogauer+Str.+50,+90473+N%C3%BCrnberg/@49.4017105,11.1327548,17z/data=!3m1!4b1!4m6!3m5!1s0x479f598856d89a4f:0x21666b204af31f6d!8m2!3d49.401707!4d11.1353297!16s%2Fg%2F11c4qqh0gz?entry=ttu',
+  //   ticket: 'Eintritt frei',
+  //   dauer: 'ca. 3 St.',
+  //   participants:
+  //     'Nataliia Hrabarska (Bandura, Mezzosopran), Maryna Kitashkina (Barockgitarre), Oleg Czuchlieb (Renaissance Laute, Theorbe), Svitlana Kitashkina, Anastasiia Krasnikova, Maryna Pavlenko (Klavier)',
 
-    fbevent: 'https://fb.me/e/14o0pWrY3',
-    details:
-      'Bearbeitungen der Volksmusik, Improvisationen auf Volksthemen, Kompositionen von ukrainischen Komponisten, westeuropäische Musik verschiedener Epochen: vom Barock bis zur Moderne',
-  },
-  {
-    id: uuidv4(),
-    date: 'So, 12.11.2023',
-    time: '15:00',
-    title: 'Katolische Pfarrei St. Bonifaz - St. Georg',
-    addressText: 'Killermannstraße 26, Regensburg',
-    address:
-      'https://www.google.com/maps/place/Killermannstra%C3%9Fe+26,+93049+Regensburg/@49.0182726,12.0445809,17z/data=!3m1!4b1!4m6!3m5!1s0x479fc08a2202f841:0xcbe51c612123b922!8m2!3d49.0182691!4d12.0471558!16s%2Fg%2F11c4djbjl5?entry=ttu',
-    ticket: 'Eintritt frei',
-    dauer: 'ca. 2 St. mit der Pause',
-    participants:
-      'Maryna Chernoshtan (Soprano), Anna Bychkova (Mezzosopran), Nataliia Hrabarska (Bandura, Mezzosopran), Anastasiia Havaza (Mezzosopran), Anna Filatova (Mezzosopran), Olexandr Forkushak (Bariton), Yevhen Petronelli (Bariton), Olha Filatova (Klavier), Olena Vasylenko (Klavier)',
-    details:
-      'Eine wunderbare Möglichkeit, die ukrainische Kultur und ukrainische Musik kennenzulernen.Was Sie erwartet:Konzert von ukrainischen professionellen Opersängern, begleitet am Klavier und Bandura, Möglichkeit für den Austausch mit Ukrainern,Verkauf von Speisen und Getränken,Verkauf ukrainischer Souvenirs,Glücksrad und andere Geschenkverlosungen, Kinderschminken, Tattoo und Kinderbetreuung während des Konzerts.Euch erwartet eine schöne ukrainische und europäische klassische Musik im großen hellen Konzertsaal mit über 100 Sitzplätzen.Spenden sind willkommen und werden ausschließlich für die Ukrainehilfe verwendet.',
-  },
+  //   fbevent: 'https://fb.me/e/14o0pWrY3',
+  //   details:
+  //     'Bearbeitungen der Volksmusik, Improvisationen auf Volksthemen, Kompositionen von ukrainischen Komponisten, westeuropäische Musik verschiedener Epochen: vom Barock bis zur Moderne',
+  // },
+  // {
+  //   id: uuidv4(),
+  //   date: 'So, 12.11.2023',
+  //   time: '15:00',
+  //   title: 'Katolische Pfarrei St. Bonifaz - St. Georg',
+  //   addressText: 'Killermannstraße 26, Regensburg',
+  //   address:
+  //     'https://www.google.com/maps/place/Killermannstra%C3%9Fe+26,+93049+Regensburg/@49.0182726,12.0445809,17z/data=!3m1!4b1!4m6!3m5!1s0x479fc08a2202f841:0xcbe51c612123b922!8m2!3d49.0182691!4d12.0471558!16s%2Fg%2F11c4djbjl5?entry=ttu',
+  //   ticket: 'Eintritt frei',
+  //   dauer: 'ca. 2 St. mit der Pause',
+  //   participants:
+  //     'Maryna Chernoshtan (Soprano), Anna Bychkova (Mezzosopran), Nataliia Hrabarska (Bandura, Mezzosopran), Anastasiia Havaza (Mezzosopran), Anna Filatova (Mezzosopran), Olexandr Forkushak (Bariton), Yevhen Petronelli (Bariton), Olha Filatova (Klavier), Olena Vasylenko (Klavier)',
+  //   details:
+  //     'Eine wunderbare Möglichkeit, die ukrainische Kultur und ukrainische Musik kennenzulernen.Was Sie erwartet:Konzert von ukrainischen professionellen Opersängern, begleitet am Klavier und Bandura, Möglichkeit für den Austausch mit Ukrainern,Verkauf von Speisen und Getränken,Verkauf ukrainischer Souvenirs,Glücksrad und andere Geschenkverlosungen, Kinderschminken, Tattoo und Kinderbetreuung während des Konzerts.Euch erwartet eine schöne ukrainische und europäische klassische Musik im großen hellen Konzertsaal mit über 100 Sitzplätzen.Spenden sind willkommen und werden ausschließlich für die Ukrainehilfe verwendet.',
+  // },
 ];
 const ConcertsListUkr = [
   {
     id: uuidv4(),
-    date: 'Сб, 11 листопада 2023',
-    time: '17:00',
-    title: 'Gemeinschaftshaus Langwasser',
-    addressText: 'Killermannstraße 26, Regensburg',
-    address:
-      'https://www.google.com/maps/place/Killermannstra%C3%9Fe+26,+93049+Regensburg/@49.0182726,12.0445809,17z/data=!3m1!4b1!4m6!3m5!1s0x479fc08a2202f841:0xcbe51c612123b922!8m2!3d49.0182691!4d12.0471558!16s%2Fg%2F11c4djbjl5?entry=ttu',
-    ticket: 'Вхід вільний (донати)',
-    dauer: '3 год.',
-    fbevent: 'https://fb.me/e/14o0pWrY3',
+    date: 'Сб, 24 лютого 2024',
+    time: '21:00',
+    title: 'Schauspielhaus, 3. Etage Foyer',
+    addressText: 'Nürnberg, Richard-Wagner-Platz, 2',
+    address: 'https://maps.app.goo.gl/EbN6SKyRFnqvZcvB9',
+    ticket: 'Вчід вільний',
+    dauer: '2 год.',
+    link: 'https://www.staatstheater-nuernberg.de/spielplan-23-24/galerie-ukraine/24-02-2024/2100',
     participants:
-      'Наталія Грабарська (бандура, мецо-сопрано), Марина Кіташкіна (барокова гітара), Олег Чухліб (ренесансна флейта, теорба), Світлана Кіташкіна, Анастасія Краснікова, Марина Павленко (фортепіано)',
-    details:
-      'Українська музика, у вигляді обробок народної музики, імпровізацій на народні теми, п’єс та композицій українських митців, західноєвропейська музику різних епох: від бароко до сучасності',
+      'Максімілан Франке, Світлана Михайленко, Анна Бичкова (мецо-сопрано), Наталія Грабарська (бандура, мецо-сопрано), Євген Петронеллі (баритон), Олена Василенко (фортепіано), Назар Тотовицький (скрипка)',
   },
-  {
-    id: uuidv4(),
-    date: 'Нд, 12 листопада 2023',
-    time: '15:00',
-    title: 'Katolische Pfarrei St. Bonifaz - St. Georg',
-    addressText: 'Killermannstraße 26, Regensburg',
-    address:
-      'https://www.google.com/maps/place/Killermannstra%C3%9Fe+26,+93049+Regensburg/@49.0182726,12.0445809,17z/data=!3m1!4b1!4m6!3m5!1s0x479fc08a2202f841:0xcbe51c612123b922!8m2!3d49.0182691!4d12.0471558!16s%2Fg%2F11c4djbjl5?entry=ttu',
-    ticket: 'Вхід вільний (донати)',
-    dauer: '2 год. з перервою',
-    participants:
-      'Марина Черноштан (сопрано), Анна Бичкова (мецо-сопрано), Наталія Грабарська (бандура, мецо-сопрано), Анастасія Гаваза (мецо-сопрано), Анна Філатова (мецо-сопрано), Олександр Форкушак (баритон), Євген Петронеллі (баритон), Ольга Філатова (фортепіано), Олена Василенко (фортепіано)',
-    details:
-      'У вас буде гарна нагода поспілкуватись, відпочити душею та зробити добре діло для України, так як всі зібрані кошти підуть на актуальні потреби наших котиків.Отже, що Вас очікує:концерт класичної вокальної музики у супроводі фортепіано та бандури від надзвичайно талановитих, молодих та запальних артистів;тепленький та смачненький глінтвейн і інші напої;можливість поспілкуватись з земляками;продаж страв та українських солодких смаколиків;розіграш подарунку;продаж сувенірів;колесо фортуни. Діткам можна буде зробити патріотичні тату в ігровій кімнаті. Також буде дитячий аквагрим і колесо фортуни.Концерт проводиться у великому просторому залі з сидячими місцями.Гарний настрій гарантуємо.Донати вітаються! ',
-  },
+  // {
+  //   id: uuidv4(),
+  //   date: 'Сб, 11 листопада 2023',
+  //   time: '17:00',
+  //   title: 'Gemeinschaftshaus Langwasser',
+  //   addressText: 'Killermannstraße 26, Regensburg',
+  //   address:
+  //     'https://www.google.com/maps/place/Killermannstra%C3%9Fe+26,+93049+Regensburg/@49.0182726,12.0445809,17z/data=!3m1!4b1!4m6!3m5!1s0x479fc08a2202f841:0xcbe51c612123b922!8m2!3d49.0182691!4d12.0471558!16s%2Fg%2F11c4djbjl5?entry=ttu',
+  //   ticket: 'Вхід вільний (донати)',
+  //   dauer: '3 год.',
+  //   fbevent: 'https://fb.me/e/14o0pWrY3',
+  //   participants:
+  //     'Наталія Грабарська (бандура, мецо-сопрано), Марина Кіташкіна (барокова гітара), Олег Чухліб (ренесансна флейта, теорба), Світлана Кіташкіна, Анастасія Краснікова, Марина Павленко (фортепіано)',
+  //   details:
+  //     'Українська музика, у вигляді обробок народної музики, імпровізацій на народні теми, п’єс та композицій українських митців, західноєвропейська музику різних епох: від бароко до сучасності',
+  // },
+  // {
+  //   id: uuidv4(),
+  //   date: 'Нд, 12 листопада 2023',
+  //   time: '15:00',
+  //   title: 'Katolische Pfarrei St. Bonifaz - St. Georg',
+  //   addressText: 'Killermannstraße 26, Regensburg',
+  //   address:
+  //     'https://www.google.com/maps/place/Killermannstra%C3%9Fe+26,+93049+Regensburg/@49.0182726,12.0445809,17z/data=!3m1!4b1!4m6!3m5!1s0x479fc08a2202f841:0xcbe51c612123b922!8m2!3d49.0182691!4d12.0471558!16s%2Fg%2F11c4djbjl5?entry=ttu',
+  //   ticket: 'Вхід вільний (донати)',
+  //   dauer: '2 год. з перервою',
+  //   participants:
+  //     'Марина Черноштан (сопрано), Анна Бичкова (мецо-сопрано), Наталія Грабарська (бандура, мецо-сопрано), Анастасія Гаваза (мецо-сопрано), Анна Філатова (мецо-сопрано), Олександр Форкушак (баритон), Євген Петронеллі (баритон), Ольга Філатова (фортепіано), Олена Василенко (фортепіано)',
+  //   details:
+  //     'У вас буде гарна нагода поспілкуватись, відпочити душею та зробити добре діло для України, так як всі зібрані кошти підуть на актуальні потреби наших котиків.Отже, що Вас очікує:концерт класичної вокальної музики у супроводі фортепіано та бандури від надзвичайно талановитих, молодих та запальних артистів;тепленький та смачненький глінтвейн і інші напої;можливість поспілкуватись з земляками;продаж страв та українських солодких смаколиків;розіграш подарунку;продаж сувенірів;колесо фортуни. Діткам можна буде зробити патріотичні тату в ігровій кімнаті. Також буде дитячий аквагрим і колесо фортуни.Концерт проводиться у великому просторому залі з сидячими місцями.Гарний настрій гарантуємо.Донати вітаються! ',
+  // },
 ];
 export default function HomeView(props) {
   let theme = createTheme();

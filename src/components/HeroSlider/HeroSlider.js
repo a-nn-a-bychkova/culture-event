@@ -1,4 +1,4 @@
-import PosterDe from '../../images/pankova-de.png';
+import PosterDe from '../../images/galerie-ukraine-24-02-24.jpg';
 
 import Poster2De from '../../images/12-11-23-Regensburg-fb.png';
 

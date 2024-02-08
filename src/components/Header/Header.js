@@ -50,14 +50,17 @@ const Header = () => {
             style={({ isActive }) => ({
               textDecoration: 'none',
               color: isActive ? 'rgb(40, 40, 49)' : '#0a5b81',
+              marginRight: '10px',
             })}
           >
             {language === 'de' ? 'Konzerte' : 'Концерти'}
           </NavLink>
-
           {/* <NavLink
             to="/galerie"
-            sx={{ color: 'inherit', fontFamily: 'inherit' }}
+            style={({ isActive }) => ({
+              textDecoration: 'none',
+              color: isActive ? 'rgb(40, 40, 49)' : '#0a5b81',
+            })}
           >
             {language === 'de' ? 'Galerie' : 'Галерея'}
           </NavLink> */}
