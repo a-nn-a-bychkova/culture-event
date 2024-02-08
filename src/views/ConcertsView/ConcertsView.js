@@ -34,7 +34,7 @@ const ConcertsListDe = [
     dauer: '2 St.',
     link: 'https://www.staatstheater-nuernberg.de/spielplan-23-24/galerie-ukraine/24-02-2024/2100',
     participants:
-      'Svitlana Mykhailenko, Maximilian Franke, Anna Bychkova (Mezzosopran), Natalia Hrabarska (Mezzosopran, Bandura), Yevhen Petronelli (Bariton), Olena Vasylenko (Klavier), Nazar Totovytskyi (Violine)',
+      'Svitlana Mykhailenko (Sprecher), Maximilian Franke (Sprecher), Anna Bychkova (Mezzosopran), Natalia Hrabarska (Mezzosopran, Bandura), Yevhen Petronelli (Bariton), Olena Vasylenko (Klavier), Nazar Totovytskyi (Violine)',
     details:
       'Es wird moderiert von Ute Möller. Zentral wird die Frage sein, wie geht es ukrainischen Jugendlichen nach ein oder zwei Jahren in Deutschland. Wie sind ihre Perspektiven? Was bedeutet ihnen die künstlerische Auseinandersetzung mit ihren Themen? Wie ist das Projekt „Galerie Ukraine“ entstanden und wie viele Menschen hat diese Projekt in den letzten beiden Jahren bereits miteinander verbunden? Im Anschluss hören sie (ukrainische) Poesie und Musik mit „Lebensmut“. „Lebensmut“ ist ein Projekt von ukrainischen Musiker*innen, von denen einige am Staatstheater Nürnberg engagiert sind.',
   },
@@ -83,7 +83,7 @@ const ConcertsListUkr = [
     dauer: '2 год.',
     link: 'https://www.staatstheater-nuernberg.de/spielplan-23-24/galerie-ukraine/24-02-2024/2100',
     participants:
-      'Максімілан Франке, Світлана Михайленко, Анна Бичкова (мецо-сопрано), Наталія Грабарська (бандура, мецо-сопрано), Євген Петронеллі (баритон), Олена Василенко (фортепіано), Назар Тотовицький (скрипка)',
+      'Максімілан Франке (текст), Світлана Михайленко (текст), Анна Бичкова (мецо-сопрано), Наталія Грабарська (бандура, мецо-сопрано), Євген Петронеллі (баритон), Олена Василенко (фортепіано), Назар Тотовицький (скрипка)',
   },
   // {
   //   id: uuidv4(),
