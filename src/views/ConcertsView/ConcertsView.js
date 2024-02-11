@@ -55,7 +55,7 @@ const ConcertsListDe = [
   },
   {
     id: uuidv4(),
-    date: 'Sa, 3. März 2024',
+    date: 'Sa, 2. März 2024',
     time: '19:00',
     title: 'Katolische Pfarrei St. Sebald Erlangen',
     address: 'Erlangen, Egerlandstr. 22',
@@ -117,7 +117,7 @@ const ConcertsListUkr = [
   },
   {
     id: uuidv4(),
-    date: 'Пн, 24 лютого 2024',
+    date: 'Пн, 26 лютого 2024',
     time: '20:00',
     title: 'M26',
     address: 'Regensburg, Maximilianstr., 26',
@@ -130,7 +130,7 @@ const ConcertsListUkr = [
   },
   {
     id: uuidv4(),
-    date: 'Сб, 3 березня 2024',
+    date: 'Сб, 2 березня 2024',
     time: '19:00',
     title: 'Katolische Pfarrei St. Sebald Erlangen',
     address: 'Erlangen, Egerlandstr. 22',
