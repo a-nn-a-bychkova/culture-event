@@ -27,6 +27,35 @@ const ConcertsListDe = [
     dauer: 'ca. 2 St.',
     link: 'https://www.staatstheater-nuernberg.de/spielplan-23-24/galerie-ukraine/24-02-2024/2100',
   },
+  {
+    id: uuidv4(),
+    date: 'Mo, 26. Februar 2024',
+    time: '20:00',
+    title: 'M26',
+    address: 'Regensburg, Maximilianstr., 26',
+    // ticket: 'Eintritt frei',
+    dauer: 'ca. 1 St.',
+    // link: 'https://www.staatstheater-nuernberg.de/spielplan-23-24/galerie-ukraine/24-02-2024/2100',
+    participants:
+      'Rada Pushkash (Sprecher), Oleksii Guban (Sprecher), Anna Bychkova (Mezzosopran), Natalia Hrabarska (Mezzosopran, Bandura), Olena Vasylenko (Klavier)',
+    // details:
+    //   '',
+  },
+  {
+    id: uuidv4(),
+    date: 'Sa, 3. März 2024',
+    time: '19:00',
+    title: 'Katolische Pfarrei St. Sebald Erlangen',
+    address: 'Erlangen, Egerlandstr. 22',
+    addressLink: 'https://maps.app.goo.gl/E5UCcKfdYquX1v1N8',
+    ticket: 'Eintritt frei',
+    dauer: 'ca. 1 St.',
+    // link: 'https://www.staatstheater-nuernberg.de/spielplan-23-24/galerie-ukraine/24-02-2024/2100',
+    participants:
+      'Rada Pushkash (Sprecher), Oleksii Guban (Sprecher), Anna Bychkova (Mezzosopran), Natalia Hrabarska (Mezzosopran, Bandura), Yevhen Petronelli (Bariton), Olena Vasylenko (Klavier), Nazar Totovytskyi (Violine)',
+    // details:
+    //   '',
+  },
   // {
   //   id: uuidv4(),
   //   date: 'Mo, 26. Februar 2024',
@@ -47,6 +76,34 @@ const ConcertsListUkr = [
     ticket: 'Вхід вільний',
     dauer: '2 год.',
     link: 'https://www.staatstheater-nuernberg.de/spielplan-23-24/galerie-ukraine/24-02-2024/2100',
+  },
+  {
+    id: uuidv4(),
+    date: 'Пн, 24 лютого 2024',
+    time: '20:00',
+    title: 'M26',
+    address: 'Regensburg, Maximilianstr., 26',
+    addressLink: 'https://maps.app.goo.gl/sV3k3gT1EhrYe6CH7',
+    // ticket: 'Вхід вільний',
+    dauer: '1 год.',
+    // link: 'https://www.staatstheater-nuernberg.de/spielplan-23-24/galerie-ukraine/24-02-2024/2100',
+    participants:
+      'Рада Пушкаш (текст), Олексій Губан (текст), Світлана Михайленко (текст), Анна Бичкова (мецо-сопрано), Наталія Грабарська (бандура, мецо-сопрано), Олена Василенко (фортепіано)',
+  },
+  {
+    id: uuidv4(),
+    date: 'Сб, 3 березня 2024',
+    time: '19:00',
+    title: 'Katolische Pfarrei St. Sebald Erlangen',
+    address: 'Erlangen, Egerlandstr. 22',
+    addressLink: 'https://maps.app.goo.gl/E5UCcKfdYquX1v1N8',
+    ticket: 'Вхід вільний',
+    dauer: '1 год.',
+    // link: 'https://www.staatstheater-nuernberg.de/spielplan-23-24/galerie-ukraine/24-02-2024/2100',
+    participants:
+      'Рада Пушкаш (текст), Олексій Губан (текст), Світлана Михайленко (текст), Анна Бичкова (мецо-сопрано), Наталія Грабарська (бандура, мецо-сопрано) Євген Петронеллі (баритон), Олена Василенко (фортепіано), Назар Тотовицький (скрипка)',
+    // details:
+    //   '',
   },
   // {
   //   id: uuidv4(),

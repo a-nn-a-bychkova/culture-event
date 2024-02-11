@@ -28,15 +28,45 @@ const ConcertsListDe = [
     date: 'Sa, 24 Februar 2024',
     time: '21:00',
     title: 'Schauspielhaus, 3. Etage Foyer',
-    addressText: 'Nürnberg, Richard-Wagner-Platz, 2',
-    address: 'https://maps.app.goo.gl/EbN6SKyRFnqvZcvB9',
+    address: 'Nürnberg, Richard-Wagner-Platz, 2',
+    addressLink: 'https://maps.app.goo.gl/EbN6SKyRFnqvZcvB9',
     ticket: 'Eintritt frei',
     dauer: '2 St.',
     link: 'https://www.staatstheater-nuernberg.de/spielplan-23-24/galerie-ukraine/24-02-2024/2100',
     participants:
       'Svitlana Mykhailenko (Sprecher), Maximilian Franke (Sprecher), Anna Bychkova (Mezzosopran), Natalia Hrabarska (Mezzosopran, Bandura), Yevhen Petronelli (Bariton), Olena Vasylenko (Klavier), Nazar Totovytskyi (Violine)',
     details:
-      'Es wird moderiert von Ute Möller. Zentral wird die Frage sein, wie geht es ukrainischen Jugendlichen nach ein oder zwei Jahren in Deutschland. Wie sind ihre Perspektiven? Was bedeutet ihnen die künstlerische Auseinandersetzung mit ihren Themen? Wie ist das Projekt „Galerie Ukraine“ entstanden und wie viele Menschen hat diese Projekt in den letzten beiden Jahren bereits miteinander verbunden? Im Anschluss hören sie (ukrainische) Poesie und Musik mit „Lebensmut“. „Lebensmut“ ist ein Projekt von ukrainischen Musiker*innen, von denen einige am Staatstheater Nürnberg engagiert sind.',
+      'Es wird moderiert von Ute Möller. Zentral wird die Frage sein, wie geht es ukrainischen Jugendlichen nach ein oder zwei Jahren in Deutschland. Wie sind ihre Perspektiven? Was bedeutet ihnen die künstlerische Auseinandersetzung mit ihren Themen? Wie ist das Projekt „Galerie Ukraine“ entstanden und wie viele Menschen hat diese Projekt in den letzten beiden Jahren bereits miteinander verbunden? Im Anschluss hören sie (ukrainische) Poesie und Musik mit „Lebensmut“',
+  },
+  {
+    id: uuidv4(),
+    date: 'Mo, 26. Februar 2024',
+    time: '20:00',
+    title: 'M26',
+    address: 'Regensburg, Maximilianstr., 26',
+    addressLink: 'https://maps.app.goo.gl/sV3k3gT1EhrYe6CH7',
+    // ticket: 'Eintritt frei',
+    dauer: 'ca. 1 St.',
+    // link: 'https://www.staatstheater-nuernberg.de/spielplan-23-24/galerie-ukraine/24-02-2024/2100',
+    participants:
+      'Rada Pushkash (Sprecher), Oleksii Guban (Sprecher), Anna Bychkova (Mezzosopran), Natalia Hrabarska (Mezzosopran, Bandura), Olena Vasylenko (Klavier)',
+    // details:
+    //   '',
+  },
+  {
+    id: uuidv4(),
+    date: 'Sa, 3. März 2024',
+    time: '19:00',
+    title: 'Katolische Pfarrei St. Sebald Erlangen',
+    address: 'Erlangen, Egerlandstr. 22',
+    addressLink: 'https://maps.app.goo.gl/E5UCcKfdYquX1v1N8',
+    ticket: 'Eintritt frei',
+    dauer: 'ca. 1 St.',
+    // link: 'https://www.staatstheater-nuernberg.de/spielplan-23-24/galerie-ukraine/24-02-2024/2100',
+    participants:
+      'Rada Pushkash (Sprecher), Oleksii Guban (Sprecher), Anna Bychkova (Mezzosopran), Natalia Hrabarska (Mezzosopran, Bandura), Yevhen Petronelli (Bariton), Olena Vasylenko (Klavier), Nazar Totovytskyi (Violine)',
+    // details:
+    //   '',
   },
   // {
   //   id: uuidv4(),
@@ -77,14 +107,43 @@ const ConcertsListUkr = [
     date: 'Сб, 24 лютого 2024',
     time: '21:00',
     title: 'Schauspielhaus, 3. Etage Foyer',
-    addressText: 'Nürnberg, Richard-Wagner-Platz, 2',
-    address: 'https://maps.app.goo.gl/EbN6SKyRFnqvZcvB9',
-    ticket: 'Вчід вільний',
+    address: 'Nürnberg, Richard-Wagner-Platz, 2',
+    addressLink: 'https://maps.app.goo.gl/EbN6SKyRFnqvZcvB9',
+    ticket: 'Вхід вільний',
     dauer: '2 год.',
     link: 'https://www.staatstheater-nuernberg.de/spielplan-23-24/galerie-ukraine/24-02-2024/2100',
     participants:
       'Максімілан Франке (текст), Світлана Михайленко (текст), Анна Бичкова (мецо-сопрано), Наталія Грабарська (бандура, мецо-сопрано), Євген Петронеллі (баритон), Олена Василенко (фортепіано), Назар Тотовицький (скрипка)',
   },
+  {
+    id: uuidv4(),
+    date: 'Пн, 24 лютого 2024',
+    time: '20:00',
+    title: 'M26',
+    address: 'Regensburg, Maximilianstr., 26',
+    addressLink: 'https://maps.app.goo.gl/sV3k3gT1EhrYe6CH7',
+    // ticket: 'Вхід вільний',
+    dauer: '1 год.',
+    // link: 'https://www.staatstheater-nuernberg.de/spielplan-23-24/galerie-ukraine/24-02-2024/2100',
+    participants:
+      'Рада Пушкаш (текст), Олексій Губан (текст), Світлана Михайленко (текст), Анна Бичкова (мецо-сопрано), Наталія Грабарська (бандура, мецо-сопрано), Олена Василенко (фортепіано)',
+  },
+  {
+    id: uuidv4(),
+    date: 'Сб, 3 березня 2024',
+    time: '19:00',
+    title: 'Katolische Pfarrei St. Sebald Erlangen',
+    address: 'Erlangen, Egerlandstr. 22',
+    addressLink: 'https://maps.app.goo.gl/E5UCcKfdYquX1v1N8',
+    ticket: 'Вхід вільний',
+    dauer: '1 год.',
+    // link: 'https://www.staatstheater-nuernberg.de/spielplan-23-24/galerie-ukraine/24-02-2024/2100',
+    participants:
+      'Рада Пушкаш (текст), Олексій Губан (текст), Світлана Михайленко (текст), Анна Бичкова (мецо-сопрано), Наталія Грабарська (бандура, мецо-сопрано) Євген Петронеллі (баритон), Олена Василенко (фортепіано), Назар Тотовицький (скрипка)',
+    // details:
+    //   '',
+  },
+
   // {
   //   id: uuidv4(),
   //   date: 'Сб, 11 листопада 2023',
@@ -234,7 +293,7 @@ export default function HomeView(props) {
                   )}
 
                   <Link
-                    href={concert.address}
+                    href={concert.addressLink}
                     style={{
                       marginRight: 'auto',
                       color: 'inherit',
@@ -249,7 +308,7 @@ export default function HomeView(props) {
                         lineHeight: { sm: '24px' },
                       }}
                     >
-                      {concert.addressText}
+                      {concert.address}
                     </Typography>
                   </Link>
 
@@ -412,7 +471,7 @@ export default function HomeView(props) {
                   )}
 
                   <Link
-                    href={concert.address}
+                    href={concert.Link}
                     style={{
                       marginRight: 'auto',
                       color: 'inherit',
@@ -427,7 +486,7 @@ export default function HomeView(props) {
                         lineHeight: { sm: '24px' },
                       }}
                     >
-                      {concert.addressText}
+                      {concert.address}
                     </Typography>
                   </Link>
                   <Typography
