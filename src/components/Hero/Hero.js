@@ -1,5 +1,5 @@
 import hero from '../../images/hochschule-common-foto.JPG';
-import Poster from '../../images/galerie-ukraine-24-02-24.jpg';
+import Poster from '../../images/24-02-24-staatstheater.png';
 // import PosterUkr from '../../images/pankova-ua.png';
 import Context from '../../contexts/context';
 import Address from '../Address';
@@ -23,7 +23,7 @@ const Hero = () => {
           marginRight: 'auto',
         }}
       >
-        <img alt="image" src={Poster} width="80%" />
+        <img alt="image" src={Poster} width="100%" />
         {/* {language === 'de' ? (
           <img alt="image" src={PosterDe} width="100%" />
         ) : (
