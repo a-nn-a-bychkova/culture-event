@@ -7,6 +7,7 @@ import Programm from '../components/Programm';
 import Participants from '../components/Participants';
 import Concerts from '../components/Concerts';
 import Flags from './Flags';
+import { Instagram, Facebook, Youtube, Mail, Phone } from 'react-feather';
 import { useContext, Suspense, useRef } from 'react';
 import {
   BrowserRouter as Router,
@@ -107,6 +108,31 @@ function App() {
             }}
           >
             ukrainischer.lebensmut@gmail.com
+          </Link>
+        </Box>
+        <Box
+          sx={{
+            display: 'flex',
+            width: '100px',
+            justifyContent: 'space-between',
+            marginLeft: 'auto',
+            marginRight: 'auto',
+            marginTop: '10px',
+            color: 'black',
+          }}
+        >
+          <Link
+            href="https://www.instagram.com/ukrainischer.lebensmut?igsh=MWM4Zmo3dzVmc2U3ZQ%3D%3D&utm_source=qr"
+            color="inherit"
+          >
+            <Instagram color="#0a5b81" />
+          </Link>
+
+          <Link href="https://www.youtube.com/channel/UCEfBsCGvRCJymBmPfsB0nPQ">
+            <Youtube color="#0a5b81" />
+          </Link>
+          <Link href="https://www.facebook.com/ukrainischer.lebensmut/">
+            <Facebook color="#0a5b81" />
           </Link>
         </Box>
       </Container>
