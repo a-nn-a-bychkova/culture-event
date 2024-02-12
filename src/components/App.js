@@ -121,19 +121,16 @@ function App() {
             color: 'black',
           }}
         >
-          <Link
-            href="https://www.instagram.com/ukrainischer.lebensmut?igsh=MWM4Zmo3dzVmc2U3ZQ%3D%3D&utm_source=qr"
-            color="inherit"
-          >
+          <a href="https://www.instagram.com/ukrainischer.lebensmut?igsh=MWM4Zmo3dzVmc2U3ZQ%3D%3D&utm_source=qr">
             <Instagram color="#0a5b81" />
-          </Link>
+          </a>
 
-          <Link href="https://www.youtube.com/channel/UCEfBsCGvRCJymBmPfsB0nPQ">
+          <a href="https://www.youtube.com/channel/UCEfBsCGvRCJymBmPfsB0nPQ">
             <Youtube color="#0a5b81" />
-          </Link>
-          <Link href="https://www.facebook.com/ukrainischer.lebensmut/">
+          </a>
+          <a href="https://www.facebook.com/ukrainischer.lebensmut/">
             <Facebook color="#0a5b81" />
-          </Link>
+          </a>
         </Box>
       </Container>
     </Box>
