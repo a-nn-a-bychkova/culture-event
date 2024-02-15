@@ -42,7 +42,7 @@ function App() {
       <Routes>
         <Route path="/" element={<HomeView />} />
         <Route path="/concerts" element={<ConcertsView />} />
-        {/* <Route path="/galerie" element={<GalerieView />} /> */}
+        <Route path="/galerie" element={<GalerieView />} />
       </Routes>
 
       {/* <Box
