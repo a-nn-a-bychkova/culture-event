@@ -14,7 +14,7 @@ const About = () => {
   return (
     <Box
       sx={{
-        color: '#0a5b81',
+        color: '#495961',
         maxWidth: { lg: '600px' },
         marginLeft: 'auto',
         marginRight: 'auto',

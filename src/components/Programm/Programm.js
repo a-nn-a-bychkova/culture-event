@@ -236,14 +236,14 @@ const Programm = () => {
           sx={{
             fontFamily: 'Times New Roman',
             paddingTop: '16px',
-            color: '#0a5b81',
+            color: '#495961',
             fontWeight: 'bold',
           }}
         >
           {language === 'de' ? 'Programm' : 'Програма'}
         </Typography>
       </ThemeProvider>{' '}
-      <List sx={{ color: '#0a5b81' }}>
+      <List sx={{ color: '#495961' }}>
         {language === 'de' ? (
           <Grid container spacing={12}>
             <Grid item container md={6}>

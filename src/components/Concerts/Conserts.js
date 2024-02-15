@@ -137,7 +137,7 @@ const Concerts = () => {
           sx={{
             fontFamily: 'Times New Roman',
             paddingTop: { xs: '16px', sm: '16px', md: '0px' },
-            color: '#0a5b81',
+            color: '#495961',
             fontWeight: 'bold',
           }}
         >
@@ -147,7 +147,7 @@ const Concerts = () => {
       <List
         sx={{
           padding: '0px',
-          color: '#0a5b81',
+          color: '#495961',
         }}
       >
         {language === 'de' ? (

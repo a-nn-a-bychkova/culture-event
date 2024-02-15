@@ -60,7 +60,7 @@ const Flags = () => {
         <Box
           sx={{
             height: { xs: '9px', md: '12px' },
-            backgroundColor: '#0a5b81',
+            backgroundColor: '#0f3dc9  ',
           }}
         ></Box>
         <Box

@@ -70,7 +70,7 @@ function App() {
       </Container> */}
       <Typography
         sx={{
-          color: '#0a5b81',
+          color: '#495961',
           textAlign: 'center',
           fontWeight: 'bold',
           fontFamily: 'Times New Roman',
@@ -82,7 +82,7 @@ function App() {
         {' '}
         {language === 'de' ? 'Herzlich Willkommen!' : 'Ласкаво просимо!'}
       </Typography>
-      <Divider sx={{ background: '#0a5b81' }} />
+      <Divider sx={{ background: '#495961' }} />
       <Container
         sx={{
           padding: {
@@ -96,12 +96,12 @@ function App() {
       >
         <Box sx={{ display: 'flex', justifyContent: 'center' }}>
           <EmailIcon
-            sx={{ color: '#0a5b81', marginRight: '10px', width: '16px' }}
+            sx={{ color: '#495961', marginRight: '10px', width: '16px' }}
           />{' '}
           <Link
             to="mailto:ukrainischer.lebensmut@gmail.com"
             style={{
-              color: '#0a5b81',
+              color: '#495961',
               textDecoration: 'none',
               fontFamily: 'Times New Roman',
               fontSize: { xs: '12px', lg: '24px' },
@@ -122,14 +122,14 @@ function App() {
           }}
         >
           <a href="https://www.instagram.com/ukrainischer.lebensmut?igsh=MWM4Zmo3dzVmc2U3ZQ%3D%3D&utm_source=qr">
-            <Instagram color="#0a5b81" />
+            <Instagram color="#495961" />
           </a>
 
           <a href="https://www.youtube.com/channel/UCEfBsCGvRCJymBmPfsB0nPQ">
-            <Youtube color="#0a5b81" />
+            <Youtube color="#495961" />
           </a>
           <a href="https://www.facebook.com/ukrainischer.lebensmut/">
-            <Facebook color="#0a5b81" />
+            <Facebook color="#495961" />
           </a>
         </Box>
       </Container>

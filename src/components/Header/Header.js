@@ -16,7 +16,7 @@ const Header = () => {
           md: '30px 40px 10px',
           lg: '30px 10px 10px 10px',
         },
-        width: { lg: '1200px' },
+        // width: { lg: '1200px' },
         fontFamily: 'Times New Roman',
       }}
     >
@@ -24,12 +24,13 @@ const Header = () => {
       <Box
         sx={{
           display: 'flex',
+          justifyContent: 'space-between',
         }}
       >
         <Box
           sx={{
             display: 'flex',
-            color: '#0a5b81',
+            color: '#495961',
             fontSize: { xs: '12px', sm: '18px' },
           }}
         >
@@ -38,7 +39,9 @@ const Header = () => {
             exact
             style={({ isActive }) => ({
               textDecoration: 'none',
-              color: isActive ? 'rgb(40, 40, 49)' : '#0a5b81',
+
+              color: isActive ? 'rgb(40, 40, 49)' : '#495961',
+              fontWeight: isActive ? 'bold' : 'normal',
               marginRight: '10px',
             })}
           >
@@ -49,7 +52,8 @@ const Header = () => {
             to="/concerts"
             style={({ isActive }) => ({
               textDecoration: 'none',
-              color: isActive ? 'rgb(40, 40, 49)' : '#0a5b81',
+              color: isActive ? 'rgb(40, 40, 49)' : '#495961',
+              fontWeight: isActive ? 'bold' : 'normal',
               marginRight: '10px',
             })}
           >
@@ -59,7 +63,8 @@ const Header = () => {
             to="/galerie"
             style={({ isActive }) => ({
               textDecoration: 'none',
-              color: isActive ? 'rgb(40, 40, 49)' : '#0a5b81',
+              color: isActive ? 'rgb(40, 40, 49)' : '#495961',
+              fontWeight: isActive ? 'bold' : 'normal',
             })}
           >
             {language === 'de' ? 'Galerie' : 'Галерея'}

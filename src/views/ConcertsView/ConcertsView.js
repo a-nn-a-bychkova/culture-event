@@ -36,7 +36,7 @@ const ConcertsListDe = [
     participants:
       'Svitlana Mykhailenko (Sprecher), Maximilian Franke (Sprecher), Anna Bychkova (Mezzosopran), Natalia Hrabarska (Mezzosopran, Bandura), Yevhen Petronelli (Bariton), Olena Vasylenko (Klavier), Nazar Totovytskyi (Violine)',
     details:
-      'Es wird moderiert von Ute Möller. Zentral wird die Frage sein, wie geht es ukrainischen Jugendlichen nach ein oder zwei Jahren in Deutschland. Wie sind ihre Perspektiven? Was bedeutet ihnen die künstlerische Auseinandersetzung mit ihren Themen? Wie ist das Projekt „Galerie Ukraine“ entstanden und wie viele Menschen hat diese Projekt in den letzten beiden Jahren bereits miteinander verbunden? Im Anschluss hören sie (ukrainische) Poesie und Musik mit „Lebensmut“',
+      'Um 21 Uhr findet das Künstlergespräch mit dem Team zur Inszenierung „GEHT SO“ statt. Ab 22. Uhr haben Sie die Möglichkeit, eine einzigartige Fusion ukrainischer Poesie (auf Ukrainisch und Deutsch) und Musik, eine Auswahl der bedeutendsten Komponisten der Ukraine zu erleben.  Initiatoren sind „GALERIE UKRAINE“ und „UKRAINISCHER LEBENSMUT“',
   },
   {
     id: uuidv4(),
@@ -114,6 +114,8 @@ const ConcertsListUkr = [
     link: 'https://www.staatstheater-nuernberg.de/spielplan-23-24/galerie-ukraine/24-02-2024/2100',
     participants:
       'Максімілан Франке (текст), Світлана Михайленко (текст), Анна Бичкова (мецо-сопрано), Наталія Грабарська (бандура, мецо-сопрано), Євген Петронеллі (баритон), Олена Василенко (фортепіано), Назар Тотовицький (скрипка)',
+    details:
+      'О 21:00 відбудеться спілкування з командою артистів про постановку «GEHT SO». З 22:00 до уваги глядачів буде представлене унікальне сплетіння української поезії (українською та німецькою мовами) та музики видатних українських композиторів. Ініціатори – „GALERIE UKRAINE“ та „UKRAINISCHER LEBENSMUT“',
   },
   {
     id: uuidv4(),
@@ -202,31 +204,17 @@ export default function HomeView(props) {
           maxWidth: { lg: '1200px' },
         }}
       >
-        <ThemeProvider theme={theme}>
-          <Typography
-            variant="h5"
-            sx={{
-              fontFamily: 'Times New Roman',
-              fontSize: '22px',
-              paddingTop: { xs: '16px', sm: '16px', md: '0px' },
-              color: '#0a5b81',
-              fontWeight: 'bold',
-            }}
-          >
-            {language === 'de' ? 'Konzerte' : 'Концерти'}
-          </Typography>
-        </ThemeProvider>{' '}
         <List
           sx={{
             padding: '0px',
-            color: '#0a5b81',
+            color: '#495961',
           }}
         >
           {language === 'de' ? (
             <Box
               sx={{
                 display: 'flex',
-                flexDirection: { xs: 'column', md: 'row' },
+                flexDirection: { xs: 'column' },
                 justifyContent: 'end',
               }}
             >
@@ -297,6 +285,7 @@ export default function HomeView(props) {
                     style={{
                       marginRight: 'auto',
                       color: 'inherit',
+                      textDecorationColor: 'inherit',
                     }}
                   >
                     <Typography
@@ -391,8 +380,7 @@ export default function HomeView(props) {
                   </Button> */}
                   <Box
                     sx={{
-                      display: { md: 'none' },
-                      backgroundColor: '#0a5b81',
+                      backgroundColor: '#495961',
                       width: '100%',
                       height: '1px',
                     }}
@@ -404,7 +392,7 @@ export default function HomeView(props) {
             <Box
               sx={{
                 display: 'flex',
-                flexDirection: { xs: 'column', md: 'row' },
+                flexDirection: { xs: 'column' },
                 justifyContent: 'end',
               }}
             >
@@ -442,6 +430,7 @@ export default function HomeView(props) {
                       style={{
                         marginRight: 'auto',
                         color: 'inherit',
+                        textDecorationColor: 'inherit',
                       }}
                     >
                       <Typography
@@ -475,6 +464,7 @@ export default function HomeView(props) {
                     style={{
                       marginRight: 'auto',
                       color: 'inherit',
+                      textDecorationColor: 'inherit',
                     }}
                   >
                     <Typography
@@ -567,8 +557,7 @@ export default function HomeView(props) {
                 </Button> */}
                   <Box
                     sx={{
-                      display: { md: 'none' },
-                      backgroundColor: '#0a5b81',
+                      backgroundColor: '#495961',
                       width: '100%',
                       height: '1px',
                     }}

@@ -63,7 +63,7 @@ const Participants = () => {
         display: 'flex',
         flexDirection: 'column',
         fontFamily: 'Times New Roman',
-        color: '#0a5b81',
+        color: '#495961',
       }}
     >
       {language === 'de' ? (

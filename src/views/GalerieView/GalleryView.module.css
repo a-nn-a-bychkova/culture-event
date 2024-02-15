@@ -1,0 +1,44 @@
+.List {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+}
+
+.Item {
+  list-style-type: none;
+  /* margin-left: auto;
+  margin-right: auto; */
+  display: block;
+  text-align: center;
+}
+
+.Img {
+  padding: 0 0 14px 0;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .List {
+    display: flex;
+    flex-wrap: wrap;
+    /* padding: 50px 20px; */
+    justify-content: space-between;
+  }
+  /* .Item {
+    margin-right: 15px;
+    margin-bottom: 15px;
+  }
+  .Item:nth-child(2n) {
+    margin-right: 15px;
+  } */
+}
+
+@media screen and (min-width: 1440px) {
+  .List {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
