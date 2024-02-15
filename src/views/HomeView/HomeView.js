@@ -13,8 +13,8 @@ export default function HomeView(props) {
 
   return (
     <>
-      <Hero />
-      {/* <HeroSlider /> */}
+      {/* <Hero /> */}
+      <HeroSlider />
       <Container
         sx={{
           padding: {

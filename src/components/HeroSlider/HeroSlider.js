@@ -1,7 +1,8 @@
-import PosterDe from '../../images/galerie-ukraine-24-02-24.jpg';
+import PosterDe from '../../images/24-02-24-staatstheater.png';
 
-import Poster2De from '../../images/12-11-23-Regensburg-fb.png';
+import Poster1De from '../../images/26-02-24-regensburg.jpg';
 
+import Poster2De from '../../images/02-03-24-ERLANGEN-social.png';
 import Context from '../../contexts/context';
 import Address from '../Address';
 import { useState, useEffect, useContext } from 'react';
@@ -11,7 +12,7 @@ import { AiOutlineArrowLeft, AiOutlineArrowRight } from 'react-icons/ai';
 
 const HeroSlider = () => {
   const { language } = useContext(Context);
-  const SliderImagesDE = [PosterDe, Poster2De];
+  const SliderImagesDE = [PosterDe, Poster1De, Poster2De];
 
   const [currentSlide, setCurrentSlide] = useState(0);
   const slideLength = SliderImagesDE.length;
