@@ -47,11 +47,9 @@ const ConcertsListDe = [
     addressLink: 'https://maps.app.goo.gl/sV3k3gT1EhrYe6CH7',
     // ticket: 'Eintritt frei',
     dauer: 'ca. 1 St.',
-    // link: 'https://www.staatstheater-nuernberg.de/spielplan-23-24/galerie-ukraine/24-02-2024/2100',
+    link: 'https://m26kultur.org/event/ukrainische-kulturtage/',
     participants:
       'Rada Pushkash (Sprecher), Oleksii Guban (Sprecher), Anna Bychkova (Mezzosopran), Natalia Hrabarska (Mezzosopran, Bandura), Olena Vasylenko (Klavier)',
-    // details:
-    //   '',
   },
   {
     id: uuidv4(),
@@ -126,7 +124,7 @@ const ConcertsListUkr = [
     addressLink: 'https://maps.app.goo.gl/sV3k3gT1EhrYe6CH7',
     // ticket: 'Вхід вільний',
     dauer: '1 год.',
-    // link: 'https://www.staatstheater-nuernberg.de/spielplan-23-24/galerie-ukraine/24-02-2024/2100',
+    link: 'https://m26kultur.org/event/ukrainische-kulturtage/',
     participants:
       'Рада Пушкаш (текст), Олексій Губан (текст), Світлана Михайленко (текст), Анна Бичкова (мецо-сопрано), Наталія Грабарська (бандура, мецо-сопрано), Олена Василенко (фортепіано)',
   },

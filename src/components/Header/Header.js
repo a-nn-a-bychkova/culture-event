@@ -69,6 +69,16 @@ const Header = () => {
           >
             {language === 'de' ? 'Galerie' : 'Галерея'}
           </NavLink>
+          {/* <NavLink
+            to="/video"
+            style={({ isActive }) => ({
+              textDecoration: 'none',
+              color: isActive ? 'rgb(40, 40, 49)' : '#495961',
+              fontWeight: isActive ? 'bold' : 'normal',
+            })}
+          >
+            {language === 'de' ? 'Video' : 'Відео'}
+          </NavLink> */}
         </Box>
         <Flags />
       </Box>{' '}

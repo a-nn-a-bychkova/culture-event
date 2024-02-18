@@ -1,0 +1,41 @@
+.List {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin-right: auto;
+  margin-left: auto;
+}
+.Video {
+  width: 300px;
+  height: 200px;
+}
+
+@media screen and (min-width: 768px) {
+  .List {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .Item:nth-child(1n) {
+    margin-right: 15px;
+    margin-bottom: 15px;
+  }
+  .Item:nth-child(2n) {
+    margin-right: 0px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .Item:nth-child(2n) {
+    margin-right: 15px;
+  }
+  .Item:nth-child(3n) {
+    margin-right: 0px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .List {
+    max-width: 1200px;
+  }
+} ;

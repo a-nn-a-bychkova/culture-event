@@ -43,7 +43,7 @@ const HeroSlider = () => {
     return () => clearInterval(slideInterval);
   }, [currentSlide]);
   return (
-    <Box xs={{ maxWidth: '1200px' }}>
+    <Box xs={{ maxWidth: '1200px', height: '100%' }}>
       <Box
         sx={{
           position: 'relative',
