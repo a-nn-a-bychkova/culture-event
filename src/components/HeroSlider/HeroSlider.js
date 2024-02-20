@@ -1,3 +1,5 @@
+import { useState, useEffect, useContext } from 'react';
+
 import PosterDe from '../../images/24-02-24-staatstheater.png';
 
 import Poster1De from '../../images/26-02-24-regensburg.jpg';
@@ -5,7 +7,7 @@ import Poster1De from '../../images/26-02-24-regensburg.jpg';
 import Poster2De from '../../images/02-03-24-ERLANGEN-social.png';
 import Context from '../../contexts/context';
 import Address from '../Address';
-import { useState, useEffect, useContext } from 'react';
+
 import { Box, Typography } from '@mui/material';
 
 import { AiOutlineArrowLeft, AiOutlineArrowRight } from 'react-icons/ai';
@@ -19,6 +21,7 @@ const HeroSlider = () => {
   const autoScroll = true;
   let slideInterval;
   let intervalTime = 5000;
+
   const nextSlide = () => {
     setCurrentSlide(currentSlide === slideLength - 1 ? 0 : currentSlide + 1);
     console.log('next');
@@ -42,8 +45,9 @@ const HeroSlider = () => {
     }
     return () => clearInterval(slideInterval);
   }, [currentSlide]);
+
   return (
-    <Box xs={{ maxWidth: '1200px', height: '100%' }}>
+    <Box>
       <Box
         sx={{
           position: 'relative',
