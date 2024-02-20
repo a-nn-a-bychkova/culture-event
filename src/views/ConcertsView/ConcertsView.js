@@ -50,6 +50,8 @@ const ConcertsListDe = [
     link: 'https://m26kultur.org/event/ukrainische-kulturtage/',
     participants:
       'Rada Pushkash (Sprecher), Oleksii Guban (Sprecher), Anna Bychkova (Mezzosopran), Natalia Hrabarska (Mezzosopran, Bandura), Olena Vasylenko (Klavier)',
+    details:
+      'Unser Programm ist dem 2. Jahrestag der groß angelegten Invasion der Ukraine gewidmet.  Nach einer Idee von Svitlana Mykhaylenko (Galerie Ukraine) und in der Kollaboration mit den Musiker*innen des Projektes „Ukrainischer Lebensmut“ sind eine einzigartige Kombination von ukrainischer Poesie (auf Ukrainisch und Deutsch) und Musik entstanden.',
   },
   {
     id: uuidv4(),
@@ -63,8 +65,8 @@ const ConcertsListDe = [
     // link: 'https://www.staatstheater-nuernberg.de/spielplan-23-24/galerie-ukraine/24-02-2024/2100',
     participants:
       'Rada Pushkash (Sprecher), Oleksii Guban (Sprecher), Anna Bychkova (Mezzosopran), Natalia Hrabarska (Mezzosopran, Bandura), Yevhen Petronelli (Bariton), Olena Vasylenko (Klavier), Nazar Totovytskyi (Violine)',
-    // details:
-    //   '',
+    details:
+      'Unser Programm ist dem 2. Jahrestag der groß angelegten Invasion der Ukraine gewidmet.  Nach einer Idee von Svitlana Mykhaylenko (Galerie Ukraine) und in der Kollaboration mit den Musiker*innen des Projektes „Ukrainischer Lebensmut“ sind eine einzigartige Kombination von ukrainischer Poesie (auf Ukrainisch und Deutsch) und Musik entstanden.Der gesamte Erlös dieses Konzerts wird für den Kauf einer Prothese für den Soldaten Wjatscheslaw Avramenko verwendet, der sich derzeit in einer schwierigen Rehabilitationsphase befindet und dessen Verwandten sich in Erlangen aufhalten. Wir betrachten es auch als große Ehre, ihn bei unserem Konzert sehen zu dürfen und uns persönlich für seinen Mut zu bedanken.',
   },
   // {
   //   id: uuidv4(),
@@ -122,11 +124,13 @@ const ConcertsListUkr = [
     title: 'M26',
     address: 'Regensburg, Maximilianstr., 26',
     addressLink: 'https://maps.app.goo.gl/sV3k3gT1EhrYe6CH7',
-    // ticket: 'Вхід вільний',
+    ticket: 'Вхід вільний',
     dauer: '1 год.',
     link: 'https://m26kultur.org/event/ukrainische-kulturtage/',
     participants:
       'Рада Пушкаш (текст), Олексій Губан (текст), Світлана Михайленко (текст), Анна Бичкова (мецо-сопрано), Наталія Грабарська (бандура, мецо-сопрано), Олена Василенко (фортепіано)',
+    details:
+      'Благодійний концерт-перфоманс, присвячений другій річниці повномаштабного вторнення в Україну, -  результат колаборації Світлани Михаленко (Galerie Ukraine), яка є автором ідеї, та музикантів проєкту „Ukrainischer Lebensmut“. В цей вечір глядач спостерігатиме унікальне поєднання української поезії (як українською, так і німецькою мовами) та музичних творів відомих українських композиторів.',
   },
   {
     id: uuidv4(),
@@ -140,8 +144,8 @@ const ConcertsListUkr = [
     // link: 'https://www.staatstheater-nuernberg.de/spielplan-23-24/galerie-ukraine/24-02-2024/2100',
     participants:
       'Рада Пушкаш (текст), Олексій Губан (текст), Світлана Михайленко (текст), Анна Бичкова (мецо-сопрано), Наталія Грабарська (бандура, мецо-сопрано) Євген Петронеллі (баритон), Олена Василенко (фортепіано), Назар Тотовицький (скрипка)',
-    // details:
-    //   '',
+    details:
+      'Благодійний концерт-перфоманс, присвячений другій річниці повномаштабного вторнення в Україну, -  результат колаборації Світлани Михаленко (Galerie Ukraine), яка є автором ідеї, та музикантів проєкту „Ukrainischer Lebensmut“. В цей вечір глядач спостерігатиме унікальне поєднання української поезії (як українською, так і німецькою мовами) та музичних творів відомих українських композиторів.Усі виручені кошти від цього концерту будуть спрямовані на придбання протезу для військовослужбовця Вʼячеслава Авраменка, який в даний момент проходить складний період реабілітації, а його рідні знаходяться в Ерлангені. Ми вважаємо також за велику честь мати можливість бачити його на нашому концерті і особисто висловити подяку за його відважність',
   },
 
   // {
