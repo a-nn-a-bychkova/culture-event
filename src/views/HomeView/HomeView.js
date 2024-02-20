@@ -12,18 +12,19 @@ export default function HomeView(props) {
 
   return (
     <Box>
-      {/* <Hero /> */}
-      <Box
+      <Hero />
+      {/* <Box
         sx={{
-          xs: { height: '180px' },
+          backgroundColor: 'blue',
+          xs: { width: 100, height: '180px' },
           sm: { height: '336px' },
           md: { height: '500px' },
           lg: { height: '674px' },
         }}
       >
-        {' '}
-        <HeroSlider />
-      </Box>
+     
+    <HeroSlider />
+      </Box> */}
 
       {/* <HeroCarousel /> */}
       <Box>
