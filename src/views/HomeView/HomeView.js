@@ -26,7 +26,7 @@ export default function HomeView(props) {
     <HeroSlider />
       </Box> */}
 
-      {/* <HeroCarousel /> */}
+      <HeroCarousel />
       <Box>
         {' '}
         <Container

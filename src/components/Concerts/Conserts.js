@@ -19,81 +19,36 @@ import { v4 as uuidv4 } from 'uuid';
 const ConcertsListDe = [
   {
     id: uuidv4(),
-    date: 'Sa, 24. Februar 2024',
-    time: '21:00',
-    title: 'Schauspielhaus, 3. Etage Foyer',
-    address: 'Nürnberg, Richard-Wagner-Platz, 2',
-    ticket: 'Eintritt frei',
-    dauer: 'ca. 2 St.',
-    link: 'https://www.staatstheater-nuernberg.de/spielplan-23-24/galerie-ukraine/24-02-2024/2100',
-    participants:
-      'Maximilian Franke (Sprecher), Svitlana Mykhailenko (Sprecher), Anna Bychkova (Mezzosopran), Natalia Hrabarska (Mezzosopran, Bandura), Yevhen Petronelli (Bariton), Olena Vasylenko (Klavier), Nazar Totovytskyi (Violine)',
-  },
-  {
-    id: uuidv4(),
-    date: 'Mo, 26. Februar 2024',
-    time: '20:00',
-    title: 'M26',
-    address: 'Regensburg, Maximilianstr., 26',
-    // ticket: 'Eintritt frei',
-    dauer: 'ca. 1 St.',
-    // link: 'https://www.staatstheater-nuernberg.de/spielplan-23-24/galerie-ukraine/24-02-2024/2100',
-    participants:
-      'Rada Pushkash (Sprecher), Oleksii Guban (Sprecher), Anna Bychkova (Mezzosopran), Natalia Hrabarska (Mezzosopran, Bandura), Olena Vasylenko (Klavier)',
-    // details:
-    //   '',
-  },
-  {
-    id: uuidv4(),
     date: 'Sa, 2. März 2024',
     time: '19:00',
     title: 'St. Sebald Kirche',
     address: 'Erlangen, Egerlandstr. 22',
     addressLink: 'https://maps.app.goo.gl/E5UCcKfdYquX1v1N8',
     ticket: 'Eintritt frei',
-    dauer: 'ca. 1 St.',
+    dauer: '1 St. 20  Min.',
     // link: 'https://www.staatstheater-nuernberg.de/spielplan-23-24/galerie-ukraine/24-02-2024/2100',
     participants:
-      'Maximilian Franke (Sprecher), Svitlana Mykhailenko (Sprecher), Anna Bychkova (Mezzosopran), Natalia Hrabarska (Mezzosopran, Bandura), Yevhen Petronelli (Bariton), Olena Vasylenko (Klavier), Nazar Totovytskyi (Violine)',
-    // details:
-    //   '',
+      'Rada Pushkash (Sprecher), Maximilian Franke (Sprecher), Svitlana Mykhailenko (Sprecher), Anna Bychkova (Mezzosopran), Natalia Hrabarska (Mezzosopran, Bandura), Yevhen Petronelli (Bariton), Olena Vasylenko (Klavier), Nazar Totovytskyi (Violine)',
+    details:
+      'Unser Programm ist dem 2. Jahrestag der groß angelegten Invasion der Ukraine gewidmet.  Nach einer Idee von Svitlana Mykhailenko (Galerie Ukraine) und in der Kollaboration mit den Musiker*innen des Projektes „Ukrainischer Lebensmut“ sind eine einzigartige Kombination von ukrainischer Poesie (auf Ukrainisch und Deutsch) und Musik entstanden. Die Spenden kommen dem Soldaten Avramenko Viacheslav zugute. Der Erlös finanziert seine Prothese.',
   },
-  // {
-  //   id: uuidv4(),
-  //   date: 'Mo, 26. Februar 2024',
-  //   time: '20:00',
-  //   title: 'Katolische Pfarrei St. Bonifaz - St. Georg',
-  //   address: 'Killermannstr. 26, Regensburg',
-  //   ticket: 'Eintritt frei',
-  //   dauer: 'ca. 2 St. mit der Pause',
-  // },
+  {
+    id: uuidv4(),
+    date: 'So, 10. März 2024',
+    time: '14:00',
+    title: 'Die katholische Pfarrkirche St. Bonifaz',
+    address: 'Regensburg, Killermannstr., 26',
+    addressLink: 'https://maps.app.goo.gl/aPwewuT5ysjRM7Ra8',
+    ticket: 'Eintritt frei',
+    dauer: '1 St. 20  Min.',
+    // link: 'https://www.staatstheater-nuernberg.de/spielplan-23-24/galerie-ukraine/24-02-2024/2100',
+    participants:
+      'Rada Pushkash (Sprecher), Oleksii Guban (Sprecher), Anna Bychkova (Mezzosopran), Natalia Hrabarska (Mezzosopran, Bandura), Olena Vasylenko (Klavier)',
+    details:
+      'Unser Programm ist dem 2. Jahrestag der groß angelegten Invasion der Ukraine gewidmet.  Nach einer Idee von Svitlana Mykhailenko (Galerie Ukraine) und in der Kollaboration mit den Musiker*innen des Projektes „Ukrainischer Lebensmut“ sind eine einzigartige Kombination von ukrainischer Poesie (auf Ukrainisch und Deutsch) und Musik entstanden.',
+  },
 ];
 const ConcertsListUkr = [
-  {
-    id: uuidv4(),
-    date: 'Сб, 24 лютого 2024',
-    time: '21:00',
-    title: 'Schauspielhaus, 3. Etage Foyer',
-    address: 'Nürnberg, Richard-Wagner-Platz, 2',
-    ticket: 'Вхід вільний',
-    dauer: '2 год.',
-    link: 'https://www.staatstheater-nuernberg.de/spielplan-23-24/galerie-ukraine/24-02-2024/2100',
-    participants:
-      'Максімілан Франке (текст), Світлана Михайленко (текст), Анна Бичкова (мецо-сопрано), Наталія Грабарська (бандура, мецо-сопрано) Євген Петронеллі (баритон), Олена Василенко (фортепіано), Назар Тотовицький (скрипка)',
-  },
-  {
-    id: uuidv4(),
-    date: 'Пн, 26 лютого 2024',
-    time: '20:00',
-    title: 'M26',
-    address: 'Regensburg, Maximilianstr., 26',
-    addressLink: 'https://maps.app.goo.gl/sV3k3gT1EhrYe6CH7',
-    // ticket: 'Вхід вільний',
-    dauer: '1 год.',
-    // link: 'https://www.staatstheater-nuernberg.de/spielplan-23-24/galerie-ukraine/24-02-2024/2100',
-    participants:
-      'Рада Пушкаш (текст), Олексій Губан (текст), Світлана Михайленко (текст), Анна Бичкова (мецо-сопрано), Наталія Грабарська (бандура, мецо-сопрано), Олена Василенко (фортепіано)',
-  },
   {
     id: uuidv4(),
     date: 'Сб, 2 березня 2024',
@@ -102,22 +57,28 @@ const ConcertsListUkr = [
     address: 'Erlangen, Egerlandstr. 22',
     addressLink: 'https://maps.app.goo.gl/E5UCcKfdYquX1v1N8',
     ticket: 'Вхід вільний',
-    dauer: '1 год.',
+    dauer: '1 год. 20 хв.',
     // link: 'https://www.staatstheater-nuernberg.de/spielplan-23-24/galerie-ukraine/24-02-2024/2100',
     participants:
-      'Максімілан Франке (текст), Світлана Михайленко (текст), Анна Бичкова (мецо-сопрано), Наталія Грабарська (бандура, мецо-сопрано) Євген Петронеллі (баритон), Олена Василенко (фортепіано), Назар Тотовицький (скрипка)',
-    // details:
-    //   '',
+      'Рада Пушкаш (текст), Максімілан Франке (текст), Світлана Михайленко (текст), Анна Бичкова (мецо-сопрано), Наталія Грабарська (бандура, мецо-сопрано), Євген Петронеллі (баритон), Олена Василенко (фортепіано), Назар Тотовицький (скрипка)',
+    details:
+      "Наша програма присвячена 2-й річниці широкомасштабного вторгнення в Україну. За ідеєю Світлани Михайленко (галерея «Україна») та у співпраці з музикантами проекту «Українська мужність для життя» створено унікальне поєднання української поезії (українською та німецькою мовами) та музики. Пожертви підуть на користь солдата Авраменка В'ячеслава. Виручені кошти фінансують його протез.",
   },
-  // {
-  //   id: uuidv4(),
-  //   date: 'Нд, 12 листопада 2023',
-  //   time: '15:00',
-  //   title: 'Katolische Pfarrei St. Bonifaz - St. Georg',
-  //   address: 'Killermannstr. 26, Regensburg',
-  //   ticket: 'Вхід вільний (донати)',
-  //   dauer: '2 год. з перервою',
-  // },
+  {
+    id: uuidv4(),
+    date: 'Нд, 10 березня 2024',
+    time: '14:00',
+    title: 'Die katholische Pfarrkirche St. Bonifaz',
+    address: 'Regensburg, Killermannstr., 26',
+    addressLink: 'https://maps.app.goo.gl/aPwewuT5ysjRM7Ra8',
+    ticket: 'Вхід вільний',
+    dauer: '1 год. 20 хв.',
+    // link: 'https://www.staatstheater-nuernberg.de/spielplan-23-24/galerie-ukraine/24-02-2024/2100',
+    participants:
+      'Рада Пушкаш (текст), Олексій Губан (текст), Світлана Михайленко (текст), Анна Бичкова (мецо-сопрано), Наталія Грабарська (бандура, мецо-сопрано), Олена Василенко (фортепіано)',
+    details:
+      'Наша програма присвячена 2-й річниці широкомасштабного вторгнення в Україну. За ідеєю Світлани Михайленко (галерея «Україна») та у співпраці з музикантами проекту «Українська мужність для життя» створено унікальне поєднання української поезії (українською та німецькою мовами) та музики.',
+  },
 ];
 
 const Concerts = () => {
