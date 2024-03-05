@@ -1,4 +1,4 @@
-import Poster from '../../images/02-03-24-ERLANGEN-social.png';
+import Poster from '../../images/10-03-24-regensburg-poster-social.png';
 
 import Context from '../../contexts/context';
 import Address from '../Address';

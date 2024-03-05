@@ -25,62 +25,34 @@ import Programm from '../../components/Programm/Programm';
 const ConcertsListDe = [
   {
     id: uuidv4(),
-    date: 'Sa, 2. März 2024',
-    time: '19:00',
-    title: 'St. Sebald Kirche',
-    address: 'Erlangen, Egerlandstr. 22',
-    addressLink: 'https://maps.app.goo.gl/E5UCcKfdYquX1v1N8',
-    ticket: 'Eintritt frei',
-    dauer: '1 St. 20 Min.',
-    // link: 'https://www.staatstheater-nuernberg.de/spielplan-23-24/galerie-ukraine/24-02-2024/2100',
-    participants:
-      'Rada Pushkash (Sprecher), Maximilian Franke (Sprecher), Svitlana Mykhailenko (Sprecher), Anna Bychkova (Mezzosopran), Natalia Hrabarska (Mezzosopran, Bandura), Yevhen Petronelli (Bariton), Demian Matushevskyi (Bassbariton), Olena Vasylenko (Klavier)',
-    details:
-      'Unser Programm ist dem 2. Jahrestag der groß angelegten Invasion der Ukraine gewidmet.  Nach einer Idee von Svitlana Mykhailenko (Galerie Ukraine) und in der Kollaboration mit den Musiker*innen des Projektes „Ukrainischer Lebensmut“ sind eine einzigartige Kombination von ukrainischer Poesie (auf Ukrainisch und Deutsch) und Musik entstanden. Die Spenden kommen dem Soldaten Avramenko Viacheslav zugute. Der Erlös finanziert seine Prothese.',
-  },
-  {
-    id: uuidv4(),
     date: 'So, 10. März 2024',
-    time: '14:00',
-    title: 'Die katholische Pfarrkirche St. Bonifaz',
-    address: 'Regensburg, Killermannstr., 26',
-    addressLink: 'https://maps.app.goo.gl/aPwewuT5ysjRM7Ra8',
-    // ticket: 'Spenden willkommen',
-    dauer: '1 St. 20 Min.',
-    // link: 'https://www.staatstheater-nuernberg.de/spielplan-23-24/galerie-ukraine/24-02-2024/2100',
+    time: '13:00',
+    concertTitle: 'Frühlingskonzert',
+    adressTitle: '',
+    address: 'Regensburg, Killermannstr. 26',
+    addressLink: 'https://maps.app.goo.gl/WuXJM2JwcTq9uFse9',
+    ticket: 'Eintritt frei, Spenden willkommen',
+    dauer: '2 St. 20 Min.',
+    fbevent: 'https://fb.me/e/4fdvT7nrN',
     participants:
-      'Rada Pushkash (Sprecher), Oleksii Guban (Sprecher), Anna Bychkova (Mezzosopran), Natalia Hrabarska (Mezzosopran, Bandura), Yevhen Petronelli (Bariton), Olena Vasylenko (Klavier)',
-    details: '',
+      'Rada Pushkash (Sprecher), Oleksii Guban (Sprecher), Svitlana Mykhailenko (Sprecher), Anna Bychkova (Mezzosopran), Natalia Hrabarska (Mezzosopran, Bandura), Yevhen Petronelli (Bariton), Olena Vasylenko (Klavier)',
+    details:
+      'Unser Programm ist dem 2. Jahrestag der groß angelegten Invasion der Ukraine gewidmet.  Nach einer Idee von Svitlana Mykhailenko (Galerie Ukraine) und in der Kollaboration mit den Musiker*innen des Projektes „Ukrainischer Lebensmut“ sind eine einzigartige Kombination von ukrainischer Poesie (auf Ukrainisch und Deutsch) und Musik entstanden.',
   },
 ];
 const ConcertsListUkr = [
   {
     id: uuidv4(),
-    date: 'Сб, 2 березня 2024',
-    time: '19:00',
-    title: 'St. Sebald Kirche',
-    address: 'Erlangen, Egerlandstr. 22',
-    addressLink: 'https://maps.app.goo.gl/E5UCcKfdYquX1v1N8',
-    ticket: 'Вхід вільний',
-    dauer: '1 год. 20 хв.',
-    // link: 'https://www.staatstheater-nuernberg.de/spielplan-23-24/galerie-ukraine/24-02-2024/2100',
-    participants:
-      "Рада Пушкаш (текст), Максімілан Франке (текст), Світлана Михайленко (текст), Анна Бичкова (мецо-сопрано), Наталія Грабарська (бандура, мецо-сопрано), Євген Петронеллі (баритон), Дем'ян Матушевский (басбаритон), Олена Василенко (фортепіано)",
-    details:
-      "Наша програма присвячена 2-й річниці широкомасштабного вторгнення в Україну. За ідеєю Світлани Михайленко (галерея «Україна») та у співпраці з музикантами проекту «Українська мужність для життя» створено унікальне поєднання української поезії (українською та німецькою мовами) та музики. Пожертви підуть на користь солдата Авраменка В'ячеслава. Зібрані кошти будуть направлені на фінансування його протезу.",
-  },
-  {
-    id: uuidv4(),
     date: 'Нд, 10 березня 2024',
-    time: '14:00',
-    title: 'Die katholische Pfarrkirche St. Bonifaz',
-    address: 'Regensburg, Killermannstr., 26',
-    addressLink: 'https://maps.app.goo.gl/aPwewuT5ysjRM7Ra8',
+    time: '13:00',
+    concertTitle: 'Весняний концерт',
+    address: 'Regensburg, Killermannstr. 26',
+    addressLink: 'https://maps.app.goo.gl/WuXJM2JwcTq9uFse9',
     ticket: 'Вхід вільний',
-    dauer: '1 год. 20 хв.',
-    // link: 'https://www.staatstheater-nuernberg.de/spielplan-23-24/galerie-ukraine/24-02-2024/2100',
+    dauer: '2 год. 20 хв.',
+    fbevent: 'https://fb.me/e/4fdvT7nrN',
     participants:
-      'Рада Пушкаш (текст), Олексій Губан (текст), Світлана Михайленко (текст), Анна Бичкова (мецо-сопрано), Наталія Грабарська (бандура, мецо-сопрано), Євген Петронеллі (баритон), Олена Василенко (фортепіано)',
+      "Рада Пушкаш (текст),  Олексій Губан (текст), Світлана Михайленко (текст), Анна Бичкова (мецо-сопрано), Наталія Грабарська (бандура, мецо-сопрано), Євген Петронеллі (баритон), Дем'ян Матушевский (басбаритон), Олена Василенко (фортепіано)",
     details:
       'Наша програма присвячена 2-й річниці широкомасштабного вторгнення в Україну. За ідеєю Світлани Михайленко (галерея «Україна») та у співпраці з музикантами проекту «Українська мужність для життя» створено унікальне поєднання української поезії (українською та німецькою мовами) та музики.',
   },
@@ -158,18 +130,19 @@ export default function HomeView(props) {
                       style={{
                         marginRight: 'auto',
                         color: 'inherit',
+                        textDecorationColor: 'inherit',
                       }}
                     >
                       <Typography
                         sx={{
+                          display: 'flex',
                           fontFamily: 'Times New Roman',
+                          fontStyle: 'italic',
                           fontSize: { sm: '16px', md: '18px' },
                           lineHeight: { sm: '24px' },
-                          marginRight: 'auto',
-                          fontStyle: 'normal',
                         }}
                       >
-                        {concert.title}
+                        {concert.concertTitle}
                       </Typography>
                     </Link>
                   ) : (
@@ -182,7 +155,7 @@ export default function HomeView(props) {
                         fontStyle: 'normal',
                       }}
                     >
-                      {concert.title}
+                      {concert.concertTitle}
                     </Typography>
                   )}
 
@@ -346,7 +319,7 @@ export default function HomeView(props) {
                           fontStyle: 'normal',
                         }}
                       >
-                        {concert.title}
+                        {concert.concertTitle}
                       </Typography>
                     </Link>
                   ) : (
@@ -359,7 +332,7 @@ export default function HomeView(props) {
                         fontStyle: 'normal',
                       }}
                     >
-                      {concert.title}
+                      {concert.concertTitle}
                     </Typography>
                   )}
 
