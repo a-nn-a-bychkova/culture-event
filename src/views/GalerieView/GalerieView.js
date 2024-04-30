@@ -12,8 +12,18 @@ import HeroSlider from '../../components/HeroSlider/HeroSlider';
 import img0 from '../../images/common-1.jpg';
 import img1 from '../../images/common-2.jpg';
 import img2 from '../../images/common-3.jpg';
+import img3 from '../../images/dach-april-oben.jpg';
+import img4 from '../../images/dach-april-oben-2.jpg';
 
 const postsList = [
+  {
+    text: '3',
+    img: img3,
+  },
+  {
+    text: '4',
+    img: img4,
+  },
   {
     text: '0',
     img: img0,
