@@ -24,6 +24,8 @@ import HomeView from '../views/HomeView/HomeView';
 import ConcertsView from '../views/ConcertsView';
 import GalerieView from '../views/GalerieView';
 import VideoView from '../views/VideoView';
+import ImpressumView from '../views/ImpressumView';
+import DatenschutzView from '../views/DatenschutzView';
 
 function App() {
   const { language } = useContext(Context);
@@ -46,6 +48,8 @@ function App() {
         <Route path="/galerie" element={<GalerieView />} />
         {/* <Route path="/video" element={<VideoView />} /> */}
         {/* <Route path="/programm-24-02-24" element={<ProgrammView />} /> */}
+        <Route path="/impressum" element={<ImpressumView />} />
+        <Route path="/datenschutz" element={<DatenschutzView />} />
       </Routes>
 
       {/* <Box
@@ -111,6 +115,32 @@ function App() {
             }}
           >
             ukrainischer.lebensmut@gmail.com
+          </Link>
+        </Box>
+        <Box sx={{ display: 'flex', justifyContent: 'center' }}>
+          <Link
+            to="/impressum"
+            style={{
+              color: '#495961',
+              textDecoration: 'none',
+              fontFamily: 'Times New Roman',
+              fontSize: { xs: '12px', lg: '24px' },
+            }}
+          >
+            Impressum
+          </Link>
+        </Box>
+        <Box sx={{ display: 'flex', justifyContent: 'center' }}>
+          <Link
+            to="/datenschutz"
+            style={{
+              color: '#495961',
+              textDecoration: 'none',
+              fontFamily: 'Times New Roman',
+              fontSize: { xs: '12px', lg: '24px' },
+            }}
+          >
+            Datenschutz
           </Link>
         </Box>
         <Box
