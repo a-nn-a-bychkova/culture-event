@@ -51,7 +51,7 @@ const ConcertsListDe = [
     dauer: '1 St. 30 Min.',
     fbevent: '',
     participants:
-      ' Natalia Hrabarska (Mezzosopran, Bandura), Natalka Totovytska (Geige), Olena Vasylenko (Klavier)',
+      ' Nataliia Hrabarska (Mezzosopran, Bandura), Natalka Totovytska (Geige), Olena Vasylenko (Klavier)',
     details:
       'Das Projekt „Ukrainische Lebensmut“ bietet die Zuhörer:innen die Möglichkeit, die ukrainische Musik live zu genießen. Die Banduristin und die Sängerin - Nataliia Hrabarska, die Geigerin - Natalka Totovytskyi und die Pianistin - Olena Vasylenko werden die Schönheit ihrer einheimischen Musik mit deutschem Publikum teilen',
   },
