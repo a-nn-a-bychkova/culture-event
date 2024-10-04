@@ -25,38 +25,68 @@ import Programm from '../../components/Programm/Programm';
 const ConcertsListDe = [
   {
     id: uuidv4(),
-    date: 'Sa, 25. Mai 2024',
-    time: '19:00',
-    concertTitle:
-      'Ukrainische Melodien & Poesie. Eine Reise durch Zeit und Raum',
+    date: 'Sa, 26. Oktober 2024',
+    time: '19:30',
+    concertTitle: 'Benefizkonzert für die Ukraine',
     adressTitle: '',
-    address: 'Schwabach, Königsplatz 33A',
-    addressLink: 'https://maps.app.goo.gl/KNb9bdKYtRv2HTww9',
+    address: 'Kammermusiksaal, Veilhofstraße 34, 90489 Nürnberg',
+    addressLink: 'https://maps.app.goo.gl/yNqCeLyJcdXEQiMC8',
     ticket: 'Eintritt frei, Spenden willkommen',
-    dauer: '2 St. 30 Min.',
-    fbevent: 'https://fb.me/e/1ha0IOUbT',
+    dauer: '1 St. 30 Min.',
+    fbevent: '',
     participants:
-      'Svitlana Mykhailenko (Sprecher), Maximilian Franke (Sprecher), Schirin Hidajbergenova (Sopran), Anna Bychkova (Mezzosopran), Natalia Hrabarska (Mezzosopran, Bandura), Yevhen Petronelli (Bariton), Demian Matushevskzj (Bassbariton), Nazar Totovytskyi (Giege), Olena Vasylenko (Klavier)',
+      'Svitlana Mykhailenko (Sprecher), Anna Bychkova (Mezzosopran), Natalia Hrabarska (Mezzosopran, Bandura), Yevhen Petronelli (Bariton), Demian Matushevskzj (Bassbariton), Sofia Petishkina (Barockgeige), Olena Vasylenko (Klavier)',
     details:
-      'Das Projekt "Ukrainische Melodien & Poesie: eine Reise durch Zeit und Raum" ist eine einzigartige Fusion ukrainischer Poesie (auf Ukrainisch und Deutsch) und Musik, eine Auswahl der bedeutendsten Komponisten der Ukraine.Initiatoren sind „GALERIE UKRAINE“ und „UKRAINISCHER LEBENSMUT“, die sich zusammengefunden haben, um ukrainische Kultur zu verbreiten.',
+      'Ukrainische Künstlerinnen und Künstler präsentieren Kammer- und Vokalmusik sowie Volkslieder aus der Heimat',
+  },
+  {
+    id: uuidv4(),
+    date: 'So, 10. November 2024',
+    time: '15:00',
+    concertTitle: 'Benefizkonzert für die Ukraine',
+    adressTitle: 'Zeltnerschloss',
+    address: 'Bergstraße 19, 90403 Nürnberg',
+    addressLink: 'https://maps.app.goo.gl/e8NqCzqmw5TCH3Di7',
+    ticket: 'Spenden ab 10 Euro',
+    dauer: '1 St. 30 Min.',
+    fbevent: '',
+    participants:
+      ' Natalia Hrabarska (Mezzosopran, Bandura), Natalka Totovytska (Geige), Olena Vasylenko (Klavier)',
+    details:
+      'Das Projekt „Ukrainische Lebensmut“ bietet die Zuhörer:innen die Möglichkeit, die ukrainische Musik live zu genießen. Die Banduristin und die Sängerin - Nataliia Hrabarska, die Geigerin - Natalka Totovytskyi und die Pianistin - Olena Vasylenko werden die Schönheit ihrer einheimischen Musik mit deutschem Publikum teilen',
   },
 ];
 const ConcertsListUkr = [
   {
     id: uuidv4(),
-    date: 'Сб, 25 травня 2024',
-    time: '19:00',
-    concertTitle: 'Ukrainische Melodien & Poesie. Подорож скрізь час і простір',
+    date: 'Сб, 26 жовтня 2024',
+    time: '19:30',
+    concertTitle: 'Благодійний концерт на підтримку України',
     adressTitle: '',
-    address: 'Schwabach, Königsplatz 33A',
-    addressLink: 'https://maps.app.goo.gl/KNb9bdKYtRv2HTww9',
-    ticket: 'Eintritt frei, Spenden willkommen',
-    dauer: '2 St. 30 Min.',
-    fbevent: 'https://fb.me/e/1ha0IOUbT',
+    address: 'Kammermusiksaal, Veilhofstraße 34, 90489 Nürnberg',
+    addressLink: 'https://maps.app.goo.gl/yNqCeLyJcdXEQiMC8',
+    ticket: 'Вхід вільний, донати',
+    dauer: '1 St. 30 Min.',
+    fbevent: '',
     participants:
-      " Світлана Михайленко (текст), Максіміл'ян Франке (текст), Ширін Худайбергенова (сопрано), Анна Бичкова (мецо-сопрано), Наталія Грабарська (бандура, мецо-сопрано), Євген Петронеллі (баритон), Дем'ян Матушевский (басбаритон), Назар Тотовицький(скрипка), Олена Василенко (фортепіано)",
+      "Світлана Михайленко (текст), Анна Бичкова (мецо-сопрано), Наталія Грабарська (бандура, мецо-сопрано), Євген Петронеллі (баритон), Дем'ян Матушевский (басбаритон), Софія Петішкіна (барокова скрипка), Олена Василенко (фортепіано)",
+    details: '',
+  },
+  {
+    id: uuidv4(),
+    date: 'Нд, 10 листопада 2024',
+    time: '15:00',
+    concertTitle: 'Благодійний концерт на підтримку України',
+    adressTitle: 'Zeltnerschloss',
+    address: 'Bergstraße 19, 90403 Nürnberg',
+    addressLink: 'https://maps.app.goo.gl/e8NqCzqmw5TCH3Di7',
+    ticket: 'Донати від 10 євро',
+    dauer: '1 St. 30 Min.',
+    fbevent: '',
+    participants:
+      'Наталія Грабарська (бандура, мецо-сопрано), Наталка Тотовицька (скрипка), Олена Василенко (фортепіано)',
     details:
-      'Проєкт "Ukrainische Melodien & Poesie: подорож скрізь час і простір" це унікальне сплетіння української поезії (українською та німецькою мовами) та музики. Ініціатори - проєкти „GALERIE UKRAINE“ та „UKRAINISCHER LEBENSMUT“, що знайшли один одного в ідеї популярізації української культури.',
+      'Бандуристка та співачка – Наталія Грабарська, скрипалька –  Наталка Тотовицький та піаністка – Олена Василенко поділяться красою рідної музики з німецьким глядачем.',
   },
 ];
 export default function HomeView(props) {

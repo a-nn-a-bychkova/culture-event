@@ -1,4 +1,4 @@
-import Poster from '../../images/Schwabach-fb-25-08-2024.jpeg';
+import Poster from '../../images/hochschule-poster-fb-26-10-24.png';
 
 import Context from '../../contexts/context';
 import Address from '../Address';
