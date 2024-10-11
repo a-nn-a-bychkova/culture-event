@@ -27,7 +27,7 @@ const ConcertsListDe = [
     addressLink: 'https://maps.app.goo.gl/yNqCeLyJcdXEQiMC8',
     ticket: 'Eintritt frei, Spenden willkommen',
     dauer: '1 St. 30 Min.',
-    fbevent: '',
+    fbevent: 'https://fb.me/e/6YWVATgKz',
     participants:
       'Svitlana Mykhailenko (Sprecher), Anna Bychkova (Mezzosopran), Natalia Hrabarska (Mezzosopran, Bandura), Yevhen Petronelli (Bariton), Demian Matushevskzj (Bassbariton), Sofia Petishkina (Barockgeige), Olena Vasylenko (Klavier)',
     details:
@@ -43,7 +43,7 @@ const ConcertsListDe = [
     addressLink: 'https://maps.app.goo.gl/DG71nvevPtG7Cong6',
     ticket: 'Spenden ab 10 Euro',
     dauer: '1 St. 30 Min.',
-    fbevent: '',
+    fbevent: 'https://fb.me/e/fYUpujNIB',
     participants:
       ' Nataliia Hrabarska (Mezzosopran, Bandura), Natalka Totovytska (Geige), Olena Vasylenko (Klavier)',
     details:
@@ -61,9 +61,9 @@ const ConcertsListUkr = [
     addressLink: 'https://maps.app.goo.gl/yNqCeLyJcdXEQiMC8',
     ticket: 'Вхід вільний, донати',
     dauer: '1 St. 30 Min.',
-    fbevent: '',
+    fbevent: 'https://fb.me/e/6YWVATgKz',
     participants:
-      "Світлана Михайленко (текст), Анна Бичкова (мецо-сопрано), Наталія Грабарська (бандура, мецо-сопрано), Євген Петронеллі (баритон), Дем'ян Матушевский (басбаритон), Софія Петішкіна (барокова скрипка), Олена Василенко (фортепіано)",
+      "Світлана Михайленко (текст), Анна Бичкова (мецо-сопрано), Наталія Грабарська (бандура, мецо-сопрано), Євген Петронеллі (баритон), Дем'ян Матушевский (бас-баритон), Софія Петішкіна (барокова скрипка), Олена Василенко (фортепіано)",
     details: '',
   },
   {
@@ -76,7 +76,7 @@ const ConcertsListUkr = [
     addressLink: 'https://maps.app.goo.gl/DG71nvevPtG7Cong6',
     ticket: 'Донати від 10 євро',
     dauer: '1 St. 30 Min.',
-    fbevent: '',
+    fbevent: 'https://fb.me/e/fYUpujNIB',
     participants:
       'Наталія Грабарська (бандура, мецо-сопрано), Наталка Тотовицька (скрипка), Олена Василенко (фортепіано)',
     details:
