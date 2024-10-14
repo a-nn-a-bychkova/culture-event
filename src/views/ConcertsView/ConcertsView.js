@@ -37,7 +37,7 @@ const ConcertsListDe = [
     participants:
       'Svitlana Mykhailenko (Sprecher), Anna Bychkova (Mezzosopran), Natalia Hrabarska (Mezzosopran, Bandura), Yevhen Petronelli (Bariton), Demian Matushevskzj (Bassbariton), Sofia Petishkina (Barockgeige), Olena Vasylenko (Klavier)',
     details:
-      'Ukrainische Künstlerinnen und Künstler präsentieren Kammer- und Vokalmusik sowie Volkslieder aus der Heimat',
+      'Am 26. Oktober 2024 laden ukrainische Künstler*innen Sie zu einem besonderen Konzertabend im Kammermusiksaal der Hochschule für Musik Nürnberg ein. Das Programm präsentiert eine Auswahl von Kammermusik, Vokalmusik und Volksliedern aus der Ukraine, die das Erbe und die Seele des Landes widerspiegeln. Die Musiker*innen bringen dem Publikum Werke von bedeutenden ukrainischen Komponist*innen und Dichter*innen näher, die die Kraft und den Mut einer ganzen Nation verkörpern. Verpassen Sie nicht diese einzigartige Gelegenheit, die reiche kulturelle Tradition der Ukraine zu entdecken und gleichzeitig einen Beitrag zur Unterstützung des Landes zu leisten.',
   },
   {
     id: uuidv4(),
