@@ -14,8 +14,8 @@ import {
   Typography,
 } from '@mui/material';
 import AlarmIcon from '@mui/icons-material/Alarm';
+import Link from '@mui/material/Link';
 import { v4 as uuidv4 } from 'uuid';
-import { Link } from 'react-router-dom';
 
 const ConcertsListDe = [
   {
