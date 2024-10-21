@@ -53,7 +53,9 @@ const ConcertsListDe = [
     participants:
       ' Nataliia Hrabarska (Mezzosopran, Bandura), Natalka Totovytska (Geige), Olena Vasylenko (Klavier)',
     details:
-      'Das Projekt „Ukrainische Lebensmut“ bietet den Zuhörer:innen die Möglichkeit, die ukrainische Musik live zu genießen. Die Banduristin und die Sängerin - Nataliia Hrabarska, die Geigerin - Natalka Totovytska und die Pianistin - Olena Vasylenko werden die Schönheit ihrer einheimischen Musik mit deutschem Publikum teilen',
+      'Das Projekt „Ukrainischer Lebensmut“ bietet den Zuhörer:innen die Möglichkeit, die ukrainische Musik live zu genießen. Die Banduristin und die Sängerin - Nataliia Hrabarska, die Geigerin - Natalka Totovytska und die Pianistin - Olena Vasylenko werden die Schönheit ihrer einheimischen Musik mit deutschem Publikum teilen. Die Gäste, die ihre Plätze im Voraus unter dem Link unten reserviert haben, haben bis 14.50 Uhr Vorrang, und in den letzten 10 Minuten vor dem Konzert kann jeder im Saal freie Plätze einnehmen.',
+    eventbrite:
+      'https://www.eventbrite.com/e/benefizkonzert-fur-die-ukraine-tickets-1050391949597?aff=oddtdtcreator&fbclid=IwY2xjawGDUaVleHRuA2FlbQIxMAABHSkPqWJBJuq9VS3oJ3VHACPtKgoyi8WbQxy654ZApzqCn-0H_W7zsxfaXQ_aem_tKgWile8NfqkOPxQh6dgoA',
   },
 ];
 const ConcertsListUkr = [
@@ -86,7 +88,9 @@ const ConcertsListUkr = [
     participants:
       'Наталія Грабарська (бандура, мецо-сопрано), Наталка Тотовицька (скрипка), Олена Василенко (фортепіано)',
     details:
-      'Бандуристка та співачка – Наталія Грабарська, скрипалька –  Наталка Тотовицький та піаністка – Олена Василенко поділяться красою рідної музики з німецьким глядачем.',
+      'Бандуристка та співачка – Наталія Грабарська, скрипалька –  Наталка Тотовицький та піаністка – Олена Василенко поділяться красою рідної музики з німецьким глядачем. Глядачі, що заздалегідь забронюють за собою місце через посилання, що вказано нижче, будуть мати приорітет в виборі місць до 14:50, після цього часу всі люди зможуть займати вільні місця',
+    eventbrite:
+      'https://www.eventbrite.com/e/benefizkonzert-fur-die-ukraine-tickets-1050391949597?aff=oddtdtcreator&fbclid=IwY2xjawGDUaVleHRuA2FlbQIxMAABHSkPqWJBJuq9VS3oJ3VHACPtKgoyi8WbQxy654ZApzqCn-0H_W7zsxfaXQ_aem_tKgWile8NfqkOPxQh6dgoA',
   },
 ];
 export default function HomeView(props) {
@@ -261,6 +265,28 @@ export default function HomeView(props) {
                       {concert.details}
                     </Typography>
                   )}
+                  {concert.eventbrite && (
+                    <Link
+                      href={concert.eventbrite}
+                      style={{
+                        marginRight: 'auto',
+                        color: 'inherit',
+                        textDecorationColor: 'inherit',
+                      }}
+                    >
+                      <Typography
+                        sx={{
+                          display: 'flex',
+                          fontFamily: 'Times New Roman',
+                          fontStyle: 'italic',
+                          fontSize: { sm: '16px', md: '18px' },
+                          lineHeight: { sm: '24px' },
+                        }}
+                      >
+                        Platzreservierung
+                      </Typography>
+                    </Link>
+                  )}
                   <Typography
                     sx={{
                       display: 'flex',
@@ -388,6 +414,28 @@ export default function HomeView(props) {
                       {concert.address}
                     </Typography>
                   </Link>
+                  {concert.eventbrite && (
+                    <Link
+                      href={concert.eventbrite}
+                      style={{
+                        marginRight: 'auto',
+                        color: 'inherit',
+                        textDecorationColor: 'inherit',
+                      }}
+                    >
+                      <Typography
+                        sx={{
+                          display: 'flex',
+                          fontFamily: 'Times New Roman',
+                          fontStyle: 'italic',
+                          fontSize: { sm: '16px', md: '18px' },
+                          lineHeight: { sm: '24px' },
+                        }}
+                      >
+                        Реєстрація на подію
+                      </Typography>
+                    </Link>
+                  )}
                   <Typography
                     sx={{
                       fontFamily: 'Times New Roman',
@@ -435,6 +483,28 @@ export default function HomeView(props) {
                       </Typography>{' '}
                       {concert.details}
                     </Typography>
+                  )}
+                  {concert.eventbrite && (
+                    <Link
+                      href={concert.eventbrite}
+                      style={{
+                        marginRight: 'auto',
+                        color: 'inherit',
+                        textDecorationColor: 'inherit',
+                      }}
+                    >
+                      <Typography
+                        sx={{
+                          display: 'flex',
+                          fontFamily: 'Times New Roman',
+                          fontStyle: 'italic',
+                          fontSize: { sm: '16px', md: '18px' },
+                          lineHeight: { sm: '24px' },
+                        }}
+                      >
+                        Реєстрація на подію
+                      </Typography>
+                    </Link>
                   )}
                   <Typography
                     sx={{
