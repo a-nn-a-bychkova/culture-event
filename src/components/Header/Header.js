@@ -39,7 +39,6 @@ const Header = () => {
             exact
             style={({ isActive }) => ({
               textDecoration: 'none',
-
               color: isActive ? 'rgb(40, 40, 49)' : '#495961',
               fontWeight: isActive ? 'bold' : 'normal',
               marginRight: '10px',
@@ -65,9 +64,21 @@ const Header = () => {
               textDecoration: 'none',
               color: isActive ? 'rgb(40, 40, 49)' : '#495961',
               fontWeight: isActive ? 'bold' : 'normal',
+              marginRight: '10px',
             })}
           >
             {language === 'de' ? 'Galerie' : 'Галерея'}
+          </NavLink>
+          <NavLink
+            to="/team"
+            style={({ isActive }) => ({
+              textDecoration: 'none',
+              color: isActive ? 'rgb(40, 40, 49)' : '#495961',
+              fontWeight: isActive ? 'bold' : 'normal',
+              marginRight: '10px',
+            })}
+          >
+            {language === 'de' ? 'Team' : 'Команда'}
           </NavLink>
           {/* <NavLink
             to="/video"

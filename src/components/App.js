@@ -2,11 +2,7 @@ import Container from '@mui/material/Container';
 import EmailIcon from '@mui/icons-material/Email';
 import Hero from '../components/Hero';
 import Header from '../components/Header/Header';
-import About from '../components/About';
-import Programm from '../components/Programm';
-import Participants from '../components/Participants';
-import Concerts from '../components/Concerts';
-import Flags from './Flags';
+
 import { Instagram, Facebook, Youtube, Mail, Phone } from 'react-feather';
 import { useContext, Suspense, useRef } from 'react';
 import {
@@ -26,11 +22,12 @@ import GalerieView from '../views/GalerieView';
 import VideoView from '../views/VideoView';
 import ImpressumView from '../views/ImpressumView';
 import DatenschutzView from '../views/DatenschutzView';
+import TeamView from '../views/TeamView';
 
 function App() {
   const { language } = useContext(Context);
   const programmRef = useRef();
-  const participantsRef = useRef();
+  const teamRef = useRef();
   const aboutRef = useRef();
   const concertsRef = useRef();
 
@@ -46,6 +43,7 @@ function App() {
         <Route path="/" element={<HomeView />} />
         <Route path="/concerts" element={<ConcertsView />} />
         <Route path="/galerie" element={<GalerieView />} />
+        <Route path="/team" element={<TeamView />} />
         {/* <Route path="/video" element={<VideoView />} /> */}
         {/* <Route path="/programm-24-02-24" element={<ProgrammView />} /> */}
         <Route path="/impressum" element={<ImpressumView />} />

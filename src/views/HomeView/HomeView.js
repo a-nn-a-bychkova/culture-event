@@ -6,6 +6,7 @@ import Concerts from '../../components/Concerts/Conserts';
 import Hero from '../../components/Hero/Hero';
 import HeroSlider from '../../components/HeroSlider/HeroSlider';
 import HeroCarousel from '../../components/HeroCarousel';
+import Team from '../../components/Team/Team';
 
 export default function HomeView(props) {
   const { language } = useContext(Context);
@@ -55,7 +56,6 @@ export default function HomeView(props) {
               }}
             >
               <Concerts />
-              {/* <Participants /> */}
             </Grid>
           </Grid>
         </Container>

@@ -1,10 +1,5 @@
 import { useState, useEffect, useContext } from 'react';
 
-import PosterDe from '../../images/24-02-24-staatstheater.png';
-
-import Poster1De from '../../images/26-02-24-regensburg.jpg';
-
-import Poster2De from '../../images/02-03-24-ERLANGEN-social.png';
 import Context from '../../contexts/context';
 import Address from '../Address';
 
@@ -14,26 +9,26 @@ import { AiOutlineArrowLeft, AiOutlineArrowRight } from 'react-icons/ai';
 
 const HeroSlider = () => {
   const { language } = useContext(Context);
-  const SliderImagesDE = [PosterDe, Poster1De, Poster2De];
+  // const SliderImagesDE = [PosterDe, Poster1De, Poster2De];
 
   const [currentSlide, setCurrentSlide] = useState(0);
-  const slideLength = SliderImagesDE.length;
+  // const slideLength = SliderImagesDE.length;
   const autoScroll = true;
   let slideInterval;
   let intervalTime = 5000;
 
-  const nextSlide = () => {
-    setCurrentSlide(currentSlide === slideLength - 1 ? 0 : currentSlide + 1);
-    console.log('next');
-  };
+  // const nextSlide = () => {
+  //   setCurrentSlide(currentSlide === slideLength - 1 ? 0 : currentSlide + 1);
+  //   console.log('next');
+  // };
 
-  const prevSlide = () => {
-    setCurrentSlide(currentSlide === 0 ? slideLength - 1 : currentSlide - 1);
-    console.log('prev');
-  };
-  function auto() {
-    slideInterval = setInterval(nextSlide, intervalTime);
-  }
+  // const prevSlide = () => {
+  //   setCurrentSlide(currentSlide === 0 ? slideLength - 1 : currentSlide - 1);
+  //   console.log('prev');
+  // };
+  // function auto() {
+  //   slideInterval = setInterval(nextSlide, intervalTime);
+  // }
 
   useEffect(() => {
     setCurrentSlide(0);
@@ -41,7 +36,7 @@ const HeroSlider = () => {
 
   useEffect(() => {
     if (autoScroll) {
-      auto();
+      // auto();
     }
     return () => clearInterval(slideInterval);
   }, [currentSlide]);
@@ -74,7 +69,7 @@ const HeroSlider = () => {
             height: { sx: '20px', md: '24px' },
           }}
         >
-          <AiOutlineArrowLeft onClick={prevSlide} />
+          {/* <AiOutlineArrowLeft onClick={prevSlide} /> */}
         </Box>
         <Box
           sx={{
@@ -92,9 +87,9 @@ const HeroSlider = () => {
             height: { sx: '20px', md: '24px' },
           }}
         >
-          <AiOutlineArrowRight onClick={nextSlide} />
+          {/* <AiOutlineArrowRight onClick={nextSlide} /> */}
         </Box>
-        {SliderImagesDE.map((slide, index) => {
+        {/* {SliderImagesDE.map((slide, index) => {
           return (
             <Box key={index}>
               {index === currentSlide && (
@@ -104,7 +99,7 @@ const HeroSlider = () => {
               )}
             </Box>
           );
-        })}
+        })} */}
       </Box>
     </Box>
   );
