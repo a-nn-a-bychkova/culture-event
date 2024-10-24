@@ -139,7 +139,11 @@ const Team = () => {
     <Box
       sx={{
         fontFamily: 'Times New Roman',
-
+        alignItems: 'center',
+        justifyContent: 'center',
+        maxWidth: '1200px',
+        marginLeft: 'auto',
+        marginRight: 'auto',
         color: '#495961',
       }}
     >
