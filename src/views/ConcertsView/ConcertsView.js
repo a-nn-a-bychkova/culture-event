@@ -25,22 +25,6 @@ import Programm from '../../components/Programm/Programm';
 const ConcertsListDe = [
   {
     id: uuidv4(),
-    date: 'Sa, 26. Oktober 2024',
-    time: '19:30',
-    concertTitle: 'Benefizkonzert für die Ukraine',
-    adressTitle: '',
-    address: 'Kammermusiksaal, Veilhofstraße 34, 90489 Nürnberg',
-    addressLink: 'https://maps.app.goo.gl/yNqCeLyJcdXEQiMC8',
-    ticket: 'Eintritt frei, Spenden willkommen',
-    dauer: '1 St. 30 Min.',
-    fbevent: 'https://fb.me/e/6YWVATgKz',
-    participants:
-      'Svitlana Mykhailenko (Sprecher), Anna Bychkova (Mezzosopran), Natalia Hrabarska (Mezzosopran, Bandura), Taras Konoshenko (Bass), Yevhen Petronelli (Bariton), Demian Matushevskzj (Bassbariton), Sofia Petishkina (Barockgeige), Olena Vasylenko (Klavier)',
-    details:
-      'Am 26. Oktober 2024 laden ukrainische Künstler*innen Sie zu einem besonderen Konzertabend im Kammermusiksaal der Hochschule für Musik Nürnberg ein. Das Programm präsentiert eine Auswahl von Kammermusik, Vokalmusik und Volksliedern aus der Ukraine, die das Erbe und die Seele des Landes widerspiegeln. Die Musiker*innen bringen dem Publikum Werke von bedeutenden ukrainischen Komponist*innen und Dichter*innen näher, die die Kraft und den Mut einer ganzen Nation verkörpern. Verpassen Sie nicht diese einzigartige Gelegenheit, die reiche kulturelle Tradition der Ukraine zu entdecken und gleichzeitig einen Beitrag zur Unterstützung des Landes zu leisten.',
-  },
-  {
-    id: uuidv4(),
     date: 'So, 10. November 2024',
     time: '15:00',
     concertTitle: 'Benefizkonzert für die Ukraine',
@@ -59,21 +43,6 @@ const ConcertsListDe = [
   },
 ];
 const ConcertsListUkr = [
-  {
-    id: uuidv4(),
-    date: 'Сб, 26 жовтня 2024',
-    time: '19:30',
-    concertTitle: 'Благодійний концерт на підтримку України',
-    adressTitle: '',
-    address: 'Kammermusiksaal, Veilhofstraße 34, 90489 Nürnberg',
-    addressLink: 'https://maps.app.goo.gl/yNqCeLyJcdXEQiMC8',
-    ticket: 'Вхід вільний, донати',
-    dauer: '1 St. 30 Min.',
-    fbevent: 'https://fb.me/e/6YWVATgKz',
-    participants:
-      "Світлана Михайленко (текст), Анна Бичкова (мецо-сопрано), Наталія Грабарська (бандура, мецо-сопрано), Тарас Коношенко (бас), Євген Петронеллі (баритон), Дем'ян Матушевский (бас-баритон), Софія Петішкіна (барокова скрипка), Олена Василенко (фортепіано)",
-    details: '',
-  },
   {
     id: uuidv4(),
     date: 'Нд, 10 листопада 2024',
@@ -142,6 +111,10 @@ export default function HomeView(props) {
                     paddingTop: '34px',
                     paddingLeft: '0px',
                     paddingBottom: '0px',
+                    border: 0.5,
+                    borderRadius: '16px',
+                    padding: '14px',
+                    boxShadow: 4,
                   }}
                 >
                   <Typography
@@ -312,14 +285,6 @@ export default function HomeView(props) {
                   >
                     {concert.dauer}
                   </Typography>
-
-                  <Box
-                    sx={{
-                      backgroundColor: '#495961',
-                      width: '100%',
-                      height: '1px',
-                    }}
-                  ></Box>
                 </ListItem>
               ))}
             </Box>
@@ -340,6 +305,10 @@ export default function HomeView(props) {
                     paddingTop: '34px',
                     paddingLeft: '0px',
                     paddingBottom: '0px',
+                    border: 0.5,
+                    borderRadius: '16px',
+                    padding: '14px',
+                    boxShadow: 4,
                   }}
                 >
                   <Typography
@@ -349,7 +318,6 @@ export default function HomeView(props) {
                       fontSize: '22px',
                       lineHeight: { sm: '24px' },
                       marginRight: 'auto',
-
                       fontWeight: 'bold',
                     }}
                   >
@@ -370,11 +338,11 @@ export default function HomeView(props) {
                     >
                       <Typography
                         sx={{
+                          display: 'flex',
                           fontFamily: 'Times New Roman',
+                          fontStyle: 'italic',
                           fontSize: { sm: '16px', md: '18px' },
                           lineHeight: { sm: '24px' },
-                          marginRight: 'auto',
-                          fontStyle: 'normal',
                         }}
                       >
                         {concert.concertTitle}
@@ -414,28 +382,7 @@ export default function HomeView(props) {
                       {concert.address}
                     </Typography>
                   </Link>
-                  {concert.eventbrite && (
-                    <Link
-                      href={concert.eventbrite}
-                      style={{
-                        marginRight: 'auto',
-                        color: 'inherit',
-                        textDecorationColor: 'inherit',
-                      }}
-                    >
-                      <Typography
-                        sx={{
-                          display: 'flex',
-                          fontFamily: 'Times New Roman',
-                          fontStyle: 'italic',
-                          fontSize: { sm: '16px', md: '18px' },
-                          lineHeight: { sm: '24px' },
-                        }}
-                      >
-                        Реєстрація на подію
-                      </Typography>
-                    </Link>
-                  )}
+
                   <Typography
                     sx={{
                       fontFamily: 'Times New Roman',
@@ -446,8 +393,9 @@ export default function HomeView(props) {
                       marginRight: 'auto',
                     }}
                   >
-                    Учасники
+                    Teilnehmer:innen
                   </Typography>
+
                   <Typography
                     sx={{
                       fontFamily: 'Times New Roman',
@@ -479,7 +427,7 @@ export default function HomeView(props) {
                           marginRight: 'auto',
                         }}
                       >
-                        Програма
+                        Programm
                       </Typography>{' '}
                       {concert.details}
                     </Typography>
@@ -502,7 +450,7 @@ export default function HomeView(props) {
                           lineHeight: { sm: '24px' },
                         }}
                       >
-                        Реєстрація на подію
+                        Platzreservierung
                       </Typography>
                     </Link>
                   )}
@@ -531,16 +479,6 @@ export default function HomeView(props) {
                   >
                     {concert.dauer}
                   </Typography>
-                  {/* <Button onClick={handleClick}>
-                  Details <ArrowDropDownIcon />
-                </Button> */}
-                  <Box
-                    sx={{
-                      backgroundColor: '#495961',
-                      width: '100%',
-                      height: '1px',
-                    }}
-                  ></Box>
                 </ListItem>
               ))}
             </Box>

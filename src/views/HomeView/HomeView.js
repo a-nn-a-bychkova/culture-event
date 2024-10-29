@@ -42,7 +42,7 @@ export default function HomeView(props) {
           }}
         >
           <Grid container sx={{ spacing: { md: 2 } }}>
-            <Grid item container md={6}>
+            <Grid item container md={7}>
               <About />
             </Grid>
             <Grid

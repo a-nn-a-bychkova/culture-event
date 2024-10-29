@@ -20,22 +20,6 @@ import { v4 as uuidv4 } from 'uuid';
 const ConcertsListDe = [
   {
     id: uuidv4(),
-    date: 'Sa, 26. Oktober 2024',
-    time: '19:30',
-    concertTitle: 'Benefizkonzert für die Ukraine',
-    adressTitle: '',
-    address: 'Kammermusiksaal, Veilhofstraße 34, 90489 Nürnberg',
-    addressLink: 'https://maps.app.goo.gl/yNqCeLyJcdXEQiMC8',
-    ticket: 'Eintritt frei, Spenden willkommen',
-    dauer: '1 St. 30 Min.',
-    fbevent: 'https://fb.me/e/6YWVATgKz',
-    participants:
-      'Svitlana Mykhailenko (Sprecher), Anna Bychkova (Mezzosopran), Natalia Hrabarska (Mezzosopran, Bandura), Taras Konoshenko (Bass), Yevhen Petronelli (Bariton), Demian Matushevskzj (Bassbariton), Sofia Petishkina (Barockgeige), Olena Vasylenko (Klavier)',
-    details:
-      'Am 26. Oktober 2024 laden ukrainische Künstler*innen Sie zu einem besonderen Konzertabend im Kammermusiksaal der Hochschule für Musik Nürnberg ein. Das Programm präsentiert eine Auswahl von Kammermusik, Vokalmusik und Volksliedern aus der Ukraine, die das Erbe und die Seele des Landes widerspiegeln. Die Musiker*innen bringen dem Publikum Werke von bedeutenden ukrainischen Komponist*innen und Dichter*innen näher, die die Kraft und den Mut einer ganzen Nation verkörpern. Verpassen Sie nicht diese einzigartige Gelegenheit, die reiche kulturelle Tradition der Ukraine zu entdecken und gleichzeitig einen Beitrag zur Unterstützung des Landes zu leisten.',
-  },
-  {
-    id: uuidv4(),
     date: 'So, 10. November 2024',
     time: '15:00',
     concertTitle: 'Benefizkonzert für die Ukraine',
@@ -54,21 +38,6 @@ const ConcertsListDe = [
   },
 ];
 const ConcertsListUkr = [
-  {
-    id: uuidv4(),
-    date: 'Сб, 26 жовтня 2024',
-    time: '19:30',
-    concertTitle: 'Благодійний концерт на підтримку України',
-    adressTitle: '',
-    address: 'Kammermusiksaal, Veilhofstraße 34, 90489 Nürnberg',
-    addressLink: 'https://maps.app.goo.gl/yNqCeLyJcdXEQiMC8',
-    ticket: 'Вхід вільний, донати',
-    dauer: '1 St. 30 Min.',
-    fbevent: 'https://fb.me/e/6YWVATgKz',
-    participants:
-      "Світлана Михайленко (текст), Анна Бичкова (мецо-сопрано), Наталія Грабарська (бандура, мецо-сопрано), Тарас Коношенко (бас) Євген Петронеллі (баритон), Дем'ян Матушевский (бас-баритон), Софія Петішкіна (барокова скрипка), Олена Василенко (фортепіано)",
-    details: '',
-  },
   {
     id: uuidv4(),
     date: 'Нд, 10 листопада 2024',
