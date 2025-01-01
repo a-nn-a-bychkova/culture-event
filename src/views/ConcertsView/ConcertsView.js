@@ -427,7 +427,7 @@ export default function HomeView(props) {
                       marginRight: 'auto',
                     }}
                   >
-                    Teilnehmer:innen
+                    Учасники
                   </Typography>
 
                   <Typography
@@ -461,7 +461,7 @@ export default function HomeView(props) {
                           marginRight: 'auto',
                         }}
                       >
-                        Programm
+                        Програма
                       </Typography>{' '}
                       {concert.details}
                     </Typography>
