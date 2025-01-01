@@ -25,41 +25,39 @@ import Programm from '../../components/Programm/Programm';
 const ConcertsListDe = [
   {
     id: uuidv4(),
-    date: 'So, 10. November 2024',
-    time: '15:00',
+    date: 'Fr, 14. Februar 2025',
+    time: '17:00',
     concertTitle: 'Benefizkonzert für die Ukraine',
-    adressTitle: 'Zeltnerschloss',
-    address: 'Gleißhammerstr. 6, 90403 Nürnberg',
-    addressLink: 'https://maps.app.goo.gl/DG71nvevPtG7Cong6',
+    adressTitle: 'Erlanger Musikinstitut',
+    address: 'Rathsberger Str. 1, 91054 Erlangen',
+    addressLink: 'https://maps.app.goo.gl/vfcPWy5Xzi7kwLXS8',
     ticket: 'Spenden ab 10 Euro',
-    dauer: '1 St. 30 Min.',
-    fbevent: 'https://fb.me/e/fYUpujNIB',
+    dauer: '1 St.',
+    fbevent: '',
     participants:
-      ' Nataliia Hrabarska (Mezzosopran, Bandura), Natalka Totovytska (Geige), Olena Vasylenko (Klavier)',
+      ' Nataliia Hrabarska (Mezzosopran, Bandura), Natalka Totovytska (Geige), Olena Vasylenko (Klavier), Anna Bychkova (Mezzosopran)',
     details:
-      'Das Projekt „Ukrainischer Lebensmut“ bietet den Zuhörer:innen die Möglichkeit, die ukrainische Musik live zu genießen. Die Banduristin und die Sängerin - Nataliia Hrabarska, die Geigerin - Natalka Totovytska und die Pianistin - Olena Vasylenko werden die Schönheit ihrer einheimischen Musik mit deutschem Publikum teilen. Die Gäste, die ihre Plätze im Voraus unter dem Link unten reserviert haben, haben bis 14.50 Uhr Vorrang, und in den letzten 10 Minuten vor dem Konzert kann jeder im Saal freie Plätze einnehmen.',
-    eventbrite:
-      'https://www.eventbrite.com/e/benefizkonzert-fur-die-ukraine-tickets-1050391949597?aff=oddtdtcreator&fbclid=IwY2xjawGDUaVleHRuA2FlbQIxMAABHSkPqWJBJuq9VS3oJ3VHACPtKgoyi8WbQxy654ZApzqCn-0H_W7zsxfaXQ_aem_tKgWile8NfqkOPxQh6dgoA',
+      'Am 14. Februar steht die Konzertreihe im Zeichen der Liebe – jener Kraft, die uns miteinander verbindet und selbst in schweren Zeiten Hoffnung schenkt. Mit Musik und Poesie laden wir ein, die vielen Facetten der Liebe zu entdecken und einen besonderen Abend gemeinsam zu genießen.',
+    eventbrite: '',
   },
 ];
 const ConcertsListUkr = [
   {
     id: uuidv4(),
-    date: 'Нд, 10 листопада 2024',
-    time: '15:00',
+    date: 'Пт, 14 лютого 2025',
+    time: '17:00',
     concertTitle: 'Благодійний концерт на підтримку України',
-    adressTitle: 'Zeltnerschloss',
-    address: 'Gleißhammerstr. 6, 90403 Nürnberg',
-    addressLink: 'https://maps.app.goo.gl/DG71nvevPtG7Cong6',
+    adressTitle: 'Erlanger Musikinstitut',
+    address: 'Rathsberger Str. 1, 91054 Erlangen',
+    addressLink: 'https://maps.app.goo.gl/vfcPWy5Xzi7kwLXS8',
     ticket: 'Донати від 10 євро',
-    dauer: '1 St. 30 Min.',
-    fbevent: 'https://fb.me/e/fYUpujNIB',
+    dauer: '1 St.',
+    fbevent: '',
     participants:
-      'Наталія Грабарська (бандура, мецо-сопрано), Наталка Тотовицька (скрипка), Олена Василенко (фортепіано)',
+      'Наталія Грабарська (бандура, мецо-сопрано), Наталка Тотовицька (скрипка), Олена Василенко (фортепіано), Анна Бичкова (мецо-сопрано)',
     details:
-      'Бандуристка та співачка – Наталія Грабарська, скрипалька –  Наталка Тотовицький та піаністка – Олена Василенко поділяться красою рідної музики з німецьким глядачем. Глядачі, що заздалегідь забронюють за собою місце через посилання, що вказано нижче, будуть мати приорітет в виборі місць до 14:50, після цього часу всі люди зможуть займати вільні місця',
-    eventbrite:
-      'https://www.eventbrite.com/e/benefizkonzert-fur-die-ukraine-tickets-1050391949597?aff=oddtdtcreator&fbclid=IwY2xjawGDUaVleHRuA2FlbQIxMAABHSkPqWJBJuq9VS3oJ3VHACPtKgoyi8WbQxy654ZApzqCn-0H_W7zsxfaXQ_aem_tKgWile8NfqkOPxQh6dgoA',
+      '14 лютого концертна програма стане оспівуванням любові — тієї сили, що єднає серця і дарує надію навіть у найскладніші часи. У супроводі музики та поезії ми запрошуємо вас поринути у багатогранний світ почуттів і провести цей особливий вечір разом.',
+    eventbrite: '',
   },
 ];
 export default function HomeView(props) {
