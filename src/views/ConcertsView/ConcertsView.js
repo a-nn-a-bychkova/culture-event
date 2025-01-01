@@ -26,18 +26,35 @@ const ConcertsListDe = [
   {
     id: uuidv4(),
     date: 'Fr, 14. Februar 2025',
-    time: '17:00',
+    // time: '17:00',
     concertTitle: 'Benefizkonzert für die Ukraine',
     adressTitle: 'Erlanger Musikinstitut',
     address: 'Rathsberger Str. 1, 91054 Erlangen',
     addressLink: 'https://maps.app.goo.gl/vfcPWy5Xzi7kwLXS8',
     ticket: 'Spenden ab 10 Euro',
     dauer: '1 St.',
-    fbevent: '',
+    eventLink: '',
     participants:
       ' Nataliia Hrabarska (Mezzosopran, Bandura), Natalka Totovytska (Geige), Olena Vasylenko (Klavier), Anna Bychkova (Mezzosopran)',
     details:
       'Am 14. Februar steht die Konzertreihe im Zeichen der Liebe – jener Kraft, die uns miteinander verbindet und selbst in schweren Zeiten Hoffnung schenkt. Mit Musik und Poesie laden wir ein, die vielen Facetten der Liebe zu entdecken und einen besonderen Abend gemeinsam zu genießen.',
+    eventbrite: '',
+  },
+  {
+    id: uuidv4(),
+    date: 'Mo, 24. Februar 2025',
+    time: '21:00',
+    concertTitle: 'Galerie Ukraine',
+    adressTitle: 'Kammerspiele Staatstheater Nürnberg',
+    address: 'Richard-Wagner-Platz 2-10, 90443 Nürnberg',
+    addressLink: 'https://maps.app.goo.gl/NafYR7hcYBNaXTpGA',
+    ticket: '',
+    dauer: '1 St.',
+    eventLink:
+      'https://www.staatstheater-nuernberg.de/spielplan-24-25/galerie-ukraine/24-02-2025/2100',
+    participants:
+      'Svitlana Mykhailenko (Poesieauswahl, Übersetzung), Nataliia Hrabarska (Mezzosopran, Bandura), Nazar Totovytski (Geige), Olena Vasylenko (Klavier), Anna Bychkova (Mezzosopran), Yevhen Petronelli (Bariton), Demian Matushevski (Bassbariton)',
+    details: 'Texte, Lieder und Gespräche über den Krieg',
     eventbrite: '',
   },
 ];
@@ -45,18 +62,35 @@ const ConcertsListUkr = [
   {
     id: uuidv4(),
     date: 'Пт, 14 лютого 2025',
-    time: '17:00',
+    // time: '17:00',
     concertTitle: 'Благодійний концерт на підтримку України',
     adressTitle: 'Erlanger Musikinstitut',
     address: 'Rathsberger Str. 1, 91054 Erlangen',
     addressLink: 'https://maps.app.goo.gl/vfcPWy5Xzi7kwLXS8',
     ticket: 'Донати від 10 євро',
     dauer: '1 St.',
-    fbevent: '',
+    eventLink: '',
     participants:
       'Наталія Грабарська (бандура, мецо-сопрано), Наталка Тотовицька (скрипка), Олена Василенко (фортепіано), Анна Бичкова (мецо-сопрано)',
     details:
       '14 лютого концертна програма стане оспівуванням любові — тієї сили, що єднає серця і дарує надію навіть у найскладніші часи. У супроводі музики та поезії ми запрошуємо вас поринути у багатогранний світ почуттів і провести цей особливий вечір разом.',
+    eventbrite: '',
+  },
+  {
+    id: uuidv4(),
+    date: 'Пн, 24 лютого 2025',
+    time: '21:00',
+    concertTitle: 'Galerie Ukraine',
+    adressTitle: 'Kammerspiele Staatstheater Nürnberg',
+    address: 'Richard-Wagner-Platz 2-10, 90443 Nürnberg',
+    addressLink: 'https://maps.app.goo.gl/NafYR7hcYBNaXTpGA',
+    ticket: '',
+    dauer: '1 St.',
+    eventLink:
+      'https://www.staatstheater-nuernberg.de/spielplan-24-25/galerie-ukraine/24-02-2025/2100',
+    participants:
+      'Світлана Михайленко (вибір поезії, переклад), Наталія Грабарська (мецо-сопрано, бандура), Назар Тотовицький (скрипка), Олена Василенко (фортепіано), Анна Бичкова (мецо-сопрано), Євген Петронеллі (баритон), Дем’ян Матушевський (бас-баритон)',
+    details: 'Тескти, пісні і розмови про війну',
     eventbrite: '',
   },
 ];
@@ -113,6 +147,7 @@ export default function HomeView(props) {
                     borderRadius: '16px',
                     padding: '14px',
                     boxShadow: 4,
+                    marginBottom: '10px',
                   }}
                 >
                   <Typography
@@ -131,9 +166,9 @@ export default function HomeView(props) {
                       {concert.time}
                     </Box>
                   </Typography>
-                  {concert.fbevent ? (
+                  {concert.eventLink ? (
                     <Link
-                      href={concert.fbevent}
+                      href={concert.eventLink}
                       style={{
                         marginRight: 'auto',
                         color: 'inherit',
@@ -307,6 +342,7 @@ export default function HomeView(props) {
                     borderRadius: '16px',
                     padding: '14px',
                     boxShadow: 4,
+                    marginBottom: '10px',
                   }}
                 >
                   <Typography
@@ -325,9 +361,9 @@ export default function HomeView(props) {
                       {concert.time}
                     </Box>
                   </Typography>
-                  {concert.fbevent ? (
+                  {concert.eventLink ? (
                     <Link
-                      href={concert.fbevent}
+                      href={concert.eventLink}
                       style={{
                         marginRight: 'auto',
                         color: 'inherit',
