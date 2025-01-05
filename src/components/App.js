@@ -22,7 +22,7 @@ import GalerieView from '../views/GalerieView';
 import VideoView from '../views/VideoView';
 import ImpressumView from '../views/ImpressumView';
 import DatenschutzView from '../views/DatenschutzView';
-// import TeamView from '../views/TeamView';
+import TeamView from '../views/TeamView';
 
 function App() {
   const { language } = useContext(Context);
@@ -43,7 +43,7 @@ function App() {
         <Route path="/" element={<HomeView />} />
         <Route path="/concerts" element={<ConcertsView />} />
         <Route path="/galerie" element={<GalerieView />} />
-        {/* <Route path="/team" element={<TeamView />} /> */}
+        <Route path="/team" element={<TeamView />} />
         {/* <Route path="/video" element={<VideoView />} /> */}
         {/* <Route path="/programm-24-02-24" element={<ProgrammView />} /> */}
         <Route path="/impressum" element={<ImpressumView />} />

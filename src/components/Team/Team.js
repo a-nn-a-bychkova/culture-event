@@ -1,6 +1,16 @@
 import Context from '../../contexts/context';
 import { useContext } from 'react';
-import { Box, List, ListItem, Typography, Grid } from '@mui/material';
+import {
+  Box,
+  List,
+  ListItem,
+  Typography,
+  Grid,
+  ImageList,
+  ImageListItem,
+  ImageListItemBar,
+  IconButton,
+} from '@mui/material';
 
 import {
   createTheme,
@@ -8,15 +18,15 @@ import {
   ThemeProvider,
 } from '@mui/material/styles';
 import { v4 as uuidv4 } from 'uuid';
-import annaFoto from '../../images/anna.png';
-import olenaFoto from '../../images/olena.png';
+import annaFoto from '../../images/Anna.jpg';
+import olenaFoto from '../../images/Olena.jpg';
 import schirinFoto from '../../images/schirin.png';
 import yevhenFoto from '../../images/yevhen.png';
 import nazarFoto from '../../images/nazar.png';
-import demianFoto from '../../images/demian.png';
-import nataliiahrabarskaFoto from '../../images/nataliia-hrabarska.png';
+import demianFoto from '../../images/Demian.jpg';
+import nataliiahrabarskaFoto from '../../images/Natalia.jpg';
 import tarasFoto from '../../images/taras.png';
-import svitlanaFoto from '../../images/svitlana.png';
+import svitlanaFoto from '../../images/Svit.jpg';
 
 const participantsListDe = [
   {
@@ -179,26 +189,49 @@ const Team = () => {
         </ThemeProvider>
       )}
       <Grid container>
-        {language === 'de'
-          ? participantsListDe.map(({ id, name, description, foto }) => (
-              <Grid md={4}>
-                <Box sx={{ display: 'flex', padding: '12px' }}>
-                  <Box
-                    sx={{
-                      display: 'flex',
-                      width: '100px',
-                      height: '100px',
-                      // border: 1,
-                      // borderColor: 'red',
-                      // borderRadius: '50%',
-                      marginTop: '20px',
-                    }}
-                  >
-                    {' '}
-                    <img src={foto} />
-                  </Box>
+        <ImageList sx={{ width: 500, height: 450 }}>
+          {participantsListDe.map(({ id, name, description, foto }) => (
+            <ImageListItem key={id}>
+              <img
+                srcSet={`${foto}?w=248&fit=crop&auto=format&dpr=2 2x`}
+                src={`${foto}?w=248&fit=crop&auto=format`}
+                alt={name}
+                loading="lazy"
+              />
+              <ImageListItemBar
+                title={name}
+                actionIcon={
+                  <IconButton
+                    sx={{ color: 'rgba(255, 255, 255, 0.54)' }}
+                    aria-label={`info about ${name}`}
+                  ></IconButton>
+                }
+              />
+            </ImageListItem>
+          ))}
+          <Box
+            sx={{
+              display: 'flex',
+              flexDirection: 'column',
+              padding: '12px',
+            }}
+          >
+            <Box
+              sx={{
+                display: 'flex',
+                width: 'auto',
+                height: '100px',
+                // border: 1,
+                // borderColor: 'red',
+                // borderRadius: '50%',
+                marginTop: '20px',
+              }}
+            >
+              {' '}
+              {/* <img src={foto} /> */}
+            </Box>
 
-                  <Box
+            {/* <Box
                     sx={{
                       display: 'flex',
                       flexDirection: 'column',
@@ -221,54 +254,9 @@ const Team = () => {
                     >
                       {description}
                     </Box>
-                  </Box>
-                </Box>
-              </Grid>
-            ))
-          : participantsListUkr.map(({ id, name, description, foto }) => (
-              <Grid md={4}>
-                <Box sx={{ display: 'flex', padding: '12px' }}>
-                  <Box
-                    sx={{
-                      display: 'flex',
-                      width: '100px',
-                      height: '100px',
-                      borderRadius: 12,
-                      marginTop: '20px',
-                      background: foto,
-                    }}
-                  >
-                    {' '}
-                    <img src={foto} />
-                  </Box>
-
-                  <Box
-                    sx={{
-                      display: 'flex',
-                      flexDirection: 'column',
-                      width: '200px',
-                    }}
-                  >
-                    <Box
-                      sx={{
-                        fontWeight: 'bold',
-                        padding: '10px 0px 0px 14px',
-                      }}
-                    >
-                      {name}
-                    </Box>
-                    <Box
-                      sx={{
-                        fontFamily: 'Times New Roman',
-                        padding: '14px',
-                      }}
-                    >
-                      {description}
-                    </Box>
-                  </Box>
-                </Box>
-              </Grid>
-            ))}
+                  </Box> */}
+          </Box>
+        </ImageList>
       </Grid>
     </Box>
   );
