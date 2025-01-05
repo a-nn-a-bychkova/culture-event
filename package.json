@@ -18,6 +18,7 @@
     "uuid": "^9.0.0",
     "web-vitals": "^3.3.1"
   },
+  "homepage": "http://ukrainischer-lebensmut.de",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
