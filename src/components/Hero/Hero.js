@@ -1,4 +1,4 @@
-import Poster from '../../images/dach-april-oben-2.jpg';
+import Poster from '../../images/Erlangen-14-02-25-horizontal.PNG';
 
 import Context from '../../contexts/context';
 import Address from '../Address';
