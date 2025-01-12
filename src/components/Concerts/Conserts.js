@@ -33,7 +33,8 @@ const ConcertsListDe = [
       ' Nataliia Hrabarska (Mezzosopran, Bandura), Natalka Totovytska (Geige), Olena Vasylenko (Klavier), Anna Bychkova (Mezzosopran), Yevhen Petronelli (Bariton)',
     details:
       'Am 14. Februar steht die Konzertreihe im Zeichen der Liebe – jener Kraft, die uns miteinander verbindet und selbst in schweren Zeiten Hoffnung schenkt. Mit Musik und Poesie laden wir ein, die vielen Facetten der Liebe zu entdecken und einen besonderen Abend gemeinsam zu genießen.',
-    eventbrite: '',
+    eventbrite:
+      'https://www.eventbrite.com/e/im-zeichen-der-liebe-tickets-1144893510309?aff=oddtdtcreator',
   },
   {
     id: uuidv4(),
@@ -79,13 +80,14 @@ const ConcertsListUkr = [
     address: 'Rathsberger Str. 1, 91054 Erlangen',
     addressLink: 'https://maps.app.goo.gl/vfcPWy5Xzi7kwLXS8',
     ticket: 'Донати від 10 євро',
-    dauer: '1 St.',
+    dauer: '1 година',
     eventLink: '',
     participants:
       'Наталія Грабарська (бандура, мецо-сопрано), Наталка Тотовицька (скрипка), Олена Василенко (фортепіано), Анна Бичкова (мецо-сопрано), Євген Петронеллі (баритон)',
     details:
       '14 лютого концертна програма стане оспівуванням любові — тієї сили, що єднає серця і дарує надію навіть у найскладніші часи. У супроводі музики та поезії ми запрошуємо вас поринути у багатогранний світ почуттів і провести цей особливий вечір разом.',
-    eventbrite: '',
+    eventbrite:
+      'https://www.eventbrite.com/e/im-zeichen-der-liebe-tickets-1144893510309?aff=oddtdtcreator',
   },
   {
     id: uuidv4(),
@@ -96,7 +98,7 @@ const ConcertsListUkr = [
     address: 'Richard-Wagner-Platz 2-10, 90443 Nürnberg',
     addressLink: 'https://maps.app.goo.gl/NafYR7hcYBNaXTpGA',
     ticket: '',
-    dauer: '1 St.',
+    dauer: '1 година',
     eventLink:
       'https://www.staatstheater-nuernberg.de/spielplan-24-25/galerie-ukraine/24-02-2025/2100',
     participants:
@@ -113,7 +115,7 @@ const ConcertsListUkr = [
     address: 'Veilhofstraße 34, 90489 Nürnberg',
     addressLink: 'https://maps.app.goo.gl/74bbWY55NayBaaoWA',
     ticket: '',
-    dauer: '1 St.',
+    dauer: '1 година',
     eventLink: '',
     // participants:
     //   'Svitlana Mykhailenko (Poesieauswahl, Übersetzung), Nataliia Hrabarska (Mezzosopran, Bandura), Nazar Totovytski (Geige), Olena Vasylenko (Klavier), Anna Bychkova (Mezzosopran), Yevhen Petronelli (Bariton), Demian Matushevski (Bassbariton)',

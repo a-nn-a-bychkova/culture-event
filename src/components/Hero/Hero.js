@@ -1,4 +1,4 @@
-import Poster from '../../images/Erlangen-14-02-25-horizontal.PNG';
+import Poster from '../../images/Erlangen-14-02-25-poster-gross-website.PNG';
 
 import Context from '../../contexts/context';
 import Address from '../Address';
