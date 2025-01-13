@@ -1,9 +1,7 @@
 import Poster from '../../images/Erlangen-14-02-25-poster-gross-website.PNG';
-
 import Context from '../../contexts/context';
-import Address from '../Address';
 import { useContext } from 'react';
-import { Box, Typography } from '@mui/material';
+import { Box } from '@mui/material';
 
 const Hero = () => {
   const { language } = useContext(Context);
