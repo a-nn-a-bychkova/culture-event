@@ -57,13 +57,13 @@ const participantsListDe = [
     description:
       'Poesieauswahl, Übersetzung. Leitung des „Deutschen Theaters Kyiv“ sowie der ukrainischen Improvisationsgruppe am Staatstheater Nürnberg, künstlerische Leitung „Galerie Ukraine“',
   },
-  {
-    id: uuidv4(),
-    name: 'Schirin Hudajbergenova',
-    foto: schirinFoto,
-    description:
-      'Sopran, abgeschlossenes Studium Musikhochschule Stuttgart. Als Solistin regelmäßig in großen Konzert- und Oratoriumprojekten tätig. Festes Mitglied im Chor des Staatstheaters Nürnberg.',
-  },
+  // {
+  //   id: uuidv4(),
+  //   name: 'Schirin Hudajbergenova',
+  //   foto: schirinFoto,
+  //   description:
+  //     'Sopran, abgeschlossenes Studium Musikhochschule Stuttgart. Als Solistin regelmäßig in großen Konzert- und Oratoriumprojekten tätig. Festes Mitglied im Chor des Staatstheaters Nürnberg.',
+  // },
 
   {
     id: uuidv4(),
@@ -79,13 +79,13 @@ const participantsListDe = [
     description:
       'Bassbariton. Absolvent der Nationalen Musikakademie der Ukraine in Kyjiw. Solist des Staatstheaters Nürnberg.',
   },
-  {
-    id: uuidv4(),
-    name: 'Taras Konoshenko',
-    foto: tarasFoto,
-    description:
-      'Bass, geboren in Kiew, erhielt seine Ausbildung in den Fächern Klavier, Chorleitung, Opern- und Konzertgesang in Kiew und setzte sie anschließend an der Münchner Musikhochschule sowie als Mitglied des Jungen Ensembles der Bayerischen Staatsoper fort, der Solist am Staatstheater Nürnberg',
-  },
+  // {
+  //   id: uuidv4(),
+  //   name: 'Taras Konoshenko',
+  //   foto: tarasFoto,
+  //   description:
+  //     'Bass, geboren in Kiew, erhielt seine Ausbildung in den Fächern Klavier, Chorleitung, Opern- und Konzertgesang in Kiew und setzte sie anschließend an der Münchner Musikhochschule sowie als Mitglied des Jungen Ensembles der Bayerischen Staatsoper fort, der Solist am Staatstheater Nürnberg',
+  // },
 ];
 
 const participantsListUkr = [
@@ -115,12 +115,12 @@ const participantsListUkr = [
     foto: svitlanaFoto,
     description: 'поезія',
   },
-  {
-    id: uuidv4(),
-    name: 'Ширін Худайбергенова',
-    foto: schirinFoto,
-    description: 'сопрано',
-  },
+  // {
+  //   id: uuidv4(),
+  //   name: 'Ширін Худайбергенова',
+  //   foto: schirinFoto,
+  //   description: 'сопрано',
+  // },
   {
     id: uuidv4(),
     name: "Дем'ян Матушевський",
@@ -133,12 +133,12 @@ const participantsListUkr = [
     foto: yevhenFoto,
     description: 'баритон',
   },
-  {
-    id: uuidv4(),
-    name: 'Тарас Коношенко',
-    foto: tarasFoto,
-    description: 'бас',
-  },
+  // {
+  //   id: uuidv4(),
+  //   name: 'Тарас Коношенко',
+  //   foto: tarasFoto,
+  //   description: 'бас',
+  // },
 ];
 
 const Team = () => {
@@ -169,7 +169,7 @@ const Team = () => {
               fontWeight: 'bold',
             }}
           >
-            Team
+            Our Team
           </Typography>
         </ThemeProvider>
       ) : (
@@ -184,80 +184,18 @@ const Team = () => {
               fontWeight: 'bold',
             }}
           >
-            Команда
+            Наша команда
           </Typography>
         </ThemeProvider>
       )}
-      <Grid container>
-        <ImageList sx={{ width: 500, height: 450 }}>
-          {participantsListDe.map(({ id, name, description, foto }) => (
-            <ImageListItem key={id}>
-              <img
-                srcSet={`${foto}?w=248&fit=crop&auto=format&dpr=2 2x`}
-                src={`${foto}?w=248&fit=crop&auto=format`}
-                alt={name}
-                loading="lazy"
-              />
-              <ImageListItemBar
-                title={name}
-                actionIcon={
-                  <IconButton
-                    sx={{ color: 'rgba(255, 255, 255, 0.54)' }}
-                    aria-label={`info about ${name}`}
-                  ></IconButton>
-                }
-              />
-            </ImageListItem>
-          ))}
-          <Box
-            sx={{
-              display: 'flex',
-              flexDirection: 'column',
-              padding: '12px',
-            }}
-          >
-            <Box
-              sx={{
-                display: 'flex',
-                width: 'auto',
-                height: '100px',
-                // border: 1,
-                // borderColor: 'red',
-                // borderRadius: '50%',
-                marginTop: '20px',
-              }}
-            >
-              {' '}
-              {/* <img src={foto} /> */}
-            </Box>
 
-            {/* <Box
-                    sx={{
-                      display: 'flex',
-                      flexDirection: 'column',
-                      width: '200px',
-                    }}
-                  >
-                    <Box
-                      sx={{
-                        fontWeight: 'bold',
-                        padding: '10px 0px 0px 14px',
-                      }}
-                    >
-                      {name}
-                    </Box>
-                    <Box
-                      sx={{
-                        fontFamily: 'Times New Roman',
-                        padding: '14px',
-                      }}
-                    >
-                      {description}
-                    </Box>
-                  </Box> */}
-          </Box>
-        </ImageList>
-      </Grid>
+      <ImageList>
+        {participantsListDe.map(({ id, name, description, foto }) => (
+          <ImageListItem key={id}>
+            <img srcSet={foto} src={foto} alt={name} loading="lazy" />
+          </ImageListItem>
+        ))}
+      </ImageList>
     </Box>
   );
 };

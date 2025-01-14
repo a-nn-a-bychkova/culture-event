@@ -1,4 +1,4 @@
-import Poster from '../../images/Erlangen-14-02-25-poster-gross-website.PNG';
+import Poster from '../../images/Erlangen-14-02-25-mit-UinF.PNG';
 import Context from '../../contexts/context';
 import { useContext } from 'react';
 import { Box } from '@mui/material';
