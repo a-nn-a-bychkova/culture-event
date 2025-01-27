@@ -85,10 +85,10 @@ const Concerts = () => {
                 <Typography
                   sx={{
                     fontFamily: 'Times New Roman',
-                    fontSize: { sm: '16px', md: '18px' },
+                    fontSize: { sm: '18px', md: '20px' },
                     lineHeight: { sm: '24px' },
                     marginRight: 'auto',
-                    fontStyle: 'normal',
+                    fontWeight: 'bold',
                   }}
                 >
                   {concert.concertTitle}
@@ -187,10 +187,10 @@ const Concerts = () => {
                 <Typography
                   sx={{
                     fontFamily: 'Times New Roman',
-                    fontSize: { sm: '16px', md: '18px' },
+                    fontSize: { sm: '18px', md: '20px' },
                     lineHeight: { sm: '24px' },
                     marginRight: 'auto',
-                    fontStyle: 'normal',
+                    fontWeight: 'bold',
                   }}
                 >
                   {concert.concertTitle}

@@ -69,7 +69,7 @@ const Header = () => {
           >
             {language === 'de' ? 'Galerie' : 'Галерея'}
           </NavLink>
-          {/* <NavLink
+          <NavLink
             to="/team"
             style={({ isActive }) => ({
               textDecoration: 'none',
@@ -79,7 +79,7 @@ const Header = () => {
             })}
           >
             {language === 'de' ? 'Team' : 'Команда'}
-          </NavLink> */}
+          </NavLink>
           {/* <NavLink
             to="/video"
             style={({ isActive }) => ({
