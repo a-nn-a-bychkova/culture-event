@@ -213,11 +213,11 @@ const Team = () => {
                   sx={{
                     '& .MuiImageListItemBar-title': {
                       fontFamily: 'Times New Roman',
-                      fontSize: '30px',
-                      marginBottom: '18px',
+                      fontSize: { sx: '18px', sm: '30px' },
+                      marginBottom: { sx: '10px', sm: '18px' },
                     },
                     '& .MuiImageListItemBar-subtitle': {
-                      fontSize: '20px',
+                      fontSize: { sx: '16px', sm: '20px' },
                       fontFamily: 'Times New Roman',
                     },
                   }}
@@ -265,11 +265,11 @@ const Team = () => {
                     sx={{
                       '& .MuiImageListItemBar-title': {
                         fontFamily: 'Times New Roman',
-                        fontSize: '30px',
-                        marginBottom: '18px',
+                        fontSize: { sx: '18px', sm: '30px' },
+                        marginBottom: { sx: '10px', sm: '18px' },
                       },
                       '& .MuiImageListItemBar-subtitle': {
-                        fontSize: '20px',
+                        fontSize: { sx: '16px', sm: '20px' },
                         fontFamily: 'Times New Roman',
                       },
                     }}
