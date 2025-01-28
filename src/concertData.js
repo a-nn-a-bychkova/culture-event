@@ -66,7 +66,7 @@ export const ConcertsList = {
       dauer: '1 St.',
       eventLink: '',
       participants:
-        'Svitlana Mykhailenko (Poesieauswahl, Übersetzung), Olena Vasylenko (Klavier), Schirin Hudajbergenova (Sopran), Anna Bychkova (Mezzosopran),  Yevhen Petronelli (Bariton)',
+        'Svitlana Mykhailenko (Poesieauswahl, Übersetzung), Olena Vasylenko (Klavier), Schirin Hudajbergenova (Sopran), Anna Bychkova (Mezzosopran),  Yevhen Petronelli (Bariton), Demian Matushevski (Bassbariton)',
       details: '',
       eventbrite: '',
     },
@@ -135,7 +135,7 @@ export const ConcertsList = {
       dauer: '1 година',
       eventLink: '',
       participants:
-        'Світлана Михаленко (ведуча, вибір поезії), Олена Василенко (фортепіано), Ширін Худайберґенова (сопрано), Анна Бичкова (мецо-сопрано), Євген Петронеллі (баритон)',
+        'Світлана Михаленко (ведуча, вибір поезії), Олена Василенко (фортепіано), Ширін Худайберґенова (сопрано), Анна Бичкова (мецо-сопрано), Євген Петронеллі (баритон), Дем’ян Матушевський (бас-баритон)',
       details: '',
       eventbrite: '',
     },
