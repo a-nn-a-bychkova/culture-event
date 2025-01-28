@@ -33,7 +33,7 @@ export const ConcertsList = {
       eventLink:
         'https://www.staatstheater-nuernberg.de/spielplan-24-25/galerie-ukraine/24-02-2025/2100',
       participants:
-        'Svitlana Mykhailenko (Poesieauswahl, Übersetzung), Natalka Totovytska (Geige), Olena Vasylenko (Klavier), Nataliia Hrabarska (Mezzosopran, Bandura), Anna Bychkova (Mezzosopran), Yevhen Petronelli (Bariton), Demian Matushevski (Bassbariton), Taras Konoschenko (Bas)',
+        'Svitlana Mykhailenko (Poesieauswahl, Übersetzung), Natalka Totovytska (Geige), Olena Vasylenko (Klavier), Nataliia Hrabarska (Mezzosopran, Bandura), Schirin Hudajbergenova (Sopran), Anna Bychkova (Mezzosopran), Yevhen Petronelli (Bariton), Demian Matushevski (Bassbariton), Taras Konoschenko (Bas)',
       details: 'Konzert zum 3. Jahrestag des Krieges',
       eventbrite: '',
     },

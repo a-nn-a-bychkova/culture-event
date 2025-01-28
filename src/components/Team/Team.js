@@ -162,7 +162,7 @@ const participantsListUkr = [
     id: uuidv4(),
     name: 'Sofia Petishkina',
     foto: sofiaFoto,
-    fach: 'Скрипка',
+    fach: 'cкрипка',
     description: '',
   },
 ];
