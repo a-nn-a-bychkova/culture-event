@@ -11,13 +11,14 @@ const Header = () => {
     <Container
       sx={{
         padding: {
-          xs: '10px 16px 10px 16px',
-          sm: '10px 40px',
-          md: '30px 40px 10px',
-          lg: '30px 10px 10px 10px',
+          xs: '0px 10px 10px 16px',
+          sm: '0px 40px 20px 40px',
+          md: '0px 40px 20px',
+          lg: '0px 50px 10px ',
         },
-        // width: { lg: '1200px' },
+
         fontFamily: 'Times New Roman',
+        backgroundColor: 'rgb(222, 226, 225)',
       }}
     >
       ­­
@@ -41,7 +42,7 @@ const Header = () => {
               textDecoration: 'none',
               color: isActive ? 'rgb(40, 40, 49)' : '#495961',
               fontWeight: isActive ? 'bold' : 'normal',
-              marginRight: '10px',
+              marginRight: '14px',
             })}
           >
             {language === 'de' ? 'Home' : 'На головну'}
@@ -53,7 +54,7 @@ const Header = () => {
               textDecoration: 'none',
               color: isActive ? 'rgb(40, 40, 49)' : '#495961',
               fontWeight: isActive ? 'bold' : 'normal',
-              marginRight: '10px',
+              marginRight: '14px',
             })}
           >
             {language === 'de' ? 'Konzerte' : 'Концерти'}
@@ -64,7 +65,7 @@ const Header = () => {
               textDecoration: 'none',
               color: isActive ? 'rgb(40, 40, 49)' : '#495961',
               fontWeight: isActive ? 'bold' : 'normal',
-              marginRight: '10px',
+              marginRight: '14px',
             })}
           >
             {language === 'de' ? 'Galerie' : 'Галерея'}
@@ -75,7 +76,7 @@ const Header = () => {
               textDecoration: 'none',
               color: isActive ? 'rgb(40, 40, 49)' : '#495961',
               fontWeight: isActive ? 'bold' : 'normal',
-              marginRight: '10px',
+              marginRight: '14px',
             })}
           >
             {language === 'de' ? 'Team' : 'Команда'}
