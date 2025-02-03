@@ -198,7 +198,12 @@ const Team = () => {
           >
             Unser Team
           </Typography>
-          <ImageList>
+          <ImageList
+            sx={{
+              gridTemplateColumns:
+                'repeat(auto-fill, minmax(280px,1fr))!important',
+            }}
+          >
             {participantsListDe.map(({ id, name, fach, description, foto }) => (
               <ImageListItem key={id}>
                 <img

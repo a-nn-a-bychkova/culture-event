@@ -25,6 +25,7 @@ export default function HomeView(props) {
         },
 
         maxWidth: '1200px',
+        marginTop: '16px',
         marginLeft: 'auto',
         marginRight: 'auto',
       }}
