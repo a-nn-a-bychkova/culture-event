@@ -54,7 +54,7 @@ const Concerts = () => {
           <Box
             sx={{
               display: 'flex',
-              flexDirection: { xs: 'column', sm: 'row', md: 'column' },
+              flexDirection: { xs: 'column', md: 'column' },
               justifyContent: 'end',
             }}
           >

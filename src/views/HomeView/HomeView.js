@@ -2,7 +2,7 @@ import { useContext } from 'react';
 import Context from '../../contexts/context';
 import { Container, Grid, Box } from '@mui/material';
 import About from '../../components/About/About';
-import Concerts from '../../components/Concerts/Conserts';
+import Concerts from '../../components/ConcertsHome/Conserts';
 import Hero from '../../components/Hero/Hero';
 import HeroSlider from '../../components/HeroSlider/HeroSlider';
 import HeroCarousel from '../../components/HeroCarousel';

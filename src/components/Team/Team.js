@@ -137,7 +137,7 @@ const participantsListUkr = [
     id: uuidv4(),
     name: 'Світлана Михайленко',
     foto: svitlanaFoto,
-    fach: 'поезія',
+    fach: 'вибір поезії, переклад, ведуча',
   },
   // {
   //   id: uuidv4(),
@@ -254,7 +254,12 @@ const Team = () => {
           >
             Наша команда
           </Typography>
-          <ImageList>
+          <ImageList
+            sx={{
+              gridTemplateColumns:
+                'repeat(auto-fill, minmax(280px,1fr))!important',
+            }}
+          >
             {participantsListUkr.map(
               ({ id, name, fach, description, foto }) => (
                 <ImageListItem key={id}>

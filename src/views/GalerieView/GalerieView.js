@@ -5,7 +5,7 @@ import { generatePath } from 'react-router-dom';
 import { Box, Grid, List, ListItem, Typography } from '@mui/material';
 import s from './GalleryView.module.css';
 import About from '../../components/About/About';
-import Concerts from '../../components/Concerts/Conserts';
+import Concerts from '../../components/ConcertsHome/Conserts';
 import Hero from '../../components/Hero/Hero';
 import HeroSlider from '../../components/HeroSlider/HeroSlider';
 
