@@ -96,7 +96,7 @@ function App() {
             md: '30px',
             lg: '30px 0px 40px',
           },
-          width: { lg: '1200px' },
+          // width: { lg: '1200px' },
         }}
       >
         <Box sx={{ display: 'flex', justifyContent: 'center' }}>
