@@ -117,7 +117,8 @@ const participantsListDe = [
     name: 'Sofia Petishkina',
     foto: sofiaFoto,
     fach: 'Geige',
-    description: '',
+    description:
+      'Widmet sich intensiv der historischen Aufführungspraxis. Sie hat ihr erstes Studium im Fach Violine (moderne Geige) in der Ukraine mit Master abgeschlossen. Derzeit studiert sie Barockgeige an der Hochschule für Musik Nürnberg',
   },
 ];
 
@@ -190,7 +191,8 @@ const participantsListUkr = [
     name: 'Софія Петішкіна',
     foto: sofiaFoto,
     fach: 'cкрипка',
-    description: '',
+    description:
+      'Активно бере участь у виступах в напрямку історичного виконавства. Першу освіту по класу сучасної скрипки здобула в Україні, та отримала ступінь магістра. Зараз вивчає барокову скрипку в Нюрнберзькому університеті музики',
   },
 ];
 
