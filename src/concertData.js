@@ -4,24 +4,6 @@ export const ConcertsList = {
   de: [
     {
       id: uuidv4(),
-      date: 'Fr, 14. Februar 2025',
-      time: '17:00',
-      concertTitle: 'Im Herzen der Liebe',
-      adressTitle: 'Erlanger Musikinstitut',
-      address: 'Rathsberger Str. 1, 91054 Erlangen',
-      addressLink: 'https://maps.app.goo.gl/vfcPWy5Xzi7kwLXS8',
-      ticket: 'Spenden ab 10 Euro',
-      dauer: '1 St.',
-      eventLink: '',
-      participants:
-        'Svitlana Mykhailenko (Poesieauswahl, Übersetzung), Nataliia Hrabarska (Mezzosopran, Bandura), Natalka Totovytska (Geige), Olena Vasylenko (Klavier), Anna Bychkova (Mezzosopran), Yevhen Petronelli (Bariton)',
-      details:
-        'Am 14. Februar steht die Konzertreihe im Zeichen der Liebe – jener Kraft, die uns miteinander verbindet und selbst in schweren Zeiten Hoffnung schenkt. Mit Musik und Poesie laden wir ein, die vielen Facetten der Liebe zu entdecken und einen besonderen Abend gemeinsam zu genießen.',
-      eventbrite:
-        'https://www.eventbrite.com/e/im-zeichen-der-liebe-tickets-1144893510309?aff=oddtdtcreator',
-    },
-    {
-      id: uuidv4(),
       date: 'So, 23. Februar 2025',
       time: '14:00',
       concertTitle: 'Gedenktag zum Beginn des Krieges in der Ukraine',
@@ -90,24 +72,6 @@ export const ConcertsList = {
     },
   ],
   ukr: [
-    {
-      id: uuidv4(),
-      date: 'Пт, 14 лютого 2025',
-      time: '17:00',
-      concertTitle: 'Im Herzen der Liebe',
-      adressTitle: 'Erlanger Musikinstitut',
-      address: 'Rathsberger Str. 1, 91054 Erlangen',
-      addressLink: 'https://maps.app.goo.gl/vfcPWy5Xzi7kwLXS8',
-      ticket: 'Донати від 10 євро',
-      dauer: '1 година',
-      eventLink: '',
-      participants:
-        'Світлана Михайленко (вибір поезії, переклад), Наталія Грабарська (бандура, мецо-сопрано), Наталка Тотовицька (скрипка), Олена Василенко (фортепіано), Анна Бичкова (мецо-сопрано), Євген Петронеллі (баритон)',
-      details:
-        '14 лютого концертна програма стане оспівуванням любові — тієї сили, що єднає серця і дарує надію навіть у найскладніші часи. У супроводі музики та поезії ми запрошуємо вас поринути у багатогранний світ почуттів і провести цей особливий вечір разом.',
-      eventbrite:
-        'https://www.eventbrite.com/e/im-zeichen-der-liebe-tickets-1144893510309?aff=oddtdtcreator',
-    },
     {
       id: uuidv4(),
       date: 'Нд, 23 лютого 2025',
