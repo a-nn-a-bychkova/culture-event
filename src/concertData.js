@@ -4,40 +4,6 @@ export const ConcertsList = {
   de: [
     {
       id: uuidv4(),
-      date: 'So, 23. Februar 2025',
-      time: '14:00',
-      concertTitle: 'Gedenktag zum Beginn des Krieges in der Ukraine',
-      adressTitle: 'Heilige Familie',
-      address: 'Eichstätter Pl.1, 90453 Nürnberg',
-      addressLink: 'https://maps.app.goo.gl/WbGrfHARRhFJTMuQ9',
-      ticket: '',
-      dauer: '1 Stunde',
-      eventLink: '',
-      participants:
-        ' Nataliia Hrabarska (Mezzosopran, Bandura), Olena Vasylenko (Klavier), Anna Bychkova (Mezzosopran), Yevhen Petronelli (Bariton)',
-      details:
-        'Seit drei Jahren betet die Welt für Frieden. Seit drei Jahren hoffen Millionen von Menschen auf ein Ende des Leids.Wir laden Sie herzlich ein, um gemeinsam zu gedenken, zu beten und unsere Solidarität mit den Opfern des Krieges zu zeigen.Während der Veranstaltung werden Erzbischof Herwig Gössl  und Oberbürgermeister  Markus König ihre Ansichten darlegen.Es wird eine Ausstellung zum Gedenken gezeigt, gefolgt von einem Empfang mit traditionellen ukrainischen Speisen – ein Raum für Begegnung und Austausch.Musikalisch begleitet wird die Veranstaltung vom Projekt „Ukrainischer Lebensmut“.',
-      eventbrite: '',
-    },
-    {
-      id: uuidv4(),
-      date: 'Mo, 24. Februar 2025',
-      time: '21:00',
-      concertTitle: 'Melodien des Wiederstands',
-      adressTitle: 'Kammerspiele Staatstheater Nürnberg',
-      address: 'Richard-Wagner-Platz 2-10, 90443 Nürnberg',
-      addressLink: 'https://maps.app.goo.gl/NafYR7hcYBNaXTpGA',
-      ticket: '5,50 Euro',
-      dauer: '1 St.',
-      eventLink:
-        'https://www.staatstheater-nuernberg.de/spielplan-24-25/galerie-ukraine/24-02-2025/2100',
-      participants:
-        'Svitlana Mykhailenko (Poesieauswahl, Übersetzung), Natalka Totovytska (Geige), Olena Vasylenko (Klavier), Nataliia Hrabarska (Mezzosopran, Bandura), Schirin Hudajbergenova (Sopran), Anna Bychkova (Mezzosopran), Yevhen Petronelli (Bariton), Demian Matushevski (Bassbariton), Taras Konoschenko (Bas)',
-      details: 'Konzert zum 3. Jahrestag des Krieges',
-      eventbrite: '',
-    },
-    {
-      id: uuidv4(),
       date: 'Sa, 15. März 2025',
       time: '18:00',
       concertTitle: 'Die Kraft der Kultur',
@@ -72,40 +38,6 @@ export const ConcertsList = {
     },
   ],
   ukr: [
-    {
-      id: uuidv4(),
-      date: 'Нд, 23 лютого 2025',
-      time: '14:00',
-      concertTitle:
-        "Gedenktag zum Beginn des Krieges in der Ukraine День пам'яті початку повномаштабної війни в Україні",
-      adressTitle: 'Heilige Familie',
-      address: 'Eichstätter Pl.1, 90453 Nürnberg',
-      addressLink: 'https://maps.app.goo.gl/WbGrfHARRhFJTMuQ9',
-      ticket: '',
-      dauer: '1 година',
-      eventLink: '',
-      participants:
-        'Олена Василенко (фортепіано), Наталія Грабарська (мецо-сопрано, бандура), Анна Бичкова (мецо-сопрано), Євген Петронеллі (баритон)',
-      details:
-        'Ось уже три роки світ молиться за мир. Ось уже три роки мільйони людей сподіваються на кінець страждань.Ми щиро запрошуємо вас разом вшанувати пам’ять, помолитися та висловити нашу солідарність із жертвами війни.Під час заходу свої думки висловлять архієпископ Гервіг Гьоссль та обербургомістр Маркус Кеніг. Буде представлена виставка пам’яті, після чого відбудеться прийом із традиційними українськими стравами – простір для зустрічей і спілкування. Музичний супровід заходу забезпечить проєкт «Ukrainischer Lebensmut».',
-      eventbrite: '',
-    },
-    {
-      id: uuidv4(),
-      date: 'Пн, 24 лютого 2025',
-      time: '21:00',
-      concertTitle: 'Melodien des Wiederstands',
-      adressTitle: 'Kammerspiele Staatstheater Nürnberg',
-      address: 'Richard-Wagner-Platz 2-10, 90443 Nürnberg',
-      addressLink: 'https://maps.app.goo.gl/NafYR7hcYBNaXTpGA',
-      ticket: '5,50 євро',
-      dauer: '1 година',
-      eventLink: '',
-      participants:
-        'Світлана Михайленко (вибір поезії, переклад), Наталка Тотовицька (скрипка), Олена Василенко (фортепіано), Наталія Грабарська (мецо-сопрано, бандура), Ширін Худайберґенова (сопрано), Анна Бичкова (мецо-сопрано), Євген Петронеллі (баритон), Дем’ян Матушевський (бас-баритон), Тарас Коношенко (бас)',
-      details: 'Концерт до третьої річниці повномаштабної війни',
-      eventbrite: '',
-    },
     {
       id: uuidv4(),
       date: 'Sa, 15. März 2025',
