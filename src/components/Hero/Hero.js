@@ -1,4 +1,4 @@
-import Poster from '../../images/Regensburg-15-03-2025.png';
+import Poster from '../../images/web-2025-29-03-2.png';
 import Context from '../../contexts/context';
 import { useContext } from 'react';
 import { Box } from '@mui/material';
