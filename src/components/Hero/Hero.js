@@ -1,4 +1,4 @@
-import Poster from '../../images/dach-april-oben.jpg';
+import Poster from '../../images/Zeltnerschloss-11-07-2025-Eventbrite.jpg';
 import Context from '../../contexts/context';
 import { useContext } from 'react';
 import { Box } from '@mui/material';
