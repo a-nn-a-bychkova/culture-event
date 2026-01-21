@@ -1,4 +1,4 @@
-import Poster from '../../images/dach-april-oben-2.jpg';
+import Poster from '../../images/koliadky.png';
 import Context from '../../contexts/context';
 import { useContext } from 'react';
 import { Box } from '@mui/material';
