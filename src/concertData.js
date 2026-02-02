@@ -21,17 +21,34 @@ export const ConcertsList = {
     // },
     {
       id: uuidv4(),
-      date: 'So, 25. Januar 2026',
+      date: 'So, 22.Februar 2026',
       time: '13:30',
-      concertTitle: 'Ukrainische Traditionelle Weihnachtslieder',
+      concertTitle: 'Gebet für die Ukraine',
       adressTitle: 'Heilige Familie Kirche',
       address: 'Eichstätter Pl.,1',
       addressLink: 'https://maps.app.goo.gl/nHs9e3ppoLyhqLYp8?g_st=ic',
       ticket: 'Spenden',
-      dauer: 'ca. 30 Min',
+      dauer: 'ca. 60 Min',
       eventLink: '',
       participants:
-        'D. Grabovska (Dirigentin), T. Manoilenko, N. Hrabarska, A. Bychkova, D. Trenichev, P. Arroyo, Y. Petronelli, G. Harutyunyan, M. Grabovskyi (Perkussion), O. Zub (Moderator)',
+        'P. Arroyo (Tenor), A. Bychkova (Mezzosopran), D. Grabovska (Sopran), N. Hrabarska (Mezzosopran, Bandura), T. Konoschchenko (Bass, Solist Staatstheater Nürnberg), T. Korobka (Sopran,Ausgezeichnete Künstlerin der Ukraine), V. Koviakh (Gitarre), T. Manoilenko (Sopran), A. Rydkina (Geige), O. Vasylenko (Klavier)',
+      details:
+        'Das Konzert ist dem vierten Jahrestag des großflächigen Überfalls auf die Ukraine gewidmet. Für uns ist dies ein unsagbarer Schmerz, der sich in ein gemeinsames Gebet für die Ukraine und unsere Verteidiger verwandelt. Im Konzert erklingen ukrainische Volkslieder sowie Werke von S. Hulak-Artemowskyj, O. Herasymenko, J. Meitus, R. Medenets und M. Skoryk. Das Konzert wird durch die Stimmen der Verdienten Künstlerin der Ukraine Tetiana Korobka und des Solisten der Nürnberger Oper Taras Konoschenko sowie vieler weiterer Sänger:innen und Instrumentalist:innen bereichert',
+      eventbrite: '',
+    },
+    {
+      id: uuidv4(),
+      date: 'Di, 24.Februar 2026',
+      time: '20:00',
+      concertTitle: 'Melodien des Widerstands',
+      adressTitle: 'Theater Mummpitz',
+      address: 'Michael-Ende-Str. 17',
+      addressLink: 'https://maps.app.goo.gl/XdMoETeE7BRFrYvL8',
+      ticket: '',
+      dauer: 'ca. 60 Min',
+      eventLink: '',
+      participants:
+        'N. Hrabarska (Mezzosopran), S. Petishkina (Geige), O. Vasylenko (Klavier), S. Mykhailenko (Moderatorin)',
       details: '',
       eventbrite: '',
     },
@@ -39,7 +56,7 @@ export const ConcertsList = {
       id: uuidv4(),
       date: ' So, 22. März 2026',
       time: '15:00',
-      concertTitle: 'Ukrainischer Lebensmut',
+      concertTitle: 'Ukrainischer Lebensmut: Taras Schewtschenko',
       adressTitle: 'Zeltnerschloß',
       address: 'Gleißhammerstraße 2, 90480 Nürnberg',
       addressLink:
@@ -49,7 +66,7 @@ export const ConcertsList = {
       eventLink: '',
       participants: '',
       details:
-        'Ein besonderes Konzert zu Ehren von Taras Schewtschenko (1814–1861) – Dichter, Maler und Symbol des Freiheitskampfes. Erleben Sie ukrainische Musik und Poesie mit Bandura, Violine, Klavier und Sänger:innen. ',
+        'Ein besonderes Konzert zu Ehren von Taras Schewtschenko (1814–1861) –  ukrainischer Dichter, Maler und ewiger Symbol des Freiheitskampfes. Spüren Sie den Herzschlag seines Lebens — in der Magie klassischer Stimmen, der Bandura, der Violine, des Klaviers und der Gitarre. ',
       eventbrite: '',
     },
     {
@@ -66,7 +83,7 @@ export const ConcertsList = {
       eventLink: '',
       participants: '',
       details:
-        'Wir laden Sie herzlich ein, ukrainische Musik unter freiem Himmel zu genießen.Diesen Abend widmen wir dem Komponisten Wolodymyr Iwasiuk. Ein stimmungsvolles Programm mit klassischen Stimmen, dem Kinderchor, den Bandura, der Violine, der Gitarre, dem Klavier im Innenhof des beliebten Kulturladen Zeltnerschloss erwartet Sie. Die Gäste haben die Möglichkeit, eigene Fragen an die Schwester des Komponisten Dr. Oksana Iwasiuk zu stellen. Das Projekt "Ukrainischer Lebensmut" fördert mit dem Erlös der Veranstaltung Hilfsprojekte in der Ukraine.',
+        'Ukrainische Musik unter freiem Himmel. Diesen Abend widmen wir dem Komponisten Wolodymyr Iwasiuk. Ein stimmungsvolles Programm mit klassischen Stimmen, dem Kinderchor, den Bandura, der Violine, der Gitarre, dem Klavier im Innenhof des beliebten Kulturladen Zeltnerschloss erwartet Sie. Die Gäste haben die Möglichkeit, eigene Fragen an die Schwester des Komponisten Dr. Oksana Iwasiuk zu stellen. Das Projekt "Ukrainischer Lebensmut" fördert mit dem Erlös der Veranstaltung Hilfsprojekte in der Ukraine.',
       eventbrite:
         'https://www.eventbrite.com/e/blume-der-hoffnung-tickets-1981141263851?aff=oddtdtcreator',
     },
@@ -91,17 +108,34 @@ export const ConcertsList = {
     // },
     {
       id: uuidv4(),
-      date: 'Нд, 25 січня 2026',
+      date: 'Нд, 22 лютого 2026',
       time: '13:30',
-      concertTitle: 'Різдвяні та новорічні колядки',
+      concertTitle: 'Молитва за Україну',
       adressTitle: 'Heilige Familie Kirche',
       address: 'Eichstätter Pl.,1',
       addressLink: 'https://maps.app.goo.gl/nHs9e3ppoLyhqLYp8?g_st=ic',
       ticket: 'Донати',
-      dauer: '30 хв',
+      dauer: '60 хв',
       eventLink: '',
       participants:
-        'Д. Грабовська (диригент), Т. Манойленко, Н. Грабарська, А. Бичкова, Д. Тренічев, Р. Арройо, Є. Петронеллі, Г. Харатюнян, М. Грабовський (ударні), O. Зуб (ведучій)',
+        " П. Арройо (тенор),  А. Бичкова (мецо-сопрано), О. Василенко (фортепіано), Н. Грабарська (мецо-сопрано, бандура), Д. Грабовська (сопрано), Т.Коробка (сопрано, Заслужена Артистка України), Т. Конощенко (бас, соліст Нюрнберзької опери), В. Ков'ях (гітара), А. Ридкіна (скрипка), Т. Манойленко (сопрано)",
+      details:
+        'Концерт присвячений четвертій річниці повномаштабного вторгення в Україну. Для нас це невимовний біль, який виливається у спільну молитву за Україну та наших захисників. В концерті звучатимуть народні українські пісні та композиції С.Гулака-Артемовського,О. Герасименко, Ю. Мейтуса, Р. Меденці, М. Скорика. Концерт прикрасять голоси Заслуженої Артистки України - Тетяни Коробки та соліста Нюрнберзької опери - Тараса Конощенко, а також багатьох інших співаків і інстурменталістів',
+      eventbrite: '',
+    },
+    {
+      id: uuidv4(),
+      date: 'Вт, 24 лютого 2026',
+      time: '20:00',
+      concertTitle: 'Мелодії супротиву',
+      adressTitle: 'Theater Mummpitz',
+      address: 'Michael-Ende-Str. 17',
+      addressLink: 'https://maps.app.goo.gl/XdMoETeE7BRFrYvL8',
+      ticket: '',
+      dauer: '60 хв',
+      eventLink: '',
+      participants:
+        'Н. Грабарська (мецо-сопрано, бандура), С. Петішкіна (скрипка), О. Василенко (фортепіано), С. Михайленко (ведуча)',
       details: '',
       eventbrite: '',
     },
@@ -109,7 +143,7 @@ export const ConcertsList = {
       id: uuidv4(),
       date: 'Вс,22 березня 2026',
       time: '15:00',
-      concertTitle: 'Ukrainischer Lebensmut',
+      concertTitle: 'Ukrainischer Lebensmut: Taras Schewtschenko',
       adressTitle: 'Zeltnerschloß',
       address: 'Gleißhammerstraße 2, 90480 Nürnberg',
       addressLink:
@@ -119,7 +153,7 @@ export const ConcertsList = {
       eventLink: '',
       participants: '',
       details:
-        'Концерт присвячений творчості видатного українського поета Тараса Шевченка (1814–1861)',
+        'Особливий концерт на честь Тараса Шевченка (1814–1861) — поета, художника та символу боротьби за свободу. Відчуйте серцебиття його життя — у магії українських голосів, бандури, скрипки, фортепіано й гітари.',
       eventbrite: '',
     },
     {
@@ -136,7 +170,7 @@ export const ConcertsList = {
       eventLink: '',
       participants: '',
       details:
-        'Ми щиро запрошуємо вас насолодитися українською музикою просто неба.Цей вечір присвячено композитору Володимиру Івасюку.На вас чекає натхненна програма з класичними голосами, дитячим хором, бандурою, скрипкою, гітарою та фортепіано у внутрішньому дворі популярного культурного центру Kulturladen Zeltnerschloss. Гості матимуть можливість поставити свої запитання спеціальній гості - сестрі композитора — Оксані Івасюк. Проєкт «Ukrainischer Lebensmut» спрямовує виручені кошти від заходу на підтримку благодійних ініціатив в Україні.',
+        'Українська музика просто неба. Цей вечір присвячено композитору Володимиру Івасюку.На вас чекає натхненна програма з класичними голосами, дитячим хором, бандурою, скрипкою, гітарою та фортепіано у внутрішньому дворі популярного культурного центру Kulturladen Zeltnerschloss. Гості матимуть можливість поставити свої запитання спеціальній гості - сестрі композитора — Оксані Івасюк. Проєкт «Ukrainischer Lebensmut» спрямовує виручені кошти від заходу на підтримку благодійних ініціатив в Україні.',
       eventbrite:
         'https://www.eventbrite.com/e/blume-der-hoffnung-tickets-1981141263851?aff=oddtdtcreator',
     },
