@@ -49,7 +49,8 @@ export const ConcertsList = {
       eventLink: '',
       participants:
         'N. Hrabarska (Mezzosopran), S. Petishkina (Geige), O. Vasylenko (Klavier), S. Mykhailenko (Moderatorin)',
-      details: '',
+      details:
+        '„Melodien des Widerstands” ist ein Abend voller Musik, Poesie und Geschichten über Verlust und Hoffnung, Schmerz und Stärke – eine Hommage an den menschlichen Geist, der selbst in den dunkelsten Zeiten ungebrochen bleibt.Dieses Konzert ist dem Jahrestag eines Krieges gewidmet, der das Leben von Millionen verändert hat, aber nie ihre Hoffnung auf Frieden und Zukunft brechen konnte. Programm umfasst Werke ukrainischer Klassiker und Zeitgenossen, musikalische Werke und poetische Texte, die die Kraft der Einheit und den tiefen Wunsch nach Frieden und Menschlichkeit zum Ausdruck bringen. Ein Abend, an dem die Musik der Künstler*innen des Projekts „Ukrainischer Lebensmut“ erneut zur Stimme der Hoffnung wird.',
       eventbrite: '',
     },
     {
@@ -136,7 +137,8 @@ export const ConcertsList = {
       eventLink: '',
       participants:
         'Н. Грабарська (мецо-сопрано, бандура), С. Петішкіна (скрипка), О. Василенко (фортепіано), С. Михайленко (ведуча)',
-      details: '',
+      details:
+        'Це вечір сповнений музики, поезії та історій про втрату й надію, біль і силу — присвята людському духові, що залишається незламним навіть у найтемніші часи. Коонцерт присвячено річниці війни, яка змінила життя мільйонів, але так і не змогла зламати їхню віру в мир і майбутнє. Програма включає твори українських класиків і сучасних композиторів, музичні номери та поетичні тексти, що передають силу єдності й глибоке прагнення до миру та людяності.Вечір, коли музика митців проєкту "Ukrainischer Lebensmut" знову стане голосом надії',
       eventbrite: '',
     },
     {
