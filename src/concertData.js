@@ -33,7 +33,7 @@ export const ConcertsList = {
       participants:
         'P. Arroyo (Tenor), A. Bychkova (Mezzosopran), D. Grabovska (Sopran), N. Hrabarska (Mezzosopran, Bandura), T. Konoschchenko (Bass, Solist Staatstheater Nürnberg), T. Korobka (Sopran,Ausgezeichnete Künstlerin der Ukraine), V. Koviakh (Gitarre), T. Manoilenko (Sopran), A. Rydkina (Geige), O. Vasylenko (Klavier)',
       details:
-        'Das Konzert ist dem vierten Jahrestag des großflächigen Überfalls auf die Ukraine gewidmet. Für uns ist dies ein unsagbarer Schmerz, der sich in ein gemeinsames Gebet für die Ukraine und unsere Verteidiger verwandelt. Im Konzert erklingen ukrainische Volkslieder sowie Werke von S. Hulak-Artemowskyj, O. Herasymenko, J. Meitus, R. Medenets und M. Skoryk. Das Konzert wird durch die Stimmen der Verdienten Künstlerin der Ukraine Tetiana Korobka und des Solisten der Nürnberger Oper Taras Konoschenko sowie vieler weiterer Sänger:innen und Instrumentalist:innen bereichert',
+        'Das Konzert ist dem vierten Jahrestag des großflächigen Überfalls auf die Ukraine gewidmet. Für uns ist dies ein unsagbarer Schmerz, der sich in ein gemeinsames Gebet für die Ukraine und unsere Verteidiger verwandelt. Im Konzert erklingen ukrainische Volkslieder sowie Werke von S. Hulak-Artemowskyj, O. Herasymenko, J. Meitus, R. Medenytsi, K. Palachova, W. Odintsov und M. Skoryk. Das Konzert wird durch die Stimmen des Solisten der Nürnberger Oper Taras Konoschchenko und der Verdienten Künstlerin der Ukraine Tetiana Korobka sowie vieler weiterer professioneller Sänger:innen und Instrumentalist:innen des Projekts „Ukrainischer Lebensmut“ bereichert.',
       eventbrite: '',
     },
     {
@@ -120,7 +120,7 @@ export const ConcertsList = {
       participants:
         " П. Арройо (тенор),  А. Бичкова (мецо-сопрано), О. Василенко (фортепіано), Н. Грабарська (мецо-сопрано, бандура), Д. Грабовська (сопрано), Т.Коробка (сопрано, Заслужена Артистка України), Т. Конощенко (бас, соліст Нюрнберзької опери), В. Ков'ях (гітара), А. Ридкіна (скрипка), Т. Манойленко (сопрано)",
       details:
-        'Концерт присвячений четвертій річниці повномаштабного вторгення в Україну. Для нас це невимовний біль, який виливається у спільну молитву за Україну та наших захисників. В концерті звучатимуть народні українські пісні та композиції С.Гулака-Артемовського,О. Герасименко, Ю. Мейтуса, Р. Меденці, М. Скорика. Концерт прикрасять голоси Заслуженої Артистки України - Тетяни Коробки та соліста Нюрнберзької опери - Тараса Конощенко, а також багатьох інших співаків і інстурменталістів',
+        'Концерт присвячений четвертій річниці повномаштабного вторгення в Україну. Для нас це невимовний біль, який виливається у спільну молитву за Україну та наших захисників. В концерті звучатимуть народні українські пісні та композиції С. Гулака-Артемовського, О. Герасименко, Ю. Мейтуса, Р. Меденці, К. Палачової, В. Одінцова та М. Скорика. Концерт прикрасять голоси соліста Нюрнберзької опери - Тараса Конощенко та заслуженої артистки України - Тетяни Коробки, а також професійні виконавці колективу "Ukrainischer Lebensmut"',
       eventbrite: '',
     },
     {
