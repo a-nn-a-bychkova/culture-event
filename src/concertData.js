@@ -29,7 +29,7 @@ export const ConcertsList = {
       addressLink: 'https://maps.app.goo.gl/nHs9e3ppoLyhqLYp8?g_st=ic',
       ticket: 'Spenden',
       dauer: 'ca. 60 Min',
-      eventLink: '',
+      eventLink: 'https://fb.me/e/91l0oDVWn',
       participants:
         'P. Arroyo (Tenor), A. Bychkova (Mezzosopran), D. Grabovska (Sopran), N. Hrabarska (Mezzosopran, Bandura), T. Konoschchenko (Bass, Solist Staatstheater Nürnberg), T. Korobka (Sopran,Ausgezeichnete Künstlerin der Ukraine), V. Koviakh (Gitarre), T. Manoilenko (Sopran), A. Rydkina (Geige), O. Vasylenko (Klavier)',
       details:
@@ -46,12 +46,13 @@ export const ConcertsList = {
       addressLink: 'https://maps.app.goo.gl/XdMoETeE7BRFrYvL8',
       ticket: '',
       dauer: 'ca. 60 Min',
-      eventLink: '',
+      eventLink: 'https://fb.me/e/6aRsJz3op',
       participants:
         'N. Hrabarska (Mezzosopran), S. Petishkina (Geige), O. Vasylenko (Klavier), S. Mykhailenko (Moderatorin)',
       details:
         '„Melodien des Widerstands” ist ein Abend voller Musik, Poesie und Geschichten über Verlust und Hoffnung, Schmerz und Stärke – eine Hommage an den menschlichen Geist, der selbst in den dunkelsten Zeiten ungebrochen bleibt.Dieses Konzert ist dem Jahrestag eines Krieges gewidmet, der das Leben von Millionen verändert hat, aber nie ihre Hoffnung auf Frieden und Zukunft brechen konnte. Programm umfasst Werke ukrainischer Klassiker und Zeitgenossen, musikalische Werke und poetische Texte, die die Kraft der Einheit und den tiefen Wunsch nach Frieden und Menschlichkeit zum Ausdruck bringen. Ein Abend, an dem die Musik der Künstler*innen des Projekts „Ukrainischer Lebensmut“ erneut zur Stimme der Hoffnung wird.',
-      eventbrite: '',
+      eventbrite:
+        'https://www.eventbrite.com/e/melodien-des-widerstands-tickets-1982489014008?utm-campaign=social&utm-content=attendeeshare&utm-medium=discovery&utm-term=listing&utm-source=cp&aff=ebdsshcopyurl',
     },
     {
       id: uuidv4(),
@@ -68,7 +69,8 @@ export const ConcertsList = {
       participants: '',
       details:
         'Taras Schewtschenko, der Dichter der Ukraine, auch „Vater der Nation“ genannt, der die ukrainische Sprache für die Weltliteratur entdeckt hat. Als künstlerischer Visionär und Verfechter der Freiheit setzt er sich leidenschaftlich für die Bewahrung der ukrainischen Identität ein. In der Leibeigenschaft geboren, bahnte sich Schewtschenko mit seinem Talent seinen Weg zur Freiheit, aber für seine realistische, bissige und antiimperialistische Poesie wurde er inhaftiert, verbannt und mit einem Schreib- und Malverbot belegt. Gedichte wie Vermächtnis („Sapowit“) aus seiner Gedichtsammlung Kobsar sind bis heute im Bewusstsein aller Generationen der Ukrainerinnen und Ukrainer tief verankert. Mehrere Werke aus diesem Schlüsselwerk der nationalen Renaissance wurden auf mehr als 150 Sprachen übersetzt. Darüber hinaus wurden von über 120 Komponisten nahezu 1500 seiner Werke musikalisch interpretiert. Allein der ukrainische Klassiker Mykola Lyssenko vertonte 90 seiner Werke.Der März ist in der Ukraine unter anderem immer Schewtschenko-Monat. Seine Stimme ist durch die Jahrzehnte hindurch hörbar geblieben - aktuell und inspirierend. Aus diesem Grund widmen sich die Musikerinnen und Musiker des Projekts „Ukrainischer Lebensmut“ mit einem anspruchsvollen und tief berührenden Programm dem Leben und Werk Taras Schewtschenkos. Das Publikum ist herzlich eingeladen, seine Dichtung in deutscher und ukrainischer Sprache zu hören, seine vertonten Gedichte zu erleben und dadurch einen unmittelbaren Zugang zur ukrainischen Kultur zu gewinnen',
-      eventbrite: '',
+      eventbrite:
+        'https://www.eventbrite.com/e/ukrainischer-lebensmut-taras-schewtschenko-tickets-1983302915409?aff=oddtdtcreator',
     },
     {
       id: uuidv4(),
@@ -117,7 +119,7 @@ export const ConcertsList = {
       addressLink: 'https://maps.app.goo.gl/nHs9e3ppoLyhqLYp8?g_st=ic',
       ticket: 'Донати',
       dauer: '60 хв',
-      eventLink: '',
+      eventLink: 'https://fb.me/e/91l0oDVWn',
       participants:
         " П. Арройо (тенор),  А. Бичкова (мецо-сопрано), О. Василенко (фортепіано), Н. Грабарська (мецо-сопрано, бандура), Д. Грабовська (сопрано), Т.Коробка (сопрано, Заслужена Артистка України), Т. Конощенко (бас, соліст Нюрнберзької опери), В. Ков'ях (гітара), А. Ридкіна (скрипка), Т. Манойленко (сопрано)",
       details:
@@ -134,12 +136,13 @@ export const ConcertsList = {
       addressLink: 'https://maps.app.goo.gl/XdMoETeE7BRFrYvL8',
       ticket: '',
       dauer: '60 хв',
-      eventLink: '',
+      eventLink: 'https://fb.me/e/6aRsJz3op',
       participants:
         'Н. Грабарська (мецо-сопрано, бандура), С. Петішкіна (скрипка), О. Василенко (фортепіано), С. Михайленко (ведуча)',
       details:
         'Це вечір сповнений музики, поезії та історій про втрату й надію, біль і силу — присвята людському духові, що залишається незламним навіть у найтемніші часи. Коонцерт присвячено річниці війни, яка змінила життя мільйонів, але так і не змогла зламати їхню віру в мир і майбутнє. Програма включає твори українських класиків і сучасних композиторів, музичні номери та поетичні тексти, що передають силу єдності й глибоке прагнення до миру та людяності.Вечір, коли музика митців проєкту "Ukrainischer Lebensmut" знову стане голосом надії',
-      eventbrite: '',
+      eventbrite:
+        'https://www.eventbrite.com/e/melodien-des-widerstands-tickets-1982489014008?utm-campaign=social&utm-content=attendeeshare&utm-medium=discovery&utm-term=listing&utm-source=cp&aff=ebdsshcopyurl',
     },
     {
       id: uuidv4(),
@@ -156,7 +159,8 @@ export const ConcertsList = {
       participants: '',
       details:
         'Тарас Шевченко — український поет, якого називають «батьком нації», той, хто відкрив українську мову для світової літератури. Як мистецький візіонер і ревний поборник свободи, він пристрасно боровся за збереження української ідентичності. Народжений у кріпацтві, Шевченко завдяки своєму таланту проклав собі шлях до свободи, однак за свою реалістичну, гостру та антиімперіалістичну поезію був ув’язнений, засланий і позбавлений права писати й малювати. Поезії на кшталт «Заповіту» з його поетичної збірки «Кобзар» і донині глибоко закорінені у свідомості всіх поколінь українців і українок. Численні твори з цього ключового надбання національного відродження перекладено більш ніж 150 мовами світу. Окрім того, понад 120 композиторів створили майже 1500 музичних інтерпретацій його творів. Лише український класик Микола Лисенко поклав на музику 90 поезій Шевченка. Березень в Україні традиційно є також місяцем Шевченка. Його голос залишається чутним крізь століття — актуальним і надихаючим. Саме тому музикантки та музиканти проєкту «Ukrainischer Lebensmut» присвячують  свою глибоко зворушливу музичну програму життю і творчості Тараса Шевченка. Публіку щиро запрошують почути його поезію українською та німецькою мовами, відчути силу його покладених на музику віршів і таким чином безпосередньо доторкнутися до української культури.',
-      eventbrite: '',
+      eventbrite:
+        'https://www.eventbrite.com/e/ukrainischer-lebensmut-taras-schewtschenko-tickets-1983302915409?aff=oddtdtcreator',
     },
     {
       id: uuidv4(),
