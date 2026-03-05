@@ -19,50 +19,15 @@ export const ConcertsList = {
     //     'Ein Abend mit Musik, Liedern und Poesie aus der Ukraine mit ukrainischen Künstler:innen des Staatstheaters Nürnberg, des Staatstheaters Regensburg und der Kirchenmusikerin von St. Paul, Odesa. Anschließend ukrainischer Imbiss und Begegnung mit den Gästen.',
     //   eventbrite: '',
     // },
-    {
-      id: uuidv4(),
-      date: 'So, 22.Februar 2026',
-      time: '13:30',
-      concertTitle: 'Gebet für die Ukraine',
-      adressTitle: 'Heilige Familie Kirche',
-      address: 'Eichstätter Pl.,1',
-      addressLink: 'https://maps.app.goo.gl/nHs9e3ppoLyhqLYp8?g_st=ic',
-      ticket: 'Spenden',
-      dauer: 'ca. 60 Min',
-      eventLink: 'https://fb.me/e/91l0oDVWn',
-      participants:
-        'P. Arroyo (Tenor), A. Bychkova (Mezzosopran), D. Grabovska (Sopran), N. Hrabarska (Mezzosopran, Bandura), T. Konoschchenko (Bass, Solist Staatstheater Nürnberg), T. Korobka (Sopran,Ausgezeichnete Künstlerin der Ukraine), V. Koviakh (Gitarre), T. Manoilenko (Sopran), A. Rydkina (Geige), O. Vasylenko (Klavier)',
-      details:
-        'Das Konzert ist dem vierten Jahrestag des großflächigen Überfalls auf die Ukraine gewidmet. Für uns ist dies ein unsagbarer Schmerz, der sich in ein gemeinsames Gebet für die Ukraine und unsere Verteidiger verwandelt. Im Konzert erklingen ukrainische Volkslieder sowie Werke von S. Hulak-Artemowskyj, O. Herasymenko, J. Meitus, R. Medenytsi, K. Palachova, W. Odintsov und M. Skoryk. Das Konzert wird durch die Stimmen des Solisten der Nürnberger Oper Taras Konoschchenko und der Verdienten Künstlerin der Ukraine Tetiana Korobka sowie vieler weiterer professioneller Sänger:innen und Instrumentalist:innen des Projekts „Ukrainischer Lebensmut“ bereichert.',
-      eventbrite: '',
-    },
-    {
-      id: uuidv4(),
-      date: 'Di, 24.Februar 2026',
-      time: '20:00',
-      concertTitle: 'Melodien des Widerstands',
-      adressTitle: 'Theater Mummpitz',
-      address: 'Michael-Ende-Str. 17',
-      addressLink: 'https://maps.app.goo.gl/XdMoETeE7BRFrYvL8',
-      ticket: '',
-      dauer: 'ca. 60 Min',
-      eventLink: 'https://fb.me/e/6aRsJz3op',
-      participants:
-        'N. Hrabarska (Mezzosopran), S. Petishkina (Geige), O. Vasylenko (Klavier), S. Mykhailenko (Moderatorin)',
-      details:
-        '„Melodien des Widerstands” ist ein Abend voller Musik, Poesie und Geschichten über Verlust und Hoffnung, Schmerz und Stärke – eine Hommage an den menschlichen Geist, der selbst in den dunkelsten Zeiten ungebrochen bleibt.Dieses Konzert ist dem Jahrestag eines Krieges gewidmet, der das Leben von Millionen verändert hat, aber nie ihre Hoffnung auf Frieden und Zukunft brechen konnte. Programm umfasst Werke ukrainischer Klassiker und Zeitgenossen, musikalische Werke und poetische Texte, die die Kraft der Einheit und den tiefen Wunsch nach Frieden und Menschlichkeit zum Ausdruck bringen. Ein Abend, an dem die Musik der Künstler*innen des Projekts „Ukrainischer Lebensmut“ erneut zur Stimme der Hoffnung wird.',
-      eventbrite:
-        'https://www.eventbrite.com/e/melodien-des-widerstands-tickets-1982489014008?utm-campaign=social&utm-content=attendeeshare&utm-medium=discovery&utm-term=listing&utm-source=cp&aff=ebdsshcopyurl',
-    },
+
     {
       id: uuidv4(),
       date: ' So, 22. März 2026',
       time: '15:00',
       concertTitle: 'Ukrainischer Lebensmut: Taras Schewtschenko',
       adressTitle: 'Zeltnerschloß',
-      address: 'Gleißhammerstraße 2, 90480 Nürnberg',
-      addressLink:
-        'https://maps.app.goo.gl/qDDefTVPo7xYeJJ26?g_st=com.google.maps.preview.copy',
+      address: 'Gleißhammerstraße 6, 90480 Nürnberg',
+      addressLink: 'https://maps.app.goo.gl/SGUTkCVU7o1VtyGF7',
       // ticket: 'ab 10 Euro Spenden',
       dauer: '1 St. 30 Min',
       eventLink: '',
@@ -78,9 +43,8 @@ export const ConcertsList = {
       time: '18:00',
       concertTitle: 'Blume der Hoffnung',
       adressTitle: 'Zeltnerschloß',
-      address: 'Gleißhammerstraße 2, 90480 Nürnberg',
-      addressLink:
-        'https://maps.app.goo.gl/qDDefTVPo7xYeJJ26?g_st=com.google.maps.preview.copy',
+      address: 'Gleißhammerstraße 6, 90480 Nürnberg',
+      addressLink: 'https://maps.app.goo.gl/SGUTkCVU7o1VtyGF7',
       ticket: 'ab 10 Euro Spenden',
       dauer: '2 St.',
       eventLink: '',
@@ -109,50 +73,15 @@ export const ConcertsList = {
     //     'Вечір музики, пісень і поезії з України за участі українських артистів Державного театру Нюрнберга, Державного театру Регенсбурга та музикантки з церкви Святого Павла, Одеса. Після цього — українські частування та зустріч із гостями.',
     //   eventbrite: '',
     // },
-    {
-      id: uuidv4(),
-      date: 'Нд, 22 лютого 2026',
-      time: '13:30',
-      concertTitle: 'Молитва за Україну',
-      adressTitle: 'Heilige Familie Kirche',
-      address: 'Eichstätter Pl.,1',
-      addressLink: 'https://maps.app.goo.gl/nHs9e3ppoLyhqLYp8?g_st=ic',
-      ticket: 'Донати',
-      dauer: '60 хв',
-      eventLink: 'https://fb.me/e/91l0oDVWn',
-      participants:
-        " П. Арройо (тенор),  А. Бичкова (мецо-сопрано), О. Василенко (фортепіано), Н. Грабарська (мецо-сопрано, бандура), Д. Грабовська (сопрано), Т.Коробка (сопрано, Заслужена Артистка України), Т. Конощенко (бас, соліст Нюрнберзької опери), В. Ков'ях (гітара), А. Ридкіна (скрипка), Т. Манойленко (сопрано)",
-      details:
-        'Концерт присвячений четвертій річниці повномаштабного вторгення в Україну. Для нас це невимовний біль, який виливається у спільну молитву за Україну та наших захисників. В концерті звучатимуть народні українські пісні та композиції С. Гулака-Артемовського, О. Герасименко, Ю. Мейтуса, Р. Меденці, К. Палачової, В. Одінцова та М. Скорика. Концерт прикрасять голоси соліста Нюрнберзької опери - Тараса Конощенко та заслуженої артистки України - Тетяни Коробки, а також професійні виконавці колективу "Ukrainischer Lebensmut"',
-      eventbrite: '',
-    },
-    {
-      id: uuidv4(),
-      date: 'Вт, 24 лютого 2026',
-      time: '20:00',
-      concertTitle: 'Мелодії супротиву',
-      adressTitle: 'Theater Mummpitz',
-      address: 'Michael-Ende-Str. 17',
-      addressLink: 'https://maps.app.goo.gl/XdMoETeE7BRFrYvL8',
-      ticket: '',
-      dauer: '60 хв',
-      eventLink: 'https://fb.me/e/6aRsJz3op',
-      participants:
-        'Н. Грабарська (мецо-сопрано, бандура), С. Петішкіна (скрипка), О. Василенко (фортепіано), С. Михайленко (ведуча)',
-      details:
-        'Це вечір сповнений музики, поезії та історій про втрату й надію, біль і силу — присвята людському духові, що залишається незламним навіть у найтемніші часи. Коонцерт присвячено річниці війни, яка змінила життя мільйонів, але так і не змогла зламати їхню віру в мир і майбутнє. Програма включає твори українських класиків і сучасних композиторів, музичні номери та поетичні тексти, що передають силу єдності й глибоке прагнення до миру та людяності.Вечір, коли музика митців проєкту "Ukrainischer Lebensmut" знову стане голосом надії',
-      eventbrite:
-        'https://www.eventbrite.com/e/melodien-des-widerstands-tickets-1982489014008?utm-campaign=social&utm-content=attendeeshare&utm-medium=discovery&utm-term=listing&utm-source=cp&aff=ebdsshcopyurl',
-    },
+
     {
       id: uuidv4(),
       date: 'Вс,22 березня 2026',
       time: '15:00',
-      concertTitle: 'Ukrainischer Lebensmut: Taras Schewtschenko',
+      concertTitle: 'Ukrainischer Lebensmut: Тарас Шевченко',
       adressTitle: 'Zeltnerschloß',
-      address: 'Gleißhammerstraße 2, 90480 Nürnberg',
-      addressLink:
-        'https://maps.app.goo.gl/qDDefTVPo7xYeJJ26?g_st=com.google.maps.preview.copy',
+      address: 'Gleißhammerstraße 6, 90480 Nürnberg',
+      addressLink: 'https://maps.app.goo.gl/SGUTkCVU7o1VtyGF7',
       ticket: '',
       dauer: '1,5 години',
       eventLink: '',
@@ -168,9 +97,8 @@ export const ConcertsList = {
       time: '18:00',
       concertTitle: 'Квітка надії',
       adressTitle: 'Zeltnerschloß',
-      address: 'Gleißhammerstraße 2, 90480 Nürnberg',
-      addressLink:
-        'https://maps.app.goo.gl/qDDefTVPo7xYeJJ26?g_st=com.google.maps.preview.copy',
+      address: 'Gleißhammerstraße 6, 90480 Nürnberg',
+      addressLink: 'https://maps.app.goo.gl/SGUTkCVU7o1VtyGF7',
       ticket: 'Донати від 10 євро',
       dauer: '2 St.',
       eventLink: '',
