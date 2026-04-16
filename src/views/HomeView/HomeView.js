@@ -5,7 +5,7 @@ import About from '../../components/About/About';
 import Concerts from '../../components/ConcertsHome/Conserts';
 import Hero from '../../components/Hero/Hero';
 import HeroSlider from '../../components/HeroSlider/HeroSlider';
-import HeroCarousel from '../../components/HeroCarousel';
+
 import Team from '../../components/Team/Team';
 
 export default function HomeView(props) {
@@ -27,7 +27,6 @@ export default function HomeView(props) {
     <HeroSlider />
       </Box> */}
 
-      <HeroCarousel />
       <Box>
         {' '}
         <Container

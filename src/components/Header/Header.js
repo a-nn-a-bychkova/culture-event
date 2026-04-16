@@ -37,7 +37,6 @@ const Header = () => {
         >
           <NavLink
             to="/"
-            exact
             style={({ isActive }) => ({
               textDecoration: 'none',
               color: isActive ? 'rgb(40, 40, 49)' : '#495961',

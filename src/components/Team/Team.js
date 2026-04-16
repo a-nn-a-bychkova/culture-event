@@ -44,7 +44,17 @@ import nataliiahrabarskaFoto from '../../images/Natalia-1.jpg';
 import tarasFoto from '../../images/taras.png';
 import svitlanaFoto from '../../images/Svit-1.jpg';
 import sofiaFoto from '../../images/Sofia-2.jpg';
-import { ExpandMore } from '@mui/icons-material';
+
+const ExpandMore = styled(props => {
+  const { expand, ...other } = props; // Вилучаємо expand, щоб він не йшов у HTML
+  return <IconButton {...other} />;
+})(({ theme, expand }) => ({
+  transform: !expand ? 'rotate(0deg)' : 'rotate(180deg)',
+  marginLeft: 'auto',
+  transition: theme.transitions.create('transform', {
+    duration: theme.transitions.duration.shortest,
+  }),
+}));
 
 const participantsListDe = [
   {
@@ -196,172 +206,6 @@ const participantsListUkr = [
   },
 ];
 
-// const Team = () => {
-//   let theme = createTheme();
-//   theme = responsiveFontSizes(theme);
-//   const { language } = useContext(Context);
-
-//   return (
-//     <Box
-//       sx={{
-//         fontFamily: 'Times New Roman',
-//         alignItems: 'center',
-//         justifyContent: 'center',
-//         maxWidth: '1200px',
-//         marginLeft: 'auto',
-//         marginRight: 'auto',
-//         color: '#495961',
-//       }}
-//     >
-//       {language === 'de' ? (
-//         <ThemeProvider theme={theme}>
-//           <Typography
-//             variant="h5"
-//             sx={{
-//               fontFamily: 'Times New Roman',
-//               paddingTop: { xs: '30px', md: '0px' },
-//               paddingBottom: { xs: '8px' },
-//               textAlign: 'center',
-//               fontWeight: 'bold',
-//             }}
-//           >
-//             Unser Team
-//           </Typography>
-//           <ImageList
-//             sx={{
-//               gridTemplateColumns:
-//                 'repeat(auto-fill, minmax(280px,1fr))!important',
-//             }}
-//           >
-//             {participantsListDe.map(({ id, name, fach, description, foto }) => (
-//               <ImageListItem key={id}>
-//                 <img
-//                   srcSet={`${foto}?w=248&fit=crop&auto=format&dpr=2 2x`}
-//                   src={`${foto}?w=248&fit=crop&auto=format`}
-//                   alt={name}
-//                   loading="lazy"
-//                 />
-//                 <ImageListItemBar
-//                   title={name}
-//                   subtitle={fach}
-//                   sx={{
-//                     '& .MuiImageListItemBar-title': {
-//                       fontFamily: 'Times New Roman',
-//                       fontSize: { sx: '18px', sm: '30px' },
-//                       marginBottom: { sx: '10px', sm: '18px' },
-//                     },
-//                     '& .MuiImageListItemBar-subtitle': {
-//                       fontSize: { sx: '16px', sm: '20px' },
-//                       fontFamily: 'Times New Roman',
-//                     },
-//                   }}
-//                   actionIcon={
-//                     <IconButton
-//                       sx={{ color: 'rgba(255, 255, 255, 0.54)' }}
-//                       aria-label={`info about ${name}`}
-//                       onClick={() => {
-//                         console.log({ description });
-//                       }}
-//                     >
-//                       <InfoIcon />
-//                     </IconButton>
-//                   }
-//                 />
-//               </ImageListItem>
-//             ))}
-//           </ImageList>
-//         </ThemeProvider>
-//       ) : (
-//         <ThemeProvider theme={theme}>
-//           <Typography
-//             variant="h5"
-//             sx={{
-//               fontFamily: 'Times New Roman',
-//               paddingTop: { xs: '30px', md: '0px' },
-//               paddingBottom: { xs: '8px' },
-//               textAlign: 'center',
-//               fontWeight: 'bold',
-//             }}
-//           >
-//             Наша команда
-//           </Typography>
-//           <ImageList
-//             sx={{
-//               gridTemplateColumns:
-//                 'repeat(auto-fill, minmax(280px,1fr))!important',
-//             }}
-//           >
-//             {participantsListUkr.map(
-//               ({ id, name, fach, description, foto }) => (
-//                 <ImageListItem key={id}>
-//                   <img
-//                     srcSet={`${foto}?w=248&fit=crop&auto=format&dpr=2 2x`}
-//                     src={`${foto}?w=248&fit=crop&auto=format`}
-//                     alt={name}
-//                     loading="lazy"
-//                   />
-//                   <ImageListItemBar
-//                     title={name}
-//                     subtitle={fach}
-//                     sx={{
-//                       '& .MuiImageListItemBar-title': {
-//                         fontFamily: 'Times New Roman',
-//                         fontSize: { sx: '18px', sm: '30px' },
-//                         marginBottom: { sx: '10px', sm: '18px' },
-//                       },
-//                       '& .MuiImageListItemBar-subtitle': {
-//                         fontSize: { sx: '16px', sm: '20px' },
-//                         fontFamily: 'Times New Roman',
-//                       },
-//                     }}
-
-//                     // actionIcon={
-//                     //   <IconButton
-//                     //     sx={{ color: 'rgba(255, 255, 255, 0.54)' }}
-//                     //     aria-label={`info about ${name}`}
-//                     //   >
-//                     //     <InfoIcon />
-//                     //   </IconButton>
-//                     // }
-//                   />
-//                 </ImageListItem>
-//               ),
-//             )}
-//           </ImageList>
-//         </ThemeProvider>
-//       )}
-//     </Box>
-//   );
-//   return (
-//     <Box
-//       sx={{
-//         fontFamily: 'Times New Roman',
-//         alignItems: 'center',
-//         justifyContent: 'center',
-//         maxWidth: '1200px',
-//         marginLeft: 'auto',
-//         marginRight: 'auto',
-//         color: '#495961',
-//       }}
-//     >
-//       <ThemeProvider theme={theme}>
-//         <Typography
-//           variant="h5"
-//           sx={{
-//             fontFamily: 'Times New Roman',
-//             paddingTop: { xs: '30px', md: '0px' },
-//             paddingBottom: { xs: '8px' },
-//             textAlign: 'center',
-//             fontWeight: 'bold',
-//           }}
-//         >
-//           Unser Team
-//         </Typography>
-//       </ThemeProvider>
-//     </Box>
-//   );
-// };
-
 const Team = () => {
   const { language } = useContext(Context);
   const [expanded, setExpanded] = useState(false);
@@ -475,7 +319,7 @@ const Team = () => {
                         aria-expanded={expanded}
                         aria-label="show more"
                       >
-                        <ExpandMoreIcon />
+                        <ExpandMoreIcon sx={{ color: '#ffffff' }} />
                       </ExpandMore>
                     </CardActions>
                   </Box>
@@ -597,4 +441,5 @@ const Team = () => {
     </Box>
   );
 };
+
 export default Team;
