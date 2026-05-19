@@ -32,7 +32,7 @@ export const ConcertsList = {
       dauer: '2 St.',
       eventLink: '',
       participants:
-        'Taras Konoschchenko (Bass, der Solist des Staatstheaters Nürnberg), Tetiana Korobka (Sopran, die anerkannte Künstlerin der Ukraine) , Tetiana Manoilenko (Sopran), Daria Hrabovska (Sopran), Anna Bychkova (Mezzosopran), Nataliia Hrabarska (Mezzosopran, Bandura), Pedro Arroyo (Tenor), Yevhen Petronelli (Bariton), Anna Rydkina (Violine), Vadym Koviakh (Gitarre), Olena Vasylenko (Klavier), Mykhailo Hrabovskyi (Percussion),  Gesangsstudio-Klasse von T. Korobka',
+        'Taras Konoshchenko (Bass, der Solist des Staatstheaters Nürnberg), Tetiana Korobka (Sopran, ausgezeichnete Künstlerin der Ukraine) und die Schüler ihres Gesangsstudios, Tetiana Manoilenko (Sopran), Daria Hrabovska (Sopran), Anna Bychkova (Mezzosopran), Nataliia Hrabarska (Mezzosopran, Bandura), Pedro Arroyo (Tenor), Yevhen Petronelli (Bariton), Anna Rydkina (Violine), Vadym Koviakh (Gitarre), Olena Vasylenko (Klavier), Mykhailo Grabovskyi (Percussion); Mariia Krasnokutska (Moderatorin)',
       details:
         'Kostbare Perlen der ukrainischen Musik — von dramatischen Opernarien bis zu herzergreifenden Romanzen',
       eventbrite: '',
@@ -86,7 +86,7 @@ export const ConcertsList = {
       dauer: '2 год.',
       eventLink: '',
       participants:
-        "Тарас Конощенко (бас, соліст Державної опери Нюрнберга), Тетяна Коробка (сопрано, Заслужена артистка України), Педро Арройо (тенор),Анна Бичкова(мецо-сопрано),  Євген Петронеллі (баритон),Тетяна Манойленко (сопрано), Дарія Грабовська (сопрано), Наталія Грабарська (мецо-сопрано, бандура), Анна Ридкіна (скрипка),Вадим Ков'ях (гітара), Олена Василенко (фортепіано), Михайло Грабовський(перкусія), учні вокальної студіъ Тетяни Коробки",
+        "Тарас Конощенко (бас, соліст Державної опери Нюрнберга), Тетяна Коробка (сопрано, Заслужена артистка України) та учни її студії, Педро Арройо (тенор), Анна Бичкова (мецо-сопрано),  Євген Петронеллі (баритон), Тетяна Манойленко (сопрано), Дарія Грабовська (сопрано), Наталія Грабарська (мецо-сопрано, бандура), Анна Ридкіна (скрипка), Вадим Ков'ях (гітара), Олена Василенко (фортепіано), Михайло Грабовський (перкусія); ведуча – Марія Краснокутська",
       details:
         'Перлини української музики - від драматичних оперних арій до вишуканих романсів',
       eventbrite: '',
