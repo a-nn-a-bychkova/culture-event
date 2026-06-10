@@ -4,23 +4,6 @@ export const ConcertsList = {
   de: [
     {
       id: uuidv4(),
-      date: 'So, 7. Juni 2026',
-      time: '17:00',
-      concertTitle: 'Gebet für die Ukraine',
-      adressTitle: 'St. Theresia',
-      address: 'Kumpfmühler Str. 39, 93051 Regensburg',
-      addressLink: 'https://maps.app.goo.gl/tf3kQhpYecoxxEmK6',
-      ticket: '',
-      dauer: '2 St.',
-      eventLink: '',
-      participants:
-        'Tetiana Korobka (Sopran, ausgezeichnete Künstlerin der Ukraine) und die Schüler ihres Gesangsstudios, Tetiana Manoilenko (Sopran), Daria Hrabovska (Sopran), Anna Bychkova (Mezzosopran), Nataliia Hrabarska (Mezzosopran, Bandura), Yevhen Petronelli (Bariton), Anna Rydkina (Violine), Andrii Dudar (Gitarre), Olena Vasylenko (Klavier), Mykhailo Grabovskyi (Percussion); Mariia Krasnokutska (Moderatorin)',
-      details:
-        'Kostbare Perlen der ukrainischen Musik — von dramatischen Opernarien bis zu herzergreifenden Romanzen',
-      eventbrite: '',
-    },
-    {
-      id: uuidv4(),
       date: ' Sa, 4. Juli 2026',
       time: '18:00',
       concertTitle: 'Blume der Hoffnung',
@@ -39,23 +22,6 @@ export const ConcertsList = {
     },
   ],
   ukr: [
-    {
-      id: uuidv4(),
-      date: 'Нд, 7 червня 2026',
-      time: '17:00',
-      concertTitle: 'Молитва за Україну',
-      adressTitle: 'St. Theresia',
-      address: 'Kumpfmühler Str. 39, 93051 Regensburg',
-      addressLink: 'https://maps.app.goo.gl/tf3kQhpYecoxxEmK6',
-      ticket: '',
-      dauer: '2 год.',
-      eventLink: '',
-      participants:
-        'Тетяна Коробка (сопрано, Заслужена артистка України) та учни її студії,  Анна Бичкова (мецо-сопрано), Олена Василенко (фортепіано), Наталія Грабарська (мецо-сопрано, бандура), Дарія Грабовська (сопрано), Михайло Грабовський (перкусія), Андрій Дудар (гітара) Тетяна Манойленко (сопрано), Євген Петронеллі (баритон), Анна Ридкіна (скрипка); ведуча – Марія Краснокутська',
-      details:
-        'Перлини української музики - від драматичних оперних арій до вишуканих романсів',
-      eventbrite: '',
-    },
     {
       id: uuidv4(),
       date: ' Cб, 4 липня 2026',
